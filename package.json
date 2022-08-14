@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "generate-json": "node index.js -json",
+    "generate-ts": "node index.js -ts",
+    "generate-all": "node index.js"
   },
   "author": "Konijima",
   "license": "MIT",

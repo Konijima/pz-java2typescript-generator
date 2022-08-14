@@ -2,10 +2,20 @@ const fs = require("fs")
 const path = require("path")
 const spawn = require('child_process').spawn
 
+// Handle command-line args
+const args = process.argv.slice(2)
+let generateJson = args.includes('-json')
+let generateTs = args.includes('-ts')
+if (!generateJson && !generateTs) {
+    generateJson = true
+    generateTs = true
+}
+
 const srcPath = path.join(__dirname, "src")
+const jsonPath = path.join(__dirname, "json")
 const outPath = path.join(__dirname, "out")
 
-function getAllSrcFiles(dirPath, arrayOfFiles) {
+function getAllFilesWithExtention(dirPath, extention, arrayOfFiles) {
     const files = fs.readdirSync(dirPath)
 
     arrayOfFiles = arrayOfFiles || []
@@ -13,8 +23,8 @@ function getAllSrcFiles(dirPath, arrayOfFiles) {
     files.forEach(function(file) {
         const fullPath = path.join(dirPath, "/", file)
         if (fs.statSync(fullPath).isDirectory()) {
-            arrayOfFiles = getAllSrcFiles(fullPath, arrayOfFiles)
-        } else if (fullPath.endsWith('.class')) {
+            arrayOfFiles = getAllFilesWithExtention(fullPath, extention, arrayOfFiles)
+        } else if (fullPath.endsWith(extention)) {
             arrayOfFiles.push(fullPath)
         }
     })
@@ -150,6 +160,15 @@ function sleep(ms) {
     })
 }
 
+function deleteAndCreateDir(path) {
+    if (fs.existsSync(path)) {
+        console.log(`Deleting ${path} ...`)
+        fs.rmSync(path, { force: true, recursive: true })
+    }
+    console.log(`Create ${path} ...`)
+    fs.mkdirSync(path, { recursive: true })
+}
+
 (async () => {
     console.log("Java Generator initializing...")
 
@@ -158,42 +177,87 @@ function sleep(ms) {
     let completed = 0
     let lastPrint = ""
 
-    const files = getAllSrcFiles(srcPath)
+    
+    // Generate JSON
+    if (generateJson) {
+        console.log("Generating JSON task...")
 
-    if (fs.existsSync(outPath)) {
-        console.log(`Deleting ${outPath} ...`)
-        fs.rmSync(outPath, { force: true, recursive: true })
-    }
-    fs.mkdirSync(outPath, { recursive: true })
+        const files = getAllFilesWithExtention(srcPath, '.class')
+        deleteAndCreateDir(jsonPath)
 
-    for (const file of files) {
-        const savePath = path.join(outPath, file.replace(srcPath + '\\', '').replace('.class', '.json').replaceAll('\\', '.'))
-        processCount++
-        readFile(file)
-        .then(data => {
-            if (data) {
-                fs.mkdir(path.dirname(savePath), { recursive: true }, () => fs.writeFile(savePath, JSON.stringify(data, null, 2), { encoding: "utf-8" }, () => {}))
+        for (const file of files) {
+            const savePath = path.join(jsonPath, file.replace(srcPath + '\\', '').replace('.class', '.json').replaceAll('\\', '.'))
+            processCount++
+            readFile(file)
+            .then(data => {
+                if (data) {
+                    fs.mkdir(path.dirname(savePath), { recursive: true }, () => fs.writeFile(savePath, JSON.stringify(data, null, 2), { encoding: "utf-8" }, () => {}))
+                }
+                completed++
+                processCount--
+            })
+            .catch(error => {
+                completed++
+                processCount--
+                console.error(error)
+            })
+            
+            // Wait
+            let wait = processCount > 10
+            while (wait) {
+                await sleep(100)
+                wait = processCount > 0
             }
-            completed++
-            processCount--
-        })
-        .catch(error => {
-            completed++
-            processCount--
-            console.error(error)
-        })
-        
-        // Wait
-        let wait = processCount > 10
-        while (wait) {
-            await sleep(100)
-            wait = processCount > 0
+    
+            // Progress Print
+            const newPrint = `Progress: ${Math.round(completed / files.length * 100)}%`
+            if (lastPrint !== newPrint) {
+                lastPrint = newPrint
+                console.log(newPrint, `(${completed}/${files.length})`)
+            }
         }
+    }
 
-        // Progress Print
-        const newPrint = `Progress: ${Math.round(completed / files.length * 100)}%`
-        if (lastPrint !== newPrint) {
-            lastPrint = newPrint
+    // Generate TS
+    if (generateTs) {
+        console.log("Generating TS task...")
+
+        completed = 0
+
+        deleteAndCreateDir(outPath)
+        const files = getAllFilesWithExtention(jsonPath, '.json')
+
+        for (const file of files) {
+            const content = fs.readFileSync(file, 'utf-8')
+            const json = JSON.parse(content)
+            const nameSplit = path.basename(file).replace('.json', '').split('.')
+            const name = nameSplit[nameSplit.length - 1]
+            const packagePath = json.package.replaceAll('.', '/')
+
+            let result = ""
+
+            // Prepare package directory
+            fs.mkdirSync(path.join(outPath, packagePath), { recursive: true })
+
+            let describe = json.describe.join(" ").replace('final', '')
+
+            result += `declare module Zomboid {\n`
+            result += `\texport namespace ${json.package} {\n`
+            result += (json.type === 'class' && !describe.includes('abstract')) ? `\t\t/** @customConstructor ${name}.new */\n` : ''
+            result += `\t\texport${(describe) ? ' ' + describe : ''} ${json.type} ${name}${(json.extends.length) ? " extends " + json.extends.join(", ") : ''}${(json.implements.length) ? " implements " + json.implements.join(", ") : ''} {\n`
+            
+            result += `\t\t\t\n` // temp
+
+            result += `\t\t}\n`
+            result += `\t}\n`
+            result += `}\n`
+
+            // Write type definition file
+            fs.writeFileSync(path.join(outPath, packagePath, name + '.d.ts'), result, { encoding: 'utf-8' })
+            completed++
+
+            // Progress Print
+            const newPrint = `Progress: ${Math.round(completed / files.length * 100)}%`
             console.log(newPrint, `(${completed}/${files.length})`)
         }
     }
