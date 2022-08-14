@@ -24,8 +24,22 @@ Drag n Drop the directories containing `.class` files into the `src` directory.
 
 # Run
 
+## Generate JSON task
+Generate json files.
 ```
-node index.js
+npm run generate-json
+```
+
+## Generate TS task
+Generate ts files.
+```
+npm run generate-ts
+```
+
+## Generate ALL task
+Generate both json and ts files.
+```
+npm run generate-all
 ```
 
 <br>
