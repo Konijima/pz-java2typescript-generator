@@ -1,0 +1,14 @@
+{
+  "name": "TextureCombiner$CombinerFBO",
+  "package": "zombie.core.textures",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

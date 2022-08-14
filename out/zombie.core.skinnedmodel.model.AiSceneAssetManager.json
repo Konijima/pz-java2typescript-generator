@@ -1,0 +1,44 @@
+{
+  "name": "AiSceneAssetManager",
+  "package": "zombie.core.skinnedmodel.model",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.asset.AssetManager"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "AiSceneAssetManager",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.AiSceneAssetManager",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onFileTaskFinished",
+      "args": [
+        "zombie.core.skinnedmodel.model.AiSceneAsset",
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

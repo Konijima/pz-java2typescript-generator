@@ -1,0 +1,54 @@
+{
+  "name": "ParameterWeatherEvent$Event",
+  "package": "zombie.audio.parameters",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.audio.parameters.ParameterWeatherEvent$Event>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "None",
+      "scope": "public",
+      "type": "zombie.audio.parameters.ParameterWeatherEvent$Event",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FreshSnow",
+      "scope": "public",
+      "type": "zombie.audio.parameters.ParameterWeatherEvent$Event",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.audio.parameters.ParameterWeatherEvent$Event",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

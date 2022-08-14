@@ -1,0 +1,32 @@
+{
+  "name": "HuffmanNode",
+  "package": "de.jarnbjo.util.io",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "HuffmanNode",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "setNewValue",
+      "args": [
+        "int",
+        "int"
+      ]
+    }
+  ]
+}

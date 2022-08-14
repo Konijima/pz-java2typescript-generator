@@ -1,0 +1,249 @@
+{
+  "name": "ModelScript",
+  "package": "zombie.scripting.objects",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.scripting.objects.BaseScriptObject"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ModelScript",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "DEFAULT_SHADER_NAME",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "fileName",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "name",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "meshName",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "textureName",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "shaderName",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "bStatic",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "scale",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m_attachments",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.scripting.objects.ModelAttachment>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "invertX",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "loadedModel",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.Model",
+      "describe": []
+    },
+    {
+      "name": "boneWeights",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.core.skinnedmodel.advancedanimation.AnimBoneWeight>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "animationsMesh",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Load",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getFullType",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getMeshName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getTextureName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getTextureName",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getShaderName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getFileName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getAttachmentCount",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.ModelAttachment",
+      "name": "getAttachment",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.ModelAttachment",
+      "name": "getAttachmentById",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.ModelAttachment",
+      "name": "addAttachment",
+      "args": [
+        "zombie.scripting.objects.ModelAttachment"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.ModelAttachment",
+      "name": "removeAttachment",
+      "args": [
+        "zombie.scripting.objects.ModelAttachment"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.ModelAttachment",
+      "name": "addAttachmentAt",
+      "args": [
+        "int",
+        "zombie.scripting.objects.ModelAttachment"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.ModelAttachment",
+      "name": "removeAttachment",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "reset",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "ScriptsLoaded",
+      "args": []
+    }
+  ]
+}

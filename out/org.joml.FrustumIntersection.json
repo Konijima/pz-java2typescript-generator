@@ -1,0 +1,407 @@
+{
+  "name": "FrustumIntersection",
+  "package": "org.joml",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "FrustumIntersection",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "FrustumIntersection",
+      "describe": [],
+      "args": [
+        "org.joml.Matrix4fc"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "FrustumIntersection",
+      "describe": [],
+      "args": [
+        "org.joml.Matrix4fc",
+        "boolean"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "PLANE_NX",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PLANE_PX",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PLANE_NY",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PLANE_PY",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PLANE_NZ",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PLANE_PZ",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "INTERSECT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "INSIDE",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "OUTSIDE",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PLANE_MASK_NX",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PLANE_MASK_PX",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PLANE_MASK_NY",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PLANE_MASK_PY",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PLANE_MASK_NZ",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PLANE_MASK_PZ",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.FrustumIntersection",
+      "name": "set",
+      "args": [
+        "org.joml.Matrix4fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.FrustumIntersection",
+      "name": "set",
+      "args": [
+        "org.joml.Matrix4fc",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "testPoint",
+      "args": [
+        "org.joml.Vector3fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "testPoint",
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "testSphere",
+      "args": [
+        "org.joml.Vector3fc",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "testSphere",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "intersectSphere",
+      "args": [
+        "org.joml.Vector3fc",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "intersectSphere",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "testAab",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Vector3fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "testAab",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "testPlaneXY",
+      "args": [
+        "org.joml.Vector2fc",
+        "org.joml.Vector2fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "testPlaneXY",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "testPlaneXZ",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "intersectAab",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Vector3fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "intersectAab",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "distanceToPlane",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "intersectAab",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Vector3fc",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "intersectAab",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "intersectAab",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Vector3fc",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "intersectAab",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "int",
+        "int"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "name": "AxisAngle4f",
+  "package": "javax.vecmath",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "java.io.Serializable",
+    "java.lang.Cloneable"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "float[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "javax.vecmath.AxisAngle4f"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "javax.vecmath.AxisAngle4d"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "javax.vecmath.Vector3f",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "x",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "y",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "z",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "angle",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "float[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.AxisAngle4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.AxisAngle4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Vector3f",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "float[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Quat4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Quat4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Matrix3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "javax.vecmath.AxisAngle4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "epsilonEquals",
+      "args": [
+        "javax.vecmath.AxisAngle4f",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "hashCode",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "clone",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "float",
+      "name": "getAngle",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setAngle",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "float",
+      "name": "getX",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setX",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "float",
+      "name": "getY",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setY",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "float",
+      "name": "getZ",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setZ",
+      "args": [
+        "float"
+      ]
+    }
+  ]
+}

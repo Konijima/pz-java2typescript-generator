@@ -1,0 +1,154 @@
+{
+  "name": "Vector4f",
+  "package": "javax.vecmath",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "javax.vecmath.Tuple4f"
+  ],
+  "implements": [
+    "java.io.Serializable"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "float[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "javax.vecmath.Vector4f"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "javax.vecmath.Vector4d"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "javax.vecmath.Tuple4f"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "javax.vecmath.Tuple4d"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "javax.vecmath.Tuple3f"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Tuple3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "float",
+      "name": "length",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "float",
+      "name": "lengthSquared",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "float",
+      "name": "dot",
+      "args": [
+        "javax.vecmath.Vector4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "normalize",
+      "args": [
+        "javax.vecmath.Vector4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "normalize",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "float",
+      "name": "angle",
+      "args": [
+        "javax.vecmath.Vector4f"
+      ]
+    }
+  ]
+}

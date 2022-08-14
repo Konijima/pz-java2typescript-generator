@@ -1,0 +1,43 @@
+{
+  "name": "DebugOptionsXml$OptionNode",
+  "package": "zombie.debug",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "OptionNode",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "OptionNode",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "boolean"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "name",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "value",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

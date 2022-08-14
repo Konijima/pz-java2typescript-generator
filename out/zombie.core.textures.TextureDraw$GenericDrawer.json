@@ -1,0 +1,38 @@
+{
+  "name": "TextureDraw$GenericDrawer",
+  "package": "zombie.core.textures",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "abstract"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "GenericDrawer",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "render",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "postRender",
+      "args": []
+    }
+  ]
+}

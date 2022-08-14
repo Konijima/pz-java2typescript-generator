@@ -1,0 +1,86 @@
+{
+  "name": "MPDebugInfo",
+  "package": "zombie.popman",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "MPDebugInfo",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.popman.MPDebugInfo",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clientPacket",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "serverPacket",
+      "args": [
+        "java.nio.ByteBuffer",
+        "zombie.core.raknet.UdpConnection"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "request",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "serverUpdate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": [
+        "zombie.popman.ZombiePopulationRenderer",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "AddDebugSound",
+      "args": [
+        "zombie.WorldSoundManager$WorldSound"
+      ]
+    }
+  ]
+}

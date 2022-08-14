@@ -1,0 +1,42 @@
+{
+  "name": "ByteBufferBackedInputStream",
+  "package": "zombie.util",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "java.io.InputStream"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ByteBufferBackedInputStream",
+      "describe": [],
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "read",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "read",
+      "args": [
+        "byte[]",
+        "int",
+        "int"
+      ]
+    }
+  ]
+}

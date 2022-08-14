@@ -1,0 +1,46 @@
+{
+  "name": "BaseVehicle$MinMaxPosition",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "MinMaxPosition",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "minX",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "maxX",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "minY",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "maxY",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

@@ -1,0 +1,14 @@
+{
+  "name": "NetworkCharacterAI$1",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [
+    "java.util.LinkedHashMap<java.lang.Integer, java.lang.String>"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

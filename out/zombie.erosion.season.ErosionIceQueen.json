@@ -1,0 +1,61 @@
+{
+  "name": "ErosionIceQueen",
+  "package": "zombie.erosion.season",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ErosionIceQueen",
+      "describe": [],
+      "args": [
+        "zombie.iso.sprite.IsoSpriteManager"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.erosion.season.ErosionIceQueen",
+      "describe": [
+        "static"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addSprite",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setSnow",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "Reset",
+      "args": []
+    }
+  ]
+}

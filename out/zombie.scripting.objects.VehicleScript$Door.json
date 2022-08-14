@@ -1,0 +1,21 @@
+{
+  "name": "VehicleScript$Door",
+  "package": "zombie.scripting.objects",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Door",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

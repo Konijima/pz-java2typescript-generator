@@ -1,0 +1,35 @@
+{
+  "name": "ZombieVocalsManager$1",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "java.util.Comparator<zombie.characters.ZombieVocalsManager$ObjectWithDistance>"
+  ],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "compare",
+      "args": [
+        "zombie.characters.ZombieVocalsManager$ObjectWithDistance",
+        "zombie.characters.ZombieVocalsManager$ObjectWithDistance"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "compare",
+      "args": [
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

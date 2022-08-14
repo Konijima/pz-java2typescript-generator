@@ -1,0 +1,85 @@
+{
+  "name": "VehicleIDMap",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.vehicles.VehicleIDMap",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "short",
+        "zombie.vehicles.BaseVehicle"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "remove",
+      "args": [
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.BaseVehicle",
+      "name": "get",
+      "args": [
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "containsKey",
+      "args": [
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "toArrayList",
+      "args": [
+        "java.util.ArrayList<zombie.vehicles.BaseVehicle>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Reset",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "short",
+      "name": "allocateID",
+      "args": []
+    }
+  ]
+}

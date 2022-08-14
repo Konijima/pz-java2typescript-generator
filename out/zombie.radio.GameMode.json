@@ -1,0 +1,63 @@
+{
+  "name": "GameMode",
+  "package": "zombie.radio",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.radio.GameMode>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "SinglePlayer",
+      "scope": "public",
+      "type": "zombie.radio.GameMode",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Server",
+      "scope": "public",
+      "type": "zombie.radio.GameMode",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Client",
+      "scope": "public",
+      "type": "zombie.radio.GameMode",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.radio.GameMode",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "name": "IAnimatable",
+  "package": "zombie.core.skinnedmodel.advancedanimation",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.core.skinnedmodel.advancedanimation.IAnimationVariableSource"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "zombie.characters.action.ActionContext",
+      "name": "getActionContext",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "zombie.core.skinnedmodel.animation.AnimationPlayer",
+      "name": "getAnimationPlayer",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "zombie.core.skinnedmodel.animation.debug.AnimationPlayerRecorder",
+      "name": "getAnimationPlayerRecorder",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "isAnimationRecorderActive",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "zombie.core.skinnedmodel.advancedanimation.AdvancedAnimator",
+      "name": "getAdvancedAnimator",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "zombie.core.skinnedmodel.model.ModelInstance",
+      "name": "getModelInstance",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.lang.String",
+      "name": "GetAnimSetName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.lang.String",
+      "name": "getUID",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "default short",
+      "name": "getOnlineID",
+      "args": []
+    }
+  ]
+}

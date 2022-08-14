@@ -1,0 +1,416 @@
+{
+  "name": "Thermoregulator",
+  "package": "zombie.characters.BodyDamage",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Thermoregulator",
+      "describe": [],
+      "args": [
+        "zombie.characters.BodyDamage.BodyDamage"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "totalHeatRaw",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "totalHeat",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "primTotal",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "secTotal",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setSimulationMultiplier",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": [
+        "java.nio.ByteBuffer",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "reset",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getNodeSize",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.characters.BodyDamage.Thermoregulator$ThermalNode",
+      "name": "getNode",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.characters.BodyDamage.Thermoregulator$ThermalNode",
+      "name": "getNodeForType",
+      "args": [
+        "zombie.characters.BodyDamage.BodyPartType"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.characters.BodyDamage.Thermoregulator$ThermalNode",
+      "name": "getNodeForBloodType",
+      "args": [
+        "zombie.characterTextures.BloodBodyPartType"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getBodyHeatDelta",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "getFluidsMultiplier",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "getEnergyMultiplier",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "getFatigueMultiplier",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getMovementModifier",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getCombatModifier",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getCoreTemperature",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getHeatGeneration",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getMetabolicRate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getMetabolicTarget",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getMetabolicRateReal",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getSetPoint",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getCoreHeatDelta",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getCoreRateOfChange",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getExternalAirTemperature",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getCoreTemperatureUI",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getHeatGenerationUI",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "thermalChevronUp",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "thermalChevronCount",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getCatchAColdDelta",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getTimedActionTimeModifier",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "getSkinCelciusMin",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "getSkinCelciusFavorable",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "getSkinCelciusMax",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setMetabolicTarget",
+      "args": [
+        "zombie.characters.BodyDamage.Metabolics"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setMetabolicTarget",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getSimulationMultiplier",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getDefaultMultiplier",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getMetabolicRateIncMultiplier",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getMetabolicRateDecMultiplier",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getBodyHeatMultiplier",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getCoreHeatExpandMultiplier",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getCoreHeatContractMultiplier",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getSkinCelciusMultiplier",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getTemperatureAir",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getTemperatureAirAndWind",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getCoreCelcius",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getThermalDamage",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getEnergy",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getBodyFluids",
+      "args": []
+    }
+  ]
+}

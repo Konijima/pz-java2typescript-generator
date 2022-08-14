@@ -1,0 +1,764 @@
+{
+  "name": "DebugLogStream",
+  "package": "zombie.debug",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.io.PrintStream"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "DebugLogStream",
+      "describe": [],
+      "args": [
+        "java.io.PrintStream",
+        "java.io.PrintStream",
+        "java.io.PrintStream",
+        "zombie.debug.IDebugLogFormatter"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "s_prefixErr",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "s_prefixWarn",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "s_prefixOut",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "s_prefixDebug",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "s_prefixTrace",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "generateCallerPrefix",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.StackTraceElement",
+      "name": "tryGetCallerTraceElement",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "getStackTraceElementString",
+      "args": [
+        "java.lang.StackTraceElement",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "getTopStackTraceString",
+      "args": [
+        "java.lang.Throwable"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "printStackTrace",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "printStackTrace",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "printStackTrace",
+      "args": [
+        "int",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "debugln",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "debugln",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "debugln",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "debugln",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "debugln",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "debugln",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "debugln",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "print",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "print",
+      "args": [
+        "char"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "print",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "print",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "print",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "print",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "print",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "print",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.io.PrintStream",
+      "name": "printf",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object..."
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "println",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "println",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "println",
+      "args": [
+        "char"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "println",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "println",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "println",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "println",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "println",
+      "args": [
+        "char[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "println",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "println",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "println",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "println",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "println",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "println",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "println",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "println",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "println",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "println",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "println",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "error",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "error",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object..."
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "warn",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "warn",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object..."
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "printUnitTest",
+      "args": [
+        "java.lang.String",
+        "boolean",
+        "java.lang.Object..."
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "printException",
+      "args": [
+        "java.lang.Throwable",
+        "java.lang.String",
+        "zombie.debug.LogSeverity"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "printException",
+      "args": [
+        "java.lang.Throwable",
+        "java.lang.String",
+        "java.lang.String",
+        "zombie.debug.LogSeverity"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "noise",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "noise",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "noise",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "noise",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "noise",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "noise",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "noise",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "trace",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "trace",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "trace",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "trace",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "trace",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "trace",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "trace",
+      "args": [
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

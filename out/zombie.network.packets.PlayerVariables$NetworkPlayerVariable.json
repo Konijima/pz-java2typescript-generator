@@ -1,0 +1,23 @@
+{
+  "name": "PlayerVariables$NetworkPlayerVariable",
+  "package": "zombie.network.packets",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "zombie.network.packets.PlayerVariables$NetworkPlayerVariableIDs"
+      ]
+    }
+  ]
+}

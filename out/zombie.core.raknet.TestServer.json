@@ -1,0 +1,40 @@
+{
+  "name": "TestServer",
+  "package": "zombie.core.raknet",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "TestServer",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "main",
+      "args": [
+        "java.lang.String[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.nio.ByteBuffer",
+      "name": "Receive",
+      "args": []
+    }
+  ]
+}

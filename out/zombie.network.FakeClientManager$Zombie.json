@@ -1,0 +1,100 @@
+{
+  "name": "FakeClientManager$Zombie",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Zombie",
+      "describe": [],
+      "args": [
+        "short"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "lastUpdate",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "x",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "y",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "z",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "OnlineID",
+      "scope": "public",
+      "type": "short",
+      "describe": []
+    },
+    {
+      "name": "localOwnership",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "zombiePacket",
+      "scope": "public",
+      "type": "zombie.network.packets.ZombiePacket",
+      "describe": []
+    },
+    {
+      "name": "dir",
+      "scope": "public",
+      "type": "zombie.iso.IsoDirections",
+      "describe": []
+    },
+    {
+      "name": "health",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "walkType",
+      "scope": "public",
+      "type": "byte",
+      "describe": []
+    },
+    {
+      "name": "dropPositionX",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "dropPositionY",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "isMoving",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

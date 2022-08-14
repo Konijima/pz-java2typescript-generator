@@ -1,0 +1,925 @@
+{
+  "name": "Matrix3f",
+  "package": "javax.vecmath",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "java.io.Serializable",
+    "java.lang.Cloneable"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "float[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "javax.vecmath.Matrix3d"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "m00",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m01",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m02",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m10",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m11",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m12",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m20",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m21",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m22",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "getM00",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "setM00",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "getM01",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "setM01",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "getM02",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "setM02",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "getM10",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "setM10",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "getM11",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "setM11",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "getM12",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "setM12",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "getM20",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "setM20",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "getM21",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "setM21",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "getM22",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "setM22",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setIdentity",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setScale",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setElement",
+      "args": [
+        "int",
+        "int",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "getRow",
+      "args": [
+        "int",
+        "javax.vecmath.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "getRow",
+      "args": [
+        "int",
+        "float[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "getColumn",
+      "args": [
+        "int",
+        "javax.vecmath.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "getColumn",
+      "args": [
+        "int",
+        "float[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "float",
+      "name": "getElement",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setRow",
+      "args": [
+        "int",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setRow",
+      "args": [
+        "int",
+        "javax.vecmath.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setRow",
+      "args": [
+        "int",
+        "float[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setColumn",
+      "args": [
+        "int",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setColumn",
+      "args": [
+        "int",
+        "javax.vecmath.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setColumn",
+      "args": [
+        "int",
+        "float[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "float",
+      "name": "getScale",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "add",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "add",
+      "args": [
+        "float",
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "add",
+      "args": [
+        "javax.vecmath.Matrix3f",
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "add",
+      "args": [
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "sub",
+      "args": [
+        "javax.vecmath.Matrix3f",
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "sub",
+      "args": [
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "transpose",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "transpose",
+      "args": [
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Quat4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.AxisAngle4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.AxisAngle4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Quat4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "float[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Matrix3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "invert",
+      "args": [
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "invert",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "float",
+      "name": "determinant",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "rotX",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "rotY",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "rotZ",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "mul",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "mul",
+      "args": [
+        "float",
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "mul",
+      "args": [
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "mul",
+      "args": [
+        "javax.vecmath.Matrix3f",
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "mulNormalize",
+      "args": [
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "mulNormalize",
+      "args": [
+        "javax.vecmath.Matrix3f",
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "mulTransposeBoth",
+      "args": [
+        "javax.vecmath.Matrix3f",
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "mulTransposeRight",
+      "args": [
+        "javax.vecmath.Matrix3f",
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "mulTransposeLeft",
+      "args": [
+        "javax.vecmath.Matrix3f",
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "normalize",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "normalize",
+      "args": [
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "normalizeCP",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "normalizeCP",
+      "args": [
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "epsilonEquals",
+      "args": [
+        "javax.vecmath.Matrix3f",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "hashCode",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setZero",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "negate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "negate",
+      "args": [
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "transform",
+      "args": [
+        "javax.vecmath.Tuple3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "transform",
+      "args": [
+        "javax.vecmath.Tuple3f",
+        "javax.vecmath.Tuple3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "clone",
+      "args": []
+    }
+  ]
+}

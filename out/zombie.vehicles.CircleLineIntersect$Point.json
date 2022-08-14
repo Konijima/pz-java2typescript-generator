@@ -1,0 +1,129 @@
+{
+  "name": "CircleLineIntersect$Point",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Point",
+      "describe": [],
+      "args": [
+        "double",
+        "double"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "zombie.vehicles.CircleLineIntersect$Point",
+      "name": "midpoint",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "zombie.vehicles.CircleLineIntersect$Point",
+      "name": "midpoint",
+      "args": [
+        "zombie.vehicles.CircleLineIntersect$Point",
+        "zombie.vehicles.CircleLineIntersect$Point"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "getX",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "getY",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setPoint",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "double",
+      "name": "distanceSq",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "double",
+      "name": "distance",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "distanceSq",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "distanceSq",
+      "args": [
+        "zombie.vehicles.CircleLineIntersect$Point"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "distance",
+      "args": [
+        "zombie.vehicles.CircleLineIntersect$Point"
+      ]
+    }
+  ]
+}

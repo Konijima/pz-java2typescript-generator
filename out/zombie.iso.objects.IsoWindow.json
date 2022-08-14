@@ -1,0 +1,805 @@
+{
+  "name": "IsoWindow",
+  "package": "zombie.iso.objects",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.iso.IsoObject"
+  ],
+  "implements": [
+    "zombie.iso.objects.interfaces.BarricadeAble",
+    "zombie.iso.objects.interfaces.Thumpable"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IsoWindow",
+      "describe": [],
+      "args": [
+        "zombie.iso.IsoCell"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "IsoWindow",
+      "describe": [],
+      "args": [
+        "zombie.iso.IsoCell",
+        "zombie.iso.IsoGridSquare",
+        "zombie.iso.sprite.IsoSprite",
+        "boolean"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "Health",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "MaxHealth",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "type",
+      "scope": "public",
+      "type": "zombie.iso.objects.IsoWindow$WindowType",
+      "describe": []
+    },
+    {
+      "name": "north",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "Locked",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "PermaLocked",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "open",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "OldNumPlanks",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.objects.IsoCurtain",
+      "name": "HasCurtains",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getIndoorSquare",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getAddSheetSquare",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "AttackObject",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getInsideSquare",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getOppositeSquare",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isExterior",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getObjectName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "WeaponHit",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.inventory.types.HandWeapon"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "smashWindow",
+      "args": [
+        "boolean",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "smashWindow",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "smashWindow",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addBrokenGlass",
+      "args": [
+        "zombie.iso.IsoMovingObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addBrokenGlass",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isDestroyed",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "IsOpen",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "onMouseLeftClick",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "TestCollide",
+      "args": [
+        "zombie.iso.IsoMovingObject",
+        "zombie.iso.IsoGridSquare",
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoObject$VisionResult",
+      "name": "TestVision",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Thump",
+      "args": [
+        "zombie.iso.IsoMovingObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.objects.interfaces.Thumpable",
+      "name": "getThumpableFor",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getThumpCondition",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": [
+        "java.nio.ByteBuffer",
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addToWorld",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeFromWorld",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": [
+        "java.nio.ByteBuffer",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "saveState",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "loadState",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "zombie.core.textures.ColorInfo",
+        "boolean",
+        "boolean",
+        "zombie.core.opengl.Shader"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "openCloseCurtain",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeSheet",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addSheet",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "ToggleWindow",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "syncIsoObjectSend",
+      "args": [
+        "zombie.core.network.ByteBufferWriter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "syncIsoObject",
+      "args": [
+        "boolean",
+        "byte",
+        "zombie.core.raknet.UdpConnection",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "isTopOfSheetRopeHere",
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "isTopOfSheetRopeHere",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "haveSheetRope",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "isSheetRopeHere",
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "canClimbHere",
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "countAddSheetRope",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "countAddSheetRope",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "canAddSheetRope",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "canAddSheetRope",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "addSheetRope",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "addSheetRope",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "zombie.iso.IsoGridSquare",
+        "boolean",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "removeSheetRope",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "removeSheetRope",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "zombie.iso.IsoGridSquare",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Damage",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Damage",
+      "args": [
+        "float",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Damage",
+      "args": [
+        "float",
+        "zombie.iso.IsoMovingObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isLocked",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isSmashed",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isInvincible",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.objects.IsoBarricade",
+      "name": "getBarricadeOnSameSquare",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.objects.IsoBarricade",
+      "name": "getBarricadeOnOppositeSquare",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isBarricaded",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isBarricadeAllowed",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.objects.IsoBarricade",
+      "name": "getBarricadeForCharacter",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.objects.IsoBarricade",
+      "name": "getBarricadeOppositeCharacter",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "getNorth",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.Vector2",
+      "name": "getFacingPosition",
+      "args": [
+        "zombie.iso.Vector2"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setIsLocked",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.sprite.IsoSprite",
+      "name": "getOpenSprite",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setOpenSprite",
+      "args": [
+        "zombie.iso.sprite.IsoSprite"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setSmashed",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.sprite.IsoSprite",
+      "name": "getSmashedSprite",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setSmashedSprite",
+      "args": [
+        "zombie.iso.sprite.IsoSprite"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setPermaLocked",
+      "args": [
+        "java.lang.Boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isPermaLocked",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "canClimbThroughHelper",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.iso.IsoGridSquare",
+        "zombie.iso.IsoGridSquare",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "canClimbThrough",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.characters.IsoGameCharacter",
+      "name": "getFirstCharacterClimbingThrough",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.characters.IsoGameCharacter",
+      "name": "getFirstCharacterClimbingThrough",
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.characters.IsoGameCharacter",
+      "name": "getFirstCharacterClosing",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.characters.IsoGameCharacter",
+      "name": "getFirstCharacterClosing",
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isGlassRemoved",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setGlassRemoved",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeBrokenGlass",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.objects.IsoBarricade",
+      "name": "addBarricadesDebug",
+      "args": [
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addRandomBarricades",
+      "args": []
+    }
+  ]
+}

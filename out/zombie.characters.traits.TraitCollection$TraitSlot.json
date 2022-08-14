@@ -1,0 +1,54 @@
+{
+  "name": "TraitCollection$TraitSlot",
+  "package": "zombie.characters.traits",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "Name",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isName",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isSet",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    }
+  ]
+}

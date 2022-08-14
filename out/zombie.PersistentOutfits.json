@@ -1,0 +1,213 @@
+{
+  "name": "PersistentOutfits",
+  "package": "zombie",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "PersistentOutfits",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.PersistentOutfits",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "INVALID_ID",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FEMALE_BIT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "NO_HAT_BIT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "init",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<java.lang.String>",
+      "name": "getOutfitNames",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "pickRandomFemale",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "pickRandomMale",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "pickOutfitFemale",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "pickOutfitMale",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "pickOutfit",
+      "args": [
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getOutfit",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "registerOutfitter",
+      "args": [
+        "java.lang.String",
+        "boolean",
+        "zombie.PersistentOutfits$IOutfitter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isHatFallen",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isHatFallen",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setFallenHat",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "removeFallenHat",
+      "args": [
+        "int",
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "dressInOutfit",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "int"
+      ]
+    }
+  ]
+}

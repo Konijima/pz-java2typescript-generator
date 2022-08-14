@@ -1,0 +1,45 @@
+{
+  "name": "ExpDesc",
+  "package": "org.luaj.kahluafork.compiler",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ExpDesc",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setNval",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "nval",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setvalue",
+      "args": [
+        "org.luaj.kahluafork.compiler.ExpDesc"
+      ]
+    }
+  ]
+}

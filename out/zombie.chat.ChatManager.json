@@ -1,0 +1,275 @@
+{
+  "name": "ChatManager",
+  "package": "zombie.chat",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.chat.ChatManager",
+      "name": "getInstance",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isSinglePlayerMode",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isWorking",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "init",
+      "args": [
+        "boolean",
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "processInitPlayerChatPacket",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setFullyConnected",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "processAddTabPacket",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "processRemoveTabPacket",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "processJoinChatPacket",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "processLeaveChatPacket",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "processPlayerNotFound",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.chat.ChatMessage",
+      "name": "unpackMessage",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "processChatMessagePacket",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "updateChatSettings",
+      "args": [
+        "java.lang.String",
+        "boolean",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "showInfoMessage",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "showInfoMessage",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendMessageToChat",
+      "args": [
+        "java.lang.String",
+        "zombie.network.chat.ChatType",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendMessageToChat",
+      "args": [
+        "zombie.network.chat.ChatType",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "synchronized void",
+      "name": "sendWhisperMessage",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Boolean",
+      "name": "isPlayerCanUseChat",
+      "args": [
+        "zombie.network.chat.ChatType"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "focusOnTab",
+      "args": [
+        "java.lang.Short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getTabName",
+      "args": [
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.chat.ChatTab",
+      "name": "getFocusTab",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "showRadioMessage",
+      "args": [
+        "zombie.chat.ChatMessage"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "showRadioMessage",
+      "args": [
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "showStaticRadioSound",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.chat.ChatMessage",
+      "name": "createRadiostationMessage",
+      "args": [
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "showServerChatMessage",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addMessage",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    }
+  ]
+}

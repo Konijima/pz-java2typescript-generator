@@ -1,0 +1,91 @@
+{
+  "name": "Terrain$RenderTiles$IsoGridSquare$Walls",
+  "package": "zombie.debug.options",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.debug.options.OptionGroup"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Walls",
+      "describe": [],
+      "args": [
+        "zombie.debug.options.Terrain$RenderTiles$IsoGridSquare",
+        "zombie.debug.options.IDebugOptionGroup"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "NW",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "W",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "N",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Render",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Lighting",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "LightingDebug",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "LightingOldDebug",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "AttachedSprites",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": []
+}

@@ -1,0 +1,29 @@
+{
+  "name": "PZEmptyIterable$1",
+  "package": "zombie.util.list",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "java.util.Iterator<T>"
+  ],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "hasNext",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "T",
+      "name": "next",
+      "args": []
+    }
+  ]
+}

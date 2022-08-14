@@ -1,0 +1,78 @@
+{
+  "name": "CircleLineIntersect",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "CircleLineIntersect",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.vehicles.CircleLineIntersect$Collideresult",
+      "name": "checkforcecirclescollidetime",
+      "args": [
+        "java.util.List<zombie.vehicles.CircleLineIntersect$ForceCircle>",
+        "java.util.ArrayList<zombie.vehicles.CircleLineIntersect$StaticLine>",
+        "double[]",
+        "boolean[]",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.vehicles.CircleLineIntersect$Collideresult",
+      "name": "checkforcecirclescollide",
+      "args": [
+        "java.util.List<zombie.vehicles.CircleLineIntersect$ForceCircle>",
+        "java.util.ArrayList<zombie.vehicles.CircleLineIntersect$StaticLine>",
+        "double[]",
+        "boolean[]",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.vehicles.CircleLineIntersect$Collideresult",
+      "name": "checkforcecirclescollide",
+      "args": [
+        "java.util.List<zombie.vehicles.CircleLineIntersect$ForceCircle>",
+        "java.util.ArrayList<zombie.vehicles.CircleLineIntersect$StaticLine>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "TEST",
+      "args": [
+        "org.joml.Vector3f",
+        "float",
+        "float",
+        "float",
+        "float",
+        "zombie.core.physics.CarController"
+      ]
+    }
+  ]
+}

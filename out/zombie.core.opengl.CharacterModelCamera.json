@@ -1,0 +1,48 @@
+{
+  "name": "CharacterModelCamera",
+  "package": "zombie.core.opengl",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.core.skinnedmodel.ModelCamera"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "CharacterModelCamera",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.core.opengl.CharacterModelCamera",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Begin",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "End",
+      "args": []
+    }
+  ]
+}

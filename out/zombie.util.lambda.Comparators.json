@@ -1,0 +1,21 @@
+{
+  "name": "Comparators",
+  "package": "zombie.util.lambda",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Comparators",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

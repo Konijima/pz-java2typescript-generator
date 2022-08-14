@@ -1,0 +1,174 @@
+{
+  "name": "KahluaArray",
+  "package": "se.krka.kahlua.vm",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "se.krka.kahlua.vm.KahluaTable"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "KahluaArray",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getString",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "size",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "len",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "se.krka.kahlua.vm.KahluaTableIterator",
+      "name": "iterator",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isEmpty",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "wipe",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "rawget",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "rawset",
+      "args": [
+        "int",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "rawget",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "rawset",
+      "args": [
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "next",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "se.krka.kahlua.vm.KahluaTable",
+      "name": "getMetatable",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setMetatable",
+      "args": [
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Class<?>",
+      "name": "getJavaClass",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": [
+        "java.nio.ByteBuffer",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": [
+        "java.io.DataOutputStream"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": [
+        "java.io.DataInputStream",
+        "int"
+      ]
+    }
+  ]
+}

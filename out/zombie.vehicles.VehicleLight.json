@@ -1,0 +1,145 @@
+{
+  "name": "VehicleLight",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "VehicleLight",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "active",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "offset",
+      "scope": "public",
+      "type": "org.joml.Vector3f",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "dist",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "intensity",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "dot",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "focusing",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "getActive",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setActive",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getFocusing",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getIntensity",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getDistanization",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "canFocusingUp",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "canFocusingDown",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setFocusingUp",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setFocusingDown",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": [
+        "java.nio.ByteBuffer",
+        "int"
+      ]
+    }
+  ]
+}

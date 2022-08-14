@@ -1,0 +1,226 @@
+{
+  "name": "RadioGlobalsManager",
+  "package": "zombie.radio.globals",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.radio.globals.RadioGlobalsManager",
+      "name": "getInstance",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "reset",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "exists",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.radio.globals.RadioGlobalType",
+      "name": "getType",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getString",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "addGlobal",
+      "args": [
+        "java.lang.String",
+        "zombie.radio.globals.RadioGlobal"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "addGlobalString",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "addGlobalBool",
+      "args": [
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "addGlobalInt",
+      "args": [
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "addGlobalFloat",
+      "args": [
+        "java.lang.String",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.radio.globals.RadioGlobal",
+      "name": "getGlobal",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.radio.globals.RadioGlobalString",
+      "name": "getGlobalString",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.radio.globals.RadioGlobalInt",
+      "name": "getGlobalInt",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.radio.globals.RadioGlobalFloat",
+      "name": "getGlobalFloat",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.radio.globals.RadioGlobalBool",
+      "name": "getGlobalBool",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "setGlobal",
+      "args": [
+        "java.lang.String",
+        "zombie.radio.globals.RadioGlobal",
+        "zombie.radio.globals.EditGlobalOps"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "setGlobal",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "setGlobal",
+      "args": [
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "setGlobal",
+      "args": [
+        "java.lang.String",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "setGlobal",
+      "args": [
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.radio.globals.CompareResult",
+      "name": "compare",
+      "args": [
+        "zombie.radio.globals.RadioGlobal",
+        "zombie.radio.globals.RadioGlobal",
+        "zombie.radio.globals.CompareMethod"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.radio.globals.CompareResult",
+      "name": "compare",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "zombie.radio.globals.CompareMethod"
+      ]
+    }
+  ]
+}

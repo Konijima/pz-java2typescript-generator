@@ -1,0 +1,155 @@
+{
+  "name": "MapObjects",
+  "package": "zombie.Lua",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "MapObjects",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "OnNewWithSprite",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "OnNewWithSprite",
+      "args": [
+        "se.krka.kahlua.vm.KahluaTable",
+        "se.krka.kahlua.vm.LuaClosure",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "newGridSquare",
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "OnLoadWithSprite",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "OnLoadWithSprite",
+      "args": [
+        "se.krka.kahlua.vm.KahluaTable",
+        "se.krka.kahlua.vm.LuaClosure",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "loadGridSquare",
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "debugNewSquare",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "debugLoadSquare",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "debugLoadChunk",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "reroute",
+      "args": [
+        "se.krka.kahlua.vm.Prototype",
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "Reset",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "name": "ModelFileExtensionType",
+  "package": "zombie.core.skinnedmodel.model",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.core.skinnedmodel.model.ModelFileExtensionType>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "None",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.ModelFileExtensionType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "X",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.ModelFileExtensionType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Fbx",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.ModelFileExtensionType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Txt",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.ModelFileExtensionType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.skinnedmodel.model.ModelFileExtensionType",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

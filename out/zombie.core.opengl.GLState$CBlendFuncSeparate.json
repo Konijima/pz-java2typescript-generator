@@ -1,0 +1,23 @@
+{
+  "name": "GLState$CBlendFuncSeparate",
+  "package": "zombie.core.opengl",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.core.opengl.GLState$Base4Ints"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "CBlendFuncSeparate",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

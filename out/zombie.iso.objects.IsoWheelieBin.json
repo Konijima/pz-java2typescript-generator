@@ -1,0 +1,59 @@
+{
+  "name": "IsoWheelieBin",
+  "package": "zombie.iso.objects",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.iso.IsoPushableObject"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IsoWheelieBin",
+      "describe": [],
+      "args": [
+        "zombie.iso.IsoCell"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "IsoWheelieBin",
+      "describe": [],
+      "args": [
+        "zombie.iso.IsoCell",
+        "int",
+        "int",
+        "int"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getObjectName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getWeight",
+      "args": [
+        "float",
+        "float"
+      ]
+    }
+  ]
+}

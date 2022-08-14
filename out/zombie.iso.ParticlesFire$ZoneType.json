@@ -1,0 +1,63 @@
+{
+  "name": "ParticlesFire$ZoneType",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.iso.ParticlesFire$ZoneType>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Rectangle",
+      "scope": "public",
+      "type": "zombie.iso.ParticlesFire$ZoneType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Circle",
+      "scope": "public",
+      "type": "zombie.iso.ParticlesFire$ZoneType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Line",
+      "scope": "public",
+      "type": "zombie.iso.ParticlesFire$ZoneType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.ParticlesFire$ZoneType",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

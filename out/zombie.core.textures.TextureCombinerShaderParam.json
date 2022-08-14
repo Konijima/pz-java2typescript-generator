@@ -1,0 +1,53 @@
+{
+  "name": "TextureCombinerShaderParam",
+  "package": "zombie.core.textures",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "TextureCombinerShaderParam",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "TextureCombinerShaderParam",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "float"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "name",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "min",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "max",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

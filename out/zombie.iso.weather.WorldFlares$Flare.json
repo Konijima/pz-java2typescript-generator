@@ -1,0 +1,142 @@
+{
+  "name": "WorldFlares$Flare",
+  "package": "zombie.iso.weather",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Flare",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getId",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getX",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getY",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getRange",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getWindSpeed",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.weather.ClimateColorInfo",
+      "name": "getColor",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isHasLaunched",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getIntensity",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getMaxLifeTime",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getLifeTime",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getPercent",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getIntensityPlayer",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getLerpPlayer",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getDistModPlayer",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.weather.ClimateColorInfo",
+      "name": "getColorPlayer",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.weather.ClimateColorInfo",
+      "name": "getOutColorPlayer",
+      "args": [
+        "int"
+      ]
+    }
+  ]
+}

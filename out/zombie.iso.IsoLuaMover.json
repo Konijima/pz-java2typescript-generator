@@ -1,0 +1,72 @@
+{
+  "name": "IsoLuaMover",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.characters.IsoGameCharacter"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IsoLuaMover",
+      "describe": [],
+      "args": [
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "luaMoverTable",
+      "scope": "public",
+      "type": "se.krka.kahlua.vm.KahluaTable",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "playAnim",
+      "args": [
+        "java.lang.String",
+        "float",
+        "boolean",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getObjectName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "zombie.core.textures.ColorInfo",
+        "boolean",
+        "boolean",
+        "zombie.core.opengl.Shader"
+      ]
+    }
+  ]
+}

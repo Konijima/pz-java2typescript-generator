@@ -1,0 +1,56 @@
+{
+  "name": "TexCoord2f",
+  "package": "javax.vecmath",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "javax.vecmath.Tuple2f"
+  ],
+  "implements": [
+    "java.io.Serializable"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "float[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "javax.vecmath.TexCoord2f"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "javax.vecmath.Tuple2f"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

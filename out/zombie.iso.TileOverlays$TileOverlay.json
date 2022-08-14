@@ -1,0 +1,51 @@
+{
+  "name": "TileOverlays$TileOverlay",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "tile",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "entries",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.iso.TileOverlays$TileOverlayEntry>",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getEntries",
+      "args": [
+        "java.lang.String",
+        "zombie.iso.IsoGridSquare",
+        "java.util.ArrayList<zombie.iso.TileOverlays$TileOverlayEntry>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.TileOverlays$TileOverlayEntry",
+      "name": "pickRandom",
+      "args": [
+        "java.lang.String",
+        "zombie.iso.IsoGridSquare"
+      ]
+    }
+  ]
+}

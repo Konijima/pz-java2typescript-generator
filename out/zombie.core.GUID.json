@@ -1,0 +1,29 @@
+{
+  "name": "GUID",
+  "package": "zombie.core",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "GUID",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "generateGUID",
+      "args": []
+    }
+  ]
+}

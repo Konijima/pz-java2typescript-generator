@@ -1,0 +1,29 @@
+{
+  "name": "IterableExposer",
+  "package": "se.krka.kahlua.integration.expose",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IterableExposer",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "iter",
+      "args": [
+        "java.lang.Iterable<?>"
+      ]
+    }
+  ]
+}

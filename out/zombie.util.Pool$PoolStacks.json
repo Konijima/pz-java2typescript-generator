@@ -1,0 +1,14 @@
+{
+  "name": "Pool$PoolStacks",
+  "package": "zombie.util",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

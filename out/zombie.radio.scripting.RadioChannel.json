@@ -1,0 +1,275 @@
+{
+  "name": "RadioChannel",
+  "package": "zombie.radio.scripting",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "RadioChannel",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "int",
+        "zombie.radio.ChannelCategory"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "RadioChannel",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "int",
+        "zombie.radio.ChannelCategory",
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getGUID",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "GetFrequency",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "GetName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "IsTv",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.radio.ChannelCategory",
+      "name": "GetCategory",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.radio.scripting.RadioScript",
+      "name": "getCurrentScript",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.radio.scripting.RadioBroadCast",
+      "name": "getAiringBroadcast",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getLastAiredLine",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getCurrentScriptLoop",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getCurrentScriptMaxLoops",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getLastBroadcastID",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.radio.RadioData",
+      "name": "getRadioData",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setRadioData",
+      "args": [
+        "zombie.radio.RadioData"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isTimeSynced",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setTimeSynced",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isVanilla",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setLouisvilleObfuscate",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "LoadAiringBroadcast",
+      "args": [
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "SetPlayerIsListening",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "GetPlayerIsListening",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setActiveScriptNull",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setActiveScript",
+      "args": [
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setActiveScript",
+      "args": [
+        "java.lang.String",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "UpdateScripts",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "AddRadioScript",
+      "args": [
+        "zombie.radio.scripting.RadioScript"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.radio.scripting.RadioScript",
+      "name": "getRadioScript",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setAiringBroadcast",
+      "args": [
+        "zombie.radio.scripting.RadioBroadCast"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getAirCounterMultiplier",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setAirCounterMultiplier",
+      "args": [
+        "float"
+      ]
+    }
+  ]
+}

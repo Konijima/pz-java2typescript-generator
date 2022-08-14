@@ -1,0 +1,329 @@
+{
+  "name": "MoodleType",
+  "package": "zombie.characters.Moodles",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.characters.Moodles.MoodleType>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Endurance",
+      "scope": "public",
+      "type": "zombie.characters.Moodles.MoodleType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Tired",
+      "scope": "public",
+      "type": "zombie.characters.Moodles.MoodleType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Hungry",
+      "scope": "public",
+      "type": "zombie.characters.Moodles.MoodleType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Panic",
+      "scope": "public",
+      "type": "zombie.characters.Moodles.MoodleType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Sick",
+      "scope": "public",
+      "type": "zombie.characters.Moodles.MoodleType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Bored",
+      "scope": "public",
+      "type": "zombie.characters.Moodles.MoodleType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Unhappy",
+      "scope": "public",
+      "type": "zombie.characters.Moodles.MoodleType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Bleeding",
+      "scope": "public",
+      "type": "zombie.characters.Moodles.MoodleType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Wet",
+      "scope": "public",
+      "type": "zombie.characters.Moodles.MoodleType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "HasACold",
+      "scope": "public",
+      "type": "zombie.characters.Moodles.MoodleType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Angry",
+      "scope": "public",
+      "type": "zombie.characters.Moodles.MoodleType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Stress",
+      "scope": "public",
+      "type": "zombie.characters.Moodles.MoodleType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Thirst",
+      "scope": "public",
+      "type": "zombie.characters.Moodles.MoodleType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Injured",
+      "scope": "public",
+      "type": "zombie.characters.Moodles.MoodleType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Pain",
+      "scope": "public",
+      "type": "zombie.characters.Moodles.MoodleType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "HeavyLoad",
+      "scope": "public",
+      "type": "zombie.characters.Moodles.MoodleType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Drunk",
+      "scope": "public",
+      "type": "zombie.characters.Moodles.MoodleType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Dead",
+      "scope": "public",
+      "type": "zombie.characters.Moodles.MoodleType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Zombie",
+      "scope": "public",
+      "type": "zombie.characters.Moodles.MoodleType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Hyperthermia",
+      "scope": "public",
+      "type": "zombie.characters.Moodles.MoodleType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Hypothermia",
+      "scope": "public",
+      "type": "zombie.characters.Moodles.MoodleType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Windchill",
+      "scope": "public",
+      "type": "zombie.characters.Moodles.MoodleType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "CantSprint",
+      "scope": "public",
+      "type": "zombie.characters.Moodles.MoodleType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FoodEaten",
+      "scope": "public",
+      "type": "zombie.characters.Moodles.MoodleType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MAX",
+      "scope": "public",
+      "type": "zombie.characters.Moodles.MoodleType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characters.Moodles.MoodleType",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characters.Moodles.MoodleType",
+      "name": "FromIndex",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characters.Moodles.MoodleType",
+      "name": "FromString",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "getDisplayName",
+      "args": [
+        "zombie.characters.Moodles.MoodleType",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "getDescriptionText",
+      "args": [
+        "zombie.characters.Moodles.MoodleType",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "GoodBadNeutral",
+      "args": [
+        "zombie.characters.Moodles.MoodleType"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "ToIndex",
+      "args": [
+        "zombie.characters.Moodles.MoodleType"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "name": "ILuaGameCharacterClothing",
+  "package": "zombie.characters",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Head",
+      "describe": [],
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Torso",
+      "describe": [],
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Back",
+      "describe": [],
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Hands",
+      "describe": [],
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Legs",
+      "describe": [],
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Feet",
+      "describe": [],
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "dressInNamedOutfit",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "dressInPersistentOutfit",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "dressInPersistentOutfitID",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.lang.String",
+      "name": "getOutfitName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "zombie.characters.WornItems.WornItems",
+      "name": "getWornItems",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "setWornItems",
+      "args": [
+        "zombie.characters.WornItems.WornItems"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getWornItem",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "setWornItem",
+      "args": [
+        "java.lang.String",
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "removeWornItem",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "clearWornItems",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "zombie.characters.WornItems.BodyLocationGroup",
+      "name": "getBodyLocationGroup",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "Dressup",
+      "args": [
+        "zombie.characters.SurvivorDesc"
+      ]
+    }
+  ]
+}

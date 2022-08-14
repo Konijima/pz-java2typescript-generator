@@ -1,0 +1,115 @@
+{
+  "name": "BaseLib",
+  "package": "se.krka.kahlua.stdlib",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [
+    "se.krka.kahlua.vm.JavaFunction"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "BaseLib",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "register",
+      "args": [
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "call",
+      "args": [
+        "se.krka.kahlua.vm.LuaCallFrame",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "pcall",
+      "args": [
+        "se.krka.kahlua.vm.LuaCallFrame",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setPrintCallback",
+      "args": [
+        "java.util.function.Consumer<java.lang.String>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setmetatable",
+      "args": [
+        "se.krka.kahlua.vm.KahluaThread",
+        "java.lang.Object",
+        "se.krka.kahlua.vm.KahluaTable",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "collectgarbage",
+      "args": [
+        "se.krka.kahlua.vm.LuaCallFrame",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "luaEquals",
+      "args": [
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

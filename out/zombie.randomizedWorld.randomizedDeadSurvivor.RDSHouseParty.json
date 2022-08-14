@@ -1,0 +1,43 @@
+{
+  "name": "RDSHouseParty",
+  "package": "zombie.randomizedWorld.randomizedDeadSurvivor",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.randomizedWorld.randomizedDeadSurvivor.RandomizedDeadSurvivorBase"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "RDSHouseParty",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isValid",
+      "args": [
+        "zombie.iso.BuildingDef",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "randomizeDeadSurvivor",
+      "args": [
+        "zombie.iso.BuildingDef"
+      ]
+    }
+  ]
+}

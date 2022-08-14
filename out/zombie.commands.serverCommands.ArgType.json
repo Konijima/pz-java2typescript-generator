@@ -1,0 +1,92 @@
+{
+  "name": "ArgType",
+  "package": "zombie.commands.serverCommands",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ArgType",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "PlayerName",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AnyText",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Script",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Coordinates",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "IP",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TrueFalse",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ItemName",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Value",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": []
+}

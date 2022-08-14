@@ -1,0 +1,192 @@
+{
+  "name": "GameLoadingState",
+  "package": "zombie.gameStates",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.gameStates.GameState"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "GameLoadingState",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "loader",
+      "scope": "public",
+      "type": "java.lang.Thread",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "newGame",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "build23Stop",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "unexpectedError",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "GameLoadingString",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "playerWrongIP",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "mapDownloadFailed",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "playerCreated",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "bDone",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "convertingWorld",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "convertingFileCount",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "convertingFileMax",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "Stage",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "Time",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "bForceDone",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "enter",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "SendDone",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "Done",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.gameStates.GameState",
+      "name": "redirectState",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "exit",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.gameStates.GameStateMachine$StateAction",
+      "name": "update",
+      "args": []
+    }
+  ]
+}

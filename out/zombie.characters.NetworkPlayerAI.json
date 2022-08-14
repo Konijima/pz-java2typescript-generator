@@ -1,0 +1,241 @@
+{
+  "name": "NetworkPlayerAI",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.characters.NetworkCharacterAI"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "NetworkPlayerAI",
+      "describe": [],
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "events",
+      "scope": "public",
+      "type": "java.util.LinkedList<zombie.network.packets.EventPacket>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "usePathFind",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "collidePointX",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "collidePointY",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "targetX",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "targetY",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "targetZ",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "needToMovingUsingPathFinder",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "forcePathFinder",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "direction",
+      "scope": "public",
+      "type": "zombie.iso.Vector2",
+      "describe": []
+    },
+    {
+      "name": "distance",
+      "scope": "public",
+      "type": "zombie.iso.Vector2",
+      "describe": []
+    },
+    {
+      "name": "moving",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "footstepSoundRadius",
+      "scope": "public",
+      "type": "byte",
+      "describe": []
+    },
+    {
+      "name": "lastBooleanVariables",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "lastForwardDirection",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "lastPlayerMoveDirLen",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "climbFenceOutcomeFall",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "needToUpdate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setBlockUpdate",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isNeedToUpdate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setUpdateTimer",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "set",
+      "args": [
+        "zombie.network.packets.PlayerPacket"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "parse",
+      "args": [
+        "zombie.network.packets.PlayerPacket"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isPressedMovement",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setPressedMovement",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isPressedCancelAction",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setPressedCancelAction",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setCheckAccessLevelDelay",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "doCheckAccessLevel",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isDismantleAllowed",
+      "args": []
+    }
+  ]
+}

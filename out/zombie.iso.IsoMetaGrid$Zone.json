@@ -1,0 +1,540 @@
+{
+  "name": "IsoMetaGrid$Zone",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Zone",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "getPolygonTriangles",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "getPolylineOutlineTriangles",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "id",
+      "scope": "public",
+      "type": "java.lang.Double",
+      "describe": []
+    },
+    {
+      "name": "hourLastSeen",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "lastActionTimestamp",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "haveConstruction",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "spawnedZombies",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.String,java.lang.Integer>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "zombiesTypeToSpawn",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "spawnSpecialZombies",
+      "scope": "public",
+      "type": "java.lang.Boolean",
+      "describe": []
+    },
+    {
+      "name": "name",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "type",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "x",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "y",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "z",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "w",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "h",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "geometryType",
+      "scope": "public",
+      "type": "zombie.iso.IsoMetaGrid$ZoneGeometryType",
+      "describe": []
+    },
+    {
+      "name": "points",
+      "scope": "public",
+      "type": "gnu.trove.list.array.TIntArrayList",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "polylineWidth",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "float",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "float",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "float",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "totalArea",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "pickedXForZoneStory",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "pickedYForZoneStory",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "pickedRZStory",
+      "scope": "public",
+      "type": "zombie.randomizedWorld.randomizedZoneStory.RandomizedZoneStoryBase",
+      "describe": []
+    },
+    {
+      "name": "isPreferredZoneForSquare",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setX",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setY",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setW",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setH",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isPoint",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isPolygon",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isPolyline",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isRectangle",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setPickedXForZoneStory",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setPickedYForZoneStory",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getHoursSinceLastSeen",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setHourSeenToCurrent",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setHaveConstruction",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "haveCons",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getZombieDensity",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "contains",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "intersects",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "difference",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "java.util.ArrayList<zombie.iso.IsoMetaGrid$Zone>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.characters.IsoGameCharacter$Location",
+      "name": "pickRandomLocation",
+      "args": [
+        "zombie.characters.IsoGameCharacter$Location"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getRandomSquareInZone",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getRandomUnseenSquareInZone",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addSquare",
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.iso.IsoGridSquare>",
+      "name": "getSquares",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeSquare",
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setName",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getType",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setType",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getLastActionTimestamp",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setLastActionTimestamp",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getX",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getY",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getZ",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getHeight",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getWidth",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getTotalArea",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendToServer",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getOriginalName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setOriginalName",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getClippedSegmentOfPolyline",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "double[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getPolylineLength",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Dispose",
+      "args": []
+    }
+  ]
+}

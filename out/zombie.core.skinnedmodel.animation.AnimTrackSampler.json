@@ -1,0 +1,72 @@
+{
+  "name": "AnimTrackSampler",
+  "package": "zombie.core.skinnedmodel.animation",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "getTotalTime",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "isLooped",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "moveToTime",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "getCurrentTime",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "getBoneMatrix",
+      "args": [
+        "int",
+        "org.lwjgl.util.vector.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "int",
+      "name": "getNumBones",
+      "args": []
+    }
+  ]
+}

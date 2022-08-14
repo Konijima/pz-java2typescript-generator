@@ -1,0 +1,29 @@
+{
+  "name": "Log$BaseLog",
+  "package": "zombie.world.logger",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "abstract"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "BaseLog",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isIgnoreSaveCheck",
+      "args": []
+    }
+  ]
+}

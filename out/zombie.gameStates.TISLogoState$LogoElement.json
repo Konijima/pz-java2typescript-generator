@@ -1,0 +1,14 @@
+{
+  "name": "TISLogoState$LogoElement",
+  "package": "zombie.gameStates",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

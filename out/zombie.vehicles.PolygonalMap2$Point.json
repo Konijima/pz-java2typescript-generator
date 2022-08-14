@@ -1,0 +1,44 @@
+{
+  "name": "PolygonalMap2$Point",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Point",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "x",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "y",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

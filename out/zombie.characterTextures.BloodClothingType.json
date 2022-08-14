@@ -1,0 +1,422 @@
+{
+  "name": "BloodClothingType",
+  "package": "zombie.characterTextures",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.characterTextures.BloodClothingType>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Jacket",
+      "scope": "public",
+      "type": "zombie.characterTextures.BloodClothingType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "LongJacket",
+      "scope": "public",
+      "type": "zombie.characterTextures.BloodClothingType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Trousers",
+      "scope": "public",
+      "type": "zombie.characterTextures.BloodClothingType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ShortsShort",
+      "scope": "public",
+      "type": "zombie.characterTextures.BloodClothingType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Shirt",
+      "scope": "public",
+      "type": "zombie.characterTextures.BloodClothingType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ShirtLongSleeves",
+      "scope": "public",
+      "type": "zombie.characterTextures.BloodClothingType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ShirtNoSleeves",
+      "scope": "public",
+      "type": "zombie.characterTextures.BloodClothingType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Jumper",
+      "scope": "public",
+      "type": "zombie.characterTextures.BloodClothingType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "JumperNoSleeves",
+      "scope": "public",
+      "type": "zombie.characterTextures.BloodClothingType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Shoes",
+      "scope": "public",
+      "type": "zombie.characterTextures.BloodClothingType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FullHelmet",
+      "scope": "public",
+      "type": "zombie.characterTextures.BloodClothingType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Apron",
+      "scope": "public",
+      "type": "zombie.characterTextures.BloodClothingType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Bag",
+      "scope": "public",
+      "type": "zombie.characterTextures.BloodClothingType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Hands",
+      "scope": "public",
+      "type": "zombie.characterTextures.BloodClothingType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Head",
+      "scope": "public",
+      "type": "zombie.characterTextures.BloodClothingType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Neck",
+      "scope": "public",
+      "type": "zombie.characterTextures.BloodClothingType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "UpperBody",
+      "scope": "public",
+      "type": "zombie.characterTextures.BloodClothingType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "LowerBody",
+      "scope": "public",
+      "type": "zombie.characterTextures.BloodClothingType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "LowerLegs",
+      "scope": "public",
+      "type": "zombie.characterTextures.BloodClothingType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "UpperLegs",
+      "scope": "public",
+      "type": "zombie.characterTextures.BloodClothingType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "LowerArms",
+      "scope": "public",
+      "type": "zombie.characterTextures.BloodClothingType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "UpperArms",
+      "scope": "public",
+      "type": "zombie.characterTextures.BloodClothingType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Groin",
+      "scope": "public",
+      "type": "zombie.characterTextures.BloodClothingType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characterTextures.BloodClothingType",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characterTextures.BloodClothingType",
+      "name": "fromString",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.util.ArrayList<zombie.characterTextures.BloodBodyPartType>",
+      "name": "getCoveredParts",
+      "args": [
+        "java.util.ArrayList<zombie.characterTextures.BloodClothingType>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.util.ArrayList<zombie.characterTextures.BloodBodyPartType>",
+      "name": "getCoveredParts",
+      "args": [
+        "java.util.ArrayList<zombie.characterTextures.BloodClothingType>",
+        "java.util.ArrayList<zombie.characterTextures.BloodBodyPartType>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "getCoveredPartCount",
+      "args": [
+        "java.util.ArrayList<zombie.characterTextures.BloodClothingType>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "addBlood",
+      "args": [
+        "int",
+        "zombie.core.skinnedmodel.visual.HumanVisual",
+        "java.util.ArrayList<zombie.core.skinnedmodel.visual.ItemVisual>",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "addBlood",
+      "args": [
+        "zombie.characterTextures.BloodBodyPartType",
+        "zombie.core.skinnedmodel.visual.HumanVisual",
+        "java.util.ArrayList<zombie.core.skinnedmodel.visual.ItemVisual>",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "addDirt",
+      "args": [
+        "zombie.characterTextures.BloodBodyPartType",
+        "zombie.core.skinnedmodel.visual.HumanVisual",
+        "java.util.ArrayList<zombie.core.skinnedmodel.visual.ItemVisual>",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "addHole",
+      "args": [
+        "zombie.characterTextures.BloodBodyPartType",
+        "zombie.core.skinnedmodel.visual.HumanVisual",
+        "java.util.ArrayList<zombie.core.skinnedmodel.visual.ItemVisual>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "addHole",
+      "args": [
+        "zombie.characterTextures.BloodBodyPartType",
+        "zombie.core.skinnedmodel.visual.HumanVisual",
+        "java.util.ArrayList<zombie.core.skinnedmodel.visual.ItemVisual>",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "addBasicPatch",
+      "args": [
+        "zombie.characterTextures.BloodBodyPartType",
+        "zombie.core.skinnedmodel.visual.HumanVisual",
+        "java.util.ArrayList<zombie.core.skinnedmodel.visual.ItemVisual>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "addDirt",
+      "args": [
+        "zombie.characterTextures.BloodBodyPartType",
+        "float",
+        "zombie.core.skinnedmodel.visual.HumanVisual",
+        "java.util.ArrayList<zombie.core.skinnedmodel.visual.ItemVisual>",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "addBlood",
+      "args": [
+        "zombie.characterTextures.BloodBodyPartType",
+        "float",
+        "zombie.core.skinnedmodel.visual.HumanVisual",
+        "java.util.ArrayList<zombie.core.skinnedmodel.visual.ItemVisual>",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "synchronized void",
+      "name": "calcTotalBloodLevel",
+      "args": [
+        "zombie.inventory.types.Clothing"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "synchronized void",
+      "name": "calcTotalDirtLevel",
+      "args": [
+        "zombie.inventory.types.Clothing"
+      ]
+    }
+  ]
+}

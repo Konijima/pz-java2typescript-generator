@@ -1,0 +1,300 @@
+{
+  "name": "ShaderProgram",
+  "package": "zombie.core.opengl",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "setVector2",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "setVector3",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "setVector4",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "setVector2",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "setVector3",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "setVector4",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addCompileListener",
+      "args": [
+        "zombie.core.opengl.IShaderProgramListener"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeCompileListener",
+      "args": [
+        "zombie.core.opengl.IShaderProgramListener"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "compile",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.opengl.ShaderUnit",
+      "name": "addShader",
+      "args": [
+        "java.lang.String",
+        "zombie.core.opengl.ShaderUnit$Type"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.opengl.ShaderProgram",
+      "name": "createShaderProgram",
+      "args": [
+        "java.lang.String",
+        "boolean",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "createVertShader",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "createFragShader",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "printLogInfo",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "getLogInfo",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isCompiled",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "destroy",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getShaderID",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Start",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "End",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setSamplerUnit",
+      "args": [
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setValueColor",
+      "args": [
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setValueColorRGB",
+      "args": [
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setValue",
+      "args": [
+        "java.lang.String",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setValue",
+      "args": [
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setValue",
+      "args": [
+        "java.lang.String",
+        "zombie.iso.Vector3"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setValue",
+      "args": [
+        "java.lang.String",
+        "zombie.iso.Vector2"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "zombie.core.opengl.ShaderProgram$Uniform",
+      "name": "getUniform",
+      "args": [
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.opengl.ShaderProgram$Uniform",
+      "name": "getUniform",
+      "args": [
+        "java.lang.String",
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setValue",
+      "args": [
+        "java.lang.String",
+        "org.lwjgl.util.vector.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setValue",
+      "args": [
+        "java.lang.String",
+        "zombie.core.textures.Texture",
+        "int"
+      ]
+    }
+  ]
+}

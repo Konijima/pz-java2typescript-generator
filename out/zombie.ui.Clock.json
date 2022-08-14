@@ -1,0 +1,85 @@
+{
+  "name": "Clock",
+  "package": "zombie.ui",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.ui.UIElement"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Clock",
+      "describe": [],
+      "args": [
+        "int",
+        "int"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "digital",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "isAlarmSet",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "isAlarmRinging",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.ui.Clock",
+      "describe": [
+        "static"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "resize",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isDateVisible",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Boolean",
+      "name": "onMouseDown",
+      "args": [
+        "double",
+        "double"
+      ]
+    }
+  ]
+}

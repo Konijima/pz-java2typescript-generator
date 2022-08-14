@@ -1,0 +1,30 @@
+{
+  "name": "Stacks$Params6$ICallback<T1,",
+  "package": "zombie.util.lambda",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "accept",
+      "args": [
+        "zombie.util.lambda.Stacks$GenericStack",
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "T6"
+      ]
+    }
+  ]
+}

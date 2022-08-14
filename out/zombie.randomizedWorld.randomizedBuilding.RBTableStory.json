@@ -1,0 +1,77 @@
+{
+  "name": "RBTableStory",
+  "package": "zombie.randomizedWorld.randomizedBuilding",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.randomizedWorld.randomizedBuilding.RandomizedBuildingBase"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "RBTableStory",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "allStories",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.randomizedWorld.randomizedBuilding.RBTableStory$StoryDef>",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "fullTableMap",
+      "scope": "public",
+      "type": "java.util.ArrayList<java.util.HashMap<java.lang.String,java.lang.Integer>>",
+      "describe": []
+    },
+    {
+      "name": "table1",
+      "scope": "public",
+      "type": "zombie.iso.IsoObject",
+      "describe": []
+    },
+    {
+      "name": "table2",
+      "scope": "public",
+      "type": "zombie.iso.IsoObject",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "initStories",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isValid",
+      "args": [
+        "zombie.iso.BuildingDef",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "randomizeBuilding",
+      "args": [
+        "zombie.iso.BuildingDef"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,695 @@
+{
+  "name": "LightingJNI",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "LightingJNI",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "ROOM_SPAWN_DIST",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "init",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "int",
+      "scope": "public",
+      "type": "final",
+      "describe": [
+        "static"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "init",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "calculateVisionCone",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "updatePlayer",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "updateChunk",
+      "args": [
+        "zombie.iso.IsoChunk"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "getTorches",
+      "args": [
+        "java.util.ArrayList<zombie.characters.IsoGameCharacter$TorchInfo>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "stop",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "configure",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "scrollLeft",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "scrollRight",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "scrollUp",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "scrollDown",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "stateBeginUpdate",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "stateEndFrame",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "boolean",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "stateEndUpdate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native int",
+      "name": "stateUpdateCounter",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "teleport",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "DoLightingUpdateNew",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native boolean",
+      "name": "WaitingForMain",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "playerSet",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "boolean",
+        "boolean",
+        "boolean",
+        "boolean",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native boolean",
+      "name": "chunkLightingDone",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "chunkBeginUpdate",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "chunkEndUpdate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "squareSetNull",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "squareBeginUpdate",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "squareSet",
+      "args": [
+        "boolean",
+        "boolean",
+        "boolean",
+        "boolean",
+        "boolean",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "squareAddCurtain",
+      "args": [
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "squareAddDoor",
+      "args": [
+        "boolean",
+        "boolean",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "squareAddThumpable",
+      "args": [
+        "boolean",
+        "boolean",
+        "boolean",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "squareAddWindow",
+      "args": [
+        "boolean",
+        "boolean",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "squareEndUpdate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native int",
+      "name": "getVertLight",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native float",
+      "name": "getLightInfo",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native float",
+      "name": "getDarkMulti",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native float",
+      "name": "getTargetDarkMulti",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native boolean",
+      "name": "getSeen",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native boolean",
+      "name": "getCanSee",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native boolean",
+      "name": "getCouldSee",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native boolean",
+      "name": "getSquareLighting",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "int[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "addLight",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "float",
+        "float",
+        "float",
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "addTempLight",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "float",
+        "float",
+        "float",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "removeLight",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "setLightActive",
+      "args": [
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "setLightColor",
+      "args": [
+        "int",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "addRoomLight",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "removeRoomLight",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "setRoomLightActive",
+      "args": [
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "updateTorch",
+      "args": [
+        "int",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "boolean",
+        "float",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "removeTorch",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "destroy",
+      "args": []
+    }
+  ]
+}

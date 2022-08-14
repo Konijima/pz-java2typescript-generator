@@ -1,0 +1,108 @@
+{
+  "name": "AnimCondition$Type",
+  "package": "zombie.core.skinnedmodel.advancedanimation",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.core.skinnedmodel.advancedanimation.AnimCondition$Type>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "STRING",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.advancedanimation.AnimCondition$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "STRNEQ",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.advancedanimation.AnimCondition$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BOOL",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.advancedanimation.AnimCondition$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "EQU",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.advancedanimation.AnimCondition$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "NEQ",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.advancedanimation.AnimCondition$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "LESS",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.advancedanimation.AnimCondition$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "GTR",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.advancedanimation.AnimCondition$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "OR",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.advancedanimation.AnimCondition$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.skinnedmodel.advancedanimation.AnimCondition$Type",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

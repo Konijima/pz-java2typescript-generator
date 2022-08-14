@@ -1,0 +1,88 @@
+{
+  "name": "IsoFallingClothing",
+  "package": "zombie.iso.objects",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.iso.IsoPhysicsObject"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IsoFallingClothing",
+      "describe": [],
+      "args": [
+        "zombie.iso.IsoCell"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "IsoFallingClothing",
+      "describe": [],
+      "args": [
+        "zombie.iso.IsoCell",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "zombie.inventory.InventoryItem"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "addWorldItem",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getObjectName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "collideGround",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "collideWall",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "zombie.core.textures.ColorInfo",
+        "boolean",
+        "boolean",
+        "zombie.core.opengl.Shader"
+      ]
+    }
+  ]
+}

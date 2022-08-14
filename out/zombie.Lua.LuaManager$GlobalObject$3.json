@@ -1,0 +1,95 @@
+{
+  "name": "LuaManager$GlobalObject$3",
+  "package": "zombie.Lua",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "java.nio.file.FileVisitor<java.nio.file.Path>"
+  ],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.file.FileVisitResult",
+      "name": "preVisitDirectory",
+      "args": [
+        "java.nio.file.Path",
+        "java.nio.file.attribute.BasicFileAttributes"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.file.FileVisitResult",
+      "name": "visitFile",
+      "args": [
+        "java.nio.file.Path",
+        "java.nio.file.attribute.BasicFileAttributes"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.file.FileVisitResult",
+      "name": "visitFileFailed",
+      "args": [
+        "java.nio.file.Path",
+        "java.io.IOException"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.file.FileVisitResult",
+      "name": "postVisitDirectory",
+      "args": [
+        "java.nio.file.Path",
+        "java.io.IOException"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.file.FileVisitResult",
+      "name": "postVisitDirectory",
+      "args": [
+        "java.lang.Object",
+        "java.io.IOException"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.file.FileVisitResult",
+      "name": "visitFileFailed",
+      "args": [
+        "java.lang.Object",
+        "java.io.IOException"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.file.FileVisitResult",
+      "name": "visitFile",
+      "args": [
+        "java.lang.Object",
+        "java.nio.file.attribute.BasicFileAttributes"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.file.FileVisitResult",
+      "name": "preVisitDirectory",
+      "args": [
+        "java.lang.Object",
+        "java.nio.file.attribute.BasicFileAttributes"
+      ]
+    }
+  ]
+}

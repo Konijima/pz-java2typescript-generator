@@ -1,0 +1,50 @@
+{
+  "name": "DiamondShaper",
+  "package": "zombie.iso.sprite.shapers",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "java.util.function.Consumer<zombie.core.textures.TextureDraw>"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "DiamondShaper",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.iso.sprite.shapers.DiamondShaper",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "accept",
+      "args": [
+        "zombie.core.textures.TextureDraw"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "accept",
+      "args": [
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

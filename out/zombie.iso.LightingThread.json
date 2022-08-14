@@ -1,0 +1,122 @@
+{
+  "name": "LightingThread",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "LightingThread",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.iso.LightingThread",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "lightingThread",
+      "scope": "public",
+      "type": "java.lang.Thread",
+      "describe": []
+    },
+    {
+      "name": "bFinished",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "Interrupted",
+      "scope": "public",
+      "type": "volatile boolean",
+      "describe": []
+    },
+    {
+      "name": "DebugLockTime",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "stop",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "create",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "GameLoadingUpdate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "scrollLeft",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "scrollRight",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "scrollUp",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "scrollDown",
+      "args": [
+        "int"
+      ]
+    }
+  ]
+}

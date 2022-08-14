@@ -1,0 +1,41 @@
+{
+  "name": "WinReqistry",
+  "package": "zombie.core",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "WinReqistry",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "getSteamDirectory",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "java.lang.String",
+      "name": "readRegistry",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    }
+  ]
+}

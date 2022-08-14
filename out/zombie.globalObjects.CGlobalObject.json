@@ -1,0 +1,16 @@
+{
+  "name": "CGlobalObject",
+  "package": "zombie.globalObjects",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.globalObjects.GlobalObject"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

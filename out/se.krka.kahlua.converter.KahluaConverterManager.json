@@ -1,0 +1,57 @@
+{
+  "name": "KahluaConverterManager",
+  "package": "se.krka.kahlua.converter",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "KahluaConverterManager",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addLuaConverter",
+      "args": [
+        "se.krka.kahlua.converter.LuaToJavaConverter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addJavaConverter",
+      "args": [
+        "se.krka.kahlua.converter.JavaToLuaConverter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "<T> T",
+      "name": "fromLuaToJava",
+      "args": [
+        "java.lang.Object",
+        "java.lang.Class<T>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "fromJavaToLua",
+      "args": [
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

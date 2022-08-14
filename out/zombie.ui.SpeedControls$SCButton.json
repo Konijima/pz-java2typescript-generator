@@ -1,0 +1,38 @@
+{
+  "name": "SpeedControls$SCButton",
+  "package": "zombie.ui",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.ui.HUDButton"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "SCButton",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "float",
+        "float",
+        "java.lang.String",
+        "java.lang.String",
+        "zombie.ui.UIElement"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "ErosionConfig$Seeds",
+  "package": "zombie.erosion",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Seeds",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

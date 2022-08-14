@@ -1,0 +1,35 @@
+{
+  "name": "IStatePermissions",
+  "package": "zombie.ai.permission",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "isDeferredMovementAllowed",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "isPlayerInputAllowed",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    }
+  ]
+}

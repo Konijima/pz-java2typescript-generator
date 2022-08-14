@@ -1,0 +1,108 @@
+{
+  "name": "IsoCamera$FrameState",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "FrameState",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "frameCount",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "Paused",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "playerIndex",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "CamCharacterX",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "CamCharacterY",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "CamCharacterZ",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "CamCharacter",
+      "scope": "public",
+      "type": "zombie.characters.IsoGameCharacter",
+      "describe": []
+    },
+    {
+      "name": "CamCharacterSquare",
+      "scope": "public",
+      "type": "zombie.iso.IsoGridSquare",
+      "describe": []
+    },
+    {
+      "name": "CamCharacterRoom",
+      "scope": "public",
+      "type": "zombie.iso.areas.IsoRoom",
+      "describe": []
+    },
+    {
+      "name": "OffX",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "OffY",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "OffscreenWidth",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "OffscreenHeight",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "int"
+      ]
+    }
+  ]
+}

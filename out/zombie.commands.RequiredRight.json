@@ -1,0 +1,24 @@
+{
+  "name": "RequiredRight",
+  "package": "zombie.commands",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "java.lang.annotation.Annotation"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "int",
+      "name": "requiredRights",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "name": "PlayerVariables",
+  "package": "zombie.network.packets",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "zombie.network.packets.INetworkPacket"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "PlayerVariables",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "apply",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "parse",
+      "args": [
+        "java.nio.ByteBuffer",
+        "zombie.core.raknet.UdpConnection"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "write",
+      "args": [
+        "zombie.core.network.ByteBufferWriter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getPacketSizeBytes",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getDescription",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "copy",
+      "args": [
+        "zombie.network.packets.PlayerVariables"
+      ]
+    }
+  ]
+}

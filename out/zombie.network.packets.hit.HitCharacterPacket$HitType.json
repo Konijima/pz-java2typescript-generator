@@ -1,0 +1,117 @@
+{
+  "name": "HitCharacterPacket$HitType",
+  "package": "zombie.network.packets.hit",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.network.packets.hit.HitCharacterPacket$HitType>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Min",
+      "scope": "public",
+      "type": "zombie.network.packets.hit.HitCharacterPacket$HitType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PlayerHitSquare",
+      "scope": "public",
+      "type": "zombie.network.packets.hit.HitCharacterPacket$HitType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PlayerHitVehicle",
+      "scope": "public",
+      "type": "zombie.network.packets.hit.HitCharacterPacket$HitType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PlayerHitZombie",
+      "scope": "public",
+      "type": "zombie.network.packets.hit.HitCharacterPacket$HitType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PlayerHitPlayer",
+      "scope": "public",
+      "type": "zombie.network.packets.hit.HitCharacterPacket$HitType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ZombieHitPlayer",
+      "scope": "public",
+      "type": "zombie.network.packets.hit.HitCharacterPacket$HitType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleHitZombie",
+      "scope": "public",
+      "type": "zombie.network.packets.hit.HitCharacterPacket$HitType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleHitPlayer",
+      "scope": "public",
+      "type": "zombie.network.packets.hit.HitCharacterPacket$HitType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Max",
+      "scope": "public",
+      "type": "zombie.network.packets.hit.HitCharacterPacket$HitType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.network.packets.hit.HitCharacterPacket$HitType",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

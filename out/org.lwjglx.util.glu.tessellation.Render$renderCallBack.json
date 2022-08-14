@@ -1,0 +1,26 @@
+{
+  "name": "Render$renderCallBack",
+  "package": "org.lwjglx.util.glu.tessellation",
+  "type": "interface",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "render",
+      "args": [
+        "org.lwjglx.util.glu.tessellation.GLUtessellatorImpl",
+        "org.lwjglx.util.glu.tessellation.GLUhalfEdge",
+        "long"
+      ]
+    }
+  ]
+}

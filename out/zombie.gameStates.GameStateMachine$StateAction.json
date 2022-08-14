@@ -1,0 +1,63 @@
+{
+  "name": "GameStateMachine$StateAction",
+  "package": "zombie.gameStates",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.gameStates.GameStateMachine$StateAction>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Continue",
+      "scope": "public",
+      "type": "zombie.gameStates.GameStateMachine$StateAction",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Remain",
+      "scope": "public",
+      "type": "zombie.gameStates.GameStateMachine$StateAction",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Yield",
+      "scope": "public",
+      "type": "zombie.gameStates.GameStateMachine$StateAction",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.gameStates.GameStateMachine$StateAction",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

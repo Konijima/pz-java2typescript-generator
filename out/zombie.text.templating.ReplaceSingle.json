@@ -1,0 +1,37 @@
+{
+  "name": "ReplaceSingle",
+  "package": "zombie.text.templating",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "zombie.text.templating.IReplace"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ReplaceSingle",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "ReplaceSingle",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getString",
+      "args": []
+    }
+  ]
+}

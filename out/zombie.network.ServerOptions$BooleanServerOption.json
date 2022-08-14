@@ -1,0 +1,42 @@
+{
+  "name": "ServerOptions$BooleanServerOption",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.config.BooleanConfigOption"
+  ],
+  "implements": [
+    "zombie.network.ServerOptions$ServerOption"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "BooleanServerOption",
+      "describe": [],
+      "args": [
+        "zombie.network.ServerOptions",
+        "java.lang.String",
+        "boolean"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.config.ConfigOption",
+      "name": "asConfigOption",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getTooltip",
+      "args": []
+    }
+  ]
+}

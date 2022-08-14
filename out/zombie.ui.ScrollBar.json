@@ -1,0 +1,141 @@
+{
+  "name": "ScrollBar",
+  "package": "zombie.ui",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.ui.UIElement"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ScrollBar",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "zombie.ui.UIEventHandler",
+        "int",
+        "int",
+        "int",
+        "boolean"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "BackgroundColour",
+      "scope": "public",
+      "type": "zombie.core.Color",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ButtonColour",
+      "scope": "public",
+      "type": "zombie.core.Color",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ButtonHighlightColour",
+      "scope": "public",
+      "type": "zombie.core.Color",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "IsVerticle",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "SetParentTextBox",
+      "args": [
+        "zombie.ui.UITextBox2"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setHeight",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Boolean",
+      "name": "onMouseMove",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onMouseMoveOutside",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Boolean",
+      "name": "onMouseUp",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Boolean",
+      "name": "onMouseDown",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "scrollToBottom",
+      "args": []
+    }
+  ]
+}

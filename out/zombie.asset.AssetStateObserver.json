@@ -1,0 +1,26 @@
+{
+  "name": "AssetStateObserver",
+  "package": "zombie.asset",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "onStateChanged",
+      "args": [
+        "zombie.asset.Asset$State",
+        "zombie.asset.Asset$State",
+        "zombie.asset.Asset"
+      ]
+    }
+  ]
+}

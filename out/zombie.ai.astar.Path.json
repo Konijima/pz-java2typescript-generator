@@ -1,0 +1,127 @@
+{
+  "name": "Path",
+  "package": "zombie.ai.astar",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Path",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "cost",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "stepstore",
+      "scope": "public",
+      "type": "java.util.Stack<zombie.ai.astar.Path$Step>",
+      "describe": [
+        "static"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "costPerStep",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "appendStep",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "contains",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getLength",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.ai.astar.Path$Step",
+      "name": "getStep",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getX",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getY",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getZ",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.ai.astar.Path$Step",
+      "name": "createStep",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "prependStep",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    }
+  ]
+}

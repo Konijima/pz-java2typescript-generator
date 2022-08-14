@@ -1,0 +1,14 @@
+{
+  "name": "PassengerMap$PassengerRemote",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

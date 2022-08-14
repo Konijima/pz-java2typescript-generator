@@ -1,0 +1,101 @@
+{
+  "name": "NetworkVariables$ThumpType",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.network.NetworkVariables$ThumpType>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "TTNone",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ThumpType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TTDoor",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ThumpType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TTClaw",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ThumpType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TTBang",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ThumpType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.network.NetworkVariables$ThumpType",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.network.NetworkVariables$ThumpType",
+      "name": "fromString",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.network.NetworkVariables$ThumpType",
+      "name": "fromByte",
+      "args": [
+        "java.lang.Byte"
+      ]
+    }
+  ]
+}

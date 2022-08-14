@@ -1,0 +1,108 @@
+{
+  "name": "InventoryItemFactory",
+  "package": "zombie.inventory",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "InventoryItemFactory",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "CreateItem",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "CreateItem",
+      "args": [
+        "java.lang.String",
+        "zombie.inventory.types.Food"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "CreateItem",
+      "args": [
+        "java.lang.String",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "CreateItem",
+      "args": [
+        "java.lang.String",
+        "float",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "CreateItem",
+      "args": [
+        "java.lang.String",
+        "float",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "CreateItem",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "CreateItem",
+      "args": [
+        "short"
+      ]
+    }
+  ]
+}

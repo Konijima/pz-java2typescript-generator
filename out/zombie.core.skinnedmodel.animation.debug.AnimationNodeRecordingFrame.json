@@ -1,0 +1,73 @@
+{
+  "name": "AnimationNodeRecordingFrame",
+  "package": "zombie.core.skinnedmodel.animation.debug",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.core.skinnedmodel.animation.debug.GenericNameWeightRecordingFrame"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "AnimationNodeRecordingFrame",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "logActionState",
+      "args": [
+        "zombie.characters.action.ActionState",
+        "java.util.List<zombie.characters.action.ActionState>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "logAIState",
+      "args": [
+        "zombie.ai.State",
+        "java.util.List<zombie.ai.StateMachine$SubstateSlot>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "logAnimState",
+      "args": [
+        "zombie.core.skinnedmodel.advancedanimation.AnimState"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "logCharacterToPlayerDiff",
+      "args": [
+        "zombie.iso.Vector3"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "writeHeader",
+      "args": [
+        "java.lang.StringBuilder"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "name": "BaseVehicle$Authorization",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.vehicles.BaseVehicle$Authorization>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Server",
+      "scope": "public",
+      "type": "zombie.vehicles.BaseVehicle$Authorization",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "LocalCollide",
+      "scope": "public",
+      "type": "zombie.vehicles.BaseVehicle$Authorization",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RemoteCollide",
+      "scope": "public",
+      "type": "zombie.vehicles.BaseVehicle$Authorization",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Local",
+      "scope": "public",
+      "type": "zombie.vehicles.BaseVehicle$Authorization",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Remote",
+      "scope": "public",
+      "type": "zombie.vehicles.BaseVehicle$Authorization",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.vehicles.BaseVehicle$Authorization",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.vehicles.BaseVehicle$Authorization",
+      "name": "valueOf",
+      "args": [
+        "byte"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "byte",
+      "name": "index",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "name": "Clothing$ClothingPatch",
+  "package": "zombie.inventory.types",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ClothingPatch",
+      "describe": [],
+      "args": [
+        "zombie.inventory.types.Clothing"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ClothingPatch",
+      "describe": [],
+      "args": [
+        "zombie.inventory.types.Clothing",
+        "int",
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "old",
+      "describe": [],
+      "args": [
+        "java.nio.ByteBuffer",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "old",
+      "describe": [],
+      "args": [
+        "java.nio.ByteBuffer",
+        "int",
+        "boolean"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "tailorLvl",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "fabricType",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "scratchDefense",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "biteDefense",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "hasHole",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "conditionGain",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getFabricTypeName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getScratchDefense",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getBiteDefense",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getFabricType",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": [
+        "java.nio.ByteBuffer",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": [
+        "java.nio.ByteBuffer",
+        "int"
+      ]
+    }
+  ]
+}

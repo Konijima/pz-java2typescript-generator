@@ -1,0 +1,42 @@
+{
+  "name": "KahluaTableIterator",
+  "package": "se.krka.kahlua.vm",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "se.krka.kahlua.vm.JavaFunction"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "advance",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.lang.Object",
+      "name": "getKey",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.lang.Object",
+      "name": "getValue",
+      "args": []
+    }
+  ]
+}

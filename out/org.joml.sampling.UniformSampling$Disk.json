@@ -1,0 +1,23 @@
+{
+  "name": "UniformSampling$Disk",
+  "package": "org.joml.sampling",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Disk",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "org.joml.sampling.Callback2d"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

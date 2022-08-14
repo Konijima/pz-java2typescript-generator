@@ -1,0 +1,313 @@
+{
+  "name": "SteamWorkshop",
+  "package": "zombie.core.znet",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "zombie.core.znet.ISteamWorkshopCallback"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "SteamWorkshop",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "GetInstalledItemFolders",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "GetQueryUGCChildren",
+      "describe": [],
+      "args": [
+        "long",
+        "int"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.core.znet.SteamWorkshop",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "init",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "shutdown",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.core.znet.SteamWorkshopItem>",
+      "name": "loadStagedItems",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getWorkshopFolder",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<java.lang.String>",
+      "name": "getStageFolders",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "CreateWorkshopItem",
+      "args": [
+        "zombie.core.znet.SteamWorkshopItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "SubmitWorkshopItem",
+      "args": [
+        "zombie.core.znet.SteamWorkshopItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "GetItemUpdateProgress",
+      "args": [
+        "long[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "long",
+      "name": "GetItemState",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "GetItemInstallFolder",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "long",
+      "name": "GetItemInstallTimeStamp",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "SubscribeItem",
+      "args": [
+        "long",
+        "zombie.core.znet.ISteamWorkshopCallback"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "DownloadItem",
+      "args": [
+        "long",
+        "boolean",
+        "zombie.core.znet.ISteamWorkshopCallback"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "GetItemDownloadInfo",
+      "args": [
+        "long",
+        "long[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "long",
+      "name": "CreateQueryUGCDetailsRequest",
+      "args": [
+        "long[]",
+        "zombie.core.znet.ISteamWorkshopCallback"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.znet.SteamUGCDetails",
+      "name": "GetQueryUGCResult",
+      "args": [
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "ReleaseQueryUGCRequest",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "RemoveCallback",
+      "args": [
+        "zombie.core.znet.ISteamWorkshopCallback"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getIDFromItemInstallFolder",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onItemCreated",
+      "args": [
+        "long",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onItemNotCreated",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onItemUpdated",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onItemNotUpdated",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onItemSubscribed",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onItemNotSubscribed",
+      "args": [
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onItemDownloaded",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onItemNotDownloaded",
+      "args": [
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onItemQueryCompleted",
+      "args": [
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onItemQueryNotCompleted",
+      "args": [
+        "long",
+        "int"
+      ]
+    }
+  ]
+}

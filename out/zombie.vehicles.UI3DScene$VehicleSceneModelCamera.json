@@ -1,0 +1,31 @@
+{
+  "name": "UI3DScene$VehicleSceneModelCamera",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.vehicles.UI3DScene$SceneModelCamera"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Begin",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "End",
+      "args": []
+    }
+  ]
+}

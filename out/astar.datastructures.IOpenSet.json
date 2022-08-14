@@ -1,0 +1,73 @@
+{
+  "name": "IOpenSet",
+  "package": "astar.datastructures",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "add",
+      "args": [
+        "astar.ISearchNode"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "remove",
+      "args": [
+        "astar.ISearchNode"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "astar.ISearchNode",
+      "name": "poll",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "astar.ISearchNode",
+      "name": "getNode",
+      "args": [
+        "astar.ISearchNode"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "int",
+      "name": "size",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "clear",
+      "args": []
+    }
+  ]
+}

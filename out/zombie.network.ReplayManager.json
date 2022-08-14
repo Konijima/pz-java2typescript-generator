@@ -1,0 +1,87 @@
+{
+  "name": "ReplayManager",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ReplayManager",
+      "describe": [],
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.network.ReplayManager$State",
+      "name": "getState",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isPlay",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "recordPlayerPacket",
+      "args": [
+        "zombie.network.packets.PlayerPacket"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "startRecordReplay",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "stopRecordReplay",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "startPlayReplay",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "java.lang.String",
+        "zombie.core.raknet.UdpConnection"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "stopPlayReplay",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    }
+  ]
+}

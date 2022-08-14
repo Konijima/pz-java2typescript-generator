@@ -1,0 +1,32 @@
+{
+  "name": "PolygonalMap2$ChunkData",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.PolygonalMap2$ChunkDataZ",
+      "name": "init",
+      "args": [
+        "zombie.vehicles.PolygonalMap2$Chunk",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clear",
+      "args": []
+    }
+  ]
+}

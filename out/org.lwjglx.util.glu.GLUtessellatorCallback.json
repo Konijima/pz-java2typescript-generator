@@ -1,0 +1,154 @@
+{
+  "name": "GLUtessellatorCallback",
+  "package": "org.lwjglx.util.glu",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "begin",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "beginData",
+      "args": [
+        "int",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "edgeFlag",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "edgeFlagData",
+      "args": [
+        "boolean",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "vertex",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "vertexData",
+      "args": [
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "end",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "endData",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "combine",
+      "args": [
+        "double[]",
+        "java.lang.Object[]",
+        "float[]",
+        "java.lang.Object[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "combineData",
+      "args": [
+        "double[]",
+        "java.lang.Object[]",
+        "float[]",
+        "java.lang.Object[]",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "error",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "errorData",
+      "args": [
+        "int",
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

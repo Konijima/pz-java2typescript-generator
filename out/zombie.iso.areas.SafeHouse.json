@@ -1,0 +1,544 @@
+{
+  "name": "SafeHouse",
+  "package": "zombie.iso.areas",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "SafeHouse",
+      "describe": [],
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "playersRespawn",
+      "scope": "public",
+      "type": "java.util.ArrayList<java.lang.String>",
+      "describe": []
+    },
+    {
+      "name": "getX2",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "getY2",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "init",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.areas.SafeHouse",
+      "name": "addSafeHouse",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.areas.SafeHouse",
+      "name": "addSafeHouse",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.areas.SafeHouse",
+      "name": "hasSafehouse",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.areas.SafeHouse",
+      "name": "hasSafehouse",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "updateSafehousePlayersConnected",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "updatePlayersConnected",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.areas.SafeHouse",
+      "name": "getSafeHouse",
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.areas.SafeHouse",
+      "name": "getSafeHouse",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.areas.SafeHouse",
+      "name": "isSafeHouse",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "clearSafehouseList",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "playerAllowed",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "playerAllowed",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addPlayer",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removePlayer",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "syncSafehouse",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeSafeHouse",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeSafeHouse",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.areas.SafeHouse",
+      "name": "load",
+      "args": [
+        "java.nio.ByteBuffer",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "canBeSafehouse",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "kickOutOfSafehouse",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "checkTrespass",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.areas.SafeHouse",
+      "name": "alreadyHaveSafehouse",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.areas.SafeHouse",
+      "name": "alreadyHaveSafehouse",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "allowSafeHouse",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "updateSafehouse",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getId",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getX",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setX",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getY",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setY",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getW",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setW",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getH",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setH",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "containsLocation",
+      "args": [
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<java.lang.String>",
+      "name": "getPlayers",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setPlayers",
+      "args": [
+        "java.util.ArrayList<java.lang.String>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.util.ArrayList<zombie.iso.areas.SafeHouse>",
+      "name": "getSafehouseList",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getOwner",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setOwner",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isOwner",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "long",
+      "name": "getLastVisited",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setLastVisited",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getTitle",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setTitle",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getPlayerConnected",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setPlayerConnected",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getOpenTimer",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setOpenTimer",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setRespawnInSafehouse",
+      "args": [
+        "boolean",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isRespawnInSafehouse",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "isPlayerAllowedOnSquare",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "zombie.iso.IsoGridSquare"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "ISoundSystem$SoundFormat",
+  "package": "zombie",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.ISoundSystem$SoundFormat>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Ogg",
+      "scope": "public",
+      "type": "zombie.ISoundSystem$SoundFormat",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Wav",
+      "scope": "public",
+      "type": "zombie.ISoundSystem$SoundFormat",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.ISoundSystem$SoundFormat",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

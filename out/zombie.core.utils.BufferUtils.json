@@ -1,0 +1,66 @@
+{
+  "name": "BufferUtils",
+  "package": "zombie.core.utils",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "BufferUtils",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setTrackDirectMemoryEnabled",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "printCurrentDirectMemory",
+      "args": [
+        "java.lang.StringBuilder"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.nio.ByteBuffer",
+      "name": "createByteBuffer",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "destroyDirectBuffer",
+      "args": [
+        "java.nio.Buffer"
+      ]
+    }
+  ]
+}

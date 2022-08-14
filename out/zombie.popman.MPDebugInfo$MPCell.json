@@ -1,0 +1,45 @@
+{
+  "name": "MPDebugInfo$MPCell",
+  "package": "zombie.popman",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "cx",
+      "scope": "public",
+      "type": "short",
+      "describe": []
+    },
+    {
+      "name": "cy",
+      "scope": "public",
+      "type": "short",
+      "describe": []
+    },
+    {
+      "name": "currentPopulation",
+      "scope": "public",
+      "type": "short",
+      "describe": []
+    },
+    {
+      "name": "desiredPopulation",
+      "scope": "public",
+      "type": "short",
+      "describe": []
+    },
+    {
+      "name": "lastRepopTime",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

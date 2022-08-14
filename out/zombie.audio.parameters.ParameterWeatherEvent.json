@@ -1,0 +1,31 @@
+{
+  "name": "ParameterWeatherEvent",
+  "package": "zombie.audio.parameters",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.audio.FMODGlobalParameter"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ParameterWeatherEvent",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "calculateCurrentValue",
+      "args": []
+    }
+  ]
+}

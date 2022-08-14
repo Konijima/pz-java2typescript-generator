@@ -1,0 +1,22 @@
+{
+  "name": "AnimationTrack$KeyframeSpan",
+  "package": "zombie.core.skinnedmodel.animation",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isBone",
+      "args": [
+        "int"
+      ]
+    }
+  ]
+}

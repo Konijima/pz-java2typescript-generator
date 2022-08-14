@@ -1,0 +1,61 @@
+{
+  "name": "CompressIdenticalItems",
+  "package": "zombie.inventory",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "CompressIdenticalItems",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "save",
+      "args": [
+        "java.nio.ByteBuffer",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>",
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "load",
+      "args": [
+        "java.nio.ByteBuffer",
+        "int",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "save",
+      "args": [
+        "java.nio.ByteBuffer",
+        "zombie.inventory.InventoryItem"
+      ]
+    }
+  ]
+}

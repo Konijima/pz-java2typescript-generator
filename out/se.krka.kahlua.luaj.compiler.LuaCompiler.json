@@ -1,0 +1,96 @@
+{
+  "name": "LuaCompiler",
+  "package": "se.krka.kahlua.luaj.compiler",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "se.krka.kahlua.vm.JavaFunction"
+  ],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "rewriteEvents",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "register",
+      "args": [
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "call",
+      "args": [
+        "se.krka.kahlua.vm.LuaCallFrame",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "loadstream",
+      "args": [
+        "se.krka.kahlua.vm.LuaCallFrame",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "se.krka.kahlua.vm.LuaClosure",
+      "name": "loadis",
+      "args": [
+        "java.io.InputStream",
+        "java.lang.String",
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "se.krka.kahlua.vm.LuaClosure",
+      "name": "loadis",
+      "args": [
+        "java.io.Reader",
+        "java.lang.String",
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "se.krka.kahlua.vm.LuaClosure",
+      "name": "loadstring",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    }
+  ]
+}

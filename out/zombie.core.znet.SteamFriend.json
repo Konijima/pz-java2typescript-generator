@@ -1,0 +1,57 @@
+{
+  "name": "SteamFriend",
+  "package": "zombie.core.znet",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "SteamFriend",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "SteamFriend",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "long"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getSteamID",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.textures.Texture",
+      "name": "getAvatar",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getState",
+      "args": []
+    }
+  ]
+}

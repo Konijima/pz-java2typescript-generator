@@ -1,0 +1,71 @@
+{
+  "name": "ModelManager$ModAnimations",
+  "package": "zombie.core.skinnedmodel",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ModAnimations",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_modID",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "m_animationAssetList",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.core.skinnedmodel.model.AnimationAsset>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "m_animationAssetMap",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.String,zombie.core.skinnedmodel.model.AnimationAsset>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "m_priority",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setPriority",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isActive",
+      "args": []
+    }
+  ]
+}

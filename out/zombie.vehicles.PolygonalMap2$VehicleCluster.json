@@ -1,0 +1,14 @@
+{
+  "name": "PolygonalMap2$VehicleCluster",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

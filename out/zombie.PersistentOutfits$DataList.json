@@ -1,0 +1,16 @@
+{
+  "name": "PersistentOutfits$DataList",
+  "package": "zombie",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.util.ArrayList<zombie.PersistentOutfits$Data>"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

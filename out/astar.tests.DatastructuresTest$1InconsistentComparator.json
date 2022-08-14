@@ -1,0 +1,35 @@
+{
+  "name": "DatastructuresTest$1InconsistentComparator",
+  "package": "astar.tests",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "java.util.Comparator<java.lang.Integer>"
+  ],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "compare",
+      "args": [
+        "java.lang.Integer",
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "compare",
+      "args": [
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

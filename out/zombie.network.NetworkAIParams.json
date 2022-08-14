@@ -1,0 +1,237 @@
+{
+  "name": "NetworkAIParams",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "NetworkAIParams",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "ZOMBIE_UPDATE_INFO_BUNCH_RATE_MS",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "CHARACTER_UPDATE_RATE_MS",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "CHARACTER_EXTRAPOLATION_UPDATE_INTERVAL_MS",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ZOMBIE_ANTICIPATORY_UPDATE_MULTIPLIER",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ZOMBIE_REMOVE_INTERVAL_MS",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ZOMBIE_MAX_UPDATE_INTERVAL_MS",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ZOMBIE_MIN_UPDATE_INTERVAL_MS",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "CHARACTER_PREDICTION_INTERVAL_MS",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ZOMBIE_TELEPORT_PLAYER",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ZOMBIE_TELEPORT_DISTANCE_SQ",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "VEHICLE_SPEED_CAP",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "VEHICLE_MOVING_MP_PHYSIC_UPDATE_RATE",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "VEHICLE_MP_PHYSIC_UPDATE_RATE",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "VEHICLE_BUFFER_DELAY_MS",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "VEHICLE_BUFFER_HISTORY_MS",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TIME_VALIDATION_TIMEOUT",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "CHECKSUM_VALIDATION_INTERVAL_MAX",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "CHECKSUM_VALIDATION_INTERVAL_MIN",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "CHECKSUM_VALIDATION_TIMEOUT",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MAX_TOWING_TRAILER_DISTANCE_SQ",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MAX_TOWING_CAR_DISTANCE_SQ",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MAX_RECONNECT_DISTANCE_SQ",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TOWING_DISTANCE",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "Init",
+      "args": []
+    }
+  ]
+}

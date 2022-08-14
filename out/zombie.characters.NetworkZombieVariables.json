@@ -1,0 +1,68 @@
+{
+  "name": "NetworkZombieVariables",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "NetworkZombieVariables",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "getInt",
+      "args": [
+        "zombie.characters.IsoZombie",
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setInt",
+      "args": [
+        "zombie.characters.IsoZombie",
+        "short",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "short",
+      "name": "getBooleanVariables",
+      "args": [
+        "zombie.characters.IsoZombie"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setBooleanVariables",
+      "args": [
+        "zombie.characters.IsoZombie",
+        "short"
+      ]
+    }
+  ]
+}

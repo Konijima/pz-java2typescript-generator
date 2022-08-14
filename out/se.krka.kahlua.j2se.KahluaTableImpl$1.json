@@ -1,0 +1,46 @@
+{
+  "name": "KahluaTableImpl$1",
+  "package": "se.krka.kahlua.j2se",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "se.krka.kahlua.vm.KahluaTableIterator"
+  ],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "call",
+      "args": [
+        "se.krka.kahlua.vm.LuaCallFrame",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "advance",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "getKey",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "getValue",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "TessMono",
+  "package": "org.lwjglx.util.glu.tessellation",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "meshTessellateInterior",
+      "describe": [],
+      "args": [
+        "org.lwjglx.util.glu.tessellation.GLUmesh"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "meshDiscardExterior",
+      "describe": [],
+      "args": [
+        "org.lwjglx.util.glu.tessellation.GLUmesh"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "meshSetWindingNumber",
+      "describe": [],
+      "args": [
+        "org.lwjglx.util.glu.tessellation.GLUmesh",
+        "int",
+        "boolean"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

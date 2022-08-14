@@ -1,0 +1,33 @@
+{
+  "name": "TextureAssetManager",
+  "package": "zombie.core.textures",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.asset.AssetManager"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "TextureAssetManager",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureAssetManager",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": []
+}

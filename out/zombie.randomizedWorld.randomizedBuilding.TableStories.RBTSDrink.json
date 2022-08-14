@@ -1,0 +1,40 @@
+{
+  "name": "RBTSDrink",
+  "package": "zombie.randomizedWorld.randomizedBuilding.TableStories",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.randomizedWorld.randomizedBuilding.TableStories.RBTableStoryBase"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "RBTSDrink",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "randomizeBuilding",
+      "args": [
+        "zombie.iso.BuildingDef"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getDrink",
+      "args": []
+    }
+  ]
+}

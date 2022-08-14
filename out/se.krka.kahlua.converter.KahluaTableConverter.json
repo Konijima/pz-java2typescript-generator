@@ -1,0 +1,31 @@
+{
+  "name": "KahluaTableConverter",
+  "package": "se.krka.kahlua.converter",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "KahluaTableConverter",
+      "describe": [],
+      "args": [
+        "se.krka.kahlua.vm.Platform"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "install",
+      "args": [
+        "se.krka.kahlua.converter.KahluaConverterManager"
+      ]
+    }
+  ]
+}

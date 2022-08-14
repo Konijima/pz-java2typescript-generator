@@ -1,0 +1,23 @@
+{
+  "name": "GLState$BaseIntFloat",
+  "package": "zombie.core.opengl",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "abstract"
+  ],
+  "extends": [
+    "zombie.core.opengl.IOpenGLState<zombie.core.opengl.GLState$CIntFloatValue>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "BaseIntFloat",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

@@ -1,0 +1,39 @@
+{
+  "name": "ClothingItemsDotTxt",
+  "package": "zombie.inventory",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ClothingItemsDotTxt",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.inventory.ClothingItemsDotTxt",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "LoadFile",
+      "args": []
+    }
+  ]
+}

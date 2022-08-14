@@ -1,0 +1,31 @@
+{
+  "name": "Mover",
+  "package": "zombie.ai.astar",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "int",
+      "name": "getID",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "int",
+      "name": "getPathFindIndex",
+      "args": []
+    }
+  ]
+}

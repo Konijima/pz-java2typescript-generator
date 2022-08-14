@@ -1,0 +1,551 @@
+{
+  "name": "HumanVisual",
+  "package": "zombie.core.skinnedmodel.visual",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.core.skinnedmodel.visual.BaseVisual"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "HumanVisual",
+      "describe": [],
+      "args": [
+        "zombie.core.skinnedmodel.visual.IHumanVisual"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "zombieRotStage",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isFemale",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isZombie",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isSkeleton",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setSkinColor",
+      "args": [
+        "zombie.core.ImmutableColor"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.ImmutableColor",
+      "name": "getSkinColor",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setBodyHairIndex",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getBodyHairIndex",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setSkinTextureIndex",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getSkinTextureIndex",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setSkinTextureName",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "lerp",
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "pickRandomZombieRotStage",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getSkinTexture",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setHairColor",
+      "args": [
+        "zombie.core.ImmutableColor"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.ImmutableColor",
+      "name": "getHairColor",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setBeardColor",
+      "args": [
+        "zombie.core.ImmutableColor"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.ImmutableColor",
+      "name": "getBeardColor",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setNaturalHairColor",
+      "args": [
+        "zombie.core.ImmutableColor"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.ImmutableColor",
+      "name": "getNaturalHairColor",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setNaturalBeardColor",
+      "args": [
+        "zombie.core.ImmutableColor"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.ImmutableColor",
+      "name": "getNaturalBeardColor",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setHairModel",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getHairModel",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setBeardModel",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getBeardModel",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setBlood",
+      "args": [
+        "zombie.characterTextures.BloodBodyPartType",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getBlood",
+      "args": [
+        "zombie.characterTextures.BloodBodyPartType"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setDirt",
+      "args": [
+        "zombie.characterTextures.BloodBodyPartType",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getDirt",
+      "args": [
+        "zombie.characterTextures.BloodBodyPartType"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setHole",
+      "args": [
+        "zombie.characterTextures.BloodBodyPartType"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getHole",
+      "args": [
+        "zombie.characterTextures.BloodBodyPartType"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeBlood",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeDirt",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "randomBlood",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "randomDirt",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getTotalBlood",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clear",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "copyFrom",
+      "args": [
+        "zombie.core.skinnedmodel.visual.BaseVisual"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": [
+        "java.nio.ByteBuffer",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.model.Model",
+      "name": "getModel",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.ModelScript",
+      "name": "getModelScript",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.skinnedmodel.model.CharacterMask",
+      "name": "GetMask",
+      "args": [
+        "zombie.core.skinnedmodel.visual.ItemVisuals"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "synchWithOutfit",
+      "args": [
+        "zombie.core.skinnedmodel.population.Outfit"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "dressInNamedOutfit",
+      "args": [
+        "java.lang.String",
+        "zombie.core.skinnedmodel.visual.ItemVisuals"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "dressInClothingItem",
+      "args": [
+        "java.lang.String",
+        "zombie.core.skinnedmodel.visual.ItemVisuals"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "dressInClothingItem",
+      "args": [
+        "java.lang.String",
+        "zombie.core.skinnedmodel.visual.ItemVisuals",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.visual.ItemVisuals",
+      "name": "getBodyVisuals",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.visual.ItemVisual",
+      "name": "addBodyVisual",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.visual.ItemVisual",
+      "name": "addBodyVisualFromItemType",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.visual.ItemVisual",
+      "name": "addBodyVisualFromClothingItemName",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.visual.ItemVisual",
+      "name": "removeBodyVisualFromItemType",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "hasBodyVisualFromItemType",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.visual.ItemVisual",
+      "name": "addClothingItem",
+      "args": [
+        "zombie.core.skinnedmodel.visual.ItemVisuals",
+        "zombie.scripting.objects.Item"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.population.Outfit",
+      "name": "getOutfit",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setOutfit",
+      "args": [
+        "zombie.core.skinnedmodel.population.Outfit"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getNonAttachedHair",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setNonAttachedHair",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setForceModel",
+      "args": [
+        "zombie.core.skinnedmodel.model.Model"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setForceModelScript",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getLastStandString",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "loadLastStandString",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

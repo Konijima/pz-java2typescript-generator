@@ -1,0 +1,110 @@
+{
+  "name": "UINineGrid",
+  "package": "zombie.ui",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.ui.UIElement"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "UINineGrid",
+      "describe": [],
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "clientH",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "clientW",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "nestedItems",
+      "scope": "public",
+      "type": "java.util.Stack<java.awt.Rectangle>",
+      "describe": []
+    },
+    {
+      "name": "Colour",
+      "scope": "public",
+      "type": "zombie.core.Color",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Nest",
+      "args": [
+        "zombie.ui.UIElement",
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setAlpha",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getAlpha",
+      "args": []
+    }
+  ]
+}

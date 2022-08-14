@@ -1,0 +1,198 @@
+{
+  "name": "GeneralErrorDebugLogFormatter",
+  "package": "zombie.debug",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "zombie.debug.IDebugLogFormatter"
+  ],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isLogEnabled",
+      "args": [
+        "zombie.debug.LogSeverity"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isLogSeverityEnabled",
+      "args": [
+        "zombie.debug.LogSeverity"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "format",
+      "args": [
+        "zombie.debug.LogSeverity",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "format",
+      "args": [
+        "zombie.debug.LogSeverity",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "format",
+      "args": [
+        "zombie.debug.LogSeverity",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "format",
+      "args": [
+        "zombie.debug.LogSeverity",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "format",
+      "args": [
+        "zombie.debug.LogSeverity",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "format",
+      "args": [
+        "zombie.debug.LogSeverity",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "format",
+      "args": [
+        "zombie.debug.LogSeverity",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "format",
+      "args": [
+        "zombie.debug.LogSeverity",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "format",
+      "args": [
+        "zombie.debug.LogSeverity",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "format",
+      "args": [
+        "zombie.debug.LogSeverity",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

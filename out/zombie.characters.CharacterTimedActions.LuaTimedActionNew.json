@@ -1,0 +1,143 @@
+{
+  "name": "LuaTimedActionNew",
+  "package": "zombie.characters.CharacterTimedActions",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.characters.CharacterTimedActions.BaseAction"
+  ],
+  "implements": [
+    "zombie.ai.astar.IPathfinder"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "LuaTimedActionNew",
+      "describe": [],
+      "args": [
+        "se.krka.kahlua.vm.KahluaTable",
+        "zombie.characters.IsoGameCharacter"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "waitToStart",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "valid",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "start",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "stop",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "perform",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Failed",
+      "args": [
+        "zombie.ai.astar.Mover"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Succeeded",
+      "args": [
+        "zombie.ai.astar.Path",
+        "zombie.ai.astar.Mover"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Pathfind",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setCurrentTime",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setTime",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "OnAnimEvent",
+      "args": [
+        "zombie.core.skinnedmodel.advancedanimation.AnimEvent"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getMetaType",
+      "args": []
+    }
+  ]
+}

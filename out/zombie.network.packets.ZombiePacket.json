@@ -1,0 +1,214 @@
+{
+  "name": "ZombiePacket",
+  "package": "zombie.network.packets",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "zombie.network.packets.INetworkPacket"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ZombiePacket",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "id",
+      "scope": "public",
+      "type": "short",
+      "describe": []
+    },
+    {
+      "name": "x",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "y",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "z",
+      "scope": "public",
+      "type": "byte",
+      "describe": []
+    },
+    {
+      "name": "descriptorID",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "moveType",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$PredictionTypes",
+      "describe": []
+    },
+    {
+      "name": "booleanVariables",
+      "scope": "public",
+      "type": "short",
+      "describe": []
+    },
+    {
+      "name": "target",
+      "scope": "public",
+      "type": "short",
+      "describe": []
+    },
+    {
+      "name": "timeSinceSeenFlesh",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "smParamTargetAngle",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "speedMod",
+      "scope": "public",
+      "type": "short",
+      "describe": []
+    },
+    {
+      "name": "walkType",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$WalkType",
+      "describe": []
+    },
+    {
+      "name": "realX",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "realY",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "realZ",
+      "scope": "public",
+      "type": "byte",
+      "describe": []
+    },
+    {
+      "name": "realHealth",
+      "scope": "public",
+      "type": "short",
+      "describe": []
+    },
+    {
+      "name": "realState",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": []
+    },
+    {
+      "name": "reanimatedBodyID",
+      "scope": "public",
+      "type": "short",
+      "describe": []
+    },
+    {
+      "name": "pfbType",
+      "scope": "public",
+      "type": "byte",
+      "describe": []
+    },
+    {
+      "name": "pfbTarget",
+      "scope": "public",
+      "type": "short",
+      "describe": []
+    },
+    {
+      "name": "pfbTargetX",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "pfbTargetY",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "pfbTargetZ",
+      "scope": "public",
+      "type": "byte",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "parse",
+      "args": [
+        "java.nio.ByteBuffer",
+        "zombie.core.raknet.UdpConnection"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "write",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "write",
+      "args": [
+        "zombie.core.network.ByteBufferWriter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getPacketSizeBytes",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "copy",
+      "args": [
+        "zombie.network.packets.ZombiePacket"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "zombie.characters.IsoZombie"
+      ]
+    }
+  ]
+}

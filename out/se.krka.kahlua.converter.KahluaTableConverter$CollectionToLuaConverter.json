@@ -1,0 +1,52 @@
+{
+  "name": "KahluaTableConverter$CollectionToLuaConverter<T",
+  "package": "se.krka.kahlua.converter",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [
+    "java.lang.Iterable>"
+  ],
+  "implements": [
+    "se.krka.kahlua.converter.JavaToLuaConverter<T>"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "CollectionToLuaConverter",
+      "describe": [],
+      "args": [
+        "se.krka.kahlua.converter.KahluaConverterManager",
+        "java.lang.Class<T>"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "fromJavaToLua",
+      "args": [
+        "T"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Class<T>",
+      "name": "getJavaType",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "fromJavaToLua",
+      "args": [
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

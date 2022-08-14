@@ -1,0 +1,47 @@
+{
+  "name": "ReturnValueContainerPrimitives$RVBoolean",
+  "package": "zombie.util.lambda",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.util.PooledObject"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "RVBoolean",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "ReturnVal",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onReleased",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.util.lambda.ReturnValueContainerPrimitives$RVBoolean",
+      "name": "alloc",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "name": "NonBlockingHashMapLong<TypeV>",
+  "package": "zombie.core.Collections",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "java.util.AbstractMap<java.lang.Long, TypeV>"
+  ],
+  "implements": [
+    "java.util.concurrent.ConcurrentMap<java.lang.Long, TypeV>",
+    "java.io.Serializable"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "NonBlockingHashMapLong",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "NonBlockingHashMapLong",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "NonBlockingHashMapLong",
+      "describe": [],
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "NonBlockingHashMapLong",
+      "describe": [],
+      "args": [
+        "int",
+        "boolean"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "print",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "long",
+      "name": "reprobes",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "size",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "containsKey",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "contains",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "TypeV",
+      "name": "put",
+      "args": [
+        "long",
+        "TypeV"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "TypeV",
+      "name": "putIfAbsent",
+      "args": [
+        "long",
+        "TypeV"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "TypeV",
+      "name": "remove",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "remove",
+      "args": [
+        "long",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "TypeV",
+      "name": "replace",
+      "args": [
+        "long",
+        "TypeV"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "replace",
+      "args": [
+        "long",
+        "TypeV",
+        "TypeV"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clear",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "containsValue",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "TypeV",
+      "name": "get",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "TypeV",
+      "name": "get",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "TypeV",
+      "name": "remove",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "remove",
+      "args": [
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "containsKey",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "TypeV",
+      "name": "putIfAbsent",
+      "args": [
+        "java.lang.Long",
+        "TypeV"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "TypeV",
+      "name": "replace",
+      "args": [
+        "java.lang.Long",
+        "TypeV"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "TypeV",
+      "name": "put",
+      "args": [
+        "java.lang.Long",
+        "TypeV"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "replace",
+      "args": [
+        "java.lang.Long",
+        "TypeV",
+        "TypeV"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.Enumeration<TypeV>",
+      "name": "elements",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.Collection<TypeV>",
+      "name": "values",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.Enumeration<java.lang.Long>",
+      "name": "keys",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.Set<java.lang.Long>",
+      "name": "keySet",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.Set<java.util.Map$Entry<java.lang.Long,TypeV>>",
+      "name": "entrySet",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "put",
+      "args": [
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "replace",
+      "args": [
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "replace",
+      "args": [
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "putIfAbsent",
+      "args": [
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

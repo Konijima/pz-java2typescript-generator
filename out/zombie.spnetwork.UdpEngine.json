@@ -1,0 +1,44 @@
+{
+  "name": "UdpEngine",
+  "package": "zombie.spnetwork",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "abstract"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "UdpEngine",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "Send",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "Receive",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    }
+  ]
+}

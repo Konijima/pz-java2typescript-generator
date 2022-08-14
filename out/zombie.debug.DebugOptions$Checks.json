@@ -1,0 +1,40 @@
+{
+  "name": "DebugOptions$Checks",
+  "package": "zombie.debug",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.debug.options.OptionGroup"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Checks",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "BoundTextures",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "SlowLuaEvents",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": []
+}

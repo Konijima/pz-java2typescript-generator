@@ -1,0 +1,26 @@
+{
+  "name": "QuitCommand",
+  "package": "zombie.commands.serverCommands",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.commands.CommandBase"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "QuitCommand",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "zombie.core.raknet.UdpConnection"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

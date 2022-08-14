@@ -1,0 +1,32 @@
+{
+  "name": "WorldDictionaryException",
+  "package": "zombie.world",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "java.lang.Exception"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "WorldDictionaryException",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "WorldDictionaryException",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "java.lang.Throwable"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

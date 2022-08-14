@@ -1,0 +1,1411 @@
+{
+  "name": "Keyboard",
+  "package": "org.lwjglx.input",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Keyboard",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "CHAR_NONE",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_NONE",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_ESCAPE",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_1",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_2",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_3",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_4",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_5",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_6",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_7",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_8",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_9",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_0",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_MINUS",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_EQUALS",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_BACK",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_TAB",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_Q",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_W",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_E",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_R",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_T",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_Y",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_U",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_I",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_O",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_P",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_LBRACKET",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_RBRACKET",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_RETURN",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_LCONTROL",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_A",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_S",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_D",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_F",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_G",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_H",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_J",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_K",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_L",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_SEMICOLON",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_APOSTROPHE",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_GRAVE",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_LSHIFT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_BACKSLASH",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_Z",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_X",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_C",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_V",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_B",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_N",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_M",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_COMMA",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_PERIOD",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_SLASH",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_RSHIFT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_MULTIPLY",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_LMENU",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_SPACE",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_CAPITAL",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_F1",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_F2",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_F3",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_F4",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_F5",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_F6",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_F7",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_F8",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_F9",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_F10",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_NUMLOCK",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_SCROLL",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_NUMPAD7",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_NUMPAD8",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_NUMPAD9",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_SUBTRACT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_NUMPAD4",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_NUMPAD5",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_NUMPAD6",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_ADD",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_NUMPAD1",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_NUMPAD2",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_NUMPAD3",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_NUMPAD0",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_DECIMAL",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_F11",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_F12",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_F13",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_F14",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_F15",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_F16",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_F17",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_F18",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_KANA",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_F19",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_CONVERT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_NOCONVERT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_YEN",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_NUMPADEQUALS",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_CIRCUMFLEX",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_AT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_COLON",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_UNDERLINE",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_KANJI",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_STOP",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_AX",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_UNLABELED",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_NUMPADENTER",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_RCONTROL",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_SECTION",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_NUMPADCOMMA",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_DIVIDE",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_SYSRQ",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_RMENU",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_FUNCTION",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_PAUSE",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_HOME",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_UP",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_PRIOR",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_LEFT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_RIGHT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_END",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_DOWN",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_NEXT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_INSERT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_DELETE",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_CLEAR",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_LMETA",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_LWIN",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_RMETA",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_RWIN",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_APPS",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_POWER",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEY_SLEEP",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KEYBOARD_SIZE",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "addKeyEvent",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "addCharEvent",
+      "args": [
+        "char"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "create",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "initKeyNames",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "isKeyDown",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "poll",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "enableRepeatEvents",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "areRepeatEventsEnabled",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "isRepeatEvent",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "next",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "getEventKey",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "char",
+      "name": "getEventCharacter",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "getEventKeyState",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "long",
+      "name": "getEventNanoseconds",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "getKeyName",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "getKeyIndex",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "isCreated",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "destroy",
+      "args": []
+    }
+  ]
+}

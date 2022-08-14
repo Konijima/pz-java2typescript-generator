@@ -1,0 +1,137 @@
+{
+  "name": "TextureCombiner",
+  "package": "zombie.core.textures",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "TextureCombiner",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "flipPixels",
+      "describe": [],
+      "args": [
+        "int[]",
+        "int",
+        "int"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureCombiner",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "count",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "init",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "combineStart",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "combineEnd",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clear",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "overlay",
+      "args": [
+        "zombie.core.textures.Texture"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.textures.Texture",
+      "name": "combine",
+      "args": [
+        "zombie.core.textures.Texture",
+        "zombie.core.textures.Texture"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "releaseTexture",
+      "args": [
+        "zombie.core.textures.Texture"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.textures.Texture",
+      "name": "combine",
+      "args": [
+        "java.util.ArrayList<zombie.core.textures.TextureCombinerCommand>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "getResultingHeight",
+      "args": [
+        "java.util.ArrayList<zombie.core.textures.TextureCombinerCommand>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "getResultingWidth",
+      "args": [
+        "java.util.ArrayList<zombie.core.textures.TextureCombinerCommand>"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "name": "IsoMetaChunk",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IsoMetaChunk",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "zombiesMinPerChunk",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "zombiesFullPerChunk",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getZombieIntensity",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getZombieIntensity",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setZombieIntensity",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getLootZombieIntensity",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getUnadjustedZombieIntensity",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addZone",
+      "args": [
+        "zombie.iso.IsoMetaGrid$Zone"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeZone",
+      "args": [
+        "zombie.iso.IsoMetaGrid$Zone"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoMetaGrid$Zone",
+      "name": "getZone",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoMetaGrid$Zone",
+      "name": "getZoneAt",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.iso.IsoMetaGrid$Zone>",
+      "name": "getZonesAt",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "java.util.ArrayList<zombie.iso.IsoMetaGrid$Zone>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getZonesUnique",
+      "args": [
+        "java.util.Set<zombie.iso.IsoMetaGrid$Zone>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getZonesIntersecting",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "java.util.ArrayList<zombie.iso.IsoMetaGrid$Zone>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clearZones",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clearRooms",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "numZones",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addRoom",
+      "args": [
+        "zombie.iso.RoomDef"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.RoomDef",
+      "name": "getRoomAt",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.RoomDef",
+      "name": "getEmptyOutsideAt",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getNumRooms",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getRoomsIntersecting",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "java.util.ArrayList<zombie.iso.RoomDef>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Dispose",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "WorldMapMarker",
+  "package": "zombie.worldMap.markers",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "abstract"
+  ],
+  "extends": [
+    "zombie.util.PooledObject"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "WorldMapMarker",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

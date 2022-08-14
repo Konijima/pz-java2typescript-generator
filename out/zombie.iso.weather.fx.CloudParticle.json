@@ -1,0 +1,43 @@
+{
+  "name": "CloudParticle",
+  "package": "zombie.iso.weather.fx",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.iso.weather.fx.WeatherParticle"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "CloudParticle",
+      "describe": [],
+      "args": [
+        "zombie.core.textures.Texture"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "CloudParticle",
+      "describe": [],
+      "args": [
+        "zombie.core.textures.Texture",
+        "int",
+        "int"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": [
+        "float"
+      ]
+    }
+  ]
+}

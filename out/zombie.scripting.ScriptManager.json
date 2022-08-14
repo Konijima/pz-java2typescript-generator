@@ -1,0 +1,478 @@
+{
+  "name": "ScriptManager",
+  "package": "zombie.scripting",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [
+    "zombie.scripting.IScriptObjectStore"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ScriptManager",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.scripting.ScriptManager",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "currentFileName",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "scriptsWithVehicles",
+      "scope": "public",
+      "type": "java.util.ArrayList<java.lang.String>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "scriptsWithVehicleTemplates",
+      "scope": "public",
+      "type": "java.util.ArrayList<java.lang.String>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ModuleMap",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.String,zombie.scripting.objects.ScriptModule>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ModuleList",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.scripting.objects.ScriptModule>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "CurrentLoadingModule",
+      "scope": "public",
+      "type": "zombie.scripting.objects.ScriptModule",
+      "describe": []
+    },
+    {
+      "name": "VanillaID",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "ParseScript",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "LoadFile",
+      "args": [
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "searchFolders",
+      "args": [
+        "java.net.URI",
+        "java.io.File",
+        "java.util.ArrayList<java.lang.String>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "getItemName",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.ScriptModule",
+      "name": "getModule",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.ScriptModule",
+      "name": "getModule",
+      "args": [
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.ScriptModule",
+      "name": "getModuleNoDisableCheck",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.Item",
+      "name": "getItem",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.Item",
+      "name": "FindItem",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.Item",
+      "name": "FindItem",
+      "args": [
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isDrainableItemType",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.Recipe",
+      "name": "getRecipe",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.VehicleScript",
+      "name": "getVehicle",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.VehicleTemplate",
+      "name": "getVehicleTemplate",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.VehicleEngineRPM",
+      "name": "getVehicleEngineRPM",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "CheckExitPoints",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.scripting.objects.Item>",
+      "name": "getAllItems",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.scripting.objects.Item>",
+      "name": "getItemsTag",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.scripting.objects.Item>",
+      "name": "getItemsByType",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.List<zombie.scripting.objects.Fixing>",
+      "name": "getAllFixing",
+      "args": [
+        "java.util.List<zombie.scripting.objects.Fixing>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.scripting.objects.Recipe>",
+      "name": "getAllRecipes",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.Stack<zombie.scripting.objects.EvolvedRecipe>",
+      "name": "getAllEvolvedRecipes",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.Stack<zombie.scripting.objects.UniqueRecipe>",
+      "name": "getAllUniqueRecipes",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.scripting.objects.GameSoundScript>",
+      "name": "getAllGameSounds",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.core.skinnedmodel.runtime.RuntimeAnimationScript>",
+      "name": "getAllRuntimeAnimationScripts",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.AnimationsMesh",
+      "name": "getAnimationsMesh",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.scripting.objects.AnimationsMesh>",
+      "name": "getAllAnimationsMeshes",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.MannequinScript",
+      "name": "getMannequinScript",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.scripting.objects.MannequinScript>",
+      "name": "getAllMannequinScripts",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.ModelScript",
+      "name": "getModelScript",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.scripting.objects.ModelScript>",
+      "name": "getAllModelScripts",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.scripting.objects.VehicleScript>",
+      "name": "getAllVehicleScripts",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.SoundTimelineScript",
+      "name": "getSoundTimeline",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Reset",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getChecksum",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "getCurrentLoadFileMod",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "getCurrentLoadFileAbsPath",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Load",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.scripting.objects.Recipe>",
+      "name": "getAllRecipesFor",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getItemTypeForClothingItem",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.Item",
+      "name": "getItemForClothingItem",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<java.lang.String>",
+      "name": "getZedDmgMap",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "resolveItemType",
+      "args": [
+        "zombie.scripting.objects.ScriptModule",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "resolveModelScript",
+      "args": [
+        "zombie.scripting.objects.ScriptModule",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.Item",
+      "name": "getSpecificItem",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

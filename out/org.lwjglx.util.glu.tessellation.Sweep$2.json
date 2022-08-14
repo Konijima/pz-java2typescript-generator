@@ -1,0 +1,25 @@
+{
+  "name": "Sweep$2",
+  "package": "org.lwjglx.util.glu.tessellation",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "org.lwjglx.util.glu.tessellation.PriorityQ$Leq"
+  ],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "leq",
+      "args": [
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

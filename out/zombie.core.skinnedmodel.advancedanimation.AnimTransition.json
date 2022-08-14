@@ -1,0 +1,64 @@
+{
+  "name": "AnimTransition",
+  "package": "zombie.core.skinnedmodel.advancedanimation",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "AnimTransition",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_Target",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "m_AnimName",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "m_SyncAdjustTime",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m_blendInTime",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m_blendOutTime",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m_speedScale",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m_Conditions",
+      "scope": "public",
+      "type": "java.util.List<zombie.core.skinnedmodel.advancedanimation.AnimCondition>",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

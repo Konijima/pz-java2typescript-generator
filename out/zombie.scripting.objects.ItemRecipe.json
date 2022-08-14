@@ -1,0 +1,82 @@
+{
+  "name": "ItemRecipe",
+  "package": "zombie.scripting.objects",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ItemRecipe",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.Integer"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "name",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "use",
+      "scope": "public",
+      "type": "java.lang.Integer",
+      "describe": []
+    },
+    {
+      "name": "cooked",
+      "scope": "public",
+      "type": "java.lang.Boolean",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Integer",
+      "name": "getUse",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getModule",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setModule",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getFullType",
+      "args": []
+    }
+  ]
+}

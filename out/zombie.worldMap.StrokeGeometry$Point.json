@@ -1,0 +1,14 @@
+{
+  "name": "StrokeGeometry$Point",
+  "package": "zombie.worldMap",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

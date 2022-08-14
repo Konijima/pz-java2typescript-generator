@@ -1,0 +1,69 @@
+{
+  "name": "PlayerDB$SQLPlayerStore",
+  "package": "zombie.savefile",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [
+    "zombie.savefile.PlayerDB$IPlayerStore"
+  ],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "init",
+      "args": [
+        "gnu.trove.set.hash.TIntHashSet"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Reset",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": [
+        "zombie.savefile.PlayerDB$PlayerData"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "load",
+      "args": [
+        "zombie.savefile.PlayerDB$PlayerData"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "loadEverythingExceptBytes",
+      "args": [
+        "zombie.savefile.PlayerDB$PlayerData"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": [
+        "zombie.savefile.PlayerDB$PlayerData"
+      ]
+    }
+  ]
+}

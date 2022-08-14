@@ -1,0 +1,24 @@
+{
+  "name": "ObjectPool$1",
+  "package": "zombie.popman",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [
+    "java.util.ArrayList<T>"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "contains",
+      "args": [
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

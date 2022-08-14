@@ -1,0 +1,109 @@
+{
+  "name": "LoginQueue",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "LoginQueue",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "receiveClientLoginQueueRequest",
+      "args": [
+        "java.nio.ByteBuffer",
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "receiveLoginQueueDone",
+      "args": [
+        "java.nio.ByteBuffer",
+        "zombie.core.raknet.UdpConnection",
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "receiveServerLoginQueueRequest",
+      "args": [
+        "java.nio.ByteBuffer",
+        "zombie.core.raknet.UdpConnection",
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "receiveLogin",
+      "args": [
+        "zombie.core.raknet.UdpConnection"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "disconnect",
+      "args": [
+        "zombie.core.raknet.UdpConnection"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "isInTheQueue",
+      "args": [
+        "zombie.core.raknet.UdpConnection"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "getDescription",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "name": "ErosionCategory",
+  "package": "zombie.erosion.categories",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "abstract"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ErosionCategory",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "ID",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "region",
+      "scope": "public",
+      "type": "zombie.erosion.ErosionRegions$Region",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "updateObj",
+      "args": [
+        "zombie.erosion.ErosionData$Square",
+        "zombie.erosion.categories.ErosionCategory$Data",
+        "zombie.iso.IsoGridSquare",
+        "zombie.erosion.obj.ErosionObj",
+        "boolean",
+        "int",
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "init",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "replaceExistingObject",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "zombie.erosion.ErosionData$Square",
+        "zombie.erosion.ErosionData$Chunk",
+        "boolean",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "validateSpawn",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "zombie.erosion.ErosionData$Square",
+        "zombie.erosion.ErosionData$Chunk",
+        "boolean",
+        "boolean",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "update",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "zombie.erosion.ErosionData$Square",
+        "zombie.erosion.categories.ErosionCategory$Data",
+        "zombie.erosion.ErosionData$Chunk",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.erosion.categories.ErosionCategory$Data",
+      "name": "loadCategoryData",
+      "args": [
+        "java.nio.ByteBuffer",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "getObjectNames",
+      "args": [
+        "java.util.ArrayList<java.lang.String>"
+      ]
+    }
+  ]
+}

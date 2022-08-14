@@ -1,0 +1,149 @@
+{
+  "name": "AnimationPlayerRecorder",
+  "package": "zombie.core.skinnedmodel.animation.debug",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "AnimationPlayerRecorder",
+      "describe": [],
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "beginLine",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "endLine",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "discardRecording",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.io.PrintStream",
+      "name": "openFileStream",
+      "args": [
+        "java.lang.String",
+        "boolean",
+        "java.util.function.Consumer<java.lang.String>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "logAnimWeights",
+      "args": [
+        "java.util.List<zombie.core.skinnedmodel.animation.AnimationTrack>",
+        "int[]",
+        "float[]",
+        "zombie.iso.Vector2"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "logAnimNode",
+      "args": [
+        "zombie.core.skinnedmodel.advancedanimation.LiveAnimNode"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "logActionState",
+      "args": [
+        "zombie.characters.action.ActionState",
+        "java.util.List<zombie.characters.action.ActionState>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "logAIState",
+      "args": [
+        "zombie.ai.State",
+        "java.util.List<zombie.ai.StateMachine$SubstateSlot>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "logAnimState",
+      "args": [
+        "zombie.core.skinnedmodel.advancedanimation.AnimState"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "logVariables",
+      "args": [
+        "zombie.core.skinnedmodel.advancedanimation.IAnimationVariableSource"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "logCharacterPos",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.characters.IsoGameCharacter",
+      "name": "getOwner",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isRecording",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setRecording",
+      "args": [
+        "boolean"
+      ]
+    }
+  ]
+}

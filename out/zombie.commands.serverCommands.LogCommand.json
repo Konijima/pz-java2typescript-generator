@@ -1,0 +1,49 @@
+{
+  "name": "LogCommand",
+  "package": "zombie.commands.serverCommands",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.commands.CommandBase"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "LogCommand",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "zombie.core.raknet.UdpConnection"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.debug.DebugType",
+      "name": "getDebugType",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.debug.LogSeverity",
+      "name": "getLogSeverity",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

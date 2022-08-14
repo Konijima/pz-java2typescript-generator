@@ -1,0 +1,21 @@
+{
+  "name": "CharacterTextures",
+  "package": "zombie.core.skinnedmodel",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "CharacterTextures",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

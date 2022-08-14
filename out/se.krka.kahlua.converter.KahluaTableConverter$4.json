@@ -1,0 +1,49 @@
+{
+  "name": "KahluaTableConverter$4",
+  "package": "se.krka.kahlua.converter",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "se.krka.kahlua.converter.LuaToJavaConverter<se.krka.kahlua.vm.KahluaTable, java.lang.Object>"
+  ],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "fromLuaToJava",
+      "args": [
+        "se.krka.kahlua.vm.KahluaTable",
+        "java.lang.Class<java.lang.Object>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Class<java.lang.Object>",
+      "name": "getJavaType",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Class<se.krka.kahlua.vm.KahluaTable>",
+      "name": "getLuaType",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "fromLuaToJava",
+      "args": [
+        "java.lang.Object",
+        "java.lang.Class"
+      ]
+    }
+  ]
+}

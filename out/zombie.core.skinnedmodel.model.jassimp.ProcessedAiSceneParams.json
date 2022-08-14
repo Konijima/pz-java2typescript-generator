@@ -1,0 +1,59 @@
+{
+  "name": "ProcessedAiSceneParams",
+  "package": "zombie.core.skinnedmodel.model.jassimp",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "scene",
+      "scope": "public",
+      "type": "jassimp.AiScene",
+      "describe": []
+    },
+    {
+      "name": "mode",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.jassimp.JAssImpImporter$LoadMode",
+      "describe": []
+    },
+    {
+      "name": "skinnedTo",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.SkinningData",
+      "describe": []
+    },
+    {
+      "name": "meshName",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "animBonesScaleModifier",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "animBonesRotateModifier",
+      "scope": "public",
+      "type": "org.lwjgl.util.vector.Quaternion",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.skinnedmodel.model.jassimp.ProcessedAiSceneParams",
+      "name": "create",
+      "args": []
+    }
+  ]
+}

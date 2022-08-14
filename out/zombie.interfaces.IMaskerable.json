@@ -1,0 +1,22 @@
+{
+  "name": "IMaskerable",
+  "package": "zombie.interfaces",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "zombie.core.textures.Mask",
+      "name": "getMask",
+      "args": []
+    }
+  ]
+}

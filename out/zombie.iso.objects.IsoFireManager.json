@@ -1,0 +1,414 @@
+{
+  "name": "IsoFireManager",
+  "package": "zombie.iso.objects",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IsoFireManager",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "LightCalc",
+      "describe": [],
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "zombie.iso.IsoGridSquare",
+        "int"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "Red_Oscilator",
+      "scope": "public",
+      "type": "double",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "Green_Oscilator",
+      "scope": "public",
+      "type": "double",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "Blue_Oscilator",
+      "scope": "public",
+      "type": "double",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "Red_Oscilator_Rate",
+      "scope": "public",
+      "type": "double",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "Green_Oscilator_Rate",
+      "scope": "public",
+      "type": "double",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "Blue_Oscilator_Rate",
+      "scope": "public",
+      "type": "double",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "Red_Oscilator_Val",
+      "scope": "public",
+      "type": "double",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "Green_Oscilator_Val",
+      "scope": "public",
+      "type": "double",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "Blue_Oscilator_Val",
+      "scope": "public",
+      "type": "double",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "OscilatorSpeedScalar",
+      "scope": "public",
+      "type": "double",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "OscilatorEffectScalar",
+      "scope": "public",
+      "type": "double",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "MaxFireObjects",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "FireRecalcDelay",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "FireRecalc",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "LightCalcFromBurningCharacters",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "FireAlpha",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "SmokeAlpha",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "FireAnimDelay",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "SmokeAnimDelay",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "FireTintMod",
+      "scope": "public",
+      "type": "zombie.core.textures.ColorInfo",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "SmokeTintMod",
+      "scope": "public",
+      "type": "zombie.core.textures.ColorInfo",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "FireStack",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.iso.objects.IsoFire>",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "CharactersOnFire_Stack",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.characters.IsoGameCharacter>",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "Add",
+      "args": [
+        "zombie.iso.objects.IsoFire"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "AddBurningCharacter",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "LightTileWithFire",
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "explode",
+      "args": [
+        "zombie.iso.IsoCell",
+        "zombie.iso.IsoGridSquare",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "MolotovSmash",
+      "args": [
+        "zombie.iso.IsoCell",
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "Remove",
+      "args": [
+        "zombie.iso.objects.IsoFire"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "RemoveBurningCharacter",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "StartFire",
+      "args": [
+        "zombie.iso.IsoCell",
+        "zombie.iso.IsoGridSquare",
+        "boolean",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "StartSmoke",
+      "args": [
+        "zombie.iso.IsoCell",
+        "zombie.iso.IsoGridSquare",
+        "boolean",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "StartFire",
+      "args": [
+        "zombie.iso.IsoCell",
+        "zombie.iso.IsoGridSquare",
+        "boolean",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "addCharacterOnFire",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "deleteCharacterOnFire",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "Update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "updateSound",
+      "args": [
+        "zombie.iso.objects.IsoFire"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "stopSound",
+      "args": [
+        "zombie.iso.objects.IsoFire"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "RemoveAllOn",
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "Reset",
+      "args": []
+    }
+  ]
+}

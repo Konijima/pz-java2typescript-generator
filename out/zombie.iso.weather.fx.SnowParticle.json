@@ -1,0 +1,43 @@
+{
+  "name": "SnowParticle",
+  "package": "zombie.iso.weather.fx",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.iso.weather.fx.WeatherParticle"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "SnowParticle",
+      "describe": [],
+      "args": [
+        "zombie.core.textures.Texture"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": [
+        "float",
+        "float"
+      ]
+    }
+  ]
+}

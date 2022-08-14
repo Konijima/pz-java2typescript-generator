@@ -1,0 +1,93 @@
+{
+  "name": "BentFences",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "BentFences",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.BentFences",
+      "name": "getInstance",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addFenceTiles",
+      "args": [
+        "int",
+        "se.krka.kahlua.j2se.KahluaTableImpl"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isBentObject",
+      "args": [
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isUnbentObject",
+      "args": [
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "swapTiles",
+      "args": [
+        "zombie.iso.IsoObject",
+        "zombie.iso.IsoDirections"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "bendFence",
+      "args": [
+        "zombie.iso.IsoObject",
+        "zombie.iso.IsoDirections"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "unbendFence",
+      "args": [
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Reset",
+      "args": []
+    }
+  ]
+}

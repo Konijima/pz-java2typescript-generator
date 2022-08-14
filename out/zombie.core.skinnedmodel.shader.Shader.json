@@ -1,0 +1,421 @@
+{
+  "name": "Shader",
+  "package": "zombie.core.skinnedmodel.shader",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Shader",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "boolean"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "BoneIndicesAttrib",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "BoneWeightsAttrib",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "setTextureUninstall1",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "setTextureUninstall2",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "setTextureLightsEnables1",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "setTextureLightsEnables2",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "setTextureDamage1Enables1",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "setTextureDamage1Enables2",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "setTextureDamage2Enables1",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "setTextureDamage2Enables2",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "setMatrixBlood1",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "setMatrixBlood2",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isStatic",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.opengl.ShaderProgram",
+      "name": "getShaderProgram",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setTexture",
+      "args": [
+        "zombie.core.textures.Texture",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getID",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Start",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "End",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "startCharacter",
+      "args": [
+        "zombie.core.skinnedmodel.model.ModelSlotRenderData",
+        "zombie.core.skinnedmodel.model.ModelInstanceRenderData"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "updateAlpha",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setAlpha",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "updateParams",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setMatrixPalette",
+      "args": [
+        "org.lwjgl.util.vector.Matrix4f[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setMatrixPalette",
+      "args": [
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setMatrixPalette",
+      "args": [
+        "java.nio.FloatBuffer",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setMatrixPalette",
+      "args": [
+        "org.joml.Matrix4f[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setTint",
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setTextureRustA",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setTexturePainColor",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setTexturePainColor",
+      "args": [
+        "org.joml.Vector3f",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setTexturePainColor",
+      "args": [
+        "org.joml.Vector4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setReflectionParam",
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setShaderAlpha",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setLight",
+      "args": [
+        "int",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "zombie.core.skinnedmodel.model.ModelInstance"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setLight",
+      "args": [
+        "int",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "zombie.iso.IsoMovingObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setHueShift",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setLightingAmount",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setDepthBias",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setAmbient",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setAmbient",
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setTransformMatrix",
+      "args": [
+        "org.lwjgl.util.vector.Matrix4f",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setTransformMatrix",
+      "args": [
+        "org.joml.Matrix4f",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setMatrix",
+      "args": [
+        "int",
+        "org.joml.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setMatrix",
+      "args": [
+        "int",
+        "float[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isVehicleShader",
+      "args": []
+    }
+  ]
+}

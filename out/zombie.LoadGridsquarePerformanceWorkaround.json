@@ -1,0 +1,45 @@
+{
+  "name": "LoadGridsquarePerformanceWorkaround",
+  "package": "zombie",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "LoadGridsquarePerformanceWorkaround",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "init",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "LoadGridsquare",
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    }
+  ]
+}

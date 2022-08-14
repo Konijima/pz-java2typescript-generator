@@ -1,0 +1,52 @@
+{
+  "name": "PathFindBehavior2$NPCData",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "NPCData",
+      "describe": [],
+      "args": [
+        "zombie.vehicles.PathFindBehavior2"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "doDirectMovement",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "MaxSteps",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "nextTileX",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "nextTileY",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "nextTileZ",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

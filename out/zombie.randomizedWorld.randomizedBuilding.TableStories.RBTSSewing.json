@@ -1,0 +1,33 @@
+{
+  "name": "RBTSSewing",
+  "package": "zombie.randomizedWorld.randomizedBuilding.TableStories",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.randomizedWorld.randomizedBuilding.TableStories.RBTableStoryBase"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "RBTSSewing",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "randomizeBuilding",
+      "args": [
+        "zombie.iso.BuildingDef"
+      ]
+    }
+  ]
+}

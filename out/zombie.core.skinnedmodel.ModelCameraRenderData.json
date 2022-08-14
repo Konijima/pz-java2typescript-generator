@@ -1,0 +1,73 @@
+{
+  "name": "ModelCameraRenderData",
+  "package": "zombie.core.skinnedmodel",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.core.textures.TextureDraw$GenericDrawer"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ModelCameraRenderData",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "s_pool",
+      "scope": "public",
+      "type": "zombie.popman.ObjectPool<zombie.core.skinnedmodel.ModelCameraRenderData>",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.ModelCameraRenderData",
+      "name": "init",
+      "args": [
+        "zombie.core.skinnedmodel.ModelCamera",
+        "zombie.core.skinnedmodel.ModelManager$ModelSlot"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.ModelCameraRenderData",
+      "name": "init",
+      "args": [
+        "zombie.core.skinnedmodel.ModelCamera",
+        "float",
+        "boolean",
+        "float",
+        "float",
+        "float",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "postRender",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "ProcessedAiScene",
+  "package": "zombie.core.skinnedmodel.model.jassimp",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.skinnedmodel.model.jassimp.ProcessedAiScene",
+      "name": "process",
+      "args": [
+        "zombie.core.skinnedmodel.model.jassimp.ProcessedAiSceneParams"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "applyToMesh",
+      "args": [
+        "zombie.core.skinnedmodel.model.ModelMesh",
+        "zombie.core.skinnedmodel.model.jassimp.JAssImpImporter$LoadMode",
+        "boolean",
+        "zombie.core.skinnedmodel.model.SkinningData"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "applyToAnimation",
+      "args": [
+        "zombie.core.skinnedmodel.model.AnimationAsset"
+      ]
+    }
+  ]
+}

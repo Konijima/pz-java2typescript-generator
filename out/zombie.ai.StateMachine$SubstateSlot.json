@@ -1,0 +1,27 @@
+{
+  "name": "StateMachine$SubstateSlot",
+  "package": "zombie.ai",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.ai.State",
+      "name": "getState",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isEmpty",
+      "args": []
+    }
+  ]
+}

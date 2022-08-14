@@ -1,0 +1,46 @@
+{
+  "name": "BaseVehicle$WheelInfo",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "WheelInfo",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "steering",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "rotation",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "skidInfo",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "suspensionLength",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

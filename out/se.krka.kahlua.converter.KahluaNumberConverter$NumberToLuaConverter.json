@@ -1,0 +1,51 @@
+{
+  "name": "KahluaNumberConverter$NumberToLuaConverter<T",
+  "package": "se.krka.kahlua.converter",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [
+    "java.lang.Number>"
+  ],
+  "implements": [
+    "se.krka.kahlua.converter.JavaToLuaConverter<T>"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "NumberToLuaConverter",
+      "describe": [],
+      "args": [
+        "java.lang.Class<T>"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "fromJavaToLua",
+      "args": [
+        "T"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Class<T>",
+      "name": "getJavaType",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "fromJavaToLua",
+      "args": [
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

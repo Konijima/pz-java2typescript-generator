@@ -1,0 +1,70 @@
+{
+  "name": "StringLib$MatchState",
+  "package": "se.krka.kahlua.stdlib",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "MatchState",
+      "describe": [],
+      "args": [
+        "se.krka.kahlua.vm.LuaCallFrame",
+        "se.krka.kahlua.stdlib.StringLib$StringPointer",
+        "int"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "callFrame",
+      "scope": "public",
+      "type": "se.krka.kahlua.vm.LuaCallFrame",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "src_init",
+      "scope": "public",
+      "type": "se.krka.kahlua.stdlib.StringLib$StringPointer",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "endIndex",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "se",
+      "scope": "public",
+      "type": "final",
+      "describe": []
+    },
+    {
+      "name": "level",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "getCapture",
+      "args": [
+        "int"
+      ]
+    }
+  ]
+}

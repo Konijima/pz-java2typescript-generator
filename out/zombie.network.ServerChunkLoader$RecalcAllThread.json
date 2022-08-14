@@ -1,0 +1,22 @@
+{
+  "name": "ServerChunkLoader$RecalcAllThread",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [
+    "java.lang.Thread"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "run",
+      "args": []
+    }
+  ]
+}

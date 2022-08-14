@@ -1,0 +1,21 @@
+{
+  "name": "Counter",
+  "package": "zombie.core.Collections",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.core.Collections.ConcurrentAutoTable"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Counter",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

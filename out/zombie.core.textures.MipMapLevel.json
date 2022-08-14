@@ -1,0 +1,95 @@
+{
+  "name": "MipMapLevel",
+  "package": "zombie.core.textures",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "MipMapLevel",
+      "describe": [],
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "MipMapLevel",
+      "describe": [],
+      "args": [
+        "int",
+        "int",
+        "zombie.core.utils.WrappedBuffer"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "width",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "height",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "data",
+      "scope": "public",
+      "type": "zombie.core.utils.WrappedBuffer",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "dispose",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isDisposed",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "rewind",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.ByteBuffer",
+      "name": "getBuffer",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getDataSize",
+      "args": []
+    }
+  ]
+}

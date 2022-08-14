@@ -1,0 +1,81 @@
+{
+  "name": "VehicleInterpolation",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "reset",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clear",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "interpolationDataAdd",
+      "args": [
+        "zombie.vehicles.BaseVehicle",
+        "zombie.vehicles.VehicleInterpolationData"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "interpolationDataAdd",
+      "args": [
+        "java.nio.ByteBuffer",
+        "long",
+        "float",
+        "float",
+        "float",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "interpolationDataGet",
+      "args": [
+        "float[]",
+        "float[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "interpolationDataGet",
+      "args": [
+        "float[]",
+        "float[]",
+        "long"
+      ]
+    }
+  ]
+}

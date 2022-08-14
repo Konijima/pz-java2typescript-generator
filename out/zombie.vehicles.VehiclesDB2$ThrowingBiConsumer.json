@@ -1,0 +1,27 @@
+{
+  "name": "VehiclesDB2$ThrowingBiConsumer<T1,",
+  "package": "zombie.vehicles",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "java.lang.Exception>"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "accept",
+      "args": [
+        "T1",
+        "T2"
+      ]
+    }
+  ]
+}

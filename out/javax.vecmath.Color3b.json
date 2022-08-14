@@ -1,0 +1,86 @@
+{
+  "name": "Color3b",
+  "package": "javax.vecmath",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "javax.vecmath.Tuple3b"
+  ],
+  "implements": [
+    "java.io.Serializable"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "b",
+      "describe": [],
+      "args": [
+        "byte",
+        "byte",
+        "byte"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "b",
+      "describe": [],
+      "args": [
+        "byte[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "b",
+      "describe": [],
+      "args": [
+        "javax.vecmath.Color3b"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "b",
+      "describe": [],
+      "args": [
+        "javax.vecmath.Tuple3b"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "b",
+      "describe": [],
+      "args": [
+        "java.awt.Color"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "b",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "java.awt.Color"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "java.awt.Color",
+      "name": "get",
+      "args": []
+    }
+  ]
+}

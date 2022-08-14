@@ -1,0 +1,446 @@
+{
+  "name": "Tuple2d",
+  "package": "javax.vecmath",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "abstract"
+  ],
+  "extends": [],
+  "implements": [
+    "java.io.Serializable",
+    "java.lang.Cloneable"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "double[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "javax.vecmath.Tuple2d"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "javax.vecmath.Tuple2f"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "x",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "y",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "double[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Tuple2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Tuple2f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "double[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "add",
+      "args": [
+        "javax.vecmath.Tuple2d",
+        "javax.vecmath.Tuple2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "add",
+      "args": [
+        "javax.vecmath.Tuple2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "sub",
+      "args": [
+        "javax.vecmath.Tuple2d",
+        "javax.vecmath.Tuple2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "sub",
+      "args": [
+        "javax.vecmath.Tuple2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "negate",
+      "args": [
+        "javax.vecmath.Tuple2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "negate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "scale",
+      "args": [
+        "double",
+        "javax.vecmath.Tuple2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "scale",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "scaleAdd",
+      "args": [
+        "double",
+        "javax.vecmath.Tuple2d",
+        "javax.vecmath.Tuple2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "scaleAdd",
+      "args": [
+        "double",
+        "javax.vecmath.Tuple2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "hashCode",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "javax.vecmath.Tuple2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "epsilonEquals",
+      "args": [
+        "javax.vecmath.Tuple2d",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "clamp",
+      "args": [
+        "double",
+        "double",
+        "javax.vecmath.Tuple2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "clampMin",
+      "args": [
+        "double",
+        "javax.vecmath.Tuple2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "clampMax",
+      "args": [
+        "double",
+        "javax.vecmath.Tuple2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "absolute",
+      "args": [
+        "javax.vecmath.Tuple2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "clamp",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "clampMin",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "clampMax",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "absolute",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "interpolate",
+      "args": [
+        "javax.vecmath.Tuple2d",
+        "javax.vecmath.Tuple2d",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "interpolate",
+      "args": [
+        "javax.vecmath.Tuple2d",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "clone",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "double",
+      "name": "getX",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setX",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "double",
+      "name": "getY",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setY",
+      "args": [
+        "double"
+      ]
+    }
+  ]
+}

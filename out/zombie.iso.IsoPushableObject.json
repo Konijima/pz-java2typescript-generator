@@ -1,0 +1,142 @@
+{
+  "name": "IsoPushableObject",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.iso.IsoMovingObject"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IsoPushableObject",
+      "describe": [],
+      "args": [
+        "zombie.iso.IsoCell"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "IsoPushableObject",
+      "describe": [],
+      "args": [
+        "zombie.iso.IsoCell",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "IsoPushableObject",
+      "describe": [],
+      "args": [
+        "zombie.iso.IsoCell",
+        "zombie.iso.IsoGridSquare",
+        "zombie.iso.sprite.IsoSprite"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "carryCapacity",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "emptyWeight",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "connectList",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.iso.IsoPushableObject>",
+      "describe": []
+    },
+    {
+      "name": "ox",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "oy",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getObjectName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": [
+        "java.nio.ByteBuffer",
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": [
+        "java.nio.ByteBuffer",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getWeight",
+      "args": [
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "Serialize",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "DoCollideNorS",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "DoCollideWorE",
+      "args": []
+    }
+  ]
+}

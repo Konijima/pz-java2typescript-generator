@@ -1,0 +1,99 @@
+{
+  "name": "PathFindBehavior2$Goal",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.vehicles.PathFindBehavior2$Goal>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "None",
+      "scope": "public",
+      "type": "zombie.vehicles.PathFindBehavior2$Goal",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Character",
+      "scope": "public",
+      "type": "zombie.vehicles.PathFindBehavior2$Goal",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Location",
+      "scope": "public",
+      "type": "zombie.vehicles.PathFindBehavior2$Goal",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Sound",
+      "scope": "public",
+      "type": "zombie.vehicles.PathFindBehavior2$Goal",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleAdjacent",
+      "scope": "public",
+      "type": "zombie.vehicles.PathFindBehavior2$Goal",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleArea",
+      "scope": "public",
+      "type": "zombie.vehicles.PathFindBehavior2$Goal",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleSeat",
+      "scope": "public",
+      "type": "zombie.vehicles.PathFindBehavior2$Goal",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.vehicles.PathFindBehavior2$Goal",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

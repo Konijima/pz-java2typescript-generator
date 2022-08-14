@@ -1,0 +1,255 @@
+{
+  "name": "SteamFriends",
+  "package": "zombie.core.znet",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "SteamFriends",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "Init",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "Shutdown",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "k_EPersonaStateOffline",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "k_EPersonaStateOnline",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "k_EPersonaStateBusy",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "k_EPersonaStateAway",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "k_EPersonaStateSnooze",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "k_EPersonaStateLookingToTrade",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "k_EPersonaStateLookingToPlay",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "init",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "shutdown",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native java.lang.String",
+      "name": "GetPersonaName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native int",
+      "name": "GetFriendCount",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native long",
+      "name": "GetFriendByIndex",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native java.lang.String",
+      "name": "GetFriendPersonaName",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native int",
+      "name": "GetFriendPersonaState",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native boolean",
+      "name": "InviteUserToGame",
+      "args": [
+        "long",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "ActivateGameOverlay",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "ActivateGameOverlayToUser",
+      "args": [
+        "java.lang.String",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "ActivateGameOverlayToWebPage",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "SetPlayedWith",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "UpdateRichPresenceConnectionInfo",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.util.List<zombie.core.znet.SteamFriend>",
+      "name": "GetFriendList",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native int",
+      "name": "CreateSteamAvatar",
+      "args": [
+        "long",
+        "java.nio.ByteBuffer"
+      ]
+    }
+  ]
+}

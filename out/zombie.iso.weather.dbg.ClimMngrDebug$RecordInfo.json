@@ -1,0 +1,43 @@
+{
+  "name": "ClimMngrDebug$RecordInfo",
+  "package": "zombie.iso.weather.dbg",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "isWeather",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "strength",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "airType",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "durationHours",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "weatherType",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

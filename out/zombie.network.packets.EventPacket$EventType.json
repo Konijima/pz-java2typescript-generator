@@ -1,0 +1,234 @@
+{
+  "name": "EventPacket$EventType",
+  "package": "zombie.network.packets",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.network.packets.EventPacket$EventType>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "EventSetActivatedPrimary",
+      "scope": "public",
+      "type": "zombie.network.packets.EventPacket$EventType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "EventSetActivatedSecondary",
+      "scope": "public",
+      "type": "zombie.network.packets.EventPacket$EventType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "EventFishing",
+      "scope": "public",
+      "type": "zombie.network.packets.EventPacket$EventType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "EventFitness",
+      "scope": "public",
+      "type": "zombie.network.packets.EventPacket$EventType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "EventEmote",
+      "scope": "public",
+      "type": "zombie.network.packets.EventPacket$EventType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "EventClimbFence",
+      "scope": "public",
+      "type": "zombie.network.packets.EventPacket$EventType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "EventClimbDownRope",
+      "scope": "public",
+      "type": "zombie.network.packets.EventPacket$EventType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "EventClimbRope",
+      "scope": "public",
+      "type": "zombie.network.packets.EventPacket$EventType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "EventClimbWall",
+      "scope": "public",
+      "type": "zombie.network.packets.EventPacket$EventType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "EventClimbWindow",
+      "scope": "public",
+      "type": "zombie.network.packets.EventPacket$EventType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "EventOpenWindow",
+      "scope": "public",
+      "type": "zombie.network.packets.EventPacket$EventType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "EventCloseWindow",
+      "scope": "public",
+      "type": "zombie.network.packets.EventPacket$EventType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "EventSmashWindow",
+      "scope": "public",
+      "type": "zombie.network.packets.EventPacket$EventType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "EventSitOnGround",
+      "scope": "public",
+      "type": "zombie.network.packets.EventPacket$EventType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "wasBumped",
+      "scope": "public",
+      "type": "zombie.network.packets.EventPacket$EventType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "collideWithWall",
+      "scope": "public",
+      "type": "zombie.network.packets.EventPacket$EventType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "EventUpdateFitness",
+      "scope": "public",
+      "type": "zombie.network.packets.EventPacket$EventType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "EventFallClimb",
+      "scope": "public",
+      "type": "zombie.network.packets.EventPacket$EventType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "EventOverrideItem",
+      "scope": "public",
+      "type": "zombie.network.packets.EventPacket$EventType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ChargeSpearConnect",
+      "scope": "public",
+      "type": "zombie.network.packets.EventPacket$EventType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Update",
+      "scope": "public",
+      "type": "zombie.network.packets.EventPacket$EventType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Unknown",
+      "scope": "public",
+      "type": "zombie.network.packets.EventPacket$EventType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.network.packets.EventPacket$EventType",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

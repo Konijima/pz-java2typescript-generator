@@ -1,0 +1,64 @@
+{
+  "name": "VehicleGauge",
+  "package": "zombie.ui",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.ui.UIElement"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "VehicleGauge",
+      "describe": [],
+      "args": [
+        "zombie.core.textures.Texture",
+        "int",
+        "int",
+        "float",
+        "float"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setNeedleWidth",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setValue",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setTexture",
+      "args": [
+        "zombie.core.textures.Texture"
+      ]
+    }
+  ]
+}

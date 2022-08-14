@@ -1,0 +1,79 @@
+{
+  "name": "SharedSkeleAnimationTrack",
+  "package": "zombie.core.skinnedmodel.animation.sharedskele",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "zombie.core.skinnedmodel.animation.AnimTrackSampler"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "SharedSkeleAnimationTrack",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "zombie.core.skinnedmodel.animation.AnimTrackSampler",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getTotalTime",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isLooped",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "moveToTime",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getCurrentTime",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getBoneMatrix",
+      "args": [
+        "int",
+        "org.lwjgl.util.vector.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getNumBones",
+      "args": []
+    }
+  ]
+}

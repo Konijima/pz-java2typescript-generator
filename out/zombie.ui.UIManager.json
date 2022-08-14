@@ -1,0 +1,1482 @@
+{
+  "name": "UIManager",
+  "package": "zombie.ui",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "UIManager",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "lastMouseX",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "lastMouseY",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "Picked",
+      "scope": "public",
+      "type": "zombie.iso.IsoObjectPicker$ClickObject",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "clock",
+      "scope": "public",
+      "type": "zombie.ui.Clock",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "UI",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.ui.UIElement>",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "toolTip",
+      "scope": "public",
+      "type": "zombie.ui.ObjectTooltip",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "mouseArrow",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "mouseExamine",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "mouseAttack",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "mouseGrab",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "speedControls",
+      "scope": "public",
+      "type": "zombie.ui.SpeedControls",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "DebugConsole",
+      "scope": "public",
+      "type": "zombie.ui.UIDebugConsole",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "ServerToolbox",
+      "scope": "public",
+      "type": "zombie.ui.UIServerToolbox",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "zombie",
+      "scope": "public",
+      "type": "final",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "bFadeBeforeUI",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "zombie",
+      "scope": "public",
+      "type": "final",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "FadeAlpha",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "FadeInTimeMax",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "FadeInTime",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "FadingOut",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "lastMouseTexture",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "LastPicked",
+      "scope": "public",
+      "type": "zombie.iso.IsoObject",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "DoneTutorials",
+      "scope": "public",
+      "type": "java.util.ArrayList<java.lang.String>",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "lastOffX",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "lastOffY",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "Modal",
+      "scope": "public",
+      "type": "zombie.ui.ModalDialog",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "KeyDownZoomIn",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "KeyDownZoomOut",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "doTick",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "VisibleAllUI",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "UIFBO",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureFBO",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "useUIFBO",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "black",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "bSuspend",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "lastAlpha",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "PickedTileLocal",
+      "scope": "public",
+      "type": "zombie.iso.Vector2",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PickedTile",
+      "scope": "public",
+      "type": "zombie.iso.Vector2",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RightDownObject",
+      "scope": "public",
+      "type": "zombie.iso.IsoObject",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "uiUpdateTimeMS",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "uiUpdateIntervalMS",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "uiRenderTimeMS",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "uiRenderIntervalMS",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "toTop",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.ui.UIElement>",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "defaultthread",
+      "scope": "public",
+      "type": "se.krka.kahlua.vm.KahluaThread",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "previousThread",
+      "scope": "public",
+      "type": "se.krka.kahlua.vm.KahluaThread",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "luaDebuggerAction",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "AddUI",
+      "args": [
+        "zombie.ui.UIElement"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "RemoveElement",
+      "args": [
+        "zombie.ui.UIElement"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "closeContainers",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "CloseContainers",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "DrawTexture",
+      "args": [
+        "zombie.core.textures.Texture",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "DrawTexture",
+      "args": [
+        "zombie.core.textures.Texture",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "FadeIn",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "FadeOut",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "CreateFBO",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.textures.TextureFBO",
+      "name": "createTexture",
+      "args": [
+        "float",
+        "float",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "init",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "render",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "resize",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.Vector2",
+      "name": "getTileFromMouse",
+      "args": [
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.Double",
+      "name": "getLastMouseX",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setLastMouseX",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.Double",
+      "name": "getLastMouseY",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setLastMouseY",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.IsoObjectPicker$ClickObject",
+      "name": "getPicked",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setPicked",
+      "args": [
+        "zombie.iso.IsoObjectPicker$ClickObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.ui.Clock",
+      "name": "getClock",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setClock",
+      "args": [
+        "zombie.ui.Clock"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.util.ArrayList<zombie.ui.UIElement>",
+      "name": "getUI",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setUI",
+      "args": [
+        "java.util.ArrayList<zombie.ui.UIElement>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.ui.ObjectTooltip",
+      "name": "getToolTip",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setToolTip",
+      "args": [
+        "zombie.ui.ObjectTooltip"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.textures.Texture",
+      "name": "getMouseArrow",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setMouseArrow",
+      "args": [
+        "zombie.core.textures.Texture"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.textures.Texture",
+      "name": "getMouseExamine",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setMouseExamine",
+      "args": [
+        "zombie.core.textures.Texture"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.textures.Texture",
+      "name": "getMouseAttack",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setMouseAttack",
+      "args": [
+        "zombie.core.textures.Texture"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.textures.Texture",
+      "name": "getMouseGrab",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setMouseGrab",
+      "args": [
+        "zombie.core.textures.Texture"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.ui.SpeedControls",
+      "name": "getSpeedControls",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setSpeedControls",
+      "args": [
+        "zombie.ui.SpeedControls"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.ui.UIDebugConsole",
+      "name": "getDebugConsole",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setDebugConsole",
+      "args": [
+        "zombie.ui.UIDebugConsole"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.ui.UIServerToolbox",
+      "name": "getServerToolbox",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setServerToolbox",
+      "args": [
+        "zombie.ui.UIServerToolbox"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.ui.MoodlesUI",
+      "name": "getMoodleUI",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setMoodleUI",
+      "args": [
+        "double",
+        "zombie.ui.MoodlesUI"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "isbFadeBeforeUI",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setbFadeBeforeUI",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.ui.ActionProgressBar",
+      "name": "getProgressBar",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setProgressBar",
+      "args": [
+        "double",
+        "zombie.ui.ActionProgressBar"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.Double",
+      "name": "getFadeAlpha",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setFadeAlpha",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.Double",
+      "name": "getFadeInTimeMax",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setFadeInTimeMax",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.Double",
+      "name": "getFadeInTime",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setFadeInTime",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.Boolean",
+      "name": "isFadingOut",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setFadingOut",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.textures.Texture",
+      "name": "getLastMouseTexture",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setLastMouseTexture",
+      "args": [
+        "zombie.core.textures.Texture"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.IsoObject",
+      "name": "getLastPicked",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setLastPicked",
+      "args": [
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.util.ArrayList<java.lang.String>",
+      "name": "getDoneTutorials",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setDoneTutorials",
+      "args": [
+        "java.util.ArrayList<java.lang.String>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "getLastOffX",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setLastOffX",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "getLastOffY",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setLastOffY",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.ui.ModalDialog",
+      "name": "getModal",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setModal",
+      "args": [
+        "zombie.ui.ModalDialog"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.textures.Texture",
+      "name": "getBlack",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setBlack",
+      "args": [
+        "zombie.core.textures.Texture"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "getLastAlpha",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setLastAlpha",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.Vector2",
+      "name": "getPickedTileLocal",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setPickedTileLocal",
+      "args": [
+        "zombie.iso.Vector2"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.Vector2",
+      "name": "getPickedTile",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setPickedTile",
+      "args": [
+        "zombie.iso.Vector2"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.IsoObject",
+      "name": "getRightDownObject",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setRightDownObject",
+      "args": [
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "isShowPausedMessage",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setShowPausedMessage",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setShowLuaDebuggerOnError",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "isShowLuaDebuggerOnError",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "debugBreakpoint",
+      "args": [
+        "java.lang.String",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "se.krka.kahlua.vm.KahluaThread",
+      "name": "getDefaultThread",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.Double",
+      "name": "getDoubleClickInterval",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.Double",
+      "name": "getDoubleClickDist",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.Boolean",
+      "name": "isDoubleClick",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setPlayerInventory",
+      "args": [
+        "int",
+        "zombie.ui.UIElement",
+        "zombie.ui.UIElement"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setPlayerInventoryTooltip",
+      "args": [
+        "int",
+        "zombie.ui.UIElement",
+        "zombie.ui.UIElement"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "isMouseOverInventory",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "updateBeforeFadeOut",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setVisibleAllUI",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setFadeBeforeUI",
+      "args": [
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "getFadeAlpha",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setFadeTime",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "FadeIn",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "FadeOut",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "isFBOActive",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "double",
+      "name": "getMillisSinceLastUpdate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "double",
+      "name": "getSecondsSinceLastUpdate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "double",
+      "name": "getMillisSinceLastRender",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "double",
+      "name": "getSecondsSinceLastRender",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "onKeyPress",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "onKeyRepeat",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "onKeyRelease",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "isForceCursorVisible",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "MethodCaller",
+  "package": "se.krka.kahlua.integration.expose.caller",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "se.krka.kahlua.integration.expose.caller.AbstractCaller"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "MethodCaller",
+      "describe": [],
+      "args": [
+        "java.lang.reflect.Method",
+        "java.lang.Object",
+        "boolean"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "call",
+      "args": [
+        "java.lang.Object",
+        "se.krka.kahlua.integration.expose.ReturnValues",
+        "java.lang.Object[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "hasSelf",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getDescriptor",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "hashCode",
+      "args": []
+    }
+  ]
+}

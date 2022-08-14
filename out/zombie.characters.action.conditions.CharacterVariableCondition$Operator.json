@@ -1,0 +1,90 @@
+{
+  "name": "CharacterVariableCondition$Operator",
+  "package": "zombie.characters.action.conditions",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.characters.action.conditions.CharacterVariableCondition$Operator>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Equal",
+      "scope": "public",
+      "type": "zombie.characters.action.conditions.CharacterVariableCondition$Operator",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "NotEqual",
+      "scope": "public",
+      "type": "zombie.characters.action.conditions.CharacterVariableCondition$Operator",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Less",
+      "scope": "public",
+      "type": "zombie.characters.action.conditions.CharacterVariableCondition$Operator",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Greater",
+      "scope": "public",
+      "type": "zombie.characters.action.conditions.CharacterVariableCondition$Operator",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "LessEqual",
+      "scope": "public",
+      "type": "zombie.characters.action.conditions.CharacterVariableCondition$Operator",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "GreaterEqual",
+      "scope": "public",
+      "type": "zombie.characters.action.conditions.CharacterVariableCondition$Operator",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characters.action.conditions.CharacterVariableCondition$Operator",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

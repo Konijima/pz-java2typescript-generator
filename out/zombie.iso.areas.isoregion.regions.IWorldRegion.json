@@ -1,0 +1,85 @@
+{
+  "name": "IWorldRegion",
+  "package": "zombie.iso.areas.isoregion.regions",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.util.ArrayList<zombie.iso.areas.isoregion.regions.IsoWorldRegion>",
+      "name": "getDebugConnectedNeighborCopy",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.util.ArrayList<zombie.iso.areas.isoregion.regions.IsoWorldRegion>",
+      "name": "getNeighbors",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "isFogMask",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "isPlayerRoom",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "isFullyRoofed",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "int",
+      "name": "getRoofCnt",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "int",
+      "name": "getSquareSize",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.util.ArrayList<zombie.iso.areas.isoregion.regions.IsoChunkRegion>",
+      "name": "getDebugIsoChunkRegionCopy",
+      "args": []
+    }
+  ]
+}

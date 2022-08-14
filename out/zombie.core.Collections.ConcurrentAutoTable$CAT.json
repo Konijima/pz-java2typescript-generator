@@ -1,0 +1,75 @@
+{
+  "name": "ConcurrentAutoTable$CAT",
+  "package": "zombie.core.Collections",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "java.io.Serializable"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "mask",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "int",
+        "zombie.core.Collections.ConcurrentAutoTable"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "sum",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "or",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "and",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "set",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "long",
+      "name": "sum",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "print",
+      "args": []
+    }
+  ]
+}

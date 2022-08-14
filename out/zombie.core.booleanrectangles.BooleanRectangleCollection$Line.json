@@ -1,0 +1,36 @@
+{
+  "name": "BooleanRectangleCollection$Line",
+  "package": "zombie.core.booleanrectangles",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Line",
+      "describe": [],
+      "args": [
+        "zombie.core.booleanrectangles.BooleanRectangleCollection",
+        "zombie.core.booleanrectangles.BooleanRectangleCollection$Point",
+        "zombie.core.booleanrectangles.BooleanRectangleCollection$Point"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "Start",
+      "scope": "public",
+      "type": "zombie.core.booleanrectangles.BooleanRectangleCollection$Point",
+      "describe": []
+    },
+    {
+      "name": "End",
+      "scope": "public",
+      "type": "zombie.core.booleanrectangles.BooleanRectangleCollection$Point",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

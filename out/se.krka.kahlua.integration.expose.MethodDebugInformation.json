@@ -1,0 +1,75 @@
+{
+  "name": "MethodDebugInformation",
+  "package": "se.krka.kahlua.integration.expose",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "MethodDebugInformation",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "boolean",
+        "java.util.List<se.krka.kahlua.integration.expose.MethodParameter>",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getLuaName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getLuaDescription",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isMethod",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.List<se.krka.kahlua.integration.expose.MethodParameter>",
+      "name": "getParameters",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getReturnDescription",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getReturnType",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    }
+  ]
+}

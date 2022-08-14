@@ -1,0 +1,127 @@
+{
+  "name": "Point3f",
+  "package": "javax.vecmath",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "javax.vecmath.Tuple3f"
+  ],
+  "implements": [
+    "java.io.Serializable"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "float[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "javax.vecmath.Point3f"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "javax.vecmath.Point3d"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "javax.vecmath.Tuple3f"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "javax.vecmath.Tuple3d"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "distanceL1",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "float",
+      "name": "distanceSquared",
+      "args": [
+        "javax.vecmath.Point3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "float",
+      "name": "distance",
+      "args": [
+        "javax.vecmath.Point3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "float",
+      "name": "distanceLinf",
+      "args": [
+        "javax.vecmath.Point3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "project",
+      "args": [
+        "javax.vecmath.Point4f"
+      ]
+    }
+  ]
+}

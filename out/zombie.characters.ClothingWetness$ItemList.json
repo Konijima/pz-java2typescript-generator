@@ -1,0 +1,16 @@
+{
+  "name": "ClothingWetness$ItemList",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.util.ArrayList<zombie.inventory.InventoryItem>"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

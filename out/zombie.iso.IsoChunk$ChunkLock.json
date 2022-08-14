@@ -1,0 +1,100 @@
+{
+  "name": "IsoChunk$ChunkLock",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ChunkLock",
+      "describe": [],
+      "args": [
+        "int",
+        "int"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "wx",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "wy",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "count",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "rw",
+      "scope": "public",
+      "type": "java.util.concurrent.locks.ReentrantReadWriteLock",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoChunk$ChunkLock",
+      "name": "set",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoChunk$ChunkLock",
+      "name": "ref",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "deref",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "lockForReading",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "unlockForReading",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "lockForWriting",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "unlockForWriting",
+      "args": []
+    }
+  ]
+}

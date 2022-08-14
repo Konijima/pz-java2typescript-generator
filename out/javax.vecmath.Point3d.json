@@ -1,0 +1,127 @@
+{
+  "name": "Point3d",
+  "package": "javax.vecmath",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "javax.vecmath.Tuple3d"
+  ],
+  "implements": [
+    "java.io.Serializable"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "double[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "javax.vecmath.Point3d"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "javax.vecmath.Point3f"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "javax.vecmath.Tuple3f"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "javax.vecmath.Tuple3d"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "distanceL1",
+      "scope": "public",
+      "type": "double",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "double",
+      "name": "distanceSquared",
+      "args": [
+        "javax.vecmath.Point3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "double",
+      "name": "distance",
+      "args": [
+        "javax.vecmath.Point3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "double",
+      "name": "distanceLinf",
+      "args": [
+        "javax.vecmath.Point3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "project",
+      "args": [
+        "javax.vecmath.Point4d"
+      ]
+    }
+  ]
+}

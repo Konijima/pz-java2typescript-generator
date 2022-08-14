@@ -1,0 +1,66 @@
+{
+  "name": "INetworkPacket",
+  "package": "zombie.network.packets",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "parse",
+      "args": [
+        "java.nio.ByteBuffer",
+        "zombie.core.raknet.UdpConnection"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "write",
+      "args": [
+        "zombie.core.network.ByteBufferWriter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "default int",
+      "name": "getPacketSizeBytes",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "default boolean",
+      "name": "isConsistent",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "default java.lang.String",
+      "name": "getDescription",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "default void",
+      "name": "log",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

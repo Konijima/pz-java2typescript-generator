@@ -1,0 +1,49 @@
+{
+  "name": "BitMatrix",
+  "package": "zombie",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "BitMatrix",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "Is",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "Set",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "boolean"
+      ]
+    }
+  ]
+}

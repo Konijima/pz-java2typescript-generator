@@ -1,0 +1,56 @@
+{
+  "name": "CGlobalObjectNetwork",
+  "package": "zombie.globalObjects",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "CGlobalObjectNetwork",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "receive",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendClientCommand",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "java.lang.String",
+        "java.lang.String",
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "Reset",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "name": "SuggestedPaletteImpl",
+  "package": "com.sixlegs.png",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "com.sixlegs.png.SuggestedPalette"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "SuggestedPaletteImpl",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "int",
+        "byte[]"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getSampleCount",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getSampleDepth",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getSample",
+      "args": [
+        "int",
+        "short[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getFrequency",
+      "args": [
+        "int"
+      ]
+    }
+  ]
+}

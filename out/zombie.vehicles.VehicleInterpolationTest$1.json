@@ -1,0 +1,14 @@
+{
+  "name": "VehicleInterpolationTest$1",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [
+    "org.junit.rules.TestWatcher"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

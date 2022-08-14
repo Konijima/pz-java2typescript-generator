@@ -1,0 +1,2606 @@
+{
+  "name": "MemUtil$MemUtilUnsafe",
+  "package": "org.joml",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "org.joml.MemUtil$MemUtilNIO"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "MemUtilUnsafe",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "Transposed",
+      "describe": [],
+      "args": [
+        "org.joml.Matrix4f",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Transposed",
+      "describe": [],
+      "args": [
+        "org.joml.Matrix4d",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "org.joml.Quaternionf",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "org.joml.Quaternionf",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "org.joml.Quaternionf",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "org.joml.Quaternionf",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "org.joml.Quaternionf",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "org.joml.Quaternionf",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "org.joml.Quaternionf",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "org.joml.Quaternionf",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "org.joml.Quaternionf",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Transposed",
+      "describe": [],
+      "args": [
+        "org.joml.Matrix4f",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Transposed",
+      "describe": [],
+      "args": [
+        "org.joml.Matrix4f",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Transposed",
+      "describe": [],
+      "args": [
+        "org.joml.Matrix4d",
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Transposed",
+      "describe": [],
+      "args": [
+        "org.joml.Matrix4d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "UNSAFE",
+      "scope": "public",
+      "type": "sun.misc.Unsafe",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ADDRESS",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Matrix2f_m00",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Matrix3f_m00",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Matrix3d_m00",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Matrix4f_m00",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Matrix4d_m00",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Matrix4x3f_m00",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Matrix3x2f_m00",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Vector4f_x",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Vector4i_x",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Vector3f_x",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Vector3i_x",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Vector2f_x",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Vector2i_x",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Quaternionf_x",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "floatArrayOffset",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "put4x3",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "put3x4",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "put4x4",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "put3x4",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "put4x4",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "put4x4",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "put4x4",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "put3x3",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "put3x3",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "put3x4",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "put4x3",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "put4x3",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "put3x4",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "put3x4",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "put4x4",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "put4x4",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "put3x4",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "put3x4",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "put4x4",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "put4x4",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "put4x4",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "put4x4",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "put4x4",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "put4x4",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "put3x3",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "put3x3",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "put3x3",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "put3x3",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "put3x4",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "put3x4",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "sun.misc.Unsafe",
+      "name": "getUnsafeInstance",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix4f",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix4x3f",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "putTransposed",
+      "args": [
+        "org.joml.Matrix4f",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "putTransposed",
+      "args": [
+        "org.joml.Matrix4x3f",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "putTransposed",
+      "args": [
+        "org.joml.Matrix3f",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "putTransposed",
+      "args": [
+        "org.joml.Matrix2f",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix4d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix4x3d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "putTransposed",
+      "args": [
+        "org.joml.Matrix4d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "putfTransposed",
+      "args": [
+        "org.joml.Matrix4d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "putTransposed",
+      "args": [
+        "org.joml.Matrix4x3d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "putTransposed",
+      "args": [
+        "org.joml.Matrix2d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "putfTransposed",
+      "args": [
+        "org.joml.Matrix4x3d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "putfTransposed",
+      "args": [
+        "org.joml.Matrix2d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "putf",
+      "args": [
+        "org.joml.Matrix4d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "putf",
+      "args": [
+        "org.joml.Matrix4x3d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix3f",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix3d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix3x2f",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix3x2d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "putf",
+      "args": [
+        "org.joml.Matrix3d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix2f",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix2d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "putf",
+      "args": [
+        "org.joml.Matrix2d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector4d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "putf",
+      "args": [
+        "org.joml.Vector4d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector4f",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector4i",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector3f",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector3d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "putf",
+      "args": [
+        "org.joml.Vector3d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector3i",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector2f",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector2d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector2i",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix4f",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "getTransposed",
+      "args": [
+        "org.joml.Matrix4f",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix4x3f",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix4d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix4x3d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "getf",
+      "args": [
+        "org.joml.Matrix4d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "getf",
+      "args": [
+        "org.joml.Matrix4x3d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix3f",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix3d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix3x2f",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix3x2d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "getf",
+      "args": [
+        "org.joml.Matrix3d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix2f",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix2d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "getf",
+      "args": [
+        "org.joml.Matrix2d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Vector4d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Vector4f",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Vector4i",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Vector3f",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Vector3d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Vector3i",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Vector2f",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Vector2d",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Vector2i",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix4f",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix4f",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix4x3f",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix4x3f",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putTransposed",
+      "args": [
+        "org.joml.Matrix4f",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putTransposed",
+      "args": [
+        "org.joml.Matrix4f",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putTransposed",
+      "args": [
+        "org.joml.Matrix4x3f",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putTransposed",
+      "args": [
+        "org.joml.Matrix4x3f",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putTransposed",
+      "args": [
+        "org.joml.Matrix3f",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putTransposed",
+      "args": [
+        "org.joml.Matrix3f",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putTransposed",
+      "args": [
+        "org.joml.Matrix2f",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putTransposed",
+      "args": [
+        "org.joml.Matrix2f",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix4d",
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix4d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix4x3d",
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix4x3d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putf",
+      "args": [
+        "org.joml.Matrix4d",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putf",
+      "args": [
+        "org.joml.Matrix4d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putf",
+      "args": [
+        "org.joml.Matrix4x3d",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putf",
+      "args": [
+        "org.joml.Matrix4x3d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putTransposed",
+      "args": [
+        "org.joml.Matrix4d",
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putTransposed",
+      "args": [
+        "org.joml.Matrix4d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putTransposed",
+      "args": [
+        "org.joml.Matrix4x3d",
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putTransposed",
+      "args": [
+        "org.joml.Matrix4x3d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putTransposed",
+      "args": [
+        "org.joml.Matrix2d",
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putTransposed",
+      "args": [
+        "org.joml.Matrix2d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putfTransposed",
+      "args": [
+        "org.joml.Matrix4d",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putfTransposed",
+      "args": [
+        "org.joml.Matrix4d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putfTransposed",
+      "args": [
+        "org.joml.Matrix4x3d",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putfTransposed",
+      "args": [
+        "org.joml.Matrix4x3d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putfTransposed",
+      "args": [
+        "org.joml.Matrix2d",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putfTransposed",
+      "args": [
+        "org.joml.Matrix2d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix3f",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix3f",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix3d",
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix3d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix3x2f",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix3x2f",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix3x2d",
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix3x2d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putf",
+      "args": [
+        "org.joml.Matrix3d",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putf",
+      "args": [
+        "org.joml.Matrix3d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix2f",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix2f",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix2d",
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Matrix2d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putf",
+      "args": [
+        "org.joml.Matrix2d",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putf",
+      "args": [
+        "org.joml.Matrix2d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector4d",
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector4d",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector4d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putf",
+      "args": [
+        "org.joml.Vector4d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector4f",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector4f",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector4i",
+        "int",
+        "java.nio.IntBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector4i",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector3f",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector3f",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector3d",
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector3d",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector3d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putf",
+      "args": [
+        "org.joml.Vector3d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector3i",
+        "int",
+        "java.nio.IntBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector3i",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector2f",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector2f",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector2d",
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector2d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector2i",
+        "int",
+        "java.nio.IntBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "put",
+      "args": [
+        "org.joml.Vector2i",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix4f",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix4f",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix4f",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4f",
+      "name": "set",
+      "args": [
+        "org.joml.Matrix4f",
+        "int",
+        "int",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix4d",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "set",
+      "args": [
+        "org.joml.Matrix4d",
+        "int",
+        "int",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix3f",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix3f",
+      "name": "set",
+      "args": [
+        "org.joml.Matrix3f",
+        "int",
+        "int",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix3d",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix3d",
+      "name": "set",
+      "args": [
+        "org.joml.Matrix3d",
+        "int",
+        "int",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix4x3f",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix4x3f",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix4d",
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix4d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix4x3d",
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix4x3d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getf",
+      "args": [
+        "org.joml.Matrix4d",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getf",
+      "args": [
+        "org.joml.Matrix4d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getf",
+      "args": [
+        "org.joml.Matrix4x3d",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getf",
+      "args": [
+        "org.joml.Matrix4x3d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix3f",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix3f",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix3d",
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix3d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix3x2f",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix3x2f",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix3x2d",
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix3x2d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getf",
+      "args": [
+        "org.joml.Matrix3d",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getf",
+      "args": [
+        "org.joml.Matrix3d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix2f",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix2f",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix2d",
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix2d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getf",
+      "args": [
+        "org.joml.Matrix2d",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getf",
+      "args": [
+        "org.joml.Matrix2d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Vector4d",
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Vector4d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Vector4f",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Vector4f",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Vector4i",
+        "int",
+        "java.nio.IntBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Vector4i",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Vector3f",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Vector3f",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Vector3d",
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Vector3d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Vector3i",
+        "int",
+        "java.nio.IntBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Vector3i",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Vector2f",
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Vector2f",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Vector2d",
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Vector2d",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Vector2i",
+        "int",
+        "java.nio.IntBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.joml.Vector2i",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    }
+  ]
+}

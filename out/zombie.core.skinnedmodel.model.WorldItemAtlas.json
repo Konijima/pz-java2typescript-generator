@@ -1,0 +1,89 @@
+{
+  "name": "WorldItemAtlas",
+  "package": "zombie.core.skinnedmodel.model",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "WorldItemAtlas",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "ATLAS_SIZE",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MATRIX_SIZE",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.WorldItemAtlas",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.model.WorldItemAtlas$ItemTexture",
+      "name": "getItemTexture",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.model.WorldItemAtlas$ItemTexture",
+      "name": "getItemTexture",
+      "args": [
+        "zombie.core.skinnedmodel.model.WorldItemAtlas$ItemParams"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "renderUI",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Reset",
+      "args": []
+    }
+  ]
+}

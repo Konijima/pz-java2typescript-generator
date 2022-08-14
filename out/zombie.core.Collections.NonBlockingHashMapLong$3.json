@@ -1,0 +1,54 @@
+{
+  "name": "NonBlockingHashMapLong$3",
+  "package": "zombie.core.Collections",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [
+    "java.util.AbstractSet<java.util.Map$Entry<java.lang.Long, TypeV>>"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clear",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "size",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "remove",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "contains",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.Iterator<java.util.Map$Entry<java.lang.Long,TypeV>>",
+      "name": "iterator",
+      "args": []
+    }
+  ]
+}

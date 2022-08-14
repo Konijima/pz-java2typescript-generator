@@ -1,0 +1,32 @@
+{
+  "name": "QuaternionfInterpolator",
+  "package": "org.joml",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "QuaternionfInterpolator",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Quaternionf",
+      "name": "computeWeightedAverage",
+      "args": [
+        "org.joml.Quaternionfc[]",
+        "float[]",
+        "int",
+        "org.joml.Quaternionf"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "name": "WeatherPeriod$StrLerpVal",
+  "package": "zombie.iso.weather",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.iso.weather.WeatherPeriod$StrLerpVal>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Entry",
+      "scope": "public",
+      "type": "zombie.iso.weather.WeatherPeriod$StrLerpVal",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Target",
+      "scope": "public",
+      "type": "zombie.iso.weather.WeatherPeriod$StrLerpVal",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "NextTarget",
+      "scope": "public",
+      "type": "zombie.iso.weather.WeatherPeriod$StrLerpVal",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "None",
+      "scope": "public",
+      "type": "zombie.iso.weather.WeatherPeriod$StrLerpVal",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.weather.WeatherPeriod$StrLerpVal",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getValue",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.weather.WeatherPeriod$StrLerpVal",
+      "name": "fromValue",
+      "args": [
+        "int"
+      ]
+    }
+  ]
+}

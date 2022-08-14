@@ -1,0 +1,20 @@
+{
+  "name": "WorldMarkers$Line",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    }
+  ]
+}

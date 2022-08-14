@@ -1,0 +1,31 @@
+{
+  "name": "WorldMapStyleLayer$FloatStop",
+  "package": "zombie.worldMap.styles",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.worldMap.styles.WorldMapStyleLayer$Stop"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "FloatStop",
+      "describe": [],
+      "args": [
+        "float",
+        "float"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "f",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

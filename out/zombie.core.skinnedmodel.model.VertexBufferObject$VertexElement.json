@@ -1,0 +1,40 @@
+{
+  "name": "VertexBufferObject$VertexElement",
+  "package": "zombie.core.skinnedmodel.model",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "VertexElement",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_type",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.VertexBufferObject$VertexType",
+      "describe": []
+    },
+    {
+      "name": "m_byteSize",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "m_byteOffset",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

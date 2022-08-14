@@ -1,0 +1,51 @@
+{
+  "name": "Terrain$RenderTiles$IsoGridSquare$Floor",
+  "package": "zombie.debug.options",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.debug.options.OptionGroup"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Floor",
+      "describe": [],
+      "args": [
+        "zombie.debug.options.Terrain$RenderTiles$IsoGridSquare",
+        "zombie.debug.options.IDebugOptionGroup"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "Lighting",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "LightingOld",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "LightingDebug",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": []
+}

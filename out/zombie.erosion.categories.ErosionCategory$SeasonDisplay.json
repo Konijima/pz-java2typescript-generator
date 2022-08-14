@@ -1,0 +1,12 @@
+{
+  "name": "ErosionCategory$SeasonDisplay",
+  "package": "zombie.erosion.categories",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

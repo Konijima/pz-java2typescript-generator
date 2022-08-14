@@ -1,0 +1,126 @@
+{
+  "name": "ConnectToServerState$State",
+  "package": "zombie.gameStates",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.gameStates.ConnectToServerState$State>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Start",
+      "scope": "public",
+      "type": "zombie.gameStates.ConnectToServerState$State",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TestTCP",
+      "scope": "public",
+      "type": "zombie.gameStates.ConnectToServerState$State",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WorkshopInit",
+      "scope": "public",
+      "type": "zombie.gameStates.ConnectToServerState$State",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WorkshopQuery",
+      "scope": "public",
+      "type": "zombie.gameStates.ConnectToServerState$State",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WorkshopConfirm",
+      "scope": "public",
+      "type": "zombie.gameStates.ConnectToServerState$State",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ServerWorkshopItemScreen",
+      "scope": "public",
+      "type": "zombie.gameStates.ConnectToServerState$State",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WorkshopUpdate",
+      "scope": "public",
+      "type": "zombie.gameStates.ConnectToServerState$State",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "CheckMods",
+      "scope": "public",
+      "type": "zombie.gameStates.ConnectToServerState$State",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Finish",
+      "scope": "public",
+      "type": "zombie.gameStates.ConnectToServerState$State",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Exit",
+      "scope": "public",
+      "type": "zombie.gameStates.ConnectToServerState$State",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.gameStates.ConnectToServerState$State",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

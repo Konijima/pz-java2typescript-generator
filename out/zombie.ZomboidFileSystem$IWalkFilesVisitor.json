@@ -1,0 +1,25 @@
+{
+  "name": "ZomboidFileSystem$IWalkFilesVisitor",
+  "package": "zombie",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "visit",
+      "args": [
+        "java.io.File",
+        "java.lang.String"
+      ]
+    }
+  ]
+}

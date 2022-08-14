@@ -1,0 +1,52 @@
+{
+  "name": "StacktraceCounter",
+  "package": "se.krka.kahlua.profiler",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "StacktraceCounter",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addTime",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "se.krka.kahlua.profiler.StacktraceCounter",
+      "name": "getOrCreateChild",
+      "args": [
+        "se.krka.kahlua.profiler.StacktraceElement"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "long",
+      "name": "getTime",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.Map<se.krka.kahlua.profiler.StacktraceElement,se.krka.kahlua.profiler.StacktraceCounter>",
+      "name": "getChildren",
+      "args": []
+    }
+  ]
+}

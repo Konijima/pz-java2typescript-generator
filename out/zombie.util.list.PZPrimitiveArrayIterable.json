@@ -1,0 +1,33 @@
+{
+  "name": "PZPrimitiveArrayIterable",
+  "package": "zombie.util.list",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "PZPrimitiveArrayIterable",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.Iterable<java.lang.Float>",
+      "name": "fromArray",
+      "args": [
+        "float[]"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "RegisteredChunks",
+  "package": "com.sixlegs.png",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "read",
+      "args": [
+        "int",
+        "java.io.DataInput",
+        "int",
+        "com.sixlegs.png.PngImage"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "checkLength",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    }
+  ]
+}

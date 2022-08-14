@@ -1,0 +1,106 @@
+{
+  "name": "GlobalObjectLookup",
+  "package": "zombie.globalObjects",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "GlobalObjectLookup",
+      "describe": [],
+      "args": [
+        "zombie.globalObjects.GlobalObjectSystem"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addObject",
+      "args": [
+        "zombie.globalObjects.GlobalObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeObject",
+      "args": [
+        "zombie.globalObjects.GlobalObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.globalObjects.GlobalObject",
+      "name": "getObjectAt",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "hasObjectsInChunk",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.globalObjects.GlobalObject>",
+      "name": "getObjectsInChunk",
+      "args": [
+        "int",
+        "int",
+        "java.util.ArrayList<zombie.globalObjects.GlobalObject>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.globalObjects.GlobalObject>",
+      "name": "getObjectsAdjacentTo",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "java.util.ArrayList<zombie.globalObjects.GlobalObject>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "init",
+      "args": [
+        "zombie.iso.IsoMetaGrid"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "Reset",
+      "args": []
+    }
+  ]
+}

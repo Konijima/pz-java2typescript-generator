@@ -1,0 +1,153 @@
+{
+  "name": "WorldMapStyleV1",
+  "package": "zombie.worldMap.styles",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "m_ui",
+      "scope": "public",
+      "type": "zombie.worldMap.UIWorldMap",
+      "describe": []
+    },
+    {
+      "name": "m_api",
+      "scope": "public",
+      "type": "zombie.worldMap.UIWorldMapV1",
+      "describe": []
+    },
+    {
+      "name": "m_style",
+      "scope": "public",
+      "type": "zombie.worldMap.styles.WorldMapStyle",
+      "describe": []
+    },
+    {
+      "name": "m_layers",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.worldMap.styles.WorldMapStyleV1$WorldMapStyleLayerV1>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.worldMap.styles.WorldMapStyleV1$WorldMapStyleLayerV1",
+      "name": "newLineLayer",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.worldMap.styles.WorldMapStyleV1$WorldMapStyleLayerV1",
+      "name": "newPolygonLayer",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.worldMap.styles.WorldMapStyleV1$WorldMapStyleLayerV1",
+      "name": "newTextureLayer",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getLayerCount",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.worldMap.styles.WorldMapStyleV1$WorldMapStyleLayerV1",
+      "name": "getLayerByIndex",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.worldMap.styles.WorldMapStyleV1$WorldMapStyleLayerV1",
+      "name": "getLayerByName",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "indexOfLayer",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "moveLayer",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeLayerById",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeLayerByIndex",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clear",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setExposed",
+      "args": [
+        "zombie.Lua.LuaManager$Exposer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "WallCracks$CategoryData",
+  "package": "zombie.erosion.categories",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.erosion.categories.ErosionCategory$Data"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "gameObj",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "spawnTime",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "curID",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "alpha",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "hasTop",
+      "scope": "public",
+      "type": "zombie.erosion.categories.WallCracks$CategoryData",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": [
+        "java.nio.ByteBuffer",
+        "int"
+      ]
+    }
+  ]
+}

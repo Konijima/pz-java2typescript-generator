@@ -1,0 +1,54 @@
+{
+  "name": "UIDebugConsole$CommandEntry",
+  "package": "zombie.ui",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [
+    "zombie.ui.UITextBox2"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "CommandEntry",
+      "describe": [],
+      "args": [
+        "zombie.ui.UIDebugConsole",
+        "zombie.ui.UIFont",
+        "int",
+        "int",
+        "int",
+        "int",
+        "java.lang.String",
+        "boolean"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onPressUp",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onPressDown",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onOtherKey",
+      "args": [
+        "int"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "SpritePadding$IsoPaddingSettings",
+  "package": "zombie.iso.sprite.shapers",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.iso.sprite.shapers.SpritePaddingSettings$GenericZoomBasedSettingGroup"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IsoPaddingSettings",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "ZoomedIn",
+      "scope": "public",
+      "type": "zombie.iso.sprite.shapers.SpritePadding$IsoPaddingSettings$IsoBorderSetting",
+      "describe": []
+    },
+    {
+      "name": "NotZoomed",
+      "scope": "public",
+      "type": "zombie.iso.sprite.shapers.SpritePadding$IsoPaddingSettings$IsoBorderSetting",
+      "describe": []
+    },
+    {
+      "name": "ZoomedOut",
+      "scope": "public",
+      "type": "zombie.iso.sprite.shapers.SpritePadding$IsoPaddingSettings$IsoBorderSetting",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.sprite.shapers.SpritePadding$IsoPaddingSettings$IsoBorderSetting",
+      "name": "getCurrentZoomSetting",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "getCurrentZoomSetting",
+      "args": []
+    }
+  ]
+}

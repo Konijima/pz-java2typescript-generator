@@ -1,0 +1,19 @@
+{
+  "name": "ErosionObjSprites$Stage",
+  "package": "zombie.erosion.obj",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

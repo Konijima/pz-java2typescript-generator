@@ -1,0 +1,353 @@
+{
+  "name": "AxisAngle4d",
+  "package": "javax.vecmath",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "java.io.Serializable",
+    "java.lang.Cloneable"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "double[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "javax.vecmath.AxisAngle4d"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "javax.vecmath.AxisAngle4f"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "javax.vecmath.Vector3d",
+        "double"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "x",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "y",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "z",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "angle",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "double[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.AxisAngle4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.AxisAngle4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Vector3d",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "double[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Matrix3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Quat4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Quat4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "javax.vecmath.AxisAngle4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "epsilonEquals",
+      "args": [
+        "javax.vecmath.AxisAngle4d",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "hashCode",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "clone",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "double",
+      "name": "getAngle",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setAngle",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "getX",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setX",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "double",
+      "name": "getY",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setY",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "getZ",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setZ",
+      "args": [
+        "double"
+      ]
+    }
+  ]
+}

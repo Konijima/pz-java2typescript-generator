@@ -1,0 +1,25 @@
+{
+  "name": "Rand$PZSeedGenerator",
+  "package": "zombie.core",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [
+    "org.uncommons.maths.random.SeedGenerator"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "generateSeed",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

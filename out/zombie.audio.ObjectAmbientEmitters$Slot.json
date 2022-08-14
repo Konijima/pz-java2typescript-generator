@@ -1,0 +1,14 @@
+{
+  "name": "ObjectAmbientEmitters$Slot",
+  "package": "zombie.audio",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

@@ -1,0 +1,83 @@
+{
+  "name": "QuadranglesIntersection",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "QuadranglesIntersection",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "IsQuadranglesAreTransposed2",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "IsQuadranglesAreIntersected",
+      "args": [
+        "zombie.iso.Vector2[]",
+        "zombie.iso.Vector2[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "IsPointInTriangle",
+      "args": [
+        "zombie.iso.Vector2",
+        "zombie.iso.Vector2[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "det",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "lineIntersection",
+      "args": [
+        "zombie.iso.Vector2",
+        "zombie.iso.Vector2",
+        "zombie.iso.Vector2",
+        "zombie.iso.Vector2"
+      ]
+    }
+  ]
+}

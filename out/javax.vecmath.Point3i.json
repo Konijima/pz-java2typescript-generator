@@ -1,0 +1,49 @@
+{
+  "name": "Point3i",
+  "package": "javax.vecmath",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "javax.vecmath.Tuple3i"
+  ],
+  "implements": [
+    "java.io.Serializable"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "i",
+      "describe": [],
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "i",
+      "describe": [],
+      "args": [
+        "int[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "i",
+      "describe": [],
+      "args": [
+        "javax.vecmath.Tuple3i"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "i",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

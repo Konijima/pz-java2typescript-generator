@@ -1,0 +1,14 @@
+{
+  "name": "IsoPlayer$MoveVars",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

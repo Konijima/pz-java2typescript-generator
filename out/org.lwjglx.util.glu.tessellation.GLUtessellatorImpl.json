@@ -1,0 +1,154 @@
+{
+  "name": "GLUtessellatorImpl",
+  "package": "org.lwjglx.util.glu.tessellation",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "org.lwjglx.util.glu.GLUtessellator"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "GLUtessellatorImpl",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "TESS_MAX_CACHE",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjglx.util.glu.GLUtessellator",
+      "name": "gluNewTess",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "gluDeleteTess",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "gluTessProperty",
+      "args": [
+        "int",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "gluGetTessProperty",
+      "args": [
+        "int",
+        "double[]",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "gluTessNormal",
+      "args": [
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "gluTessCallback",
+      "args": [
+        "int",
+        "org.lwjglx.util.glu.GLUtessellatorCallback"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "gluTessVertex",
+      "args": [
+        "double[]",
+        "int",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "gluTessBeginPolygon",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "gluTessBeginContour",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "gluTessEndContour",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "gluTessEndPolygon",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "gluBeginPolygon",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "gluNextContour",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "gluEndPolygon",
+      "args": []
+    }
+  ]
+}

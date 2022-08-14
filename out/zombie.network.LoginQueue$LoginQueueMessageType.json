@@ -1,0 +1,54 @@
+{
+  "name": "LoginQueue$LoginQueueMessageType",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.network.LoginQueue$LoginQueueMessageType>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "ConnectionImmediate",
+      "scope": "public",
+      "type": "zombie.network.LoginQueue$LoginQueueMessageType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PlaceInQueue",
+      "scope": "public",
+      "type": "zombie.network.LoginQueue$LoginQueueMessageType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.network.LoginQueue$LoginQueueMessageType",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

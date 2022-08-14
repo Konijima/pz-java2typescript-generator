@@ -1,0 +1,39 @@
+{
+  "name": "Render",
+  "package": "org.lwjglx.util.glu.tessellation",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "renderMesh",
+      "describe": [],
+      "args": [
+        "org.lwjglx.util.glu.tessellation.GLUtessellatorImpl",
+        "org.lwjglx.util.glu.tessellation.GLUmesh"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "renderBoundary",
+      "describe": [],
+      "args": [
+        "org.lwjglx.util.glu.tessellation.GLUtessellatorImpl",
+        "org.lwjglx.util.glu.tessellation.GLUmesh"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "renderCache",
+      "describe": [],
+      "args": [
+        "org.lwjglx.util.glu.tessellation.GLUtessellatorImpl"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

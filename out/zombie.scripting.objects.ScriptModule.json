@@ -1,0 +1,292 @@
+{
+  "name": "ScriptModule",
+  "package": "zombie.scripting.objects",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.scripting.objects.BaseScriptObject"
+  ],
+  "implements": [
+    "zombie.scripting.IScriptObjectStore"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ScriptModule",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "name",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "value",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "ItemMap",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.String,zombie.scripting.objects.Item>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "GameSoundMap",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.String,zombie.scripting.objects.GameSoundScript>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "GameSoundList",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.scripting.objects.GameSoundScript>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "AnimationsMeshMap",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.String,zombie.scripting.objects.AnimationsMesh>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "MannequinScriptMap",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.String,zombie.scripting.objects.MannequinScript>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ModelScriptMap",
+      "scope": "public",
+      "type": "java.util.TreeMap<java.lang.String,zombie.scripting.objects.ModelScript>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "RuntimeAnimationScriptMap",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.String,zombie.core.skinnedmodel.runtime.RuntimeAnimationScript>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "SoundTimelineMap",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.String,zombie.scripting.objects.SoundTimelineScript>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleMap",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.String,zombie.scripting.objects.VehicleScript>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleTemplateMap",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.String,zombie.scripting.objects.VehicleTemplate>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleEngineRPMMap",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.String,zombie.vehicles.VehicleEngineRPM>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "RecipeMap",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.scripting.objects.Recipe>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "RecipeByName",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.String,zombie.scripting.objects.Recipe>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "RecipesWithDotInName",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.String,zombie.scripting.objects.Recipe>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "EvolvedRecipeMap",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.scripting.objects.EvolvedRecipe>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "UniqueRecipeMap",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.scripting.objects.UniqueRecipe>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "FixingMap",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.String,zombie.scripting.objects.Fixing>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Imports",
+      "scope": "public",
+      "type": "java.util.ArrayList<java.lang.String>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "disabled",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Load",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "ParseScript",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "ParseScriptPP",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.Item",
+      "name": "getItem",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.ModelScript",
+      "name": "getModelScript",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.Recipe",
+      "name": "getRecipe",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.VehicleScript",
+      "name": "getVehicle",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.VehicleTemplate",
+      "name": "getVehicleTemplate",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.VehicleEngineRPM",
+      "name": "getVehicleEngineRPM",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "CheckExitPoints",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Reset",
+      "args": []
+    }
+  ]
+}

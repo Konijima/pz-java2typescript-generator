@@ -1,0 +1,95 @@
+{
+  "name": "AnimCondition",
+  "package": "zombie.core.skinnedmodel.advancedanimation",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "AnimCondition",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_Name",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "m_Type",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.advancedanimation.AnimCondition$Type",
+      "describe": []
+    },
+    {
+      "name": "m_FloatValue",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m_BoolValue",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "m_StringValue",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getConditionString",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getValueString",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "check",
+      "args": [
+        "zombie.core.skinnedmodel.advancedanimation.IAnimationVariableSource"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "pass",
+      "args": [
+        "zombie.core.skinnedmodel.advancedanimation.IAnimationVariableSource",
+        "java.util.List<zombie.core.skinnedmodel.advancedanimation.AnimCondition>"
+      ]
+    }
+  ]
+}

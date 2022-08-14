@@ -1,0 +1,75 @@
+{
+  "name": "UIDialoguePanel",
+  "package": "zombie.ui",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.ui.UIElement"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "UIDialoguePanel",
+      "describe": [],
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "clientH",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "clientW",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "nestedItems",
+      "scope": "public",
+      "type": "java.util.Stack<java.awt.Rectangle>",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Nest",
+      "args": [
+        "zombie.ui.UIElement",
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    }
+  ]
+}

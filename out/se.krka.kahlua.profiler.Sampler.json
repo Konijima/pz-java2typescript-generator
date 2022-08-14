@@ -1,0 +1,38 @@
+{
+  "name": "Sampler",
+  "package": "se.krka.kahlua.profiler",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Sampler",
+      "describe": [],
+      "args": [
+        "se.krka.kahlua.vm.KahluaThread",
+        "long",
+        "se.krka.kahlua.profiler.Profiler"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "start",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "stop",
+      "args": []
+    }
+  ]
+}

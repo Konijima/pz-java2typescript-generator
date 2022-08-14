@@ -1,0 +1,81 @@
+{
+  "name": "RegionJobType",
+  "package": "zombie.iso.areas.isoregion.jobs",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.iso.areas.isoregion.jobs.RegionJobType>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "SquareUpdate",
+      "scope": "public",
+      "type": "zombie.iso.areas.isoregion.jobs.RegionJobType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ChunkUpdate",
+      "scope": "public",
+      "type": "zombie.iso.areas.isoregion.jobs.RegionJobType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ApplyChanges",
+      "scope": "public",
+      "type": "zombie.iso.areas.isoregion.jobs.RegionJobType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ServerSendFullData",
+      "scope": "public",
+      "type": "zombie.iso.areas.isoregion.jobs.RegionJobType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DebugResetAllData",
+      "scope": "public",
+      "type": "zombie.iso.areas.isoregion.jobs.RegionJobType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.areas.isoregion.jobs.RegionJobType",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "name": "AStar",
+  "package": "astar",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "AStar",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "bestNodeAfterSearch",
+      "scope": "public",
+      "type": "astar.ISearchNode",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<astar.ISearchNode>",
+      "name": "shortestPath",
+      "args": [
+        "astar.ISearchNode",
+        "astar.IGoalNode"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "astar.ISearchNode",
+      "name": "search",
+      "args": [
+        "astar.ISearchNode",
+        "astar.IGoalNode"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.util.ArrayList<astar.ISearchNode>",
+      "name": "path",
+      "args": [
+        "astar.ISearchNode"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "numSearchSteps",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "astar.ISearchNode",
+      "name": "bestNodeAfterSearch",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setMaxSteps",
+      "args": [
+        "int"
+      ]
+    }
+  ]
+}

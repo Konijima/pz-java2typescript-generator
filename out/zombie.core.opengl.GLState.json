@@ -1,0 +1,113 @@
+{
+  "name": "GLState",
+  "package": "zombie.core.opengl",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "GLState",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "AlphaFunc",
+      "scope": "public",
+      "type": "zombie.core.opengl.GLState$CAlphaFunc",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AlphaTest",
+      "scope": "public",
+      "type": "zombie.core.opengl.GLState$CAlphaTest",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BlendFunc",
+      "scope": "public",
+      "type": "zombie.core.opengl.GLState$CBlendFunc",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BlendFuncSeparate",
+      "scope": "public",
+      "type": "zombie.core.opengl.GLState$CBlendFuncSeparate",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ColorMask",
+      "scope": "public",
+      "type": "zombie.core.opengl.GLState$CColorMask",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "StencilFunc",
+      "scope": "public",
+      "type": "zombie.core.opengl.GLState$CStencilFunc",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "StencilMask",
+      "scope": "public",
+      "type": "zombie.core.opengl.GLState$CStencilMask",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "StencilOp",
+      "scope": "public",
+      "type": "zombie.core.opengl.GLState$CStencilOp",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "StencilTest",
+      "scope": "public",
+      "type": "zombie.core.opengl.GLState$CStencilTest",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "startFrame",
+      "args": []
+    }
+  ]
+}

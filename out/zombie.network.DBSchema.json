@@ -1,0 +1,45 @@
+{
+  "name": "DBSchema",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "DBSchema",
+      "describe": [],
+      "args": [
+        "java.sql.Connection"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "se.krka.kahlua.vm.KahluaTable",
+      "name": "getFullTable",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setFullTable",
+      "args": [
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.HashMap<java.lang.String,java.util.HashMap<java.lang.String,java.lang.String>>",
+      "name": "getSchema",
+      "args": []
+    }
+  ]
+}

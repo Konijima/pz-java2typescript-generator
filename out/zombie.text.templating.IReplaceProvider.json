@@ -1,0 +1,35 @@
+{
+  "name": "IReplaceProvider",
+  "package": "zombie.text.templating",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "hasReplacer",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "zombie.text.templating.IReplace",
+      "name": "getReplacer",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

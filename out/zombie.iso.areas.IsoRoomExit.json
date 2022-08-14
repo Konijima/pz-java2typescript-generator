@@ -1,0 +1,104 @@
+{
+  "name": "IsoRoomExit",
+  "package": "zombie.iso.areas",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IsoRoomExit",
+      "describe": [],
+      "args": [
+        "zombie.iso.areas.IsoRoomExit",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "IsoRoomExit",
+      "describe": [],
+      "args": [
+        "zombie.iso.areas.IsoRoom",
+        "zombie.iso.areas.IsoRoomExit",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "IsoRoomExit",
+      "describe": [],
+      "args": [
+        "zombie.iso.areas.IsoRoom",
+        "int",
+        "int",
+        "int"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "ThiggleQ",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "From",
+      "scope": "public",
+      "type": "zombie.iso.areas.IsoRoom",
+      "describe": []
+    },
+    {
+      "name": "layer",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "To",
+      "scope": "public",
+      "type": "zombie.iso.areas.IsoRoomExit",
+      "describe": []
+    },
+    {
+      "name": "type",
+      "scope": "public",
+      "type": "zombie.iso.areas.IsoRoomExit$ExitType",
+      "describe": []
+    },
+    {
+      "name": "x",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "y",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoObject",
+      "name": "getDoor",
+      "args": [
+        "zombie.iso.IsoCell"
+      ]
+    }
+  ]
+}

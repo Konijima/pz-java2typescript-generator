@@ -1,0 +1,14 @@
+{
+  "name": "AnimationVariableSlotCallbackFloat$CallbackSetStrongTyped",
+  "package": "zombie.core.skinnedmodel.advancedanimation",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.core.skinnedmodel.advancedanimation.AnimationVariableSlotCallback$CallbackSet<java.lang.Float>"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

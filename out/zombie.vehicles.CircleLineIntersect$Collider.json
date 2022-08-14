@@ -1,0 +1,70 @@
+{
+  "name": "CircleLineIntersect$Collider",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Collider",
+      "describe": [],
+      "args": [
+        "zombie.vehicles.CircleLineIntersect$Vector",
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Collider",
+      "describe": [],
+      "args": [
+        "java.lang.Object",
+        "java.lang.Integer",
+        "zombie.vehicles.CircleLineIntersect$Vector"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "getCollideobj",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Integer",
+      "name": "getCollidewith",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.CircleLineIntersect$Vector",
+      "name": "getCollideforce",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setCollideforce",
+      "args": [
+        "zombie.vehicles.CircleLineIntersect$Vector"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    }
+  ]
+}

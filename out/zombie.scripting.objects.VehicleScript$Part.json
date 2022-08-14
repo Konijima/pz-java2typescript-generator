@@ -1,0 +1,163 @@
+{
+  "name": "VehicleScript$Part",
+  "package": "zombie.scripting.objects",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Part",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "id",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "parent",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "itemType",
+      "scope": "public",
+      "type": "java.util.ArrayList<java.lang.String>",
+      "describe": []
+    },
+    {
+      "name": "container",
+      "scope": "public",
+      "type": "zombie.scripting.objects.VehicleScript$Container",
+      "describe": []
+    },
+    {
+      "name": "area",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "wheel",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "tables",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.String,se.krka.kahlua.vm.KahluaTable>",
+      "describe": []
+    },
+    {
+      "name": "luaFunctions",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.String,java.lang.String>",
+      "describe": []
+    },
+    {
+      "name": "models",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.scripting.objects.VehicleScript$Model>",
+      "describe": []
+    },
+    {
+      "name": "bSetAllModelsVisible",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "door",
+      "scope": "public",
+      "type": "zombie.scripting.objects.VehicleScript$Door",
+      "describe": []
+    },
+    {
+      "name": "window",
+      "scope": "public",
+      "type": "zombie.scripting.objects.VehicleScript$Window",
+      "describe": []
+    },
+    {
+      "name": "anims",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.scripting.objects.VehicleScript$Anim>",
+      "describe": []
+    },
+    {
+      "name": "category",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "specificItem",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "mechanicRequireKey",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "repairMechanic",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "hasLightsRear",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isMechanicRequireKey",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setMechanicRequireKey",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isRepairMechanic",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setRepairMechanic",
+      "args": [
+        "boolean"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Sampler$1",
+  "package": "se.krka.kahlua.profiler",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [
+    "java.util.TimerTask"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "run",
+      "args": []
+    }
+  ]
+}

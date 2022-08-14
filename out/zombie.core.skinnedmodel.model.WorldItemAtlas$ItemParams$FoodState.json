@@ -1,0 +1,72 @@
+{
+  "name": "WorldItemAtlas$ItemParams$FoodState",
+  "package": "zombie.core.skinnedmodel.model",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.core.skinnedmodel.model.WorldItemAtlas$ItemParams$FoodState>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Normal",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.WorldItemAtlas$ItemParams$FoodState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Cooked",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.WorldItemAtlas$ItemParams$FoodState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Burnt",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.WorldItemAtlas$ItemParams$FoodState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Rotten",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.WorldItemAtlas$ItemParams$FoodState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.skinnedmodel.model.WorldItemAtlas$ItemParams$FoodState",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

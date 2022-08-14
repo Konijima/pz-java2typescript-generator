@@ -1,0 +1,36 @@
+{
+  "name": "ItemPickerJava$VehicleDistribution",
+  "package": "zombie.inventory",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "VehicleDistribution",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Normal",
+      "scope": "public",
+      "type": "zombie.inventory.ItemPickerJava$ItemPickerRoom",
+      "describe": []
+    },
+    {
+      "name": "Specific",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.inventory.ItemPickerJava$ItemPickerRoom>",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": []
+}

@@ -1,0 +1,99 @@
+{
+  "name": "FakeClientManager$Movement$Type",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.network.FakeClientManager$Movement$Type>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Stay",
+      "scope": "public",
+      "type": "zombie.network.FakeClientManager$Movement$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Line",
+      "scope": "public",
+      "type": "zombie.network.FakeClientManager$Movement$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Circle",
+      "scope": "public",
+      "type": "zombie.network.FakeClientManager$Movement$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AIAttackZombies",
+      "scope": "public",
+      "type": "zombie.network.FakeClientManager$Movement$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AIRunAwayFromZombies",
+      "scope": "public",
+      "type": "zombie.network.FakeClientManager$Movement$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AIRunToAnotherPlayers",
+      "scope": "public",
+      "type": "zombie.network.FakeClientManager$Movement$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AINormal",
+      "scope": "public",
+      "type": "zombie.network.FakeClientManager$Movement$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.network.FakeClientManager$Movement$Type",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

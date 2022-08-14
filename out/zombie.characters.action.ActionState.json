@@ -1,0 +1,133 @@
+{
+  "name": "ActionState",
+  "package": "zombie.characters.action",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ActionState",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "name",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "transitions",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.characters.action.ActionTransition>",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "boolean",
+      "name": "canHaveSubStates",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "boolean",
+      "name": "canBeSubstate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "boolean",
+      "name": "canHaveSubState",
+      "args": [
+        "zombie.characters.action.ActionState"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "canHaveSubState",
+      "args": [
+        "zombie.characters.action.ActionState",
+        "zombie.characters.action.ActionState"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "tagsOverlap",
+      "args": [
+        "java.lang.String[]",
+        "java.lang.String[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "parse",
+      "args": [
+        "java.io.File"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sortTransitions",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "resetForReload",
+      "args": []
+    }
+  ]
+}

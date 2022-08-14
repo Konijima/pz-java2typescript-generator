@@ -1,0 +1,63 @@
+{
+  "name": "SkinningBoneHierarchy",
+  "package": "zombie.core.skinnedmodel.model",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "SkinningBoneHierarchy",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isValid",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "buildBoneHiearchy",
+      "args": [
+        "zombie.core.skinnedmodel.model.SkinningData"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "numRootBones",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.model.SkinningBone",
+      "name": "getBoneAt",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.model.SkinningBone",
+      "name": "getRootBoneAt",
+      "args": [
+        "int"
+      ]
+    }
+  ]
+}

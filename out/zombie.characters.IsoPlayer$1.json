@@ -1,0 +1,35 @@
+{
+  "name": "IsoPlayer$1",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "java.util.Comparator<zombie.characters.IsoGameCharacter>"
+  ],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "compare",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "compare",
+      "args": [
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

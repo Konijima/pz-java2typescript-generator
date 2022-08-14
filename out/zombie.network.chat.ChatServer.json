@@ -1,0 +1,226 @@
+{
+  "name": "ChatServer",
+  "package": "zombie.network.chat",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.network.chat.ChatServer",
+      "name": "getInstance",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "isInited",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "init",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "initPlayer",
+      "args": [
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "processMessageFromPlayerPacket",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "processPlayerStartWhisperChatPacket",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.chat.ChatMessage",
+      "name": "unpackChatMessage",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "disconnectPlayer",
+      "args": [
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "joinAdminChat",
+      "args": [
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "leaveAdminChat",
+      "args": [
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.chat.defaultChats.FactionChat",
+      "name": "createFactionChat",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.chat.defaultChats.SafehouseChat",
+      "name": "createSafehouseChat",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeFactionChat",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeSafehouseChat",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "syncFactionChatMembers",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "java.util.ArrayList<java.lang.String>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "syncSafehouseChatMembers",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "java.util.ArrayList<java.lang.String>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendServerAlertMessageToServerChat",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendServerAlertMessageToServerChat",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.chat.ChatMessage",
+      "name": "createRadiostationMessage",
+      "args": [
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendMessageToServerChat",
+      "args": [
+        "zombie.core.raknet.UdpConnection",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendMessageToServerChat",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendMessageFromDiscordToGeneralChat",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendMessageToAdminChat",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

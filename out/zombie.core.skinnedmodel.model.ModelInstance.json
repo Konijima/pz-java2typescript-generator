@@ -1,0 +1,413 @@
+{
+  "name": "ModelInstance",
+  "package": "zombie.core.skinnedmodel.model",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ModelInstance",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "MODEL_LIGHT_MULT_OUTSIDE",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "MODEL_LIGHT_MULT_ROOM",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "model",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.Model",
+      "describe": []
+    },
+    {
+      "name": "AnimPlayer",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.animation.AnimationPlayer",
+      "describe": []
+    },
+    {
+      "name": "data",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.SkinningData",
+      "describe": []
+    },
+    {
+      "name": "tex",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": []
+    },
+    {
+      "name": "m_textureInitializer",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.ModelInstanceTextureInitializer",
+      "describe": []
+    },
+    {
+      "name": "character",
+      "scope": "public",
+      "type": "zombie.characters.IsoGameCharacter",
+      "describe": []
+    },
+    {
+      "name": "object",
+      "scope": "public",
+      "type": "zombie.iso.IsoMovingObject",
+      "describe": []
+    },
+    {
+      "name": "tintR",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "tintG",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "tintB",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "parent",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.ModelInstance",
+      "describe": []
+    },
+    {
+      "name": "parentBone",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "parentBoneName",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "hue",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "depthBias",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "matrixModel",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.ModelInstance",
+      "describe": []
+    },
+    {
+      "name": "softwareMesh",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.SoftwareModelMeshInstance",
+      "describe": []
+    },
+    {
+      "name": "sub",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.core.skinnedmodel.model.ModelInstance>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "bResetAfterRender",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "renderRefCount",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "m_lock",
+      "scope": "public",
+      "type": "java.lang.Object",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "m_modelScript",
+      "scope": "public",
+      "type": "zombie.scripting.objects.ModelScript",
+      "describe": []
+    },
+    {
+      "name": "attachmentNameSelf",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "attachmentNameParent",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "scale",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "maskVariableValue",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.model.ModelInstance",
+      "name": "init",
+      "args": [
+        "zombie.core.skinnedmodel.model.Model",
+        "zombie.characters.IsoGameCharacter",
+        "zombie.core.skinnedmodel.animation.AnimationPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isRendering",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "reset",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "LoadTexture",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "dismember",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "UpdateDir",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "SetForceDir",
+      "args": [
+        "zombie.iso.Vector2"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setInstanceSkip",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "destroySmartTextures",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "updateLights",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.visual.ItemVisual",
+      "name": "getItemVisual",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setItemVisual",
+      "args": [
+        "zombie.core.skinnedmodel.visual.ItemVisual"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "applyModelScriptScale",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.ModelAttachment",
+      "name": "getAttachment",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.ModelAttachment",
+      "name": "getAttachmentById",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4f",
+      "name": "getAttachmentMatrix",
+      "args": [
+        "zombie.scripting.objects.ModelAttachment",
+        "org.joml.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4f",
+      "name": "getAttachmentMatrix",
+      "args": [
+        "int",
+        "org.joml.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4f",
+      "name": "getAttachmentMatrixById",
+      "args": [
+        "java.lang.String",
+        "org.joml.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setOwner",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clearOwner",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "getOwner",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setTextureInitializer",
+      "args": [
+        "zombie.core.skinnedmodel.model.ModelInstanceTextureInitializer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.model.ModelInstanceTextureInitializer",
+      "name": "getTextureInitializer",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "hasTextureCreator",
+      "args": []
+    }
+  ]
+}

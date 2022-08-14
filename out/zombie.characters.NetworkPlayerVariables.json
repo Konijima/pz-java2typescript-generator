@@ -1,0 +1,43 @@
+{
+  "name": "NetworkPlayerVariables",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "NetworkPlayerVariables",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "getBooleanVariables",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setBooleanVariables",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "int"
+      ]
+    }
+  ]
+}

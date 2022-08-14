@@ -1,0 +1,34 @@
+{
+  "name": "PredicatedFileWatcher$GenericPredicatedFileWatcherCallback<T>",
+  "package": "zombie",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "zombie.PredicatedFileWatcher$IPredicatedFileWatcherCallback"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "GenericPredicatedFileWatcherCallback",
+      "describe": [],
+      "args": [
+        "java.lang.Class<T>",
+        "zombie.PredicatedFileWatcher$IPredicatedDataPacketFileWatcherCallback<T>"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "call",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

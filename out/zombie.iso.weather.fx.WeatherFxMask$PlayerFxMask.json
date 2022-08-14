@@ -1,0 +1,19 @@
+{
+  "name": "WeatherFxMask$PlayerFxMask",
+  "package": "zombie.iso.weather.fx",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "PlayerFxMask",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

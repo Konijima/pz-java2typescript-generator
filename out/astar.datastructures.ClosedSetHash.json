@@ -1,0 +1,56 @@
+{
+  "name": "ClosedSetHash",
+  "package": "astar.datastructures",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "astar.datastructures.IClosedSet"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ClosedSetHash",
+      "describe": [],
+      "args": [
+        "java.util.Comparator<astar.ISearchNode>"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "contains",
+      "args": [
+        "astar.ISearchNode"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "add",
+      "args": [
+        "astar.ISearchNode"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "astar.ISearchNode",
+      "name": "min",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clear",
+      "args": []
+    }
+  ]
+}

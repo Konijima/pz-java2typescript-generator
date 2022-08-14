@@ -1,0 +1,26 @@
+{
+  "name": "PerformanceProfileProbeList$Constructor<Probe",
+  "package": "zombie.core.profiling",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.core.profiling.PerformanceProfileProbe>"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "Probe",
+      "name": "get",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

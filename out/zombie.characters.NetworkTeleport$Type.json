@@ -1,0 +1,72 @@
+{
+  "name": "NetworkTeleport$Type",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.characters.NetworkTeleport$Type>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "none",
+      "scope": "public",
+      "type": "zombie.characters.NetworkTeleport$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "disappearing",
+      "scope": "public",
+      "type": "zombie.characters.NetworkTeleport$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "teleportation",
+      "scope": "public",
+      "type": "zombie.characters.NetworkTeleport$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "materialization",
+      "scope": "public",
+      "type": "zombie.characters.NetworkTeleport$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characters.NetworkTeleport$Type",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

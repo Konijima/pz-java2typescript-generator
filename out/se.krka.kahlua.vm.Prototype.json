@@ -1,0 +1,198 @@
+{
+  "name": "Prototype",
+  "package": "se.krka.kahlua.vm",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Prototype",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "Prototype",
+      "describe": [],
+      "args": [
+        "java.io.DataInputStream",
+        "boolean",
+        "java.lang.String",
+        "int"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "int",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "java",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "se",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "numParams",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "isVararg",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "name",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "int",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "numUpvalues",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "maxStacksize",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "file",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "filename",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "java",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "int",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "rev",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "long",
+      "name": "rev",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "toInt",
+      "args": [
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "long",
+      "name": "toLong",
+      "args": [
+        "long",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "se.krka.kahlua.vm.LuaClosure",
+      "name": "loadByteCode",
+      "args": [
+        "java.io.DataInputStream",
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "se.krka.kahlua.vm.LuaClosure",
+      "name": "loadByteCode",
+      "args": [
+        "java.io.InputStream",
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "dump",
+      "args": [
+        "java.io.OutputStream"
+      ]
+    }
+  ]
+}

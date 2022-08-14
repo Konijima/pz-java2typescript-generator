@@ -1,0 +1,49 @@
+{
+  "name": "MultiJavaToLuaConverter<JavaType>",
+  "package": "se.krka.kahlua.converter",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "se.krka.kahlua.converter.JavaToLuaConverter<JavaType>"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "MultiJavaToLuaConverter",
+      "describe": [],
+      "args": [
+        "java.lang.Class<JavaType>"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Class<JavaType>",
+      "name": "getJavaType",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "fromJavaToLua",
+      "args": [
+        "JavaType"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "add",
+      "args": [
+        "se.krka.kahlua.converter.JavaToLuaConverter"
+      ]
+    }
+  ]
+}

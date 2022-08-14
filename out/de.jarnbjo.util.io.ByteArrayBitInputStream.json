@@ -1,0 +1,119 @@
+{
+  "name": "ByteArrayBitInputStream",
+  "package": "de.jarnbjo.util.io",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "de.jarnbjo.util.io.BitInputStream"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ByteArrayBitInputStream",
+      "describe": [],
+      "args": [
+        "byte[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ByteArrayBitInputStream",
+      "describe": [],
+      "args": [
+        "byte[]",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "getSource",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "getBit",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getInt",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getSignedInt",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getInt",
+      "args": [
+        "de.jarnbjo.util.io.HuffmanNode"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "long",
+      "name": "getLong",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "readSignedRice",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "readSignedRice",
+      "args": [
+        "int",
+        "int[]",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "align",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setEndian",
+      "args": [
+        "int"
+      ]
+    }
+  ]
+}

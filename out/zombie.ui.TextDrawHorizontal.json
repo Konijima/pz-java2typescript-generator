@@ -1,0 +1,63 @@
+{
+  "name": "TextDrawHorizontal",
+  "package": "zombie.ui",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.ui.TextDrawHorizontal>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Left",
+      "scope": "public",
+      "type": "zombie.ui.TextDrawHorizontal",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Center",
+      "scope": "public",
+      "type": "zombie.ui.TextDrawHorizontal",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Right",
+      "scope": "public",
+      "type": "zombie.ui.TextDrawHorizontal",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.ui.TextDrawHorizontal",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

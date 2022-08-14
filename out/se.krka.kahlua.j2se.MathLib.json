@@ -1,0 +1,75 @@
+{
+  "name": "MathLib",
+  "package": "se.krka.kahlua.j2se",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "se.krka.kahlua.vm.JavaFunction"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "MathLib",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "register",
+      "args": [
+        "se.krka.kahlua.vm.Platform",
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "call",
+      "args": [
+        "se.krka.kahlua.vm.LuaCallFrame",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "isNegative",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "double",
+      "name": "round",
+      "args": [
+        "double"
+      ]
+    }
+  ]
+}

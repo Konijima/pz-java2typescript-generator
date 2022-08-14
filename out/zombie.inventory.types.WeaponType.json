@@ -1,0 +1,179 @@
+{
+  "name": "WeaponType",
+  "package": "zombie.inventory.types",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.inventory.types.WeaponType>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "barehand",
+      "scope": "public",
+      "type": "zombie.inventory.types.WeaponType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "twohanded",
+      "scope": "public",
+      "type": "zombie.inventory.types.WeaponType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "onehanded",
+      "scope": "public",
+      "type": "zombie.inventory.types.WeaponType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "heavy",
+      "scope": "public",
+      "type": "zombie.inventory.types.WeaponType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "knife",
+      "scope": "public",
+      "type": "zombie.inventory.types.WeaponType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "spear",
+      "scope": "public",
+      "type": "zombie.inventory.types.WeaponType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "handgun",
+      "scope": "public",
+      "type": "zombie.inventory.types.WeaponType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "firearm",
+      "scope": "public",
+      "type": "zombie.inventory.types.WeaponType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "throwing",
+      "scope": "public",
+      "type": "zombie.inventory.types.WeaponType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "chainsaw",
+      "scope": "public",
+      "type": "zombie.inventory.types.WeaponType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "type",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "possibleAttack",
+      "scope": "public",
+      "type": "java.util.List<java.lang.String>",
+      "describe": []
+    },
+    {
+      "name": "canMiss",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "isRanged",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.inventory.types.WeaponType",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.inventory.types.WeaponType",
+      "name": "getWeaponType",
+      "args": [
+        "zombie.inventory.types.HandWeapon"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.inventory.types.WeaponType",
+      "name": "getWeaponType",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getType",
+      "args": []
+    }
+  ]
+}

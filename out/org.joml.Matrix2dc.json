@@ -1,0 +1,594 @@
+{
+  "name": "Matrix2dc",
+  "package": "org.joml",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "get",
+      "describe": [],
+      "args": [
+        "double[]",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "get",
+      "describe": [],
+      "args": [
+        "double[]"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "m00",
+      "scope": "public",
+      "type": "double",
+      "describe": [
+        "abstract"
+      ]
+    },
+    {
+      "name": "m01",
+      "scope": "public",
+      "type": "double",
+      "describe": [
+        "abstract"
+      ]
+    },
+    {
+      "name": "m10",
+      "scope": "public",
+      "type": "double",
+      "describe": [
+        "abstract"
+      ]
+    },
+    {
+      "name": "m11",
+      "scope": "public",
+      "type": "double",
+      "describe": [
+        "abstract"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Matrix2d",
+      "name": "mul",
+      "args": [
+        "org.joml.Matrix2dc",
+        "org.joml.Matrix2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Matrix2d",
+      "name": "mul",
+      "args": [
+        "org.joml.Matrix2fc",
+        "org.joml.Matrix2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Matrix2d",
+      "name": "mulLocal",
+      "args": [
+        "org.joml.Matrix2dc",
+        "org.joml.Matrix2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "double",
+      "name": "determinant",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Matrix2d",
+      "name": "invert",
+      "args": [
+        "org.joml.Matrix2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Matrix2d",
+      "name": "transpose",
+      "args": [
+        "org.joml.Matrix2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Matrix2d",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Matrix3x2d",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix3x2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Matrix3d",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "double",
+      "name": "getRotation",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.nio.DoubleBuffer",
+      "name": "get",
+      "args": [
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.nio.DoubleBuffer",
+      "name": "get",
+      "args": [
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.nio.ByteBuffer",
+      "name": "get",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.nio.ByteBuffer",
+      "name": "get",
+      "args": [
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.nio.DoubleBuffer",
+      "name": "getTransposed",
+      "args": [
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.nio.DoubleBuffer",
+      "name": "getTransposed",
+      "args": [
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.nio.ByteBuffer",
+      "name": "getTransposed",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.nio.ByteBuffer",
+      "name": "getTransposed",
+      "args": [
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Matrix2dc",
+      "name": "getToAddress",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Matrix2d",
+      "name": "scale",
+      "args": [
+        "org.joml.Vector2dc",
+        "org.joml.Matrix2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Matrix2d",
+      "name": "scale",
+      "args": [
+        "double",
+        "double",
+        "org.joml.Matrix2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Matrix2d",
+      "name": "scale",
+      "args": [
+        "double",
+        "org.joml.Matrix2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Matrix2d",
+      "name": "scaleLocal",
+      "args": [
+        "double",
+        "double",
+        "org.joml.Matrix2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector2d",
+      "name": "transform",
+      "args": [
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector2d",
+      "name": "transform",
+      "args": [
+        "org.joml.Vector2dc",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector2d",
+      "name": "transform",
+      "args": [
+        "double",
+        "double",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector2d",
+      "name": "transformTranspose",
+      "args": [
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector2d",
+      "name": "transformTranspose",
+      "args": [
+        "org.joml.Vector2dc",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector2d",
+      "name": "transformTranspose",
+      "args": [
+        "double",
+        "double",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Matrix2d",
+      "name": "rotate",
+      "args": [
+        "double",
+        "org.joml.Matrix2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Matrix2d",
+      "name": "rotateLocal",
+      "args": [
+        "double",
+        "org.joml.Matrix2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector2d",
+      "name": "getRow",
+      "args": [
+        "int",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector2d",
+      "name": "getColumn",
+      "args": [
+        "int",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "double",
+      "name": "get",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Matrix2d",
+      "name": "normal",
+      "args": [
+        "org.joml.Matrix2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector2d",
+      "name": "getScale",
+      "args": [
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector2d",
+      "name": "positiveX",
+      "args": [
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector2d",
+      "name": "normalizedPositiveX",
+      "args": [
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector2d",
+      "name": "positiveY",
+      "args": [
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector2d",
+      "name": "normalizedPositiveY",
+      "args": [
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Matrix2d",
+      "name": "add",
+      "args": [
+        "org.joml.Matrix2dc",
+        "org.joml.Matrix2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Matrix2d",
+      "name": "sub",
+      "args": [
+        "org.joml.Matrix2dc",
+        "org.joml.Matrix2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Matrix2d",
+      "name": "mulComponentWise",
+      "args": [
+        "org.joml.Matrix2dc",
+        "org.joml.Matrix2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Matrix2d",
+      "name": "lerp",
+      "args": [
+        "org.joml.Matrix2dc",
+        "double",
+        "org.joml.Matrix2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "org.joml.Matrix2dc",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "isFinite",
+      "args": []
+    }
+  ]
+}

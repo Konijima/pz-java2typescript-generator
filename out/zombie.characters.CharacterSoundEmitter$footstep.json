@@ -1,0 +1,90 @@
+{
+  "name": "CharacterSoundEmitter$footstep",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.characters.CharacterSoundEmitter$footstep>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "upstairs",
+      "scope": "public",
+      "type": "zombie.characters.CharacterSoundEmitter$footstep",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "grass",
+      "scope": "public",
+      "type": "zombie.characters.CharacterSoundEmitter$footstep",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "wood",
+      "scope": "public",
+      "type": "zombie.characters.CharacterSoundEmitter$footstep",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "concrete",
+      "scope": "public",
+      "type": "zombie.characters.CharacterSoundEmitter$footstep",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "gravel",
+      "scope": "public",
+      "type": "zombie.characters.CharacterSoundEmitter$footstep",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "snow",
+      "scope": "public",
+      "type": "zombie.characters.CharacterSoundEmitter$footstep",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characters.CharacterSoundEmitter$footstep",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

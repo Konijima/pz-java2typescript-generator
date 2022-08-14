@@ -1,0 +1,116 @@
+{
+  "name": "SearchNodeCity",
+  "package": "astar.tests",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "astar.ASearchNode"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "SearchNodeCity",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "h",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "c",
+      "args": [
+        "astar.ISearchNode"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getSuccessors",
+      "args": [
+        "java.util.ArrayList<astar.ISearchNode>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<astar.ISearchNode>",
+      "name": "getSuccessors",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "astar.tests.SearchNodeCity",
+      "name": "getParent",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setParent",
+      "args": [
+        "astar.ISearchNode"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Integer",
+      "name": "keyCode",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "hashCode",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "astar.ISearchNode",
+      "name": "getParent",
+      "args": []
+    }
+  ]
+}

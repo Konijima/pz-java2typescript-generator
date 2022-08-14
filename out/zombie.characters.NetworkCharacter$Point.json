@@ -1,0 +1,43 @@
+{
+  "name": "NetworkCharacter$Point",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "px",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "py",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "rx",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "ry",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "t",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

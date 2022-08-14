@@ -1,0 +1,32 @@
+{
+  "name": "PropertyContainer$MostTested",
+  "package": "zombie.core.properties",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "MostTested",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "flag",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": []
+    },
+    {
+      "name": "count",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

@@ -1,0 +1,85 @@
+{
+  "name": "AnimationSet",
+  "package": "zombie.core.skinnedmodel.advancedanimation",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "AnimationSet",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "states",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.String,zombie.core.skinnedmodel.advancedanimation.AnimState>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "m_Name",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.skinnedmodel.advancedanimation.AnimationSet",
+      "name": "GetAnimationSet",
+      "args": [
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "Reset",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.advancedanimation.AnimState",
+      "name": "GetState",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "containsState",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "Load",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

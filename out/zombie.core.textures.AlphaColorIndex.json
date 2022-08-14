@@ -1,0 +1,14 @@
+{
+  "name": "AlphaColorIndex",
+  "package": "zombie.core.textures",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "java.io.Serializable"
+  ],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

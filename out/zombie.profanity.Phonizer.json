@@ -1,0 +1,47 @@
+{
+  "name": "Phonizer",
+  "package": "zombie.profanity",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Phonizer",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getRegex",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "execute",
+      "args": [
+        "java.util.regex.Matcher",
+        "java.lang.StringBuffer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "ReadableVector2f",
+  "package": "org.lwjglx.util.vector",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "org.lwjglx.util.vector.ReadableVector"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "getX",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "getY",
+      "args": []
+    }
+  ]
+}

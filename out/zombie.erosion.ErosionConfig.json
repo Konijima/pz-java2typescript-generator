@@ -1,0 +1,105 @@
+{
+  "name": "ErosionConfig",
+  "package": "zombie.erosion",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ErosionConfig",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "seeds",
+      "scope": "public",
+      "type": "zombie.erosion.ErosionConfig$Seeds",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "time",
+      "scope": "public",
+      "type": "zombie.erosion.ErosionConfig$Time",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "debug",
+      "scope": "public",
+      "type": "zombie.erosion.ErosionConfig$Debug",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "season",
+      "scope": "public",
+      "type": "zombie.erosion.ErosionConfig$Season",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "writeFile",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "readFile",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.erosion.ErosionConfig$Debug",
+      "name": "getDebug",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "consolePrint",
+      "args": []
+    }
+  ]
+}

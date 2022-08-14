@@ -1,0 +1,175 @@
+{
+  "name": "VehicleManager$VehiclePacket",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "VehiclePacket",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "PassengerPosition",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Enter",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Exit",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SwitchSeat",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Update",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Remove",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Physic",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Config",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RequestGetFull",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RequestGetPosition",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AddImpulse",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Collide",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Sound",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TowingCar",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DetachTowingCar",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "InitialWorldState",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Sound_Crash",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": []
+}

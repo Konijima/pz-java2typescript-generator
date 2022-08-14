@@ -1,0 +1,224 @@
+{
+  "name": "GLFramebufferObjectARB",
+  "package": "zombie.core.textures",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [
+    "zombie.core.textures.IGLFramebufferObject"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "GLFramebufferObjectARB",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "FRAMEBUFFER",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "RENDERBUFFER",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "ATTACHMENT",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "ATTACHMENT",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "STENCIL",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "COMPLETE",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "UNDEFINED",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "ATTACHMENT",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "ATTACHMENT",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "DIMENSIONS",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "FORMATS",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "BUFFER",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "BUFFER",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "UNSUPPORTED",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "MULTISAMPLE",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "D",
+      "describe": [],
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "GL_COLOR_ATTACHMENT0",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "GL_DEPTH24_STENCIL8",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "glGenFramebuffers",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "glBindFramebuffer",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "glGenRenderbuffers",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "glBindRenderbuffer",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "glRenderbufferStorage",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "glFramebufferRenderbuffer",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "glCheckFramebufferStatus",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "glDeleteFramebuffers",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "glDeleteRenderbuffers",
+      "args": [
+        "int"
+      ]
+    }
+  ]
+}

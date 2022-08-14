@@ -1,0 +1,103 @@
+{
+  "name": "ClientChunkRequest",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ClientChunkRequest",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "chunks",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.network.ClientChunkRequest$Chunk>",
+      "describe": []
+    },
+    {
+      "name": "freeBuffers",
+      "scope": "public",
+      "type": "java.util.concurrent.ConcurrentLinkedQueue<java.nio.ByteBuffer>",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "largeArea",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.network.ClientChunkRequest$Chunk",
+      "name": "getChunk",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "releaseChunk",
+      "args": [
+        "zombie.network.ClientChunkRequest$Chunk"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getByteBuffer",
+      "args": [
+        "zombie.network.ClientChunkRequest$Chunk"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "releaseBuffer",
+      "args": [
+        "zombie.network.ClientChunkRequest$Chunk"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "releaseBuffers",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "unpack",
+      "args": [
+        "java.nio.ByteBuffer",
+        "zombie.core.raknet.UdpConnection"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "unpackLargeArea",
+      "args": [
+        "java.nio.ByteBuffer",
+        "zombie.core.raknet.UdpConnection"
+      ]
+    }
+  ]
+}

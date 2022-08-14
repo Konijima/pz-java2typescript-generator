@@ -1,0 +1,40 @@
+{
+  "name": "VehicleInterpolationData",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "java.lang.Comparable<zombie.vehicles.VehicleInterpolationData>"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "VehicleInterpolationData",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "compareTo",
+      "args": [
+        "zombie.vehicles.VehicleInterpolationData"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "compareTo",
+      "args": [
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

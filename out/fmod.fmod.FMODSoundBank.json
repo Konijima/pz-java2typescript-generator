@@ -1,0 +1,77 @@
+{
+  "name": "FMODSoundBank",
+  "package": "fmod.fmod",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.audio.BaseSoundBank"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "FMODSoundBank",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "voiceMap",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.String,fmod.fmod.FMODVoice>",
+      "describe": []
+    },
+    {
+      "name": "footstepMap",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.String,fmod.fmod.FMODFootstep>",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addVoice",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addFootstep",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "fmod.fmod.FMODVoice",
+      "name": "getVoice",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "fmod.fmod.FMODFootstep",
+      "name": "getFootstep",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

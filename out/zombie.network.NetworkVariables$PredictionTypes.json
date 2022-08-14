@@ -1,0 +1,137 @@
+{
+  "name": "NetworkVariables$PredictionTypes",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.network.NetworkVariables$PredictionTypes>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "None",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$PredictionTypes",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Moving",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$PredictionTypes",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Static",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$PredictionTypes",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Thump",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$PredictionTypes",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Climb",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$PredictionTypes",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Lunge",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$PredictionTypes",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "LungeHalf",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$PredictionTypes",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Walk",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$PredictionTypes",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WalkHalf",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$PredictionTypes",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PathFind",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$PredictionTypes",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.network.NetworkVariables$PredictionTypes",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.network.NetworkVariables$PredictionTypes",
+      "name": "fromByte",
+      "args": [
+        "byte"
+      ]
+    }
+  ]
+}

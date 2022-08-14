@@ -1,0 +1,52 @@
+{
+  "name": "ParameterVehicleHitLocation",
+  "package": "zombie.audio.parameters",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.audio.FMODLocalParameter"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ParameterVehicleHitLocation",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "calculateCurrentValue",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.audio.parameters.ParameterVehicleHitLocation$HitLocation",
+      "name": "calculateLocation",
+      "args": [
+        "zombie.vehicles.BaseVehicle",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setLocation",
+      "args": [
+        "zombie.audio.parameters.ParameterVehicleHitLocation$HitLocation"
+      ]
+    }
+  ]
+}

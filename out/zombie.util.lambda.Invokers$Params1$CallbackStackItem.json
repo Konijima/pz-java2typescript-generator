@@ -1,0 +1,52 @@
+{
+  "name": "Invokers$Params1$CallbackStackItem<T1>",
+  "package": "zombie.util.lambda",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.util.lambda.Invokers$Params1$StackItem<T1>"
+  ],
+  "implements": [
+    "java.lang.Runnable"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "CallbackStackItem",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "run",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<T1> zombie.util.lambda.Invokers$Params1$CallbackStackItem<T1>",
+      "name": "alloc",
+      "args": [
+        "T1",
+        "zombie.util.lambda.Invokers$Params1$ICallback<T1>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onReleased",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "name": "Transform",
+  "package": "zombie.core.physics",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Transform",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "Transform",
+      "describe": [],
+      "args": [
+        "org.joml.Matrix3f"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Transform",
+      "describe": [],
+      "args": [
+        "org.joml.Matrix4f"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Transform",
+      "describe": [],
+      "args": [
+        "zombie.core.physics.Transform"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "basis",
+      "scope": "public",
+      "type": "org.joml.Matrix3f",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "origin",
+      "scope": "public",
+      "type": "org.joml.Vector3f",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "zombie.core.physics.Transform"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "org.joml.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "org.joml.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "transform",
+      "args": [
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setIdentity",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "inverse",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "inverse",
+      "args": [
+        "zombie.core.physics.Transform"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Quaternionf",
+      "name": "getRotation",
+      "args": [
+        "org.joml.Quaternionf"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setRotation",
+      "args": [
+        "org.joml.Quaternionf"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4f",
+      "name": "getMatrix",
+      "args": [
+        "org.joml.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "hashCode",
+      "args": []
+    }
+  ]
+}

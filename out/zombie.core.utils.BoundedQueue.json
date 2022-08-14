@@ -1,0 +1,91 @@
+{
+  "name": "BoundedQueue<E>",
+  "package": "zombie.core.utils",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "BoundedQueue",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "add",
+      "args": [
+        "E"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "E",
+      "name": "removeFirst",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "E",
+      "name": "remove",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "E",
+      "name": "get",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clear",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "capacity",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "size",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isEmpty",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isFull",
+      "args": []
+    }
+  ]
+}

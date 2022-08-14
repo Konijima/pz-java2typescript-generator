@@ -1,0 +1,82 @@
+{
+  "name": "ByteBufferOutputStream",
+  "package": "zombie.util",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "java.io.OutputStream"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ByteBufferOutputStream",
+      "describe": [],
+      "args": [
+        "java.nio.ByteBuffer",
+        "boolean"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.ByteBuffer",
+      "name": "toByteBuffer",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.ByteBuffer",
+      "name": "getWrappedBuffer",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clear",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "flip",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "write",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "write",
+      "args": [
+        "byte[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "write",
+      "args": [
+        "byte[]",
+        "int",
+        "int"
+      ]
+    }
+  ]
+}

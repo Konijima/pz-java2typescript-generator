@@ -1,0 +1,46 @@
+{
+  "name": "WorldMapStyleLayer$RenderArgs",
+  "package": "zombie.worldMap.styles",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "RenderArgs",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "renderer",
+      "scope": "public",
+      "type": "zombie.worldMap.WorldMapRenderer",
+      "describe": []
+    },
+    {
+      "name": "drawer",
+      "scope": "public",
+      "type": "zombie.worldMap.WorldMapRenderer$Drawer",
+      "describe": []
+    },
+    {
+      "name": "cellX",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "cellY",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

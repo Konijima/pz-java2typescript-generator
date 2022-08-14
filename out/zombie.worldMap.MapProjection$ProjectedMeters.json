@@ -1,0 +1,23 @@
+{
+  "name": "MapProjection$ProjectedMeters",
+  "package": "zombie.worldMap",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "org.joml.Vector2d"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ProjectedMeters",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

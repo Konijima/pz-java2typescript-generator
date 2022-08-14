@@ -1,0 +1,930 @@
+{
+  "name": "PZArrayUtil",
+  "package": "zombie.util.list",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "PZArrayUtil",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "newInstance",
+      "describe": [],
+      "args": [
+        "java.lang.Class<?>",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "newInstance",
+      "describe": [],
+      "args": [
+        "java.lang.Class<?>",
+        "int",
+        "java.util.function.Supplier<E>"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "newInstance",
+      "describe": [],
+      "args": [
+        "java.lang.Class<?>",
+        "E[]",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "newInstance",
+      "describe": [],
+      "args": [
+        "java.lang.Class<?>",
+        "E[]",
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "newInstance",
+      "describe": [],
+      "args": [
+        "java.lang.Class<?>",
+        "E[]",
+        "int",
+        "java.util.function.Supplier<E>"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "newInstance",
+      "describe": [],
+      "args": [
+        "java.lang.Class<?>",
+        "E[]",
+        "int",
+        "boolean",
+        "java.util.function.Supplier<E>"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "add",
+      "describe": [],
+      "args": [
+        "float[]",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "add",
+      "describe": [],
+      "args": [
+        "E[]",
+        "E"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "concat",
+      "describe": [],
+      "args": [
+        "E[]",
+        "E[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "arrayCopy",
+      "describe": [],
+      "args": [
+        "E[]",
+        "S[]",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "arrayCopy",
+      "describe": [],
+      "args": [
+        "float[]",
+        "float[]",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "arrayCopy",
+      "describe": [],
+      "args": [
+        "int[]",
+        "int[]",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "arrayCopy",
+      "describe": [],
+      "args": [
+        "E[]",
+        "java.util.List<? extends E>"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "arrayCopy",
+      "describe": [],
+      "args": [
+        "E[]",
+        "S[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "clone",
+      "describe": [],
+      "args": [
+        "float[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "clone",
+      "describe": [],
+      "args": [
+        "E[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "arraySet",
+      "describe": [],
+      "args": [
+        "int[]",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "arraySet",
+      "describe": [],
+      "args": [
+        "float[]",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "arraySet",
+      "describe": [],
+      "args": [
+        "E[]",
+        "E"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "arrayPopulate",
+      "describe": [],
+      "args": [
+        "E[]",
+        "java.util.function.Supplier<E>"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "toArray",
+      "describe": [],
+      "args": [
+        "java.util.List<E>"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "arrayAdd",
+      "describe": [],
+      "args": [
+        "int[]",
+        "int[]"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "int",
+      "scope": "public",
+      "type": "final",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "float",
+      "scope": "public",
+      "type": "final",
+      "describe": [
+        "static"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> E",
+      "name": "pickRandom",
+      "args": [
+        "E[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> E",
+      "name": "pickRandom",
+      "args": [
+        "java.util.List<E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> E",
+      "name": "pickRandom",
+      "args": [
+        "java.util.Collection<E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> E",
+      "name": "pickRandom",
+      "args": [
+        "java.lang.Iterable<E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> int",
+      "name": "getSize",
+      "args": [
+        "java.lang.Iterable<E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> E",
+      "name": "getElementAt",
+      "args": [
+        "java.lang.Iterable<E>",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> void",
+      "name": "copy",
+      "args": [
+        "java.util.ArrayList<E>",
+        "java.util.ArrayList<E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> void",
+      "name": "copy",
+      "args": [
+        "java.util.ArrayList<E>",
+        "java.util.ArrayList<E>",
+        "zombie.util.ICloner<E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> int",
+      "name": "indexOf",
+      "args": [
+        "E[]",
+        "java.util.function.Predicate<E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> int",
+      "name": "indexOf",
+      "args": [
+        "java.util.List<E>",
+        "java.util.function.Predicate<E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> boolean",
+      "name": "contains",
+      "args": [
+        "E[]",
+        "java.util.function.Predicate<E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> boolean",
+      "name": "contains",
+      "args": [
+        "java.util.List<E>",
+        "java.util.function.Predicate<E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> boolean",
+      "name": "contains",
+      "args": [
+        "java.util.Collection<E>",
+        "java.util.function.Predicate<E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> boolean",
+      "name": "contains",
+      "args": [
+        "java.lang.Iterable<E>",
+        "java.util.function.Predicate<E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> E",
+      "name": "find",
+      "args": [
+        "java.util.List<E>",
+        "java.util.function.Predicate<E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> E",
+      "name": "find",
+      "args": [
+        "java.lang.Iterable<E>",
+        "java.util.function.Predicate<E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E,S> java.util.List<E>",
+      "name": "listConvert",
+      "args": [
+        "java.util.List<S>",
+        "java.util.function.Function<S",
+        "E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E,S> java.lang.Iterable<E>",
+      "name": "itConvert",
+      "args": [
+        "java.lang.Iterable<S>",
+        "java.util.function.Function<S",
+        "E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E,S> java.util.List<E>",
+      "name": "listConvert",
+      "args": [
+        "java.util.List<S>",
+        "java.util.List<E>",
+        "java.util.function.Function<S",
+        "E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E,S,T1> java.util.List<E>",
+      "name": "listConvert",
+      "args": [
+        "java.util.List<S>",
+        "java.util.List<E>",
+        "T1",
+        "zombie.util.list.PZArrayUtil$IListConverter1Param<S",
+        "E",
+        "T1>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "arrayToString",
+      "args": [
+        "float[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "arrayToString",
+      "args": [
+        "float[]",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> java.lang.String",
+      "name": "arrayToString",
+      "args": [
+        "E[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> java.lang.String",
+      "name": "arrayToString",
+      "args": [
+        "E[]",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> java.lang.String",
+      "name": "arrayToString",
+      "args": [
+        "java.lang.Iterable<E>",
+        "java.util.function.Function<E",
+        "java.lang.String>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> java.lang.String",
+      "name": "arrayToString",
+      "args": [
+        "java.lang.Iterable<E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> java.lang.String",
+      "name": "arrayToString",
+      "args": [
+        "java.lang.Iterable<E>",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> java.lang.String",
+      "name": "arrayToString",
+      "args": [
+        "java.lang.Iterable<E>",
+        "java.util.function.Function<E",
+        "java.lang.String>",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<L extends java.util.List<E>,E> L",
+      "name": "arrayCopy",
+      "args": [
+        "L",
+        "java.util.List<? extends E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<L extends java.util.List<E>,E,S> L",
+      "name": "arrayConvert",
+      "args": [
+        "L",
+        "java.util.List<S>",
+        "java.util.function.Function<S",
+        "E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> boolean",
+      "name": "isNullOrEmpty",
+      "args": [
+        "E[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "isNullOrEmpty",
+      "args": [
+        "int[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "isNullOrEmpty",
+      "args": [
+        "float[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> boolean",
+      "name": "isNullOrEmpty",
+      "args": [
+        "java.util.List<E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> boolean",
+      "name": "isNullOrEmpty",
+      "args": [
+        "java.lang.Iterable<E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> E",
+      "name": "getOrDefault",
+      "args": [
+        "java.util.List<E>",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> E",
+      "name": "getOrDefault",
+      "args": [
+        "java.util.List<E>",
+        "int",
+        "E"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> E",
+      "name": "getOrDefault",
+      "args": [
+        "E[]",
+        "int",
+        "E"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "getOrDefault",
+      "args": [
+        "float[]",
+        "int",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "insertAt",
+      "args": [
+        "int[]",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "insertAt",
+      "args": [
+        "float[]",
+        "int",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> int",
+      "name": "indexOf",
+      "args": [
+        "E[]",
+        "int",
+        "E"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "indexOf",
+      "args": [
+        "float[]",
+        "int",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "contains",
+      "args": [
+        "float[]",
+        "int",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "indexOf",
+      "args": [
+        "int[]",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "contains",
+      "args": [
+        "int[]",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> void",
+      "name": "forEach",
+      "args": [
+        "java.util.List<E>",
+        "java.util.function.Consumer<? super E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> void",
+      "name": "forEach",
+      "args": [
+        "java.lang.Iterable<E>",
+        "java.util.function.Consumer<? super E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> void",
+      "name": "forEach",
+      "args": [
+        "E[]",
+        "java.util.function.Consumer<? super E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<K,V> V",
+      "name": "getOrCreate",
+      "args": [
+        "java.util.HashMap<K",
+        "V>",
+        "K",
+        "java.util.function.Supplier<V>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> void",
+      "name": "sort",
+      "args": [
+        "java.util.Stack<E>",
+        "java.util.Comparator<E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> boolean",
+      "name": "sequenceEqual",
+      "args": [
+        "E[]",
+        "java.util.List<? extends E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> boolean",
+      "name": "sequenceEqual",
+      "args": [
+        "E[]",
+        "java.util.List<? extends E>",
+        "java.util.Comparator<E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> boolean",
+      "name": "sequenceEqual",
+      "args": [
+        "java.util.List<? extends E>",
+        "java.util.List<? extends E>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> boolean",
+      "name": "sequenceEqual",
+      "args": [
+        "java.util.List<? extends E>",
+        "java.util.List<? extends E>",
+        "java.util.Comparator<E>"
+      ]
+    }
+  ]
+}

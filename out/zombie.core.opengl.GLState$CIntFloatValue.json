@@ -1,0 +1,52 @@
+{
+  "name": "GLState$CIntFloatValue",
+  "package": "zombie.core.opengl",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [
+    "zombie.core.opengl.IOpenGLState$Value"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "CIntFloatValue",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.opengl.GLState$CIntFloatValue",
+      "name": "set",
+      "args": [
+        "int",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.opengl.IOpenGLState$Value",
+      "name": "set",
+      "args": [
+        "zombie.core.opengl.IOpenGLState$Value"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "name": "NetChecksum$Comparer$State",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.network.NetChecksum$Comparer$State>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Init",
+      "scope": "public",
+      "type": "zombie.network.NetChecksum$Comparer$State",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SentTotalChecksum",
+      "scope": "public",
+      "type": "zombie.network.NetChecksum$Comparer$State",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SentGroupChecksum",
+      "scope": "public",
+      "type": "zombie.network.NetChecksum$Comparer$State",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SentFileChecksums",
+      "scope": "public",
+      "type": "zombie.network.NetChecksum$Comparer$State",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Success",
+      "scope": "public",
+      "type": "zombie.network.NetChecksum$Comparer$State",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Failed",
+      "scope": "public",
+      "type": "zombie.network.NetChecksum$Comparer$State",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.network.NetChecksum$Comparer$State",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

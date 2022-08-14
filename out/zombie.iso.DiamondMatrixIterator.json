@@ -1,0 +1,63 @@
+{
+  "name": "DiamondMatrixIterator",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "DiamondMatrixIterator",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "line",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "coord",
+      "describe": [],
+      "args": [
+        "org.joml.Vector2i"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.DiamondMatrixIterator",
+      "name": "reset",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "reset",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "next",
+      "args": [
+        "org.joml.Vector2i"
+      ]
+    }
+  ]
+}

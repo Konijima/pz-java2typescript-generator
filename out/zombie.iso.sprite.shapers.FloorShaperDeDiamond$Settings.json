@@ -1,0 +1,55 @@
+{
+  "name": "FloorShaperDeDiamond$Settings",
+  "package": "zombie.iso.sprite.shapers",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.iso.sprite.shapers.SpritePaddingSettings$GenericZoomBasedSettingGroup"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Settings",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "ZoomedIn",
+      "scope": "public",
+      "type": "zombie.iso.sprite.shapers.FloorShaperDeDiamond$Settings$BorderSetting",
+      "describe": []
+    },
+    {
+      "name": "NotZoomed",
+      "scope": "public",
+      "type": "zombie.iso.sprite.shapers.FloorShaperDeDiamond$Settings$BorderSetting",
+      "describe": []
+    },
+    {
+      "name": "ZoomedOut",
+      "scope": "public",
+      "type": "zombie.iso.sprite.shapers.FloorShaperDeDiamond$Settings$BorderSetting",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.sprite.shapers.FloorShaperDeDiamond$Settings$BorderSetting",
+      "name": "getCurrentZoomSetting",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "getCurrentZoomSetting",
+      "args": []
+    }
+  ]
+}

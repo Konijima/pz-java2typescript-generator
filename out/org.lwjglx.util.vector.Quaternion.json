@@ -1,0 +1,398 @@
+{
+  "name": "Quaternion",
+  "package": "org.lwjglx.util.vector",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "org.lwjglx.util.vector.Vector"
+  ],
+  "implements": [
+    "org.lwjglx.util.vector.ReadableVector4f"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Quaternion",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "Quaternion",
+      "describe": [],
+      "args": [
+        "org.lwjglx.util.vector.ReadableVector4f"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Quaternion",
+      "describe": [],
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "x",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "y",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "z",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "w",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Quaternion",
+      "name": "set",
+      "args": [
+        "org.lwjglx.util.vector.ReadableVector4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Quaternion",
+      "name": "setIdentity",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjglx.util.vector.Quaternion",
+      "name": "setIdentity",
+      "args": [
+        "org.lwjglx.util.vector.Quaternion"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "lengthSquared",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjglx.util.vector.Quaternion",
+      "name": "normalise",
+      "args": [
+        "org.lwjglx.util.vector.Quaternion",
+        "org.lwjglx.util.vector.Quaternion"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Quaternion",
+      "name": "normalise",
+      "args": [
+        "org.lwjglx.util.vector.Quaternion"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "dot",
+      "args": [
+        "org.lwjglx.util.vector.Quaternion",
+        "org.lwjglx.util.vector.Quaternion"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Quaternion",
+      "name": "negate",
+      "args": [
+        "org.lwjglx.util.vector.Quaternion"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjglx.util.vector.Quaternion",
+      "name": "negate",
+      "args": [
+        "org.lwjglx.util.vector.Quaternion",
+        "org.lwjglx.util.vector.Quaternion"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Vector",
+      "name": "negate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Vector",
+      "name": "load",
+      "args": [
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Vector",
+      "name": "scale",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjglx.util.vector.Quaternion",
+      "name": "scale",
+      "args": [
+        "float",
+        "org.lwjglx.util.vector.Quaternion",
+        "org.lwjglx.util.vector.Quaternion"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Vector",
+      "name": "store",
+      "args": [
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "float",
+      "name": "getX",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "float",
+      "name": "getY",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setX",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setY",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setZ",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getZ",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setW",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getW",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjglx.util.vector.Quaternion",
+      "name": "mul",
+      "args": [
+        "org.lwjglx.util.vector.Quaternion",
+        "org.lwjglx.util.vector.Quaternion",
+        "org.lwjglx.util.vector.Quaternion"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjglx.util.vector.Quaternion",
+      "name": "mulInverse",
+      "args": [
+        "org.lwjglx.util.vector.Quaternion",
+        "org.lwjglx.util.vector.Quaternion",
+        "org.lwjglx.util.vector.Quaternion"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setFromAxisAngle",
+      "args": [
+        "org.lwjglx.util.vector.Vector4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "org.lwjglx.util.vector.Quaternion",
+      "name": "setFromMatrix",
+      "args": [
+        "org.lwjglx.util.vector.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjglx.util.vector.Quaternion",
+      "name": "setFromMatrix",
+      "args": [
+        "org.lwjglx.util.vector.Matrix4f",
+        "org.lwjglx.util.vector.Quaternion"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "org.lwjglx.util.vector.Quaternion",
+      "name": "setFromMatrix",
+      "args": [
+        "org.lwjglx.util.vector.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjglx.util.vector.Quaternion",
+      "name": "setFromMatrix",
+      "args": [
+        "org.lwjglx.util.vector.Matrix3f",
+        "org.lwjglx.util.vector.Quaternion"
+      ]
+    }
+  ]
+}

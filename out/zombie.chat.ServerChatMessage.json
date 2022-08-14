@@ -1,0 +1,41 @@
+{
+  "name": "ServerChatMessage",
+  "package": "zombie.chat",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.chat.ChatMessage"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ServerChatMessage",
+      "describe": [],
+      "args": [
+        "zombie.chat.ChatBase",
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getAuthor",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setAuthor",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

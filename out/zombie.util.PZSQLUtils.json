@@ -1,0 +1,40 @@
+{
+  "name": "PZSQLUtils",
+  "package": "zombie.util",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "PZSQLUtils",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "init",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.sql.Connection",
+      "name": "getConnection",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

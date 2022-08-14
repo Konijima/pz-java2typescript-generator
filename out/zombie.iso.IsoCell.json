@@ -1,0 +1,1623 @@
+{
+  "name": "IsoCell",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IsoCell",
+      "describe": [],
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "z",
+      "describe": [],
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "z",
+      "describe": [],
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "MaxHeight",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "Trees",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.iso.IsoGridSquare>",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "public",
+      "type": "final",
+      "describe": []
+    },
+    {
+      "name": "BuildingList",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.iso.areas.IsoBuilding>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ProcessWorldItemsRemove",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.iso.objects.IsoWorldInventoryObject>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ENABLE_SQUARE_CACHE",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DangerScore",
+      "scope": "public",
+      "type": "zombie.core.utils.IntGrid",
+      "describe": []
+    },
+    {
+      "name": "roomLights",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.iso.IsoRoomLight>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "addVehicles",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.vehicles.BaseVehicle>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "vehicles",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.vehicles.BaseVehicle>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ISOANGLEFACTOR",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RTF_SolidFloor",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RTF_VegetationCorpses",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RTF_MinusFloorCharacters",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RTF_ShadedFloor",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RTF_Shadows",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "zombie",
+      "scope": "public",
+      "type": "final",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "StencilX1",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "StencilY1",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "StencilX2",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "StencilY2",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "DeferredCharacterTick",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "recalcFloors",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "bRendering",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "getMaxHeight",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.LotHeader",
+      "name": "getCurrentLotHeader",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoChunkMap",
+      "name": "getChunkMap",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getFreeTile",
+      "args": [
+        "zombie.iso.RoomDef"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.util.Stack<zombie.iso.areas.BuildingScore>",
+      "name": "getBuildings",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setBuildings",
+      "args": [
+        "java.util.Stack<zombie.iso.areas.BuildingScore>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.characters.IsoZombie",
+      "name": "getNearestVisibleZombie",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoChunk",
+      "name": "getChunkForGridSquare",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoChunk",
+      "name": "getChunk",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "short",
+      "name": "getStencilValue",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setStencilValue",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "CalculateVertColoursForTile",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "DrawStencilMask",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "RenderTiles",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "RenderFloorShading",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "IsPlayerWindowPeeking",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "CanBuildingSquareOccludePlayer",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "GetEffectivePlayerRoomId",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setSnowTarget",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "gridSquareIsSnow",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.areas.IsoBuilding",
+      "name": "getClosestBuildingExcept",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.iso.areas.IsoRoom"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getDangerScore",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addToProcessIsoObject",
+      "args": [
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addToProcessIsoObjectRemove",
+      "args": [
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addToStaticUpdaterObjectList",
+      "args": [
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addToProcessItems",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addToProcessItems",
+      "args": [
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addToProcessItemsRemove",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addToProcessItemsRemove",
+      "args": [
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addToProcessWorldItems",
+      "args": [
+        "zombie.iso.objects.IsoWorldInventoryObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addToProcessWorldItemsRemove",
+      "args": [
+        "zombie.iso.objects.IsoWorldInventoryObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.characters.IsoSurvivor",
+      "name": "getNetworkPlayer",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "DoGridNav",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "zombie.iso.IsoGridSquare$GetSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "ConnectNewSquare",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "PlaceLot",
+      "args": [
+        "java.lang.String",
+        "int",
+        "int",
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "PlaceLot",
+      "args": [
+        "zombie.iso.IsoLot",
+        "int",
+        "int",
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "PlaceLot",
+      "args": [
+        "zombie.iso.IsoLot",
+        "int",
+        "int",
+        "int",
+        "zombie.iso.IsoChunk",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setDrag",
+      "args": [
+        "se.krka.kahlua.vm.KahluaTable",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "se.krka.kahlua.vm.KahluaTable",
+      "name": "getDrag",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "DoBuilding",
+      "args": [
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "DistanceFromSupport",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.iso.areas.IsoBuilding>",
+      "name": "getBuildingList",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.iso.objects.IsoWindow>",
+      "name": "getWindowList",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addToWindowList",
+      "args": [
+        "zombie.iso.objects.IsoWindow"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeFromWindowList",
+      "args": [
+        "zombie.iso.objects.IsoWindow"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.iso.IsoMovingObject>",
+      "name": "getObjectList",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.areas.IsoRoom",
+      "name": "getRoom",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.iso.IsoPushableObject>",
+      "name": "getPushableObjectList",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.HashMap<java.lang.Integer,zombie.iso.areas.BuildingScore>",
+      "name": "getBuildingScores",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.iso.areas.IsoRoom>",
+      "name": "getRoomList",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.iso.IsoObject>",
+      "name": "getStaticUpdaterObjectList",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.characters.IsoZombie>",
+      "name": "getZombieList",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.characters.IsoGameCharacter>",
+      "name": "getRemoteSurvivorList",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.iso.IsoMovingObject>",
+      "name": "getRemoveList",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.iso.IsoMovingObject>",
+      "name": "getAddList",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addMovingObject",
+      "args": [
+        "zombie.iso.IsoMovingObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getProcessItems",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.iso.objects.IsoWorldInventoryObject>",
+      "name": "getProcessWorldItems",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.iso.IsoObject>",
+      "name": "getProcessIsoObjects",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getProcessItemsRemove",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.vehicles.BaseVehicle>",
+      "name": "getVehicles",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getHeight",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setHeight",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getWidth",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setWidth",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getWorldX",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setWorldX",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getWorldY",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setWorldY",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isSafeToAdd",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setSafeToAdd",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.Stack<zombie.iso.IsoLightSource>",
+      "name": "getLamppostPositions",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoLightSource",
+      "name": "getLightSourceAt",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addLamppost",
+      "args": [
+        "zombie.iso.IsoLightSource"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoLightSource",
+      "name": "addLamppost",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "float",
+        "float",
+        "float",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeLamppost",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeLamppost",
+      "args": [
+        "zombie.iso.IsoLightSource"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getCurrentLightX",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setCurrentLightX",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getCurrentLightY",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setCurrentLightY",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getCurrentLightZ",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setCurrentLightZ",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getMinX",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setMinX",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getMaxX",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setMaxX",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getMinY",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setMinY",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getMaxY",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setMaxY",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getMinZ",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setMinZ",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getMaxZ",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setMaxZ",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.utils.OnceEvery",
+      "name": "getDangerUpdate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setDangerUpdate",
+      "args": [
+        "zombie.core.utils.OnceEvery"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Thread",
+      "name": "getLightInfoUpdate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setLightInfoUpdate",
+      "args": [
+        "java.lang.Thread"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.characters.IsoSurvivor>",
+      "name": "getSurvivorList",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "getRComponent",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "getGComponent",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "getBComponent",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "toIntColor",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getRandomOutdoorTile",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.Stack<zombie.iso.areas.BuildingScore>",
+      "name": "getBestBuildings",
+      "args": [
+        "zombie.iso.IsoCell$BuildingSearchCriteria",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "blocked",
+      "args": [
+        "zombie.ai.astar.Mover",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Dispose",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getGridSquare",
+      "args": [
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getOrCreateGridSquare",
+      "args": [
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setCacheGridSquare",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setCacheChunk",
+      "args": [
+        "zombie.iso.IsoChunk"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setCacheChunk",
+      "args": [
+        "zombie.iso.IsoChunk",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clearCacheGridSquare",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setCacheGridSquareLocal",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "zombie.iso.IsoGridSquare",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getGridSquare",
+      "args": [
+        "java.lang.Double",
+        "java.lang.Double",
+        "java.lang.Double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getGridSquare",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "EnsureSurroundNotNull",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "DeleteAllMovingObjects",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getMaxFloors",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "se.krka.kahlua.vm.KahluaTable",
+      "name": "getLuaObjectList",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getHeightInTiles",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getWidthInTiles",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isNull",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Remove",
+      "args": [
+        "zombie.iso.IsoMovingObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.IsoCell",
+      "name": "getInstance",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "invalidatePeekedRoom",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.weather.fx.IsoWeatherFX",
+      "name": "getWeatherFX",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setRainAlpha",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setRainIntensity",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setRainSpeed",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "reloadRainTextures",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.IsoDirections",
+      "name": "FromMouseTile",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getRandomFreeTileInRoom",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "roomSpotted",
+      "args": [
+        "zombie.iso.areas.IsoRoom"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "ProcessSpottedRooms",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "savePlayer",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": [
+        "java.io.DataOutputStream",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "LoadPlayer",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getRelativeGridSquare",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "createNewGridSquare",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getGridSquareDirect",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isInChunkMap",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.iso.IsoObject>",
+      "name": "getProcessIsoObjectRemove",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "checkHaveRoof",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.characters.IsoZombie",
+      "name": "getFakeZombieForHit",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addHeatSource",
+      "args": [
+        "zombie.iso.IsoHeatSource"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeHeatSource",
+      "args": [
+        "zombie.iso.IsoHeatSource"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "updateHeatSources",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getHeatSourceTemperature",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getHeatSourceHighestTemperature",
+      "args": [
+        "float",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putInVehicle",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "resumeVehicleSounds",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.sprite.IsoSpriteManager",
+      "name": "getSpriteManager",
+      "args": []
+    }
+  ]
+}

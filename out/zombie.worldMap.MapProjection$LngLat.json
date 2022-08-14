@@ -1,0 +1,24 @@
+{
+  "name": "MapProjection$LngLat",
+  "package": "zombie.worldMap",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "LngLat",
+      "describe": [],
+      "args": [
+        "double",
+        "double"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

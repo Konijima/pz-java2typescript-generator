@@ -1,0 +1,170 @@
+{
+  "name": "IsoWindowFrame",
+  "package": "zombie.iso.objects",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IsoWindowFrame",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "isWindowFrame",
+      "args": [
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "isWindowFrame",
+      "args": [
+        "zombie.iso.IsoObject",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "countAddSheetRope",
+      "args": [
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "canAddSheetRope",
+      "args": [
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "haveSheetRope",
+      "args": [
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "addSheetRope",
+      "args": [
+        "zombie.iso.IsoObject",
+        "zombie.characters.IsoPlayer",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "removeSheetRope",
+      "args": [
+        "zombie.iso.IsoObject",
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getOppositeSquare",
+      "args": [
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getIndoorSquare",
+      "args": [
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.objects.IsoCurtain",
+      "name": "getCurtain",
+      "args": [
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getAddSheetSquare",
+      "args": [
+        "zombie.iso.IsoObject",
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "addSheet",
+      "args": [
+        "zombie.iso.IsoObject",
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "canClimbThrough",
+      "args": [
+        "zombie.iso.IsoObject",
+        "zombie.characters.IsoGameCharacter"
+      ]
+    }
+  ]
+}

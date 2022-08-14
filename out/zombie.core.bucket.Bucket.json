@@ -1,0 +1,94 @@
+{
+  "name": "Bucket",
+  "package": "zombie.core.bucket",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Bucket",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "AddTexture",
+      "args": [
+        "java.nio.file.Path",
+        "zombie.core.textures.Texture"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "AddTexture",
+      "args": [
+        "java.lang.String",
+        "zombie.core.textures.Texture"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Dispose",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.textures.Texture",
+      "name": "getTexture",
+      "args": [
+        "java.nio.file.Path"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.textures.Texture",
+      "name": "getTexture",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "HasTexture",
+      "args": [
+        "java.nio.file.Path"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "HasTexture",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "forgetTexture",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

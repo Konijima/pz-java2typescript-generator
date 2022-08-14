@@ -1,0 +1,678 @@
+{
+  "name": "Bullet",
+  "package": "zombie.core.physics",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Bullet",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "cmdBuf",
+      "scope": "public",
+      "type": "java.nio.ByteBuffer",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "TO_ADD_VEHICLE",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TO_SCROLL_CHUNKMAP",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TO_ACTIVATE_CHUNKMAP",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TO_INIT_WORLD",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TO_UPDATE_CHUNK",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TO_DEBUG_DRAW_WORLD",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TO_STEP_SIMULATION",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TO_UPDATE_PLAYER_LIST",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TO_END",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "init",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "CatchToBullet",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "initWorld",
+      "args": [
+        "int",
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "destroyWorld",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "activateChunkMap",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "deactivateChunkMap",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "initWorld",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "updatePlayerList",
+      "args": [
+        "java.util.ArrayList<zombie.characters.IsoPlayer>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "beginUpdateChunk",
+      "args": [
+        "zombie.iso.IsoChunk"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "updateChunk",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "byte[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "endUpdateChunk",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "scrollChunkMap",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "scrollChunkMapLeft",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "scrollChunkMapRight",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "scrollChunkMapUp",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "scrollChunkMapDown",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setVehicleActive",
+      "args": [
+        "zombie.vehicles.BaseVehicle",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "setVehicleStatic",
+      "args": [
+        "zombie.vehicles.BaseVehicle",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "addVehicle",
+      "args": [
+        "int",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "removeVehicle",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "controlVehicle",
+      "args": [
+        "int",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "setVehicleActive",
+      "args": [
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "applyCentralForceToVehicle",
+      "args": [
+        "int",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "applyTorqueToVehicle",
+      "args": [
+        "int",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "teleportVehicle",
+      "args": [
+        "int",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "setTireInflation",
+      "args": [
+        "int",
+        "int",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "setTireRemoved",
+      "args": [
+        "int",
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "stepSimulation",
+      "args": [
+        "float",
+        "int",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native int",
+      "name": "getVehicleCount",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native int",
+      "name": "getVehiclePhysics",
+      "args": [
+        "int",
+        "float[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native int",
+      "name": "getOwnVehiclePhysics",
+      "args": [
+        "int",
+        "float[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native int",
+      "name": "setOwnVehiclePhysics",
+      "args": [
+        "int",
+        "float[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native int",
+      "name": "setVehicleParams",
+      "args": [
+        "int",
+        "float[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native int",
+      "name": "setVehicleMass",
+      "args": [
+        "int",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native int",
+      "name": "getObjectPhysics",
+      "args": [
+        "float[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "createServerCell",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "removeServerCell",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native int",
+      "name": "addPhysicsObject",
+      "args": [
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "defineVehicleScript",
+      "args": [
+        "java.lang.String",
+        "float[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "setVehicleVelocityMultiplier",
+      "args": [
+        "int",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native int",
+      "name": "setVehicleStatic",
+      "args": [
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native int",
+      "name": "addHingeConstraint",
+      "args": [
+        "int",
+        "int",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native int",
+      "name": "addPointConstraint",
+      "args": [
+        "int",
+        "int",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native int",
+      "name": "addRopeConstraint",
+      "args": [
+        "int",
+        "int",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "native void",
+      "name": "removeConstraint",
+      "args": [
+        "int"
+      ]
+    }
+  ]
+}

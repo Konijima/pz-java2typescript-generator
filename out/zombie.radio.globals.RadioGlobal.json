@@ -1,0 +1,66 @@
+{
+  "name": "RadioGlobal<T>",
+  "package": "zombie.radio.globals",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "abstract"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "zombie.radio.globals.RadioGlobalType",
+      "name": "getType",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "java.lang.String",
+      "name": "getName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.lang.String",
+      "name": "getString",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "zombie.radio.globals.CompareResult",
+      "name": "compare",
+      "args": [
+        "zombie.radio.globals.RadioGlobal",
+        "zombie.radio.globals.CompareMethod"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "setValue",
+      "args": [
+        "zombie.radio.globals.RadioGlobal",
+        "zombie.radio.globals.EditGlobalOps"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Animation",
+  "package": "zombie.debug.options",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.debug.options.OptionGroup"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Animation",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Debug",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "AllowEarlyTransitionOut",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "AnimLayer",
+      "scope": "public",
+      "type": "zombie.debug.options.Animation$AnimLayerOG",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "SharedSkeles",
+      "scope": "public",
+      "type": "zombie.debug.options.Animation$SharedSkelesOG",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "AnimRenderPicker",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "BlendUseFbx",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": []
+}

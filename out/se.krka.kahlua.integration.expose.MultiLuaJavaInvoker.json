@@ -1,0 +1,64 @@
+{
+  "name": "MultiLuaJavaInvoker",
+  "package": "se.krka.kahlua.integration.expose",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "se.krka.kahlua.vm.JavaFunction"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "MultiLuaJavaInvoker",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "call",
+      "args": [
+        "se.krka.kahlua.vm.LuaCallFrame",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addInvoker",
+      "args": [
+        "se.krka.kahlua.integration.expose.LuaJavaInvoker"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.List<se.krka.kahlua.integration.expose.LuaJavaInvoker>",
+      "name": "getInvokers",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "hashCode",
+      "args": []
+    }
+  ]
+}

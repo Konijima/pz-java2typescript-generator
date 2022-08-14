@@ -1,0 +1,67 @@
+{
+  "name": "GLUhalfEdge",
+  "package": "org.lwjglx.util.glu.tessellation",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "next",
+      "scope": "public",
+      "type": "org.lwjglx.util.glu.tessellation.GLUhalfEdge",
+      "describe": []
+    },
+    {
+      "name": "Sym",
+      "scope": "public",
+      "type": "org.lwjglx.util.glu.tessellation.GLUhalfEdge",
+      "describe": []
+    },
+    {
+      "name": "Onext",
+      "scope": "public",
+      "type": "org.lwjglx.util.glu.tessellation.GLUhalfEdge",
+      "describe": []
+    },
+    {
+      "name": "Lnext",
+      "scope": "public",
+      "type": "org.lwjglx.util.glu.tessellation.GLUhalfEdge",
+      "describe": []
+    },
+    {
+      "name": "Org",
+      "scope": "public",
+      "type": "org.lwjglx.util.glu.tessellation.GLUvertex",
+      "describe": []
+    },
+    {
+      "name": "Lface",
+      "scope": "public",
+      "type": "org.lwjglx.util.glu.tessellation.GLUface",
+      "describe": []
+    },
+    {
+      "name": "activeRegion",
+      "scope": "public",
+      "type": "org.lwjglx.util.glu.tessellation.ActiveRegion",
+      "describe": []
+    },
+    {
+      "name": "winding",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "first",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

@@ -1,0 +1,72 @@
+{
+  "name": "ChatSettings$FontSize",
+  "package": "zombie.chat",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.chat.ChatSettings$FontSize>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "NotDefine",
+      "scope": "public",
+      "type": "zombie.chat.ChatSettings$FontSize",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Small",
+      "scope": "public",
+      "type": "zombie.chat.ChatSettings$FontSize",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Medium",
+      "scope": "public",
+      "type": "zombie.chat.ChatSettings$FontSize",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Large",
+      "scope": "public",
+      "type": "zombie.chat.ChatSettings$FontSize",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.chat.ChatSettings$FontSize",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

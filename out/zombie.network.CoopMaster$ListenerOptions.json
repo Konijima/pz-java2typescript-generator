@@ -1,0 +1,62 @@
+{
+  "name": "CoopMaster$ListenerOptions",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ListenerOptions",
+      "describe": [],
+      "args": [
+        "zombie.network.CoopMaster",
+        "java.lang.String",
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ListenerOptions",
+      "describe": [],
+      "args": [
+        "zombie.network.CoopMaster",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ListenerOptions",
+      "describe": [],
+      "args": [
+        "zombie.network.CoopMaster",
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "tag",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "cookie",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "autoRemove",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

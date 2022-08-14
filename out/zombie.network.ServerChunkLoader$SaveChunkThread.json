@@ -1,0 +1,73 @@
+{
+  "name": "ServerChunkLoader$SaveChunkThread",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [
+    "java.lang.Thread"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "run",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addUnloadedJob",
+      "args": [
+        "zombie.iso.IsoChunk"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addLoadedJob",
+      "args": [
+        "zombie.iso.IsoChunk"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "saveLater",
+      "args": [
+        "zombie.GameTime"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "saveNow",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "quit",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    }
+  ]
+}

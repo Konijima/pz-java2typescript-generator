@@ -1,0 +1,192 @@
+{
+  "name": "RadioScript",
+  "package": "zombie.radio.scripting",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "RadioScript",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "RadioScript",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "int",
+        "int",
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "GetGUID",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "GetName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getStartDayStamp",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getStartDay",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getLoopMin",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getLoopMax",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.radio.scripting.RadioBroadCast",
+      "name": "getCurrentBroadcast",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.radio.scripting.RadioBroadCast>",
+      "name": "getBroadcastList",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clearExitOptions",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setStartDayStamp",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.radio.scripting.RadioBroadCast",
+      "name": "getValidAirBroadcast",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Reset",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.radio.scripting.RadioBroadCast",
+      "name": "getBroadcastWithID",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "UpdateScript",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.radio.scripting.RadioScript$ExitOption",
+      "name": "getNextScript",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "AddBroadcast",
+      "args": [
+        "zombie.radio.scripting.RadioBroadCast"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "AddBroadcast",
+      "args": [
+        "zombie.radio.scripting.RadioBroadCast",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "AddExitOption",
+      "args": [
+        "java.lang.String",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.radio.scripting.RadioBroadCast",
+      "name": "getValidAirBroadcastDebug",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.radio.scripting.RadioScript$ExitOption>",
+      "name": "getExitOptions",
+      "args": []
+    }
+  ]
+}

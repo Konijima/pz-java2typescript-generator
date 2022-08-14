@@ -1,0 +1,30 @@
+{
+  "name": "FakeClientManager$PlayerManager",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "PlayerManager",
+      "describe": [],
+      "args": [
+        "zombie.network.FakeClientManager$Player"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "players",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.Integer,zombie.network.FakeClientManager$PlayerManager$RemotePlayer>",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": []
+}

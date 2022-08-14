@@ -1,0 +1,101 @@
+{
+  "name": "Page",
+  "package": "com.jcraft.jogg",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Page",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "body",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "byte",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "body_len",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "header",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "byte",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "header_len",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "bos",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "com.jcraft.jogg.Page",
+      "name": "copy",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "com.jcraft.jogg.Page",
+      "name": "copy",
+      "args": [
+        "com.jcraft.jogg.Page"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "eos",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "long",
+      "name": "granulepos",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "serialno",
+      "args": []
+    }
+  ]
+}

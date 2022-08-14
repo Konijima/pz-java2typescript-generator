@@ -1,0 +1,241 @@
+{
+  "name": "IsoPuddles",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IsoPuddles",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Effect",
+      "scope": "public",
+      "type": "zombie.core.opengl.Shader",
+      "describe": []
+    },
+    {
+      "name": "leakingPuddlesInTheRoom",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "VBOs",
+      "scope": "public",
+      "type": "zombie.core.opengl.SharedVertexBufferObjects",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BOOL_MAX",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FLOAT_RAIN",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FLOAT_WETGROUND",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FLOAT_MUDDYPUDDLES",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FLOAT_PUDDLESSIZE",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FLOAT_RAININTENSITY",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FLOAT_MAX",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "synchronized zombie.iso.IsoPuddles",
+      "name": "getInstance",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "getShaderEnable",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "applyPuddlesQuality",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector4f",
+      "name": "getShaderOffset",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector4f",
+      "name": "getShaderOffsetMain",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": [
+        "java.util.ArrayList<zombie.iso.IsoGridSquare>",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "puddlesProjection",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "puddlesGeometry",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": [
+        "zombie.iso.weather.ClimateManager"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getShaderTime",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getPuddlesSize",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.interfaces.ITexture",
+      "name": "getHMTexture",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.FloatBuffer",
+      "name": "getPuddlesParams",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getRainIntensity",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getFloatMax",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getBoolMax",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoPuddles$PuddlesFloat",
+      "name": "getPuddlesFloat",
+      "args": [
+        "int"
+      ]
+    }
+  ]
+}

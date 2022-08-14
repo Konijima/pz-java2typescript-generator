@@ -1,0 +1,135 @@
+{
+  "name": "Thermoregulator$Multiplier",
+  "package": "zombie.characters.BodyDamage",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.characters.BodyDamage.Thermoregulator$Multiplier>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Default",
+      "scope": "public",
+      "type": "zombie.characters.BodyDamage.Thermoregulator$Multiplier",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MetabolicRateInc",
+      "scope": "public",
+      "type": "zombie.characters.BodyDamage.Thermoregulator$Multiplier",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MetabolicRateDec",
+      "scope": "public",
+      "type": "zombie.characters.BodyDamage.Thermoregulator$Multiplier",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BodyHeat",
+      "scope": "public",
+      "type": "zombie.characters.BodyDamage.Thermoregulator$Multiplier",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "CoreHeatExpand",
+      "scope": "public",
+      "type": "zombie.characters.BodyDamage.Thermoregulator$Multiplier",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "CoreHeatContract",
+      "scope": "public",
+      "type": "zombie.characters.BodyDamage.Thermoregulator$Multiplier",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SkinCelcius",
+      "scope": "public",
+      "type": "zombie.characters.BodyDamage.Thermoregulator$Multiplier",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SkinCelciusContract",
+      "scope": "public",
+      "type": "zombie.characters.BodyDamage.Thermoregulator$Multiplier",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SkinCelciusExpand",
+      "scope": "public",
+      "type": "zombie.characters.BodyDamage.Thermoregulator$Multiplier",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PrimaryDelta",
+      "scope": "public",
+      "type": "zombie.characters.BodyDamage.Thermoregulator$Multiplier",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SecondaryDelta",
+      "scope": "public",
+      "type": "zombie.characters.BodyDamage.Thermoregulator$Multiplier",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characters.BodyDamage.Thermoregulator$Multiplier",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

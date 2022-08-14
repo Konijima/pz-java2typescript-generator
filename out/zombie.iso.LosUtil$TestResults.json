@@ -1,0 +1,81 @@
+{
+  "name": "LosUtil$TestResults",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.iso.LosUtil$TestResults>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Clear",
+      "scope": "public",
+      "type": "zombie.iso.LosUtil$TestResults",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ClearThroughOpenDoor",
+      "scope": "public",
+      "type": "zombie.iso.LosUtil$TestResults",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ClearThroughWindow",
+      "scope": "public",
+      "type": "zombie.iso.LosUtil$TestResults",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Blocked",
+      "scope": "public",
+      "type": "zombie.iso.LosUtil$TestResults",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ClearThroughClosedDoor",
+      "scope": "public",
+      "type": "zombie.iso.LosUtil$TestResults",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.LosUtil$TestResults",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

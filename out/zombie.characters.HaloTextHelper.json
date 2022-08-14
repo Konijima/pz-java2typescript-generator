@@ -1,0 +1,197 @@
+{
+  "name": "HaloTextHelper",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "HaloTextHelper",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "COLOR_WHITE",
+      "scope": "public",
+      "type": "zombie.characters.HaloTextHelper$ColorRGB",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "COLOR_GREEN",
+      "scope": "public",
+      "type": "zombie.characters.HaloTextHelper$ColorRGB",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "COLOR_RED",
+      "scope": "public",
+      "type": "zombie.characters.HaloTextHelper$ColorRGB",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characters.HaloTextHelper$ColorRGB",
+      "name": "getColorWhite",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characters.HaloTextHelper$ColorRGB",
+      "name": "getColorGreen",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characters.HaloTextHelper$ColorRGB",
+      "name": "getColorRed",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "forceNextAddText",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "addTextWithArrow",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "java.lang.String",
+        "boolean",
+        "zombie.characters.HaloTextHelper$ColorRGB"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "addTextWithArrow",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "java.lang.String",
+        "boolean",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "addTextWithArrow",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "java.lang.String",
+        "boolean",
+        "zombie.characters.HaloTextHelper$ColorRGB",
+        "zombie.characters.HaloTextHelper$ColorRGB"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "addTextWithArrow",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "java.lang.String",
+        "boolean",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "addText",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "java.lang.String",
+        "zombie.characters.HaloTextHelper$ColorRGB"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "addText",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "java.lang.String",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "addText",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "update",
+      "args": []
+    }
+  ]
+}

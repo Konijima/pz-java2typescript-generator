@@ -1,0 +1,25 @@
+{
+  "name": "DiscordBot$Listener",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "de.btobastian.javacord.listener.message.MessageCreateListener"
+  ],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onMessageCreate",
+      "args": [
+        "de.btobastian.javacord.DiscordAPI",
+        "de.btobastian.javacord.entities.message.Message"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "IsoGridSquare$CircleStencilShader",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.core.opengl.Shader"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "CircleStencilShader",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.iso.IsoGridSquare$CircleStencilShader",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "a_wallShadeColor",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

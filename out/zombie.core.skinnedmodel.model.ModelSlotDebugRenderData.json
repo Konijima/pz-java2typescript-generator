@@ -1,0 +1,49 @@
+{
+  "name": "ModelSlotDebugRenderData",
+  "package": "zombie.core.skinnedmodel.model",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.util.PooledObject"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ModelSlotDebugRenderData",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.skinnedmodel.model.ModelSlotDebugRenderData",
+      "name": "alloc",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.model.ModelSlotDebugRenderData",
+      "name": "init",
+      "args": [
+        "zombie.core.skinnedmodel.model.ModelSlotRenderData"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": []
+    }
+  ]
+}

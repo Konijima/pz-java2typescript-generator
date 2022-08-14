@@ -1,0 +1,14 @@
+{
+  "name": "PZMath$UnitTests",
+  "package": "zombie.core.math",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

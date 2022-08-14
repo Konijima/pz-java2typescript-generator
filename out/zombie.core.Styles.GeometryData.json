@@ -1,0 +1,44 @@
+{
+  "name": "GeometryData",
+  "package": "zombie.core.Styles",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "GeometryData",
+      "describe": [],
+      "args": [
+        "zombie.core.Styles.FloatList",
+        "zombie.core.Styles.ShortList"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clear",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.Styles.FloatList",
+      "name": "getVertexData",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.Styles.ShortList",
+      "name": "getIndexData",
+      "args": []
+    }
+  ]
+}

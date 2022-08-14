@@ -1,0 +1,69 @@
+{
+  "name": "WhisperChat",
+  "package": "zombie.chat.defaultChats",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.chat.ChatBase"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "WhisperChat",
+      "describe": [],
+      "args": [
+        "int",
+        "zombie.chat.ChatTab",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "WhisperChat",
+      "describe": [],
+      "args": [
+        "java.nio.ByteBuffer",
+        "zombie.chat.ChatTab",
+        "zombie.characters.IsoPlayer"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.chat.ChatSettings",
+      "name": "getDefaultSettings",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getMessagePrefix",
+      "args": [
+        "zombie.chat.ChatMessage"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getCompanionName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "init",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "name": "SoundManager$AmbientSoundEffect",
+  "package": "zombie",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [
+    "fmod.fmod.Audio"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "AmbientSoundEffect",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "name",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "eventInstance",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "gain",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "clip",
+      "scope": "public",
+      "type": "zombie.audio.GameSoundClip",
+      "describe": []
+    },
+    {
+      "name": "effectiveVolume",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setVolume",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "start",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "pause",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "stop",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isPlaying",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setName",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    }
+  ]
+}

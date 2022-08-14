@@ -1,0 +1,72 @@
+{
+  "name": "VoiceManagerData$VoiceDataSource",
+  "package": "zombie.core.raknet",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.core.raknet.VoiceManagerData$VoiceDataSource>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Unknown",
+      "scope": "public",
+      "type": "zombie.core.raknet.VoiceManagerData$VoiceDataSource",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Voice",
+      "scope": "public",
+      "type": "zombie.core.raknet.VoiceManagerData$VoiceDataSource",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Radio",
+      "scope": "public",
+      "type": "zombie.core.raknet.VoiceManagerData$VoiceDataSource",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Cheat",
+      "scope": "public",
+      "type": "zombie.core.raknet.VoiceManagerData$VoiceDataSource",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.raknet.VoiceManagerData$VoiceDataSource",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

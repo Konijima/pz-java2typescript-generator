@@ -1,0 +1,72 @@
+{
+  "name": "ZipLogs",
+  "package": "zombie.core.logger",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ZipLogs",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "addZipFile",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "addToZip",
+      "args": [
+        "java.nio.file.FileSystem",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "addDirToZip",
+      "args": [
+        "java.nio.file.FileSystem",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "putTextFile",
+      "args": [
+        "java.nio.file.FileSystem",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    }
+  ]
+}

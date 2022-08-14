@@ -1,0 +1,789 @@
+{
+  "name": "ZomboidFileSystem",
+  "package": "zombie",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "getAllPathsContaining",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "getAllPathsContaining",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "listAllDirectories",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "java.io.FileFilter",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "listAllDirectories",
+      "describe": [],
+      "args": [
+        "java.io.File",
+        "java.io.FileFilter",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "listAllFiles",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "java.io.FileFilter",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "listAllFiles",
+      "describe": [],
+      "args": [
+        "java.io.File",
+        "java.io.FileFilter",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "resolveAllDirectories",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "java.io.FileFilter",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "resolveAllFiles",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "java.io.FileFilter",
+        "boolean"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.ZomboidFileSystem",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ActiveFileMap",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.String,java.lang.String>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "base",
+      "scope": "public",
+      "type": "java.io.File",
+      "describe": []
+    },
+    {
+      "name": "baseURI",
+      "scope": "public",
+      "type": "java.net.URI",
+      "describe": []
+    },
+    {
+      "name": "IgnoreActiveFileMap",
+      "scope": "public",
+      "type": "java.lang.ThreadLocal<java.lang.Boolean>",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "init",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getGameModeCacheDir",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getCurrentSaveDir",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getFileNameInCurrentSave",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getFileNameInCurrentSave",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getFileNameInCurrentSave",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.io.File",
+      "name": "getFileInCurrentSave",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.io.File",
+      "name": "getFileInCurrentSave",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.io.File",
+      "name": "getFileInCurrentSave",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getSaveDir",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getSaveDirSub",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getScreenshotDir",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getScreenshotDirSub",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setCacheDir",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getCacheDir",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getCacheDirSub",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getMessagingDir",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getMessagingDirSub",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.io.File",
+      "name": "getMediaRootFile",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getMediaRootPath",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.io.File",
+      "name": "getMediaFile",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getMediaPath",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getAbsoluteWorkDir",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getLocalWorkDir",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getLocalWorkDirSub",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getAnimSetsPath",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getActionGroupsPath",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "ensureFolderExists",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "ensureFolderExists",
+      "args": [
+        "java.io.File"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "searchFolders",
+      "args": [
+        "java.io.File"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "synchronized java.lang.String",
+      "name": "getString",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getAbsolutePath",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Reset",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.io.File",
+      "name": "getCanonicalFile",
+      "args": [
+        "java.io.File"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.io.File",
+      "name": "getCanonicalFile",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getCanonicalPath",
+      "args": [
+        "java.io.File"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getCanonicalPath",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.net.URI",
+      "name": "getCanonicalURI",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "resetModFolders",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getInstalledItemModsFolders",
+      "args": [
+        "java.util.ArrayList<java.lang.String>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getStagedItemModsFolders",
+      "args": [
+        "java.util.ArrayList<java.lang.String>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setModFoldersOrder",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getAllModFolders",
+      "args": [
+        "java.util.List<java.lang.String>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.gameStates.ChooseGameInfo$Mod>",
+      "name": "getWorkshopItemMods",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.gameStates.ChooseGameInfo$Mod",
+      "name": "searchForModInfo",
+      "args": [
+        "java.io.File",
+        "java.lang.String",
+        "java.util.ArrayList<zombie.gameStates.ChooseGameInfo$Mod>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "loadMod",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "loadMods",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "loadModsAux",
+      "args": [
+        "java.util.ArrayList<java.lang.String>",
+        "java.util.ArrayList<java.lang.String>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "loadMods",
+      "args": [
+        "java.util.ArrayList<java.lang.String>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<java.lang.String>",
+      "name": "getModIDs",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getModDir",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.gameStates.ChooseGameInfo$Mod",
+      "name": "getModInfoForDir",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getRelativeFile",
+      "args": [
+        "java.io.File"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getRelativeFile",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getRelativeFile",
+      "args": [
+        "java.net.URI",
+        "java.io.File"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getRelativeFile",
+      "args": [
+        "java.net.URI",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getAnimName",
+      "args": [
+        "java.net.URI",
+        "java.io.File"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "resolveRelativePath",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "saveModsFile",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "loadModPackFiles",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "loadModTileDefs",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "loadModTileDefPropertyStrings",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "loadFileGuidTable",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.FileGuidTable",
+      "name": "getFileGuidTable",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getFilePathFromGuid",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getGuidFromFilePath",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "resolveFileOrGUID",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isValidFilePathGuid",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "walkGameAndModFiles",
+      "args": [
+        "java.lang.String",
+        "boolean",
+        "zombie.ZomboidFileSystem$IWalkFilesVisitor"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "normalizeFolderPath",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "processFilePath",
+      "args": [
+        "java.lang.String",
+        "char"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "tryDeleteFile",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "deleteFile",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "cleanMultiplayerSaves",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "resetDefaultModsForNewRelease",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

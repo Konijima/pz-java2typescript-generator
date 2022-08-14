@@ -1,0 +1,67 @@
+{
+  "name": "ClipperOffset",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ClipperOffset",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "native void",
+      "name": "clear",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "native void",
+      "name": "addPath",
+      "args": [
+        "int",
+        "java.nio.ByteBuffer",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "native void",
+      "name": "execute",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "native int",
+      "name": "getPolygonCount",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "native int",
+      "name": "getPolygon",
+      "args": [
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    }
+  ]
+}

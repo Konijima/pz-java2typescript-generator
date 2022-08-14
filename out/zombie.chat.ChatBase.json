@@ -1,0 +1,349 @@
+{
+  "name": "ChatBase",
+  "package": "zombie.chat",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "abstract"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ChatBase",
+      "describe": [],
+      "args": [
+        "java.nio.ByteBuffer",
+        "zombie.network.chat.ChatType",
+        "zombie.chat.ChatTab",
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ChatBase",
+      "describe": [],
+      "args": [
+        "int",
+        "zombie.network.chat.ChatType",
+        "zombie.chat.ChatTab"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isEnabled",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.chat.ChatMode",
+      "name": "getMode",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.network.chat.ChatType",
+      "name": "getType",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getID",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getTitleID",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.Color",
+      "name": "getColor",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "short",
+      "name": "getTabID",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getRange",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isSendingToRadio",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getZombieAttractionRange",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setSettings",
+      "args": [
+        "zombie.chat.ChatSettings"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setFontSize",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setShowTimestamp",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setShowTitle",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "close",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.chat.ChatMessage",
+      "name": "unpackMessage",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "packMessage",
+      "args": [
+        "zombie.core.network.ByteBufferWriter",
+        "zombie.chat.ChatMessage"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.chat.ChatMessage",
+      "name": "createMessage",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.chat.ServerChatMessage",
+      "name": "createServerMessage",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "showMessage",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "showMessage",
+      "args": [
+        "zombie.chat.ChatMessage"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getMessageTextWithPrefix",
+      "args": [
+        "zombie.chat.ChatMessage"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendMessageToChatMembers",
+      "args": [
+        "zombie.chat.ChatMessage"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendMessageToChatMembers",
+      "args": [
+        "zombie.chat.ServerChatMessage"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendMessageToPlayer",
+      "args": [
+        "zombie.core.raknet.UdpConnection",
+        "zombie.chat.ChatMessage"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendMessageToPlayer",
+      "args": [
+        "short",
+        "zombie.chat.ChatMessage"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getMessagePrefix",
+      "args": [
+        "zombie.chat.ChatMessage"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addMember",
+      "args": [
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "leaveMember",
+      "args": [
+        "java.lang.Short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeMember",
+      "args": [
+        "java.lang.Short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "syncMembersByUsernames",
+      "args": [
+        "java.util.ArrayList<java.lang.String>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<java.lang.Short>",
+      "name": "getJustAddedMembers",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<java.lang.Short>",
+      "name": "getJustRemovedMembers",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendPlayerJoinChatPacket",
+      "args": [
+        "zombie.core.raknet.UdpConnection"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendPlayerLeaveChatPacket",
+      "args": [
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendPlayerLeaveChatPacket",
+      "args": [
+        "zombie.core.raknet.UdpConnection"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendToServer",
+      "args": [
+        "zombie.chat.ChatMessage",
+        "zombie.radio.devices.DeviceData"
+      ]
+    }
+  ]
+}

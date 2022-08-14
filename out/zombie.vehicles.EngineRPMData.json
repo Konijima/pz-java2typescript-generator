@@ -1,0 +1,51 @@
+{
+  "name": "EngineRPMData",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "EngineRPMData",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "EngineRPMData",
+      "describe": [],
+      "args": [
+        "float",
+        "float"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "gearChange",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "afterGearChange",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "reset",
+      "args": []
+    }
+  ]
+}

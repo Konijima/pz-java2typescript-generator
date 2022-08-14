@@ -1,0 +1,99 @@
+{
+  "name": "IsoGameCharacter$BodyLocation",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.characters.IsoGameCharacter$BodyLocation>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Head",
+      "scope": "public",
+      "type": "zombie.characters.IsoGameCharacter$BodyLocation",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Leg",
+      "scope": "public",
+      "type": "zombie.characters.IsoGameCharacter$BodyLocation",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Arm",
+      "scope": "public",
+      "type": "zombie.characters.IsoGameCharacter$BodyLocation",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Chest",
+      "scope": "public",
+      "type": "zombie.characters.IsoGameCharacter$BodyLocation",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Stomach",
+      "scope": "public",
+      "type": "zombie.characters.IsoGameCharacter$BodyLocation",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Foot",
+      "scope": "public",
+      "type": "zombie.characters.IsoGameCharacter$BodyLocation",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Hand",
+      "scope": "public",
+      "type": "zombie.characters.IsoGameCharacter$BodyLocation",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characters.IsoGameCharacter$BodyLocation",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

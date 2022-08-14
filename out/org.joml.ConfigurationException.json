@@ -1,0 +1,24 @@
+{
+  "name": "ConfigurationException",
+  "package": "org.joml",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "java.lang.RuntimeException"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ConfigurationException",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "java.lang.Throwable"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

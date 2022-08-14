@@ -1,0 +1,46 @@
+{
+  "name": "DebugLog$OutputStreamWrapper",
+  "package": "zombie.debug",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.io.FilterOutputStream"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "OutputStreamWrapper",
+      "describe": [],
+      "args": [
+        "java.io.OutputStream"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "write",
+      "args": [
+        "byte[]",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setStream",
+      "args": [
+        "java.io.OutputStream"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "UnderwearDefinition$StringChance",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "StringChance",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "float"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

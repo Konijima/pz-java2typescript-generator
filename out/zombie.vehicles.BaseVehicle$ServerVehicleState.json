@@ -1,0 +1,83 @@
+{
+  "name": "BaseVehicle$ServerVehicleState",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ServerVehicleState",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "x",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "y",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "z",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "orient",
+      "scope": "public",
+      "type": "org.joml.Quaternionf",
+      "describe": []
+    },
+    {
+      "name": "flags",
+      "scope": "public",
+      "type": "short",
+      "describe": []
+    },
+    {
+      "name": "netPlayerAuthorization",
+      "scope": "public",
+      "type": "zombie.vehicles.BaseVehicle$Authorization",
+      "describe": []
+    },
+    {
+      "name": "netPlayerId",
+      "scope": "public",
+      "type": "short",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setAuthorization",
+      "args": [
+        "zombie.vehicles.BaseVehicle"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "shouldSend",
+      "args": [
+        "zombie.vehicles.BaseVehicle"
+      ]
+    }
+  ]
+}

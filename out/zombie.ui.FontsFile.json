@@ -1,0 +1,33 @@
+{
+  "name": "FontsFile",
+  "package": "zombie.ui",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "FontsFile",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "read",
+      "args": [
+        "java.lang.String",
+        "java.util.HashMap<java.lang.String",
+        "zombie.ui.FontsFileFont>"
+      ]
+    }
+  ]
+}

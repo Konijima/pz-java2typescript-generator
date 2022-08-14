@@ -1,0 +1,63 @@
+{
+  "name": "ZombieTemplateManager$OverlayType",
+  "package": "zombie",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.ZombieTemplateManager$OverlayType>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "BloodLight",
+      "scope": "public",
+      "type": "zombie.ZombieTemplateManager$OverlayType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BloodMedium",
+      "scope": "public",
+      "type": "zombie.ZombieTemplateManager$OverlayType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BloodHeavy",
+      "scope": "public",
+      "type": "zombie.ZombieTemplateManager$OverlayType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.ZombieTemplateManager$OverlayType",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

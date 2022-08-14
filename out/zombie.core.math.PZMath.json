@@ -1,0 +1,665 @@
+{
+  "name": "PZMath",
+  "package": "zombie.core.math",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "PZMath",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "lerp",
+      "describe": [],
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "EaseOutQuad",
+      "describe": [],
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "EaseInQuad",
+      "describe": [],
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "EaseOutInQuad",
+      "describe": [],
+      "args": [
+        "float"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "PI",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PI2",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "degToRads",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "radToDegs",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "microsToNanos",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "millisToMicros",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "secondsToMillis",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "secondsToNanos",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "clamp_01",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "roundToIntPlus05",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "almostUnitIdentity",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "almostIdentity",
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "gain",
+      "args": [
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "clamp",
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "long",
+      "name": "clamp",
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "clamp",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "clampFloat",
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "lerp",
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "lerpAngle",
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjgl.util.vector.Vector3f",
+      "name": "lerp",
+      "args": [
+        "org.lwjgl.util.vector.Vector3f",
+        "org.lwjgl.util.vector.Vector3f",
+        "org.lwjgl.util.vector.Vector3f",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.Vector2",
+      "name": "lerp",
+      "args": [
+        "zombie.iso.Vector2",
+        "zombie.iso.Vector2",
+        "zombie.iso.Vector2",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjgl.util.vector.Quaternion",
+      "name": "slerp",
+      "args": [
+        "org.lwjgl.util.vector.Quaternion",
+        "org.lwjgl.util.vector.Quaternion",
+        "org.lwjgl.util.vector.Quaternion",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "sqrt",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "double",
+      "name": "tryParseDouble",
+      "args": [
+        "java.lang.String",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "tryParseFloat",
+      "args": [
+        "java.lang.String",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "canParseFloat",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "tryParseInt",
+      "args": [
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "degToRad",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "radToDeg",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "getClosestAngle",
+      "args": [
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "getClosestAngleDegrees",
+      "args": [
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "sign",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "fastfloor",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "fastfloor",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "floor",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "ceil",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "frac",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "wrap",
+      "args": [
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "wrap",
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "max",
+      "args": [
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "max",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "min",
+      "args": [
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "min",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "abs",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "equal",
+      "args": [
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "equal",
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjgl.util.vector.Matrix4f",
+      "name": "convertMatrix",
+      "args": [
+        "org.joml.Matrix4f",
+        "org.lwjgl.util.vector.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.joml.Matrix4f",
+      "name": "convertMatrix",
+      "args": [
+        "org.lwjgl.util.vector.Matrix4f",
+        "org.joml.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "step",
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.math.PZMath$SideOfLine",
+      "name": "testSideOfLine",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "roundToNearest",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "roundToInt",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "roundFromEdges",
+      "args": [
+        "float"
+      ]
+    }
+  ]
+}

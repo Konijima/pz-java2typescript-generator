@@ -1,0 +1,4457 @@
+{
+  "name": "BaseVehicle",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.iso.IsoMovingObject"
+  ],
+  "implements": [
+    "zombie.iso.objects.interfaces.Thumpable",
+    "fmod.fmod.IFMODParameterUpdater"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "BaseVehicle",
+      "describe": [],
+      "args": [
+        "zombie.iso.IsoCell"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "D",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "Break",
+      "describe": [],
+      "args": [
+        "zombie.iso.IsoObject",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "PlayerInteract",
+      "describe": [],
+      "args": [
+        "zombie.scripting.objects.VehicleScript$Area"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "PlayerInteract",
+      "describe": [],
+      "args": [
+        "zombie.scripting.objects.VehicleScript$Area",
+        "zombie.iso.Vector2"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "RADIUS",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FADE_DISTANCE",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RANDOMIZE_CONTAINER_CHANCE",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "noAuthorization",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "YURI_FORCE_FIELD",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RENDER_TO_TEXTURE",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "CENTER_OF_MASS_MAGIC",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "vehicleShadow",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "justBreakConstraintTimer",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "wasTowedBy",
+      "scope": "public",
+      "type": "zombie.vehicles.BaseVehicle",
+      "describe": []
+    },
+    {
+      "name": "models",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.vehicles.BaseVehicle$ModelInfo>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "chunk",
+      "scope": "public",
+      "type": "zombie.iso.IsoChunk",
+      "describe": []
+    },
+    {
+      "name": "polyDirty",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "VehicleID",
+      "scope": "public",
+      "type": "short",
+      "describe": []
+    },
+    {
+      "name": "sqlID",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "serverRemovedFromWorld",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "interpolation",
+      "scope": "public",
+      "type": "zombie.vehicles.VehicleInterpolation",
+      "describe": []
+    },
+    {
+      "name": "waitFullUpdate",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "throttle",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "engineSpeed",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "transmissionNumber",
+      "scope": "public",
+      "type": "zombie.vehicles.TransmissionNumber",
+      "describe": []
+    },
+    {
+      "name": "transmissionChangeTime",
+      "scope": "public",
+      "type": "zombie.core.utils.UpdateLimit",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "hasExtendOffset",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "hasExtendOffsetExiting",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "savedPhysicsZ",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "savedRot",
+      "scope": "public",
+      "type": "org.joml.Quaternionf",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "jniTransform",
+      "scope": "public",
+      "type": "zombie.core.physics.Transform",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "jniSpeed",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "jniIsCollide",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "jniLinearVelocity",
+      "scope": "public",
+      "type": "org.joml.Vector3f",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "netPlayerAuthorization",
+      "scope": "public",
+      "type": "zombie.vehicles.BaseVehicle$Authorization",
+      "describe": []
+    },
+    {
+      "name": "netPlayerId",
+      "scope": "public",
+      "type": "short",
+      "describe": []
+    },
+    {
+      "name": "netPlayerTimeout",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "authSimulationHash",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "authSimulationTime",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "frontEndDurability",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "rearEndDurability",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "rust",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "colorHue",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "colorSaturation",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "colorValue",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "currentFrontEndDurability",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "currentRearEndDurability",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "collideX",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "collideY",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "shadowCoord",
+      "scope": "public",
+      "type": "zombie.vehicles.PolygonalMap2$VehiclePoly",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "engineState",
+      "scope": "public",
+      "type": "zombie.vehicles.BaseVehicle$engineStateTypes",
+      "describe": []
+    },
+    {
+      "name": "engineLastUpdateStateTime",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "MAX_WHEELS",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PHYSICS_PARAM_COUNT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "zombie",
+      "scope": "public",
+      "type": "final",
+      "describe": []
+    },
+    {
+      "name": "skidding",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "skidSound",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "ramSound",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "ramSoundTime",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "long",
+      "scope": "public",
+      "type": "final",
+      "describe": []
+    },
+    {
+      "name": "engineSoundIndex",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "hornemitter",
+      "scope": "public",
+      "type": "zombie.audio.BaseSoundEmitter",
+      "describe": []
+    },
+    {
+      "name": "startTime",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "headlightsOn",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "stoplightsOn",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "windowLightsOn",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "soundHornOn",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "soundBackMoveOn",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "lightbarLightsMode",
+      "scope": "public",
+      "type": "zombie.vehicles.LightbarLightsMode",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "lightbarSirenMode",
+      "scope": "public",
+      "type": "zombie.vehicles.LightbarSirenMode",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "zombie",
+      "scope": "public",
+      "type": "final",
+      "describe": []
+    },
+    {
+      "name": "addedToWorld",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "soundSirenSignal",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "keySpawned",
+      "scope": "public",
+      "type": "byte",
+      "describe": []
+    },
+    {
+      "name": "vehicleTransform",
+      "scope": "public",
+      "type": "org.joml.Matrix4f",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "renderTransform",
+      "scope": "public",
+      "type": "org.joml.Matrix4f",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "physicActiveCheck",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "specificDistributionId",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "constraintTowing",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "isActive",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "isStatic",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "isReliable",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "TL_vector2_pool",
+      "scope": "public",
+      "type": "java.lang.ThreadLocal<zombie.vehicles.BaseVehicle$Vector2ObjectPool>",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TL_vector2f_pool",
+      "scope": "public",
+      "type": "java.lang.ThreadLocal<zombie.vehicles.BaseVehicle$Vector2fObjectPool>",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TL_vector3f_pool",
+      "scope": "public",
+      "type": "java.lang.ThreadLocal<zombie.vehicles.BaseVehicle$Vector3fObjectPool>",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TL_matrix4f_pool",
+      "scope": "public",
+      "type": "java.lang.ThreadLocal<zombie.vehicles.BaseVehicle$Matrix4fObjectPool>",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TL_quaternionf_pool",
+      "scope": "public",
+      "type": "java.lang.ThreadLocal<zombie.vehicles.BaseVehicle$QuaternionfObjectPool>",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PHYSICS_Z_SCALE",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PLUS_RADIUS",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "MASK1_FRONT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MASK1_REAR",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MASK1_DOOR_RIGHT_FRONT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MASK1_DOOR_RIGHT_REAR",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MASK1_DOOR_LEFT_FRONT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MASK1_DOOR_LEFT_REAR",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MASK1_WINDOW_RIGHT_FRONT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MASK1_WINDOW_RIGHT_REAR",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MASK1_WINDOW_LEFT_FRONT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MASK1_WINDOW_LEFT_REAR",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MASK1_WINDOW_FRONT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MASK1_WINDOW_REAR",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MASK1_GUARD_RIGHT_FRONT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MASK1_GUARD_RIGHT_REAR",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MASK1_GUARD_LEFT_FRONT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MASK1_GUARD_LEFT_REAR",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MASK2_ROOF",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MASK2_LIGHT_RIGHT_FRONT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MASK2_LIGHT_LEFT_FRONT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MASK2_LIGHT_RIGHT_REAR",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MASK2_LIGHT_LEFT_REAR",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MASK2_BRAKE_RIGHT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MASK2_BRAKE_LEFT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MASK2_LIGHTBAR_RIGHT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MASK2_LIGHTBAR_LEFT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MASK2_HOOD",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MASK2_BOOT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "forcedFriction",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "allocVector2",
+      "scope": "public",
+      "type": "zombie.iso.Vector2",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "releaseVector2",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "getPassengerDoor2",
+      "scope": "public",
+      "type": "zombie.vehicles.VehiclePart",
+      "describe": []
+    },
+    {
+      "name": "isPassengerUseDoor2",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "isEnterBlocked2",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "isExitBlocked2",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getSqlId",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "LoadAllVehicleTextures",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "LoadVehicleTextures",
+      "args": [
+        "zombie.scripting.objects.VehicleScript"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.textures.Texture",
+      "name": "LoadVehicleTexture",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.textures.Texture",
+      "name": "LoadVehicleTexture",
+      "args": [
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setNetPlayerAuthorization",
+      "args": [
+        "zombie.vehicles.BaseVehicle$Authorization",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isNetPlayerAuthorization",
+      "args": [
+        "zombie.vehicles.BaseVehicle$Authorization"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isNetPlayerId",
+      "args": [
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "short",
+      "name": "getNetPlayerId",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getAuthorizationDescription",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "getFakeSpeedModifier",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isLocalPhysicSim",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addImpulse",
+      "args": [
+        "org.joml.Vector3f",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "getEngineSpeed",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getTransmissionNumberLetter",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getTransmissionNumber",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setClientForce",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getClientForce",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getForce",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getObjectName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "Serialize",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "createPhysics",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getKeyId",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "getKeySpawned",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putKeyToZombie",
+      "args": [
+        "zombie.characters.IsoZombie"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putKeyToContainer",
+      "args": [
+        "zombie.inventory.ItemContainer",
+        "zombie.iso.IsoGridSquare",
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putKeyToWorld",
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addKeyToWorld",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addKeyToGloveBox",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "createVehicleKey",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "addKeyToSquare",
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "toggleLockedDoor",
+      "args": [
+        "zombie.vehicles.VehiclePart",
+        "zombie.characters.IsoGameCharacter",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "canLockDoor",
+      "args": [
+        "zombie.vehicles.VehiclePart",
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "canUnlockDoor",
+      "args": [
+        "zombie.vehicles.VehiclePart",
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setGeneralPartCondition",
+      "args": [
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.physics.CarController",
+      "name": "getController",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.SurroundVehicle",
+      "name": "getSurroundVehicle",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getSkinCount",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getSkinIndex",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setSkinIndex",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "updateSkin",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.textures.Texture",
+      "name": "getShadowTexture",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.VehicleScript",
+      "name": "getScript",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setScript",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getScriptName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setScriptName",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setScript",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "scriptReloaded",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getSkin",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getMaxPassengers",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "setPassenger",
+      "args": [
+        "int",
+        "zombie.characters.IsoGameCharacter",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "clearPassenger",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.BaseVehicle$Passenger",
+      "name": "getPassenger",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.characters.IsoGameCharacter",
+      "name": "getCharacter",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getSeat",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isDriver",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3f",
+      "name": "getWorldPos",
+      "args": [
+        "org.joml.Vector3f",
+        "org.joml.Vector3f",
+        "zombie.scripting.objects.VehicleScript"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3f",
+      "name": "getWorldPos",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "org.joml.Vector3f",
+        "zombie.scripting.objects.VehicleScript"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3f",
+      "name": "getWorldPos",
+      "args": [
+        "org.joml.Vector3f",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3f",
+      "name": "getWorldPos",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3f",
+      "name": "getLocalPos",
+      "args": [
+        "org.joml.Vector3f",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3f",
+      "name": "getLocalPos",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3f",
+      "name": "getPassengerLocalPos",
+      "args": [
+        "int",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3f",
+      "name": "getPassengerWorldPos",
+      "args": [
+        "int",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3f",
+      "name": "getPassengerPositionWorldPos",
+      "args": [
+        "zombie.scripting.objects.VehicleScript$Position",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3f",
+      "name": "getPassengerPositionWorldPos",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.VehicleScript$Anim",
+      "name": "getPassengerAnim",
+      "args": [
+        "int",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.VehicleScript$Position",
+      "name": "getPassengerPosition",
+      "args": [
+        "int",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.VehiclePart",
+      "name": "getPassengerDoor",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isPositionOnLeftOrRight",
+      "args": [
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "haveOneDoorUnlocked",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getPassengerArea",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "playPassengerAnim",
+      "args": [
+        "int",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "playPassengerAnim",
+      "args": [
+        "int",
+        "java.lang.String",
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "playPassengerSound",
+      "args": [
+        "int",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "playPartAnim",
+      "args": [
+        "zombie.vehicles.VehiclePart",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "playActorAnim",
+      "args": [
+        "zombie.vehicles.VehiclePart",
+        "java.lang.String",
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "playPartSound",
+      "args": [
+        "zombie.vehicles.VehiclePart",
+        "zombie.characters.IsoPlayer",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setCharacterPosition",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "int",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "transmitCharacterPosition",
+      "args": [
+        "int",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setCharacterPositionToAnim",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "int",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getPassengerSwitchSeatCount",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.VehicleScript$Passenger$SwitchSeat",
+      "name": "getPassengerSwitchSeat",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getSwitchSeatAnimName",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getSwitchSeatAnimRate",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getSwitchSeatSound",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "canSwitchSeat",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "switchSeat",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "playSwitchSeatAnim",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isSeatOccupied",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isSeatInstalled",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getBestSeat",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "updateHasExtendOffsetForExit",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "updateHasExtendOffsetForExitEnd",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "updateHasExtendOffset",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.VehiclePart",
+      "name": "getUseablePart",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.VehiclePart",
+      "name": "getUseablePart",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.VehiclePart",
+      "name": "getClosestWindow",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getFacingPosition",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.iso.Vector2"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "enter",
+      "args": [
+        "int",
+        "zombie.characters.IsoGameCharacter",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "enter",
+      "args": [
+        "int",
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "enterRSync",
+      "args": [
+        "int",
+        "zombie.characters.IsoGameCharacter",
+        "zombie.vehicles.BaseVehicle"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "exit",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "exitRSync",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "hasRoof",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "showPassenger",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "showPassenger",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": [
+        "java.nio.ByteBuffer",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": [
+        "java.nio.ByteBuffer",
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "softReset",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "trySpawnKey",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "shouldCollideWithCharacters",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "shouldCollideWithObjects",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "brekingObjects",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "damageObjects",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getFudgedMass",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isInvalidChunkAround",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isInvalidChunkAhead",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isInvalidChunkBehind",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isInvalidChunkAround",
+      "args": [
+        "boolean",
+        "boolean",
+        "boolean",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "postupdate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "saveChange",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.KahluaTable",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "loadChange",
+      "args": [
+        "java.lang.String",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "authorizationClientCollide",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "authorizationServerCollide",
+      "args": [
+        "short",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "authorizationServerOnSeat",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "hasAuthorization",
+      "args": [
+        "zombie.core.raknet.UdpConnection"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "netPlayerServerSendAuthorisation",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "netPlayerFromServerUpdate",
+      "args": [
+        "zombie.vehicles.BaseVehicle$Authorization",
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.physics.Transform",
+      "name": "getWorldTransform",
+      "args": [
+        "zombie.core.physics.Transform"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setWorldTransform",
+      "args": [
+        "zombie.core.physics.Transform"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "flipUpright",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setAngles",
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getAngleX",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getAngleY",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getAngleZ",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setDebugZ",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setPhysicsActive",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getDebugZ",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.PolygonalMap2$VehiclePoly",
+      "name": "getPoly",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.PolygonalMap2$VehiclePoly",
+      "name": "getPolyPlusRadius",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3f",
+      "name": "getForwardVector",
+      "args": [
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3f",
+      "name": "getUpVector",
+      "args": [
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getUpVectorDot",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isStopped",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getCurrentSpeedKmHour",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3f",
+      "name": "getLinearVelocity",
+      "args": [
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isAtRest",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "updatePhysics",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "updatePhysicsNetwork",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "checkPhysicsValidWithServer",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "updateControls",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isKeyboardControlled",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getJoypad",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Damage",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "HitByVehicle",
+      "args": [
+        "zombie.vehicles.BaseVehicle",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "crash",
+      "args": [
+        "float",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addDamageFrontHitAChr",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addDamageRearHitAChr",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isCharacterAdjacentTo",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.Vector2",
+      "name": "testCollisionWithCharacter",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "float",
+        "zombie.iso.Vector2"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "testCollisionWithProneCharacter",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "testCollisionWithCorpse",
+      "args": [
+        "zombie.iso.objects.IsoDeadBody",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "testCollisionWithProneCharacter",
+      "args": [
+        "zombie.iso.IsoMovingObject",
+        "float",
+        "float",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.Vector2",
+      "name": "testCollisionWithObject",
+      "args": [
+        "zombie.iso.IsoObject",
+        "float",
+        "zombie.iso.Vector2"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "testCollisionWithVehicle",
+      "args": [
+        "zombie.vehicles.BaseVehicle"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "ApplyImpulse",
+      "args": [
+        "zombie.iso.IsoObject",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "hitCharacter",
+      "args": [
+        "zombie.characters.IsoZombie"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "calculateDamageWithCharacter",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "blocked",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isIntersectingSquare",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isIntersectingSquareWithShadow",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "circleIntersects",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "updateLights",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "fixLightbarModelLighting",
+      "args": [
+        "zombie.iso.IsoLightSource",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "doDamageOverlay",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getBloodIntensity",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setBloodIntensity",
+      "args": [
+        "java.lang.String",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "transmitBlood",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "doBloodOverlay",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "zombie.core.textures.ColorInfo",
+        "boolean",
+        "boolean",
+        "zombie.core.opengl.Shader"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "renderlast",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "renderShadow",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isEnterBlocked",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isExitBlocked",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isExitBlocked",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.Vector2",
+      "name": "areaPositionWorld",
+      "args": [
+        "zombie.scripting.objects.VehicleScript$Area"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.Vector2",
+      "name": "areaPositionWorld",
+      "args": [
+        "zombie.scripting.objects.VehicleScript$Area",
+        "zombie.iso.Vector2"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getWheelForwardVector",
+      "args": [
+        "int",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "tryStartEngine",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "tryStartEngine",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "engineDoIdle",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "engineDoStarting",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isStarting",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "engineDoRetryingStarting",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "engineDoStartingSuccess",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "engineDoStartingFailed",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "engineDoStartingFailedNoPower",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "engineDoRunning",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "engineDoStalling",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "engineDoShuttingDown",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "shutOff",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "resumeRunningAfterLoad",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isEngineStarted",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isEngineRunning",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isEngineWorking",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isOperational",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isDriveable",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.audio.BaseSoundEmitter",
+      "name": "getEmitter",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "long",
+      "name": "playSoundImpl",
+      "args": [
+        "java.lang.String",
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "stopSound",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "playSound",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "updateSounds",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "updateParts",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "drainBatteryUpdateHack",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "getHeadlightsOn",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setHeadlightsOn",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "getWindowLightsOn",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setWindowLightsOn",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "getHeadlightCanEmmitLight",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "getStoplightsOn",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setStoplightsOn",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "hasHeadlights",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addToWorld",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeFromWorld",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "permanentlyRemove",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.VehiclePart",
+      "name": "getBattery",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setEngineFeature",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getEngineQuality",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getEngineLoudness",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getEnginePower",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getBatteryCharge",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getPartCount",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.VehiclePart",
+      "name": "getPartByIndex",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.VehiclePart",
+      "name": "getPartById",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getNumberOfPartsWithContainers",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.VehiclePart",
+      "name": "getPartForSeatContainer",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "transmitPartCondition",
+      "args": [
+        "zombie.vehicles.VehiclePart"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "transmitPartItem",
+      "args": [
+        "zombie.vehicles.VehiclePart"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "transmitPartModData",
+      "args": [
+        "zombie.vehicles.VehiclePart"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "transmitPartUsedDelta",
+      "args": [
+        "zombie.vehicles.VehiclePart"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "transmitPartDoor",
+      "args": [
+        "zombie.vehicles.VehiclePart"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "transmitPartWindow",
+      "args": [
+        "zombie.vehicles.VehiclePart"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getLightCount",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.VehiclePart",
+      "name": "getLightByIndex",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getZone",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setZone",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isInArea",
+      "args": [
+        "java.lang.String",
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getAreaDist",
+      "args": [
+        "java.lang.String",
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.Vector2",
+      "name": "getAreaCenter",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.Vector2",
+      "name": "getAreaCenter",
+      "args": [
+        "java.lang.String",
+        "zombie.iso.Vector2"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isInBounds",
+      "args": [
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "canAccessContainer",
+      "args": [
+        "int",
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "canInstallPart",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.vehicles.VehiclePart"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "canUninstallPart",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.vehicles.VehiclePart"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "short",
+      "name": "getId",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setTireInflation",
+      "args": [
+        "int",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setTireRemoved",
+      "args": [
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3f",
+      "name": "chooseBestAttackPosition",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.characters.IsoGameCharacter",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.BaseVehicle$MinMaxPosition",
+      "name": "getMinMaxPosition",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getVehicleType",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setVehicleType",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getMaxSpeed",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setMaxSpeed",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "lockServerUpdate",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "changeTransmission",
+      "args": [
+        "zombie.vehicles.TransmissionNumber"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "tryHotwire",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "cheatHotwire",
+      "args": [
+        "boolean",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isKeyIsOnDoor",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setKeyIsOnDoor",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isHotwired",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setHotwired",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isHotwiredBroken",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setHotwiredBroken",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.characters.IsoGameCharacter",
+      "name": "getDriver",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isKeysInIgnition",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setKeysInIgnition",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putKeyInIgnition",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeKeyFromIgnition",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putKeyOnDoor",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeKeyFromDoor",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "syncKeyInIgnition",
+      "args": [
+        "boolean",
+        "boolean",
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "hasHorn",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "hasLightbar",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onHornStart",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onHornStop",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "hasBackSignal",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isBackSignalEmitting",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onBackMoveSignalStart",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onBackMoveSignalStop",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getLightbarLightsMode",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setLightbarLightsMode",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getLightbarSirenMode",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setLightbarSirenMode",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.HashMap<java.lang.String,java.lang.String>",
+      "name": "getChoosenParts",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getMass",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setMass",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getInitialMass",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setInitialMass",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "updateTotalMass",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getBrakingForce",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setBrakingForce",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getBaseQuality",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setBaseQuality",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getCurrentSteering",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setCurrentSteering",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isDoingOffroad",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isBraking",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setBraking",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "updatePartStats",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "transmitEngine",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setRust",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getRust",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "transmitRust",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "transmitColorHSV",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "transmitSkinIndex",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "updateBulletStats",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setActiveInBullet",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "areAllDoorsLocked",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isAnyDoorLocked",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getRemainingFuelPercentage",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getMechanicalID",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setMechanicalID",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "needPartsUpdate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setNeedPartsUpdate",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.VehiclePart",
+      "name": "getHeater",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "windowsOpen",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isAlarmed",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setAlarmed",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "triggerAlarm",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isMechanicUIOpen",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setMechanicUIOpen",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "damagePlayers",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addRandomDamageFromCrash",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "hitVehicle",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.inventory.types.HandWeapon"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isTrunkLocked",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setTrunkLocked",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.VehiclePart",
+      "name": "getNearestBodyworkPart",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "getSirenStartTime",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setSirenStartTime",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "sirenShutoffTimeExpired",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "repair",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isAnyListenerInside",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "couldCrawlerAttackPassenger",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isGoodCar",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setGoodCar",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getCurrentKey",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setCurrentKey",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isInForest",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getOffroadEfficiency",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "doChrHitImpulse",
+      "args": [
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isDoColor",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setDoColor",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getBrakeSpeedBetweenUpdate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getSquare",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setColor",
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setColorHSV",
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getColorHue",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getColorSaturation",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getColorValue",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isRemovedFromWorld",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getInsideTemperature",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.animation.AnimationPlayer",
+      "name": "getAnimationPlayer",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "releaseAnimationPlayers",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setAddThumpWorldSound",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Thump",
+      "args": [
+        "zombie.iso.IsoMovingObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "WeaponHit",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.inventory.types.HandWeapon"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.objects.interfaces.Thumpable",
+      "name": "getThumpableFor",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getThumpCondition",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isRegulator",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setRegulator",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getRegulatorSpeed",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setRegulatorSpeed",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getCurrentSpeedForRegulator",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setVehicleTowing",
+      "args": [
+        "zombie.vehicles.BaseVehicle",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setVehicleTowedBy",
+      "args": [
+        "zombie.vehicles.BaseVehicle",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.BaseVehicle",
+      "name": "getVehicleTowing",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.BaseVehicle",
+      "name": "getVehicleTowedBy",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "attachmentExist",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3f",
+      "name": "getAttachmentLocalPos",
+      "args": [
+        "java.lang.String",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3f",
+      "name": "getAttachmentWorldPos",
+      "args": [
+        "java.lang.String",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setForceBrake",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3f",
+      "name": "getTowingLocalPos",
+      "args": [
+        "java.lang.String",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3f",
+      "name": "getTowedByLocalPos",
+      "args": [
+        "java.lang.String",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3f",
+      "name": "getTowingWorldPos",
+      "args": [
+        "java.lang.String",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3f",
+      "name": "getTowedByWorldPos",
+      "args": [
+        "java.lang.String",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3f",
+      "name": "getPlayerTrailerLocalPos",
+      "args": [
+        "java.lang.String",
+        "boolean",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3f",
+      "name": "getPlayerTrailerWorldPos",
+      "args": [
+        "java.lang.String",
+        "boolean",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "drawDirectionLine",
+      "args": [
+        "zombie.iso.Vector2",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addPointConstraint",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "zombie.vehicles.BaseVehicle",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addPointConstraint",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "zombie.vehicles.BaseVehicle",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.Boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "authorizationChanged",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "constraintChanged",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "breakConstraint",
+      "args": [
+        "boolean",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "canAttachTrailer",
+      "args": [
+        "zombie.vehicles.BaseVehicle",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "canAttachTrailer",
+      "args": [
+        "zombie.vehicles.BaseVehicle",
+        "java.lang.String",
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "positionTrailer",
+      "args": [
+        "zombie.vehicles.BaseVehicle"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getTowAttachmentSelf",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getTowAttachmentOther",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.VehicleEngineRPM",
+      "name": "getVehicleEngineRPM",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.audio.FMODParameterList",
+      "name": "getFMODParameters",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "startEvent",
+      "args": [
+        "long",
+        "zombie.audio.GameSoundClip",
+        "java.util.BitSet"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "updateEvent",
+      "args": [
+        "long",
+        "zombie.audio.GameSoundClip"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "stopEvent",
+      "args": [
+        "long",
+        "zombie.audio.GameSoundClip",
+        "java.util.BitSet"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.BaseVehicle",
+      "name": "setSmashed",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.BaseVehicle",
+      "name": "setSmashed",
+      "args": [
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isCollided",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.BaseVehicle$HitVars",
+      "name": "checkCollision",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "updateHitByVehicle",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "hitCharacter",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.vehicles.BaseVehicle$HitVars"
+      ]
+    }
+  ]
+}

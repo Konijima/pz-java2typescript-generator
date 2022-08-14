@@ -1,0 +1,116 @@
+{
+  "name": "ModelInstance$FrameLightInfo",
+  "package": "zombie.core.skinnedmodel.model",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "FrameLightInfo",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Stage",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.ModelInstance$FrameLightBlendStatus",
+      "describe": []
+    },
+    {
+      "name": "id",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "x",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "y",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "z",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "distSq",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "radius",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "r",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "g",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "b",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "flags",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "currentColor",
+      "scope": "public",
+      "type": "org.lwjgl.util.vector.Vector3f",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "targetColor",
+      "scope": "public",
+      "type": "org.lwjgl.util.vector.Vector3f",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "active",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "foundThisFrame",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

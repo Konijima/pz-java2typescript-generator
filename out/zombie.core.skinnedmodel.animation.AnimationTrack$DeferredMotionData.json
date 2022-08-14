@@ -1,0 +1,20 @@
+{
+  "name": "AnimationTrack$DeferredMotionData",
+  "package": "zombie.core.skinnedmodel.animation",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "reset",
+      "args": []
+    }
+  ]
+}

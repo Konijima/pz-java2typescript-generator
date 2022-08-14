@@ -1,0 +1,116 @@
+{
+  "name": "Clothing$ClothingPatchFabricType",
+  "package": "zombie.inventory.types",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.inventory.types.Clothing$ClothingPatchFabricType>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Cotton",
+      "scope": "public",
+      "type": "zombie.inventory.types.Clothing$ClothingPatchFabricType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Denim",
+      "scope": "public",
+      "type": "zombie.inventory.types.Clothing$ClothingPatchFabricType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Leather",
+      "scope": "public",
+      "type": "zombie.inventory.types.Clothing$ClothingPatchFabricType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "index",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "type",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "maxScratchDef",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "maxBiteDef",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.inventory.types.Clothing$ClothingPatchFabricType",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getType",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.inventory.types.Clothing$ClothingPatchFabricType",
+      "name": "fromType",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.inventory.types.Clothing$ClothingPatchFabricType",
+      "name": "fromIndex",
+      "args": [
+        "int"
+      ]
+    }
+  ]
+}

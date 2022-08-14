@@ -1,0 +1,85 @@
+{
+  "name": "ILuaGameCharacterAttachedItems",
+  "package": "zombie.characters",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "zombie.characters.AttachedItems.AttachedItems",
+      "name": "getAttachedItems",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "setAttachedItems",
+      "args": [
+        "zombie.characters.AttachedItems.AttachedItems"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getAttachedItem",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "setAttachedItem",
+      "args": [
+        "java.lang.String",
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "removeAttachedItem",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "clearAttachedItems",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "zombie.characters.AttachedItems.AttachedLocationGroup",
+      "name": "getAttachedLocationGroup",
+      "args": []
+    }
+  ]
+}

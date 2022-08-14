@@ -1,0 +1,14 @@
+{
+  "name": "VehiclesDB2$IVehicleStore",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "abstract"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

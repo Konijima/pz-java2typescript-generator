@@ -1,0 +1,116 @@
+{
+  "name": "SinglePlayerServer",
+  "package": "zombie.spnetwork",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "SinglePlayerServer",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "udpEngine",
+      "scope": "public",
+      "type": "zombie.spnetwork.SinglePlayerServer$UdpEngineServer",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "addIncoming",
+      "args": [
+        "short",
+        "java.nio.ByteBuffer",
+        "zombie.spnetwork.UdpConnection"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendObjectChange",
+      "args": [
+        "zombie.iso.IsoObject",
+        "java.lang.String",
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendObjectChange",
+      "args": [
+        "zombie.iso.IsoObject",
+        "java.lang.String",
+        "java.lang.Object..."
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendServerCommand",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "se.krka.kahlua.vm.KahluaTable",
+        "zombie.spnetwork.UdpConnection"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendServerCommand",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "Reset",
+      "args": []
+    }
+  ]
+}

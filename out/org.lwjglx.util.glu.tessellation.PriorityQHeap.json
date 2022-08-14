@@ -1,0 +1,14 @@
+{
+  "name": "PriorityQHeap",
+  "package": "org.lwjglx.util.glu.tessellation",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [
+    "org.lwjglx.util.glu.tessellation.PriorityQ"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

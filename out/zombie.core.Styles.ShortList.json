@@ -1,0 +1,142 @@
+{
+  "name": "ShortList",
+  "package": "zombie.core.Styles",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "java.io.Serializable"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ShortList",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "ShortList",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ShortList",
+      "describe": [],
+      "args": [
+        "boolean",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "array",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "toArray",
+      "describe": [],
+      "args": [
+        "short[]"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "short",
+      "name": "add",
+      "args": [
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "short",
+      "name": "remove",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addAll",
+      "args": [
+        "short[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addAll",
+      "args": [
+        "zombie.core.Styles.ShortList"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "capacity",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clear",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "ensureCapacity",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "short",
+      "name": "get",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isEmpty",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "size",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "trimToSize",
+      "args": []
+    }
+  ]
+}

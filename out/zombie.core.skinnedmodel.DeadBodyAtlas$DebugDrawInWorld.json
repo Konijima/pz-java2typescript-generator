@@ -1,0 +1,40 @@
+{
+  "name": "DeadBodyAtlas$DebugDrawInWorld",
+  "package": "zombie.core.skinnedmodel",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.core.textures.TextureDraw$GenericDrawer"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "init",
+      "args": [
+        "zombie.core.skinnedmodel.DeadBodyAtlas$RenderJob"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "postRender",
+      "args": []
+    }
+  ]
+}

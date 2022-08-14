@@ -1,0 +1,165 @@
+{
+  "name": "VorbisFile",
+  "package": "com.jcraft.jorbis",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "VorbisFile",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "VorbisFile",
+      "describe": [],
+      "args": [
+        "java.io.InputStream",
+        "byte[]",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "instant",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "getComment",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "getInfo",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "seek",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "tell",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "total",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "seek",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "tell",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "total",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "tell",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "total",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "bitrate",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "close",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "com.jcraft.jorbis.Comment",
+      "name": "getComment",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "com.jcraft.jorbis.Info",
+      "name": "getInfo",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "seekable",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "serialnumber",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "streams",
+      "args": []
+    }
+  ]
+}

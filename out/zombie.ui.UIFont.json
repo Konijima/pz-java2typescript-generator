@@ -1,0 +1,236 @@
+{
+  "name": "UIFont",
+  "package": "zombie.ui",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.ui.UIFont>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Small",
+      "scope": "public",
+      "type": "zombie.ui.UIFont",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Medium",
+      "scope": "public",
+      "type": "zombie.ui.UIFont",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Large",
+      "scope": "public",
+      "type": "zombie.ui.UIFont",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Massive",
+      "scope": "public",
+      "type": "zombie.ui.UIFont",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MainMenu1",
+      "scope": "public",
+      "type": "zombie.ui.UIFont",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MainMenu2",
+      "scope": "public",
+      "type": "zombie.ui.UIFont",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Cred1",
+      "scope": "public",
+      "type": "zombie.ui.UIFont",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Cred2",
+      "scope": "public",
+      "type": "zombie.ui.UIFont",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "NewSmall",
+      "scope": "public",
+      "type": "zombie.ui.UIFont",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "NewMedium",
+      "scope": "public",
+      "type": "zombie.ui.UIFont",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "NewLarge",
+      "scope": "public",
+      "type": "zombie.ui.UIFont",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Code",
+      "scope": "public",
+      "type": "zombie.ui.UIFont",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MediumNew",
+      "scope": "public",
+      "type": "zombie.ui.UIFont",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AutoNormSmall",
+      "scope": "public",
+      "type": "zombie.ui.UIFont",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AutoNormMedium",
+      "scope": "public",
+      "type": "zombie.ui.UIFont",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AutoNormLarge",
+      "scope": "public",
+      "type": "zombie.ui.UIFont",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Dialogue",
+      "scope": "public",
+      "type": "zombie.ui.UIFont",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Intro",
+      "scope": "public",
+      "type": "zombie.ui.UIFont",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Handwritten",
+      "scope": "public",
+      "type": "zombie.ui.UIFont",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DebugConsole",
+      "scope": "public",
+      "type": "zombie.ui.UIFont",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Title",
+      "scope": "public",
+      "type": "zombie.ui.UIFont",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.ui.UIFont",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.ui.UIFont",
+      "name": "FromString",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

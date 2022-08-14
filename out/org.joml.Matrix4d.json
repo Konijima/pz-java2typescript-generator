@@ -1,0 +1,5672 @@
+{
+  "name": "Matrix4d",
+  "package": "org.joml",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "java.io.Externalizable",
+    "org.joml.Matrix4dc"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "org.joml.Matrix4dc"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "org.joml.Matrix4fc"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "org.joml.Matrix4x3dc"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "org.joml.Matrix4x3fc"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "org.joml.Matrix3dc"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "org.joml.Vector4d",
+        "org.joml.Vector4d",
+        "org.joml.Vector4d",
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ComponentWise",
+      "describe": [],
+      "args": [
+        "org.joml.Matrix4dc"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ComponentWise",
+      "describe": [],
+      "args": [
+        "org.joml.Matrix4dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "get",
+      "describe": [],
+      "args": [
+        "double[]",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "get",
+      "describe": [],
+      "args": [
+        "double[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "get",
+      "describe": [],
+      "args": [
+        "float[]",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "get",
+      "describe": [],
+      "args": [
+        "float[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Transposed",
+      "describe": [],
+      "args": [
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Transposed",
+      "describe": [],
+      "args": [
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Transposed",
+      "describe": [],
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Transposed",
+      "describe": [],
+      "args": [
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "D",
+      "describe": [],
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "D",
+      "describe": [],
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DLH",
+      "describe": [],
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DLH",
+      "describe": [],
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "D",
+      "describe": [],
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DLH",
+      "describe": [],
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "m00",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "m01",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "m02",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "m03",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "m10",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "m11",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "m12",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "m13",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "m20",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "m21",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "m22",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "m23",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "m30",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "m31",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "m32",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "m33",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "m00",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "m01",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "m02",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "m03",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "m10",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "m11",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "m12",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "m13",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "m20",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "m21",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "m22",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "m23",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "m30",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "m31",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "m32",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "m33",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "set3x3",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "set4x3",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "set4x3",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "set4x3",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "mul0",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "mul0",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "mul3x3",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "mul3x3",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "fma4x3",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "fma4x3",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "add4x3",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "add4x3",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "add4x3",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "add4x3",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "sub4x3",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "sub4x3",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "determinant3x3",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "transpose3x3",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "transpose3x3",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "transpose3x3",
+      "scope": "public",
+      "type": "org.joml.Matrix3d",
+      "describe": []
+    },
+    {
+      "name": "get4x3",
+      "scope": "public",
+      "type": "org.joml.Matrix4x3d",
+      "describe": []
+    },
+    {
+      "name": "get3x3",
+      "scope": "public",
+      "type": "org.joml.Matrix3d",
+      "describe": []
+    },
+    {
+      "name": "set3x3",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "cofactor3x3",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "cofactor3x3",
+      "scope": "public",
+      "type": "org.joml.Matrix3d",
+      "describe": []
+    },
+    {
+      "name": "cofactor3x3",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "normalize3x3",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "normalize3x3",
+      "scope": "public",
+      "type": "org.joml.Matrix4d",
+      "describe": []
+    },
+    {
+      "name": "normalize3x3",
+      "scope": "public",
+      "type": "org.joml.Matrix3d",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "assume",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "determineProperties",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "properties",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "identity",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "set",
+      "args": [
+        "org.joml.Matrix4dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "set",
+      "args": [
+        "org.joml.Matrix4fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setTransposed",
+      "args": [
+        "org.joml.Matrix4dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "set",
+      "args": [
+        "org.joml.Matrix4x3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "set",
+      "args": [
+        "org.joml.Matrix4x3fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "set",
+      "args": [
+        "org.joml.Matrix3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "set",
+      "args": [
+        "org.joml.AxisAngle4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "set",
+      "args": [
+        "org.joml.AxisAngle4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "set",
+      "args": [
+        "org.joml.Quaternionfc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "set",
+      "args": [
+        "org.joml.Quaterniondc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mul",
+      "args": [
+        "org.joml.Matrix4dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mul",
+      "args": [
+        "org.joml.Matrix4dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mul",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mul",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mulLocal",
+      "args": [
+        "org.joml.Matrix4dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mulLocal",
+      "args": [
+        "org.joml.Matrix4dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mulLocalAffine",
+      "args": [
+        "org.joml.Matrix4dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mulLocalAffine",
+      "args": [
+        "org.joml.Matrix4dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mul",
+      "args": [
+        "org.joml.Matrix4x3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mul",
+      "args": [
+        "org.joml.Matrix4x3dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mulPerspectiveAffine",
+      "args": [
+        "org.joml.Matrix4x3dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mul",
+      "args": [
+        "org.joml.Matrix4x3fc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mul",
+      "args": [
+        "org.joml.Matrix3x2dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mul",
+      "args": [
+        "org.joml.Matrix3x2dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mul",
+      "args": [
+        "org.joml.Matrix3x2fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mul",
+      "args": [
+        "org.joml.Matrix3x2fc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mul",
+      "args": [
+        "org.joml.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mul",
+      "args": [
+        "org.joml.Matrix4fc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mulPerspectiveAffine",
+      "args": [
+        "org.joml.Matrix4dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mulPerspectiveAffine",
+      "args": [
+        "org.joml.Matrix4dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mulAffineR",
+      "args": [
+        "org.joml.Matrix4dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mulAffineR",
+      "args": [
+        "org.joml.Matrix4dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mulAffine",
+      "args": [
+        "org.joml.Matrix4dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mulAffine",
+      "args": [
+        "org.joml.Matrix4dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mulTranslationAffine",
+      "args": [
+        "org.joml.Matrix4dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mulOrthoAffine",
+      "args": [
+        "org.joml.Matrix4dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mulOrthoAffine",
+      "args": [
+        "org.joml.Matrix4dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "add",
+      "args": [
+        "org.joml.Matrix4dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "add",
+      "args": [
+        "org.joml.Matrix4dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "sub",
+      "args": [
+        "org.joml.Matrix4dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "sub",
+      "args": [
+        "org.joml.Matrix4dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mulComponentWise",
+      "args": [
+        "org.joml.Matrix4dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "mulComponentWise",
+      "args": [
+        "org.joml.Matrix4dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "set",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "set",
+      "args": [
+        "double[]",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "set",
+      "args": [
+        "double[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "set",
+      "args": [
+        "float[]",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "set",
+      "args": [
+        "float[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "set",
+      "args": [
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "set",
+      "args": [
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "set",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setFloats",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setFromAddress",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "set",
+      "args": [
+        "org.joml.Vector4d",
+        "org.joml.Vector4d",
+        "org.joml.Vector4d",
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "determinant",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "determinantAffine",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "invert",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "invert",
+      "args": [
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "invertPerspective",
+      "args": [
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "invertPerspective",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "invertFrustum",
+      "args": [
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "invertFrustum",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "invertOrtho",
+      "args": [
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "invertOrtho",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "invertPerspectiveView",
+      "args": [
+        "org.joml.Matrix4dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "invertPerspectiveView",
+      "args": [
+        "org.joml.Matrix4x3dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "invertAffine",
+      "args": [
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "invertAffine",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "transpose",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "transpose",
+      "args": [
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translation",
+      "args": [
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translation",
+      "args": [
+        "org.joml.Vector3fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translation",
+      "args": [
+        "org.joml.Vector3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setTranslation",
+      "args": [
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setTranslation",
+      "args": [
+        "org.joml.Vector3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "getTranslation",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "getScale",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": [
+        "java.text.NumberFormat"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Quaternionf",
+      "name": "getUnnormalizedRotation",
+      "args": [
+        "org.joml.Quaternionf"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Quaternionf",
+      "name": "getNormalizedRotation",
+      "args": [
+        "org.joml.Quaternionf"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Quaterniond",
+      "name": "getUnnormalizedRotation",
+      "args": [
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Quaterniond",
+      "name": "getNormalizedRotation",
+      "args": [
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.DoubleBuffer",
+      "name": "get",
+      "args": [
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.DoubleBuffer",
+      "name": "get",
+      "args": [
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.FloatBuffer",
+      "name": "get",
+      "args": [
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.FloatBuffer",
+      "name": "get",
+      "args": [
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.ByteBuffer",
+      "name": "get",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.ByteBuffer",
+      "name": "get",
+      "args": [
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.ByteBuffer",
+      "name": "getFloats",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.ByteBuffer",
+      "name": "getFloats",
+      "args": [
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4dc",
+      "name": "getToAddress",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.DoubleBuffer",
+      "name": "getTransposed",
+      "args": [
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.DoubleBuffer",
+      "name": "getTransposed",
+      "args": [
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.ByteBuffer",
+      "name": "getTransposed",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.ByteBuffer",
+      "name": "getTransposed",
+      "args": [
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "zero",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "scaling",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "scaling",
+      "args": [
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "scaling",
+      "args": [
+        "org.joml.Vector3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotation",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotationX",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotationY",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotationZ",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotationTowardsXY",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotationXYZ",
+      "args": [
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotationZYX",
+      "args": [
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotationYXZ",
+      "args": [
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setRotationXYZ",
+      "args": [
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setRotationZYX",
+      "args": [
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setRotationYXZ",
+      "args": [
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotation",
+      "args": [
+        "double",
+        "org.joml.Vector3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotation",
+      "args": [
+        "double",
+        "org.joml.Vector3fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector4d",
+      "name": "transform",
+      "args": [
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector4d",
+      "name": "transform",
+      "args": [
+        "org.joml.Vector4dc",
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector4d",
+      "name": "transform",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector4d",
+      "name": "transformTranspose",
+      "args": [
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector4d",
+      "name": "transformTranspose",
+      "args": [
+        "org.joml.Vector4dc",
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector4d",
+      "name": "transformTranspose",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector4d",
+      "name": "transformProject",
+      "args": [
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector4d",
+      "name": "transformProject",
+      "args": [
+        "org.joml.Vector4dc",
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector4d",
+      "name": "transformProject",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "transformProject",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "transformProject",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "transformProject",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "transformProject",
+      "args": [
+        "org.joml.Vector4dc",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "transformProject",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "transformPosition",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "transformPosition",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "transformPosition",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "transformDirection",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "transformDirection",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "transformDirection",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3f",
+      "name": "transformDirection",
+      "args": [
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3f",
+      "name": "transformDirection",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3f",
+      "name": "transformDirection",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector4d",
+      "name": "transformAffine",
+      "args": [
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector4d",
+      "name": "transformAffine",
+      "args": [
+        "org.joml.Vector4dc",
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector4d",
+      "name": "transformAffine",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "scale",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "scale",
+      "args": [
+        "org.joml.Vector3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "scale",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "scale",
+      "args": [
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "scale",
+      "args": [
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "scale",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "scaleXY",
+      "args": [
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "scaleXY",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "scaleAround",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "scaleAround",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "scaleAround",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "scaleAround",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "scaleLocal",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "scaleLocal",
+      "args": [
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "scaleLocal",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "scaleLocal",
+      "args": [
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "scaleAroundLocal",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "scaleAroundLocal",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "scaleAroundLocal",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "scaleAroundLocal",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotate",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotate",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateTranslation",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateAffine",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateAffine",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateAround",
+      "args": [
+        "org.joml.Quaterniondc",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateAroundAffine",
+      "args": [
+        "org.joml.Quaterniondc",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateAround",
+      "args": [
+        "org.joml.Quaterniondc",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotationAround",
+      "args": [
+        "org.joml.Quaterniondc",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateLocal",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateLocal",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateAroundLocal",
+      "args": [
+        "org.joml.Quaterniondc",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateAroundLocal",
+      "args": [
+        "org.joml.Quaterniondc",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translate",
+      "args": [
+        "org.joml.Vector3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translate",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translate",
+      "args": [
+        "org.joml.Vector3fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translate",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translate",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translate",
+      "args": [
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translateLocal",
+      "args": [
+        "org.joml.Vector3fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translateLocal",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translateLocal",
+      "args": [
+        "org.joml.Vector3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translateLocal",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translateLocal",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translateLocal",
+      "args": [
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateLocalX",
+      "args": [
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateLocalX",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateLocalY",
+      "args": [
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateLocalY",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateLocalZ",
+      "args": [
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateLocalZ",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "writeExternal",
+      "args": [
+        "java.io.ObjectOutput"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "readExternal",
+      "args": [
+        "java.io.ObjectInput"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateX",
+      "args": [
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateX",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateY",
+      "args": [
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateY",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateZ",
+      "args": [
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateZ",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateTowardsXY",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateTowardsXY",
+      "args": [
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateXYZ",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateXYZ",
+      "args": [
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateXYZ",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateAffineXYZ",
+      "args": [
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateAffineXYZ",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateZYX",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateZYX",
+      "args": [
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateZYX",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateAffineZYX",
+      "args": [
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateAffineZYX",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateYXZ",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateYXZ",
+      "args": [
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateYXZ",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateAffineYXZ",
+      "args": [
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateAffineYXZ",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotation",
+      "args": [
+        "org.joml.AxisAngle4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotation",
+      "args": [
+        "org.joml.AxisAngle4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotation",
+      "args": [
+        "org.joml.Quaterniondc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotation",
+      "args": [
+        "org.joml.Quaternionfc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translationRotateScale",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translationRotateScale",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Quaternionfc",
+        "org.joml.Vector3fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translationRotateScale",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Quaterniondc",
+        "org.joml.Vector3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translationRotateScale",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translationRotateScale",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Quaterniondc",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translationRotateScale",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Quaternionfc",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translationRotateScaleInvert",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translationRotateScaleInvert",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Quaterniondc",
+        "org.joml.Vector3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translationRotateScaleInvert",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Quaternionfc",
+        "org.joml.Vector3fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translationRotateScaleInvert",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Quaterniondc",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translationRotateScaleInvert",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Quaternionfc",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translationRotateScaleMulAffine",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translationRotateScaleMulAffine",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Quaterniondc",
+        "org.joml.Vector3fc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translationRotate",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translationRotate",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Quaterniondc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotate",
+      "args": [
+        "org.joml.Quaterniondc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotate",
+      "args": [
+        "org.joml.Quaternionfc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotate",
+      "args": [
+        "org.joml.Quaterniondc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotate",
+      "args": [
+        "org.joml.Quaternionfc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateAffine",
+      "args": [
+        "org.joml.Quaterniondc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateAffine",
+      "args": [
+        "org.joml.Quaterniondc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateTranslation",
+      "args": [
+        "org.joml.Quaterniondc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateTranslation",
+      "args": [
+        "org.joml.Quaternionfc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateLocal",
+      "args": [
+        "org.joml.Quaterniondc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateLocal",
+      "args": [
+        "org.joml.Quaterniondc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateAffine",
+      "args": [
+        "org.joml.Quaternionfc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateAffine",
+      "args": [
+        "org.joml.Quaternionfc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateLocal",
+      "args": [
+        "org.joml.Quaternionfc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateLocal",
+      "args": [
+        "org.joml.Quaternionfc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotate",
+      "args": [
+        "org.joml.AxisAngle4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotate",
+      "args": [
+        "org.joml.AxisAngle4f",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotate",
+      "args": [
+        "org.joml.AxisAngle4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotate",
+      "args": [
+        "org.joml.AxisAngle4d",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotate",
+      "args": [
+        "double",
+        "org.joml.Vector3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotate",
+      "args": [
+        "double",
+        "org.joml.Vector3dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotate",
+      "args": [
+        "double",
+        "org.joml.Vector3fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotate",
+      "args": [
+        "double",
+        "org.joml.Vector3fc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector4d",
+      "name": "getRow",
+      "args": [
+        "int",
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "getRow",
+      "args": [
+        "int",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setRow",
+      "args": [
+        "int",
+        "org.joml.Vector4dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector4d",
+      "name": "getColumn",
+      "args": [
+        "int",
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "getColumn",
+      "args": [
+        "int",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setColumn",
+      "args": [
+        "int",
+        "org.joml.Vector4dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "get",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "set",
+      "args": [
+        "int",
+        "int",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "getRowColumn",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setRowColumn",
+      "args": [
+        "int",
+        "int",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "normal",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "normal",
+      "args": [
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix3d",
+      "name": "normal",
+      "args": [
+        "org.joml.Matrix3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector4d",
+      "name": "unproject",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "int[]",
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "unproject",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "int[]",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector4d",
+      "name": "unproject",
+      "args": [
+        "org.joml.Vector3dc",
+        "int[]",
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "unproject",
+      "args": [
+        "org.joml.Vector3dc",
+        "int[]",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "unprojectRay",
+      "args": [
+        "double",
+        "double",
+        "int[]",
+        "org.joml.Vector3d",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "unprojectRay",
+      "args": [
+        "org.joml.Vector2dc",
+        "int[]",
+        "org.joml.Vector3d",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector4d",
+      "name": "unprojectInv",
+      "args": [
+        "org.joml.Vector3dc",
+        "int[]",
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector4d",
+      "name": "unprojectInv",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "int[]",
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "unprojectInv",
+      "args": [
+        "org.joml.Vector3dc",
+        "int[]",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "unprojectInv",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "int[]",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "unprojectInvRay",
+      "args": [
+        "org.joml.Vector2dc",
+        "int[]",
+        "org.joml.Vector3d",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "unprojectInvRay",
+      "args": [
+        "double",
+        "double",
+        "int[]",
+        "org.joml.Vector3d",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector4d",
+      "name": "project",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "int[]",
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "project",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "int[]",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector4d",
+      "name": "project",
+      "args": [
+        "org.joml.Vector3dc",
+        "int[]",
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "project",
+      "args": [
+        "org.joml.Vector3dc",
+        "int[]",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "reflect",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "reflect",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "reflect",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "reflect",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "reflect",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "reflect",
+      "args": [
+        "org.joml.Quaterniondc",
+        "org.joml.Vector3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "reflect",
+      "args": [
+        "org.joml.Quaterniondc",
+        "org.joml.Vector3dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "reflect",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "reflection",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "reflection",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "reflection",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "reflection",
+      "args": [
+        "org.joml.Quaterniondc",
+        "org.joml.Vector3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "ortho",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "ortho",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "ortho",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "ortho",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "orthoLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "orthoLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "orthoLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "orthoLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setOrtho",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setOrtho",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setOrthoLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setOrthoLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "orthoSymmetric",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "orthoSymmetric",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "orthoSymmetric",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "orthoSymmetric",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "orthoSymmetricLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "orthoSymmetricLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "orthoSymmetricLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "orthoSymmetricLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setOrthoSymmetric",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setOrthoSymmetric",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setOrthoSymmetricLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setOrthoSymmetricLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "lookAlong",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "lookAlong",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "lookAlong",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "lookAlong",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setLookAlong",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setLookAlong",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setLookAt",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setLookAt",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "lookAt",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "lookAt",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "lookAt",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "lookAt",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "lookAtPerspective",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setLookAtLH",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setLookAtLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "lookAtLH",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "lookAtLH",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "lookAtLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "lookAtLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "lookAtPerspectiveLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "perspective",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "perspective",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "perspective",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "perspective",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "perspectiveRect",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "perspectiveRect",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "perspectiveRect",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "perspectiveRect",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "perspectiveOffCenter",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "perspectiveOffCenter",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "perspectiveOffCenter",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "perspectiveOffCenter",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setPerspective",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setPerspective",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setPerspectiveRect",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setPerspectiveRect",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setPerspectiveOffCenter",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setPerspectiveOffCenter",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "perspectiveLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "perspectiveLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "perspectiveLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "perspectiveLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setPerspectiveLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setPerspectiveLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "frustum",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "frustum",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "frustum",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "frustum",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setFrustum",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setFrustum",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "frustumLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "frustumLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "frustumLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "frustumLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setFrustumLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setFrustumLH",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "setFromIntrinsic",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "int",
+        "int",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector4d",
+      "name": "frustumPlane",
+      "args": [
+        "int",
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "frustumCorner",
+      "args": [
+        "int",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "perspectiveOrigin",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "perspectiveInvOrigin",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "perspectiveFov",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "perspectiveNear",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "perspectiveFar",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "frustumRayDir",
+      "args": [
+        "double",
+        "double",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "positiveZ",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "normalizedPositiveZ",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "positiveX",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "normalizedPositiveX",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "positiveY",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "normalizedPositiveY",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "originAffine",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "origin",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "shadow",
+      "args": [
+        "org.joml.Vector4dc",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "shadow",
+      "args": [
+        "org.joml.Vector4dc",
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "shadow",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "shadow",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "shadow",
+      "args": [
+        "org.joml.Vector4dc",
+        "org.joml.Matrix4dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "shadow",
+      "args": [
+        "org.joml.Vector4d",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "shadow",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "shadow",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "billboardCylindrical",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "billboardSpherical",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "billboardSpherical",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "hashCode",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "org.joml.Matrix4dc",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "pick",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "int[]",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "pick",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "int[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isAffine",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "swap",
+      "args": [
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "arcball",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "arcball",
+      "args": [
+        "double",
+        "org.joml.Vector3dc",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "arcball",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "arcball",
+      "args": [
+        "double",
+        "org.joml.Vector3dc",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "frustumAabb",
+      "args": [
+        "org.joml.Vector3d",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "projectedGridRange",
+      "args": [
+        "org.joml.Matrix4dc",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "perspectiveFrustumSlice",
+      "args": [
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "orthoCrop",
+      "args": [
+        "org.joml.Matrix4dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "trapezoidCrop",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "transformAab",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Vector3d",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "transformAab",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc",
+        "org.joml.Vector3d",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "lerp",
+      "args": [
+        "org.joml.Matrix4dc",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "lerp",
+      "args": [
+        "org.joml.Matrix4dc",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateTowards",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateTowards",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateTowards",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotateTowards",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotationTowards",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "rotationTowards",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translationRotateTowards",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "translationRotateTowards",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3d",
+      "name": "getEulerAnglesZYX",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "affineSpan",
+      "args": [
+        "org.joml.Vector3d",
+        "org.joml.Vector3d",
+        "org.joml.Vector3d",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "testPoint",
+      "args": [
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "testSphere",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "testAab",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "obliqueZ",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "obliqueZ",
+      "args": [
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "projViewFromRectangle",
+      "args": [
+        "org.joml.Vector3d",
+        "org.joml.Vector3d",
+        "org.joml.Vector3d",
+        "org.joml.Vector3d",
+        "double",
+        "boolean",
+        "org.joml.Matrix4d",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "withLookAtUp",
+      "args": [
+        "org.joml.Vector3dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "withLookAtUp",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "withLookAtUp",
+      "args": [
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Matrix4d",
+      "name": "withLookAtUp",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isFinite",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "PathFindBehavior2$BehaviorResult",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.vehicles.PathFindBehavior2$BehaviorResult>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Working",
+      "scope": "public",
+      "type": "zombie.vehicles.PathFindBehavior2$BehaviorResult",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Failed",
+      "scope": "public",
+      "type": "zombie.vehicles.PathFindBehavior2$BehaviorResult",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Succeeded",
+      "scope": "public",
+      "type": "zombie.vehicles.PathFindBehavior2$BehaviorResult",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.vehicles.PathFindBehavior2$BehaviorResult",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

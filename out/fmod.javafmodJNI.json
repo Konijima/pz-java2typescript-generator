@@ -1,0 +1,4236 @@
+{
+  "name": "javafmodJNI",
+  "package": "fmod",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "javafmodJNI",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "Create",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "GetEvent",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "CreateEventInstance",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "LoadBankFile",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "StartEvent",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetTimelinePosition",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "LoadSampleData",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "LoadEventSampleData",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Initialize",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetStats",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Initialize",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetDiskBusy",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDiskBusy",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Create",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "Release",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetOutput",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetOutput",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumDrivers",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDriverInfo",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "java.lang.String",
+        "int",
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetDriver",
+      "describe": [],
+      "args": [
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDriver",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetSoftwareChannels",
+      "describe": [],
+      "args": [
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSoftwareChannels",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetSoftwareFormat",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSoftwareFormat",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetDSPBufferSize",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDSPBufferSize",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetFileSystem",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long",
+        "long",
+        "long",
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "AttachFileSystem",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetAdvancedSettings",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetAdvancedSettings",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetCallback",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPluginPath",
+      "describe": [],
+      "args": [
+        "long",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "LoadPlugin",
+      "describe": [],
+      "args": [
+        "long",
+        "java.lang.String",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "UnloadPlugin",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumPlugins",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPluginHandle",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPluginInfo",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "java.lang.String",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetOutputByPlugin",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetOutputByPlugin",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "CreateDSPByPlugin",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDSPInfoByPlugin",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "RegisterCodec",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "RegisterDSP",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Init",
+      "describe": [],
+      "args": [
+        "int",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Close",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Update",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "SetSpeakerPosition",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "float",
+        "float",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSpeakerPosition",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetStreamBufferSize",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetStreamBufferSize",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DSettings",
+      "describe": [],
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DSettings",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DNumListeners",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DNumListeners",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DListenerAttributes",
+      "describe": [],
+      "args": [
+        "int",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DListenerAttributes",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DRolloffCallback",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "MixerSuspend",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "MixerResume",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetVersion",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetOutputHandle",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetChannelsPlaying",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetCPUUsage",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "CreateSound",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "CreateRecordSound",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetVADMode",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetRecordVolume",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "CreateRAWPlaySound",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetRawPlayBufferingPeriod",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "RAWPlayData",
+      "describe": [],
+      "args": [
+        "long",
+        "short[]",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "CreateStream",
+      "describe": [],
+      "args": [
+        "long",
+        "java.lang.String",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "CreateDSP",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "CreateDSPByType",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "CreateChannelGroup",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "CreateSoundGroup",
+      "describe": [],
+      "args": [
+        "long",
+        "java.lang.String",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "D",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "PlaySound",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "PlayDSP",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "GetChannel",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMasterChannelGroup",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "GetMasterSoundGroup",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "AttachChannelGroupToPort",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DetachChannelGroupFromPort",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetReverbProperties",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetReverbProperties",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "LockDSP",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "UnlockDSP",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetRecordNumDrivers",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "GetRecordDriverInfo",
+      "describe": [],
+      "args": [
+        "int",
+        "fmod.FMOD_DriverInfo"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetRecordPosition",
+      "describe": [],
+      "args": [
+        "int",
+        "java.lang.Long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "RecordStart",
+      "describe": [],
+      "args": [
+        "int",
+        "long",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "RecordStop",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "IsRecording",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "CreateGeometry",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetGeometrySettings",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetGeometrySettings",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "LoadGeometry",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetGeometryOcclusion",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetNetworkProxy",
+      "describe": [],
+      "args": [
+        "long",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNetworkProxy",
+      "describe": [],
+      "args": [
+        "long",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetNetworkTimeout",
+      "describe": [],
+      "args": [
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNetworkTimeout",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetUserData",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetUserData",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Release",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Release",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Release",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSystemObject",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Lock",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "byte[]",
+        "byte[]",
+        "java.lang.Long",
+        "java.lang.Long",
+        "long[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetData",
+      "describe": [],
+      "args": [
+        "long",
+        "byte[]",
+        "java.lang.Long",
+        "java.lang.Long",
+        "java.lang.Long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Unlock",
+      "describe": [],
+      "args": [
+        "long",
+        "long[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetDefaults",
+      "describe": [],
+      "args": [
+        "long",
+        "float",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDefaults",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DMinMaxDistance",
+      "describe": [],
+      "args": [
+        "long",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DMinMaxDistance",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DConeSettings",
+      "describe": [],
+      "args": [
+        "long",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DConeSettings",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DCustomRolloff",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DCustomRolloff",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetSubSound",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSubSound",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSubSoundParent",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetName",
+      "describe": [],
+      "args": [
+        "long",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetLength",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetFormat",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumSubSounds",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumTags",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetTag",
+      "describe": [],
+      "args": [
+        "long",
+        "java.lang.String",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetOpenState",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ReadData",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SeekData",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetSoundGroup",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSoundGroup",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumSyncPoints",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSyncPoint",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSyncPointInfo",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "java.lang.String",
+        "int",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "AddSyncPoint",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "java.lang.String",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DeleteSyncPoint",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMode",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMode",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetLoopCount",
+      "describe": [],
+      "args": [
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetLoopCount",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetLoopPoints",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetLoopPoints",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMusicNumChannels",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMusicChannelVolume",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMusicChannelVolume",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMusicSpeed",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMusicSpeed",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetUserData",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetUserData",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSystemObject",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Stop",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPaused",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPaused",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetVolume",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetVolume",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetVolumeRamp",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetVolumeRamp",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetAudibility",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPitch",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPitch",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMute",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMute",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetReverbProperties",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetReverbProperties",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetLowPassGain",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetLowPassGain",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMode",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMode",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetCallback",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "IsPlaying",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPan",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMixLevelsOutput",
+      "describe": [],
+      "args": [
+        "long",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMixLevelsInput",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMixMatrix",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMixMatrix",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDSPClock",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetDelay",
+      "describe": [],
+      "args": [
+        "long",
+        "java.math.BigInteger",
+        "java.math.BigInteger",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDelay",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "AddFadePoint",
+      "describe": [],
+      "args": [
+        "long",
+        "java.math.BigInteger",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "RemoveFadePoints",
+      "describe": [],
+      "args": [
+        "long",
+        "java.math.BigInteger",
+        "java.math.BigInteger"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetFadePoints",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDSP",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "AddDSP",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "RemoveDSP",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumDSPs",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetDSPIndex",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDSPIndex",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "OverridePanDSP",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DAttributes",
+      "describe": [],
+      "args": [
+        "long",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DAttributes",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DMinMaxDistance",
+      "describe": [],
+      "args": [
+        "long",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DMinMaxDistance",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DConeSettings",
+      "describe": [],
+      "args": [
+        "long",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DConeSettings",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DConeOrientation",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DConeOrientation",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DCustomRolloff",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DCustomRolloff",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DOcclusion",
+      "describe": [],
+      "args": [
+        "long",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DOcclusion",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DSpread",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DSpread",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DLevel",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DLevel",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DDopplerLevel",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DDopplerLevel",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DDistanceFilter",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DDistanceFilter",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetUserData",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetUserData",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetFrequency",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetFrequency",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPriority",
+      "describe": [],
+      "args": [
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPriority",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPosition",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPosition",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetChannelGroup",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetChannelGroup",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetLoopCount",
+      "describe": [],
+      "args": [
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetLoopCount",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetLoopPoints",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetLoopPoints",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "IsVirtual",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetCurrentSound",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetIndex",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSystemObject",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Stop",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPaused",
+      "describe": [],
+      "args": [
+        "long",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPaused",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetVolume",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetVolume",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetVolumeRamp",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetVolumeRamp",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetAudibility",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPitch",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPitch",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMute",
+      "describe": [],
+      "args": [
+        "long",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMute",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetReverbProperties",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetReverbProperties",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetLowPassGain",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetLowPassGain",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMode",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMode",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetCallback",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "IsPlaying",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPan",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMixLevelsOutput",
+      "describe": [],
+      "args": [
+        "long",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMixLevelsInput",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMixMatrix",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMixMatrix",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDSPClock",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetDelay",
+      "describe": [],
+      "args": [
+        "long",
+        "java.math.BigInteger",
+        "java.math.BigInteger",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDelay",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "AddFadePoint",
+      "describe": [],
+      "args": [
+        "long",
+        "java.math.BigInteger",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "RemoveFadePoints",
+      "describe": [],
+      "args": [
+        "long",
+        "java.math.BigInteger",
+        "java.math.BigInteger"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetFadePoints",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDSP",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "AddDSP",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "RemoveDSP",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumDSPs",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetDSPIndex",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDSPIndex",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "OverridePanDSP",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DAttributes",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DAttributes",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DMinMaxDistance",
+      "describe": [],
+      "args": [
+        "long",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DMinMaxDistance",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DConeSettings",
+      "describe": [],
+      "args": [
+        "long",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DConeSettings",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DConeOrientation",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DConeOrientation",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DCustomRolloff",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DCustomRolloff",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DOcclusion",
+      "describe": [],
+      "args": [
+        "long",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DOcclusion",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DSpread",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DSpread",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DLevel",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DLevel",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DDopplerLevel",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DDopplerLevel",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DDistanceFilter",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DDistanceFilter",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetUserData",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetUserData",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Release",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "AddGroup",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumGroups",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetGroup",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetParentGroup",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetName",
+      "describe": [],
+      "args": [
+        "long",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumChannels",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetChannel",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Release",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSystemObject",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMaxAudible",
+      "describe": [],
+      "args": [
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMaxAudible",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMaxAudibleBehavior",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMaxAudibleBehavior",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMuteFadeSpeed",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMuteFadeSpeed",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetVolume",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetVolume",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Stop",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetName",
+      "describe": [],
+      "args": [
+        "long",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumSounds",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSound",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumPlaying",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetUserData",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetUserData",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Release",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSystemObject",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "AddInput",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DisconnectFrom",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DisconnectAll",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumInputs",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumOutputs",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetInput",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetOutput",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetActive",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetActive",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetBypass",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetBypass",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetWetDryMix",
+      "describe": [],
+      "args": [
+        "long",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetWetDryMix",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetChannelFormat",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetChannelFormat",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetOutputChannelFormat",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "int",
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Reset",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetParameterFloat",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetParameterInt",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetParameterBool",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetParameterData",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetParameterFloat",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetParameterInt",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetParameterBool",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetParameterData",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long",
+        "long",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumParameters",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetParameterInfo",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDataParameterIndex",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ShowConfigDialog",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetInfo",
+      "describe": [],
+      "args": [
+        "long",
+        "java.lang.String",
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetType",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetIdle",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetUserData",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetUserData",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMeteringEnabled",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMeteringEnabled",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMeteringInfo",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetInput",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetOutput",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMix",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMix",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMixMatrix",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMixMatrix",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetType",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetUserData",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetUserData",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Release",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "AddPolygon",
+      "describe": [],
+      "args": [
+        "long",
+        "float",
+        "float",
+        "long",
+        "int",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumPolygons",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMaxPolygons",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPolygonNumVertices",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPolygonVertex",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPolygonVertex",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPolygonAttributes",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "float",
+        "float",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPolygonAttributes",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetActive",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetActive",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetRotation",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetRotation",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPosition",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPosition",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetScale",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetScale",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Save",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetUserData",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetUserData",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Release",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DAttributes",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DAttributes",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetProperties",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetProperties",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetActive",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetActive",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetUserData",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetUserData",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetReverbDefault",
+      "describe": [],
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "D",
+      "describe": [],
+      "args": [
+        "long",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetNumListeners",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "D",
+      "describe": [],
+      "args": [
+        "int",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetParameterByName",
+      "describe": [],
+      "args": [
+        "long",
+        "java.lang.String",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetParameter",
+      "describe": [],
+      "args": [
+        "long",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPlaybackState",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetVolume",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetVolume",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ReleaseEventInstance",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Stop",
+      "describe": [],
+      "args": [
+        "long",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "FlushCommands",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "GetBankCount",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "GetBankList",
+      "describe": [],
+      "args": [
+        "long[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetBus",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetParameterDescriptionCount",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "GetParameterDescriptionList",
+      "describe": [],
+      "args": [
+        "long[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetParameterByID",
+      "describe": [],
+      "args": [
+        "long",
+        "float",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetParameterByName",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "float",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetEventCount",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetEventList",
+      "describe": [],
+      "args": [
+        "long",
+        "long[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMute",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPaused",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetVolume",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMute",
+      "describe": [],
+      "args": [
+        "long",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPaused",
+      "describe": [],
+      "args": [
+        "long",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetVolume",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "StopAllEvents",
+      "describe": [],
+      "args": [
+        "long",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetID",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetLength",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetInstanceCount",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetInstanceList",
+      "describe": [],
+      "args": [
+        "long",
+        "long[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetParameterDescriptionCount",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetParameterDescriptionByIndex",
+      "describe": [],
+      "args": [
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPath",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "HasSustainPoint",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPaused",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetCallback",
+      "describe": [],
+      "args": [
+        "long",
+        "fmod.fmod.FMOD_STUDIO_EVENT_CALLBACK",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPaused",
+      "describe": [],
+      "args": [
+        "long",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetParameterByID",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "float",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetProperty",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "KeyOff",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetTimelinePosition",
+      "describe": [],
+      "args": [
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetName",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetID",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetFlags",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Free",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "init",
+      "args": []
+    }
+  ]
+}

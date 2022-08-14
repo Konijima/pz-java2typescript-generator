@@ -1,0 +1,38 @@
+{
+  "name": "KahluaException",
+  "package": "se.krka.kahlua.vm",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "java.lang.RuntimeException"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "KahluaException",
+      "describe": [],
+      "args": [
+        "java.lang.Object"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "errorMessage",
+      "scope": "public",
+      "type": "java.lang.Object",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getMessage",
+      "args": []
+    }
+  ]
+}

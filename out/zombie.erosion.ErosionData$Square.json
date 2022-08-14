@@ -1,0 +1,124 @@
+{
+  "name": "ErosionData$Square",
+  "package": "zombie.erosion",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Square",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "init",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "doNothing",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "noiseMainByte",
+      "scope": "public",
+      "type": "byte",
+      "describe": []
+    },
+    {
+      "name": "noiseMain",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "noiseMainInt",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "noiseKudzu",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "soil",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "magicNumByte",
+      "scope": "public",
+      "type": "byte",
+      "describe": []
+    },
+    {
+      "name": "magicNum",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "regions",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.erosion.categories.ErosionCategory$Data>",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "reset",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": [
+        "java.nio.ByteBuffer",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "int",
+      "name": "rand",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    }
+  ]
+}

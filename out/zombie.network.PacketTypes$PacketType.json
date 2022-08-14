@@ -1,0 +1,2028 @@
+{
+  "name": "PacketTypes$PacketType",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.network.PacketTypes$PacketType>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Validate",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Login",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "HumanVisual",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KeepAlive",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Vehicles",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PlayerConnect",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "VehiclesUnreliable",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleAuthorization",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MetaGrid",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Helicopter",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SyncIsoObject",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PlayerTimeout",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SteamGeneric",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ServerMap",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PassengerMap",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AddItemToMap",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SentChunk",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SyncClock",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AddInventoryItemToContainer",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ConnectionDetails",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RemoveInventoryItemFromContainer",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RemoveItemFromSquare",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RequestLargeAreaZip",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Equip",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "HitCharacter",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AddCoopPlayer",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WeaponHit",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KillZombie",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SandboxOptions",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SmashWindow",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PlayerDeath",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RequestZipList",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ItemStats",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "NotRequiredInZip",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RequestData",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "GlobalObjects",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ZombieDeath",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AccessDenied",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PlayerDamage",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Bandage",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "EatFood",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RequestItemsForContainer",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Drink",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SyncAlarmClock",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PacketCounts",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SendModData",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RemoveContestedItemsFromInventory",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ScoreboardUpdate",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ReceiveModData",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ServerQuit",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PlaySound",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WorldSound",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AddAmbient",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SyncClothing",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ClientCommand",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ObjectModData",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ObjectChange",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BloodSplatter",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ZombieSound",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ZombieDescriptors",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SlowFactor",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Weather",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RequestPlayerData",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RemoveCorpseFromMap",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AddCorpseToMap",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BecomeCorpse",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "StartFire",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "UpdateItemSprite",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "StartRain",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "StopRain",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WorldMessage",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "getModData",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ReceiveCommand",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ReloadOptions",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Kicked",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ExtraInfo",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AddItemInInventory",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ChangeSafety",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Ping",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WriteLog",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AddXP",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "UpdateOverlaySprite",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Checksum",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ConstructedZone",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RegisterZone",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WoundInfection",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Stitch",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Disinfect",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AdditionalPain",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RemoveGlass",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Splint",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RemoveBullet",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "CleanBurn",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SyncThumpable",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SyncDoorKey",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AddXpCommand",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Teleport",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RemoveBlood",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AddExplosiveTrap",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BodyDamageUpdate",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SyncSafehouse",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SledgehammerDestroy",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "StopFire",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Cataplasm",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AddAlarm",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PlaySoundEveryPlayer",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SyncFurnace",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SendCustomColor",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SyncCompost",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ChangePlayerStats",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AddXpFromPlayerStatsUI",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SyncXP",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PacketTypeShort",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Userlog",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AddUserlog",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RemoveUserlog",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AddWarningPoint",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MessageForAdmin",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WakeUpPlayer",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SendTransactionID",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "GetDBSchema",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "GetTableResult",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ExecuteQuery",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ChangeTextColor",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SyncNonPvpZone",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SyncFaction",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SendFactionInvite",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AcceptedFactionInvite",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AddTicket",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ViewTickets",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RemoveTicket",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RequestTrading",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TradingUIAddItem",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TradingUIRemoveItem",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TradingUIUpdateState",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SendItemListNet",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ChunkObjectState",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ReadAnnotedMap",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RequestInventory",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SendInventory",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "InvMngReqItem",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "InvMngGetItem",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "InvMngRemoveItem",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "StartPause",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "StopPause",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TimeSync",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SyncIsoObjectReq",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PlayerSave",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SyncWorldObjectsReq",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SyncObjects",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SendPlayerProfile",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "LoadPlayerProfile",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SpawnRegion",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PlayerDamageFromCarCrash",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PlayerAttachedItem",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ZombieHelmetFalling",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AddBrokenGlass",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SyncPerks",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SyncWeight",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SyncInjuries",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SyncEquippedRadioFreq",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "InitPlayerChat",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PlayerJoinChat",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PlayerLeaveChat",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ChatMessageFromPlayer",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ChatMessageToPlayer",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PlayerStartPMChat",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AddChatTab",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RemoveChatTab",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PlayerConnectedToChat",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PlayerNotFound",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SendSafehouseInvite",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AcceptedSafehouseInvite",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ClimateManagerPacket",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "IsoRegionServerPacket",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "IsoRegionClientRequestFullUpdate",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "EventPacket",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Statistic",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "StatisticRequest",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PlayerUpdateReliable",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ActionPacket",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ZombieControl",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PlayWorldSound",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "StopSound",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PlayerUpdate",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ZombieSimulation",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PingFromClient",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ZombieSimulationReliable",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "EatBody",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Thump",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SyncRadioData",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "LoginQueueRequest2",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "LoginQueueDone2",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ItemTransaction",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KickOutOfSafehouse",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SneezeCough",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BurnCorpse",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WaveSignal",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PlayerListensChannel",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RadioServerData",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RadioDeviceDataState",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SyncCustomLightSettings",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ReplaceOnCooked",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PlayerDataRequest",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "GlobalModData",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "GlobalModDataRequest",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RadioPostSilenceEvent",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PacketPriority",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "PacketReliability",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "OrderingChannel",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "incomePackets",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "outcomePackets",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "incomeBytes",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "outcomeBytes",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "clientPacketCount",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "serverPacketCount",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.network.PacketTypes$PacketType",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "resetStatistics",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "send",
+      "args": [
+        "zombie.core.raknet.UdpConnection"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "doPacket",
+      "args": [
+        "zombie.core.network.ByteBufferWriter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "short",
+      "name": "getId",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onServerPacket",
+      "args": [
+        "java.nio.ByteBuffer",
+        "zombie.core.raknet.UdpConnection"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onMainLoopHandlePacketInternal",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "onGameLoadingDealWithNetData",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onUnauthorized",
+      "args": [
+        "zombie.core.raknet.UdpConnection"
+      ]
+    }
+  ]
+}

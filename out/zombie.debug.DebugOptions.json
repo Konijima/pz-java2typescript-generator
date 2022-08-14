@@ -1,0 +1,1122 @@
+{
+  "name": "DebugOptions",
+  "package": "zombie.debug",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [
+    "zombie.debug.options.IDebugOptionGroup"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "DebugOptions",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "VERSION",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.debug.DebugOptions",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AssetSlowLoad",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "MultiplayerShowZombieMultiplier",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "MultiplayerShowZombieOwner",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "MultiplayerShowPosition",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "MultiplayerShowTeleport",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "MultiplayerShowHit",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "MultiplayerLogPrediction",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "MultiplayerShowPlayerPrediction",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "MultiplayerShowPlayerStatus",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "MultiplayerShowZombiePrediction",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "MultiplayerShowZombieDesync",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "MultiplayerShowZombieStatus",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "MultiplayerCriticalHit",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "MultiplayerTorsoHit",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "MultiplayerZombieCrawler",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "MultiplayerHotKey",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "MultiplayerPlayerZombie",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "MultiplayerAttackPlayer",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "MultiplayerFollowPlayer",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "MultiplayerAutoEquip",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "MultiplayerPing",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "MultiplayerSeeNonPvpZones",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "CheatClockVisible",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "CheatDoorUnlock",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "CheatPlayerStartInvisible",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "CheatPlayerInvisibleSprint",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "CheatPlayerSeeEveryone",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "CheatUnlimitedAmmo",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "CheatRecipeKnowAll",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "CheatTimedActionInstant",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "CheatVehicleMechanicsAnywhere",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "CheatVehicleStartWithoutKey",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "CheatWindowUnlock",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "CollideWithObstaclesRenderRadius",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "CollideWithObstaclesRenderObstacles",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "CollideWithObstaclesRenderNormals",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "DeadBodyAtlasRender",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "WorldItemAtlasRender",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "DebugScenarioForceLaunch",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "MechanicsRenderHitbox",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "JoypadRenderUI",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ModelRenderAttachments",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ModelRenderAxis",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ModelRenderBones",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ModelRenderBounds",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ModelRenderLights",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ModelRenderMuzzleflash",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ModelRenderSkipVehicles",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ModelRenderWeaponHitPoint",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ModelRenderWireframe",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ModelSkeleton",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ModRenderLoaded",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "PathfindPathToMouseAllowCrawl",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "PathfindPathToMouseAllowThump",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "PathfindPathToMouseEnable",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "PathfindPathToMouseIgnoreCrawlCost",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "PathfindRenderPath",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "PathfindRenderWaiting",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "PhysicsRender",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "PolymapRenderClusters",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "PolymapRenderConnections",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "PolymapRenderCrawling",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "PolymapRenderLineClearCollide",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "PolymapRenderNodes",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "TooltipInfo",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "TooltipModName",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "TranslationPrefix",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "UIRenderOutline",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "UIDebugConsoleStartVisible",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "UIDebugConsoleDebugLog",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "UIDebugConsoleEchoCommand",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "UIDisableWelcomeMessage",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleCycleColor",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleRenderBlood0",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleRenderBlood50",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleRenderBlood100",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleRenderDamage0",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleRenderDamage1",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleRenderDamage2",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleRenderRust0",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleRenderRust50",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleRenderRust100",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleRenderOutline",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleRenderArea",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleRenderAuthorizations",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleRenderInterpolateBuffer",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleRenderAttackPositions",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleRenderExit",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleRenderIntersectedSquares",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleRenderTrailerPositions",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "VehicleSpawnEverywhere",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "WorldSoundRender",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ObjectAmbientEmitterRender",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "LightingRender",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "SkyboxShow",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "WorldStreamerSlowLoad",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "DebugDraw_SkipVBODraw",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "DebugDraw_SkipDrawNonSkinnedModel",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "DebugDraw_SkipWorldShading",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "GameProfilerEnabled",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "GameTimeSpeedHalf",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "GameTimeSpeedQuarter",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ThreadCrash_Enabled",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "zombie",
+      "scope": "public",
+      "type": "final",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "public",
+      "type": "final",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "public",
+      "type": "final",
+      "describe": []
+    },
+    {
+      "name": "WorldChunkMap5x5",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ZombieRenderCanCrawlUnderVehicle",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ZombieRenderFakeDead",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ZombieRenderMemory",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ZombieOutfitRandom",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Checks",
+      "scope": "public",
+      "type": "zombie.debug.DebugOptions$Checks",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "IsoSprite",
+      "scope": "public",
+      "type": "zombie.debug.options.IsoSprite",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Network",
+      "scope": "public",
+      "type": "zombie.debug.options.Network",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "OffscreenBuffer",
+      "scope": "public",
+      "type": "zombie.debug.options.OffscreenBuffer",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Terrain",
+      "scope": "public",
+      "type": "zombie.debug.options.Terrain",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Weather",
+      "scope": "public",
+      "type": "zombie.debug.options.Weather",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Animation",
+      "scope": "public",
+      "type": "zombie.debug.options.Animation",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Character",
+      "scope": "public",
+      "type": "zombie.debug.options.Character",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "init",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Iterable<zombie.debug.options.IDebugOption>",
+      "name": "getChildren",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addChild",
+      "args": [
+        "zombie.debug.options.IDebugOption"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onChildAdded",
+      "args": [
+        "zombie.debug.options.IDebugOption"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onDescendantAdded",
+      "args": [
+        "zombie.debug.options.IDebugOption"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.debug.options.IDebugOptionGroup",
+      "name": "getParent",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setParent",
+      "args": [
+        "zombie.debug.options.IDebugOptionGroup"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.debug.BooleanDebugOption",
+      "name": "getOptionByName",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getOptionCount",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.debug.BooleanDebugOption",
+      "name": "getOptionByIndex",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setBoolean",
+      "args": [
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "getBoolean",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "testThreadCrash",
+      "args": [
+        "int"
+      ]
+    }
+  ]
+}

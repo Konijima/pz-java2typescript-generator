@@ -1,0 +1,38 @@
+{
+  "name": "GameProfileRecording$Span",
+  "package": "zombie",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.util.PooledObject"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Span",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onReleased",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.GameProfileRecording$Span",
+      "name": "alloc",
+      "args": []
+    }
+  ]
+}

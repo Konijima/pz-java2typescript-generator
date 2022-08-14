@@ -1,0 +1,94 @@
+{
+  "name": "Pcx",
+  "package": "zombie.core.textures",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Pcx",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Pcx",
+      "describe": [],
+      "args": [
+        "java.net.URL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Pcx",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "int[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Pcx",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "Cache",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.String,zombie.core.textures.Pcx>",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "byte",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "imageWidth",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "imageHeight",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "int",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "int",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.awt.Image",
+      "name": "getImage",
+      "args": []
+    }
+  ]
+}

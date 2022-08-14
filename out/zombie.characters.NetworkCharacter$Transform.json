@@ -1,0 +1,50 @@
+{
+  "name": "NetworkCharacter$Transform",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Transform",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "position",
+      "scope": "public",
+      "type": "zombie.iso.Vector2",
+      "describe": []
+    },
+    {
+      "name": "rotation",
+      "scope": "public",
+      "type": "zombie.iso.Vector2",
+      "describe": []
+    },
+    {
+      "name": "operation",
+      "scope": "public",
+      "type": "zombie.characters.NetworkCharacter$Operation",
+      "describe": []
+    },
+    {
+      "name": "moving",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "time",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

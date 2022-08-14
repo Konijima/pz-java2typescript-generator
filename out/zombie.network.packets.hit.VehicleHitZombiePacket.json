@@ -1,0 +1,82 @@
+{
+  "name": "VehicleHitZombiePacket",
+  "package": "zombie.network.packets.hit",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.network.packets.hit.VehicleHitPacket"
+  ],
+  "implements": [
+    "zombie.network.packets.INetworkPacket"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "VehicleHitZombiePacket",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "zombie.characters.IsoZombie",
+        "zombie.vehicles.BaseVehicle",
+        "float",
+        "boolean",
+        "int",
+        "float",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "parse",
+      "args": [
+        "java.nio.ByteBuffer",
+        "zombie.core.raknet.UdpConnection"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "write",
+      "args": [
+        "zombie.core.network.ByteBufferWriter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isConsistent",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getDescription",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "validate",
+      "args": [
+        "zombie.core.raknet.UdpConnection"
+      ]
+    }
+  ]
+}

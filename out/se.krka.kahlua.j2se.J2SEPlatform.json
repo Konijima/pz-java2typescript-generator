@@ -1,0 +1,64 @@
+{
+  "name": "J2SEPlatform",
+  "package": "se.krka.kahlua.j2se",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "se.krka.kahlua.vm.Platform"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "SEPlatform",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "se.krka.kahlua.j2se.J2SEPlatform",
+      "name": "getInstance",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "pow",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "se.krka.kahlua.vm.KahluaTable",
+      "name": "newTable",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "se.krka.kahlua.vm.KahluaTable",
+      "name": "newEnvironment",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setupEnvironment",
+      "args": [
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    }
+  ]
+}

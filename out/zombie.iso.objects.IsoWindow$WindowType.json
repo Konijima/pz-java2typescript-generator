@@ -1,0 +1,54 @@
+{
+  "name": "IsoWindow$WindowType",
+  "package": "zombie.iso.objects",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.iso.objects.IsoWindow$WindowType>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "SinglePane",
+      "scope": "public",
+      "type": "zombie.iso.objects.IsoWindow$WindowType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DoublePane",
+      "scope": "public",
+      "type": "zombie.iso.objects.IsoWindow$WindowType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.objects.IsoWindow$WindowType",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

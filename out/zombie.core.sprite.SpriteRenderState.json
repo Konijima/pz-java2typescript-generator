@@ -1,0 +1,125 @@
+{
+  "name": "SpriteRenderState",
+  "package": "zombie.core.sprite",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.core.sprite.GenericSpriteRenderState"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "SpriteRenderState",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "fbo",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureFBO",
+      "describe": []
+    },
+    {
+      "name": "time",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "stateUI",
+      "scope": "public",
+      "type": "zombie.core.sprite.SpriteRenderStateUI",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "playerIndex",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "public",
+      "type": "final",
+      "describe": []
+    },
+    {
+      "name": "float",
+      "scope": "public",
+      "type": "final",
+      "describe": []
+    },
+    {
+      "name": "maxZoomLevel",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "minZoomLevel",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "float",
+      "scope": "public",
+      "type": "final",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onRendered",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onReady",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "CheckSpriteSlots",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clear",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.sprite.GenericSpriteRenderState",
+      "name": "getActiveState",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "prePopulating",
+      "args": []
+    }
+  ]
+}

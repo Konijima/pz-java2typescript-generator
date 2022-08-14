@@ -1,0 +1,41 @@
+{
+  "name": "CachedUrlStream$LoaderThread",
+  "package": "de.jarnbjo.ogg",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "java.lang.Runnable"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "LoaderThread",
+      "describe": [],
+      "args": [
+        "de.jarnbjo.ogg.CachedUrlStream",
+        "java.io.InputStream",
+        "java.io.RandomAccessFile",
+        "byte[]"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "run",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isBosDone",
+      "args": []
+    }
+  ]
+}

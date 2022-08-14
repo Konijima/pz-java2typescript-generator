@@ -1,0 +1,377 @@
+{
+  "name": "ServerMap",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ServerMap",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "bUpdateLOSThisFrame",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "LOSTick",
+      "scope": "public",
+      "type": "zombie.core.utils.OnceEvery",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "TimeTick",
+      "scope": "public",
+      "type": "zombie.core.utils.OnceEvery",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "CellSize",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ChunksPerCellWidth",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "LastSaved",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "ZombieMap",
+      "scope": "public",
+      "type": "zombie.network.IsoObjectID<zombie.characters.IsoZombie>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "bQueuedSaveAll",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "bQueuedQuit",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.network.ServerMap",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "LoadedCells",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.network.ServerMap$ServerCell>",
+      "describe": []
+    },
+    {
+      "name": "ReleventNow",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.network.ServerMap$ServerCell>",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "short",
+      "name": "getUniqueZombieId",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.Vector3",
+      "name": "getStartLocation",
+      "args": [
+        "zombie.network.ServerWorldDatabase$LogonResult"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "SaveAll",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "QueueSaveAll",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "QueueQuit",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "toServerCellX",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "toServerCellY",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "toWorldCellX",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "toWorldCellY",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getMaxX",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getMaxY",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getMinX",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getMinY",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "init",
+      "args": [
+        "zombie.iso.IsoMetaGrid"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.network.ServerMap$ServerCell",
+      "name": "getCell",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isValidCell",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "loadOrKeepRelevent",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "characterIn",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "characterIn",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "loadMapChunk",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "preupdate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "postupdate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "physicsCheck",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "saveZoneInsidePlayerInfluence",
+      "args": [
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getGridSquare",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setGridSquare",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isInLoaded",
+      "args": [
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoChunk",
+      "name": "getChunk",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setSoftResetChunk",
+      "args": [
+        "zombie.iso.IsoChunk"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clearSoftResetChunk",
+      "args": [
+        "zombie.iso.IsoChunk"
+      ]
+    }
+  ]
+}

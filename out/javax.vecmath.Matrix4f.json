@@ -1,0 +1,1344 @@
+{
+  "name": "Matrix4f",
+  "package": "javax.vecmath",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "java.io.Serializable",
+    "java.lang.Cloneable"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "float[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "javax.vecmath.Quat4f",
+        "javax.vecmath.Vector3f",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "javax.vecmath.Matrix4d"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "javax.vecmath.Matrix4f"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "javax.vecmath.Matrix3f",
+        "javax.vecmath.Vector3f",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "m00",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m01",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m02",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m03",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m10",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m11",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m12",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m13",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m20",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m21",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m22",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m23",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m30",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m31",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m32",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m33",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "getM00",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "setM00",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "getM01",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "setM01",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "getM02",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "setM02",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "getM10",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "setM10",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "getM11",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "setM11",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "getM12",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "setM12",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "getM20",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "setM20",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "getM21",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "setM21",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "getM22",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "setM22",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "getM03",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "setM03",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "getM13",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "setM13",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "getM23",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "setM23",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "getM30",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "setM30",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "getM31",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "setM31",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "getM32",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "setM32",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "getM33",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "setM33",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setIdentity",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setElement",
+      "args": [
+        "int",
+        "int",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "float",
+      "name": "getElement",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "getRow",
+      "args": [
+        "int",
+        "javax.vecmath.Vector4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "getRow",
+      "args": [
+        "int",
+        "float[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "getColumn",
+      "args": [
+        "int",
+        "javax.vecmath.Vector4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "getColumn",
+      "args": [
+        "int",
+        "float[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setScale",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "javax.vecmath.Matrix3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "float",
+      "name": "get",
+      "args": [
+        "javax.vecmath.Matrix3f",
+        "javax.vecmath.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "javax.vecmath.Quat4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "javax.vecmath.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "getRotationScale",
+      "args": [
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "float",
+      "name": "getScale",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setRotationScale",
+      "args": [
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setRow",
+      "args": [
+        "int",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setRow",
+      "args": [
+        "int",
+        "javax.vecmath.Vector4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setRow",
+      "args": [
+        "int",
+        "float[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setColumn",
+      "args": [
+        "int",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setColumn",
+      "args": [
+        "int",
+        "javax.vecmath.Vector4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setColumn",
+      "args": [
+        "int",
+        "float[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "add",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "add",
+      "args": [
+        "float",
+        "javax.vecmath.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "add",
+      "args": [
+        "javax.vecmath.Matrix4f",
+        "javax.vecmath.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "add",
+      "args": [
+        "javax.vecmath.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "sub",
+      "args": [
+        "javax.vecmath.Matrix4f",
+        "javax.vecmath.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "sub",
+      "args": [
+        "javax.vecmath.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "transpose",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "transpose",
+      "args": [
+        "javax.vecmath.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Quat4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.AxisAngle4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Quat4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.AxisAngle4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Quat4d",
+        "javax.vecmath.Vector3d",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Quat4f",
+        "javax.vecmath.Vector3f",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "invert",
+      "args": [
+        "javax.vecmath.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "invert",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "float",
+      "name": "determinant",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Matrix3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "float[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "float",
+        "javax.vecmath.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Vector3f",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Matrix3f",
+        "javax.vecmath.Vector3f",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "javax.vecmath.Matrix3d",
+        "javax.vecmath.Vector3d",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setTranslation",
+      "args": [
+        "javax.vecmath.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "rotX",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "rotY",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "rotZ",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "mul",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "mul",
+      "args": [
+        "float",
+        "javax.vecmath.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "mul",
+      "args": [
+        "javax.vecmath.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "mul",
+      "args": [
+        "javax.vecmath.Matrix4f",
+        "javax.vecmath.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "mulTransposeBoth",
+      "args": [
+        "javax.vecmath.Matrix4f",
+        "javax.vecmath.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "mulTransposeRight",
+      "args": [
+        "javax.vecmath.Matrix4f",
+        "javax.vecmath.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "mulTransposeLeft",
+      "args": [
+        "javax.vecmath.Matrix4f",
+        "javax.vecmath.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "javax.vecmath.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "epsilonEquals",
+      "args": [
+        "javax.vecmath.Matrix4f",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "hashCode",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "transform",
+      "args": [
+        "javax.vecmath.Tuple4f",
+        "javax.vecmath.Tuple4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "transform",
+      "args": [
+        "javax.vecmath.Tuple4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "transform",
+      "args": [
+        "javax.vecmath.Point3f",
+        "javax.vecmath.Point3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "transform",
+      "args": [
+        "javax.vecmath.Point3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "transform",
+      "args": [
+        "javax.vecmath.Vector3f",
+        "javax.vecmath.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "transform",
+      "args": [
+        "javax.vecmath.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setRotation",
+      "args": [
+        "javax.vecmath.Matrix3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setRotation",
+      "args": [
+        "javax.vecmath.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setRotation",
+      "args": [
+        "javax.vecmath.Quat4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setRotation",
+      "args": [
+        "javax.vecmath.Quat4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setRotation",
+      "args": [
+        "javax.vecmath.AxisAngle4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setZero",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "negate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "negate",
+      "args": [
+        "javax.vecmath.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "clone",
+      "args": []
+    }
+  ]
+}

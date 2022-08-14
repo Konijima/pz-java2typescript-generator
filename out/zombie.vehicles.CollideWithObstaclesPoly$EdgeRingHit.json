@@ -1,0 +1,63 @@
+{
+  "name": "CollideWithObstaclesPoly$EdgeRingHit",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.vehicles.CollideWithObstaclesPoly$EdgeRingHit>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "OnEdge",
+      "scope": "public",
+      "type": "zombie.vehicles.CollideWithObstaclesPoly$EdgeRingHit",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Inside",
+      "scope": "public",
+      "type": "zombie.vehicles.CollideWithObstaclesPoly$EdgeRingHit",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Outside",
+      "scope": "public",
+      "type": "zombie.vehicles.CollideWithObstaclesPoly$EdgeRingHit",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.vehicles.CollideWithObstaclesPoly$EdgeRingHit",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

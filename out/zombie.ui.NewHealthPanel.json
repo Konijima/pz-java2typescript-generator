@@ -1,0 +1,193 @@
+{
+  "name": "NewHealthPanel",
+  "package": "zombie.ui",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.ui.NewWindow"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "NewHealthPanel",
+      "describe": [],
+      "args": [
+        "int",
+        "int",
+        "zombie.characters.IsoGameCharacter"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.ui.NewHealthPanel",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "BodyOutline",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "HealthBar",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": []
+    },
+    {
+      "name": "HealthBarBack",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": []
+    },
+    {
+      "name": "HealthIcon",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "SetCharacter",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getDamageStatusString",
+      "args": []
+    }
+  ]
+}

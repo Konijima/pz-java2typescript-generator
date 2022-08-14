@@ -1,0 +1,104 @@
+{
+  "name": "ClothingDecals",
+  "package": "zombie.core.skinnedmodel.population",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ClothingDecals",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_Groups",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.core.skinnedmodel.population.ClothingDecalGroup>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.population.ClothingDecals",
+      "describe": [
+        "static"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "init",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "Reset",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.skinnedmodel.population.ClothingDecals",
+      "name": "Parse",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.skinnedmodel.population.ClothingDecals",
+      "name": "parse",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.population.ClothingDecal",
+      "name": "getDecal",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.population.ClothingDecalGroup",
+      "name": "FindGroup",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getRandomDecal",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

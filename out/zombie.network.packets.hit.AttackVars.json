@@ -1,0 +1,142 @@
+{
+  "name": "AttackVars",
+  "package": "zombie.network.packets.hit",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "zombie.network.packets.INetworkPacket"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "AttackVars",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "targetOnGround",
+      "scope": "public",
+      "type": "zombie.network.packets.hit.MovingObject",
+      "describe": []
+    },
+    {
+      "name": "bAimAtFloor",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "bCloseKill",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "bDoShove",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "useChargeDelta",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "recoilDelay",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "targetsStanding",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.network.packets.hit.HitInfo>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "targetsProne",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.network.packets.hit.HitInfo>",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setWeapon",
+      "args": [
+        "zombie.inventory.types.HandWeapon"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.types.HandWeapon",
+      "name": "getWeapon",
+      "args": [
+        "zombie.characters.IsoLivingCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "parse",
+      "args": [
+        "java.nio.ByteBuffer",
+        "zombie.core.raknet.UdpConnection"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "write",
+      "args": [
+        "zombie.core.network.ByteBufferWriter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getPacketSizeBytes",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getDescription",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "copy",
+      "args": [
+        "zombie.network.packets.hit.AttackVars"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clear",
+      "args": []
+    }
+  ]
+}

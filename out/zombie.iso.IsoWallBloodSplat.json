@@ -1,0 +1,75 @@
+{
+  "name": "IsoWallBloodSplat",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IsoWallBloodSplat",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "IsoWallBloodSplat",
+      "describe": [],
+      "args": [
+        "float",
+        "zombie.iso.sprite.IsoSprite"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "worldAge",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "sprite",
+      "scope": "public",
+      "type": "zombie.iso.sprite.IsoSprite",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "zombie.core.textures.ColorInfo"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": [
+        "java.nio.ByteBuffer",
+        "int"
+      ]
+    }
+  ]
+}

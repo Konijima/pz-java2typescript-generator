@@ -1,0 +1,73 @@
+{
+  "name": "TextBox",
+  "package": "zombie.ui",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.ui.UIElement"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "TextBox",
+      "describe": [],
+      "args": [
+        "zombie.ui.UIFont",
+        "int",
+        "int",
+        "int",
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "ResizeParent",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "Centred",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onresize",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "SetText",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

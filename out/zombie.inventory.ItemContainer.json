@@ -1,0 +1,2855 @@
+{
+  "name": "ItemContainer",
+  "package": "zombie.inventory",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ItemContainer",
+      "describe": [],
+      "args": [
+        "int",
+        "java.lang.String",
+        "zombie.iso.IsoGridSquare",
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ItemContainer",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "zombie.iso.IsoGridSquare",
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ItemContainer",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ItemContainer",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "Admin",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "active",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "IsDevice",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "ageFactor",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "CookingFactor",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "Capacity",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "containingItem",
+      "scope": "public",
+      "type": "zombie.inventory.InventoryItem",
+      "describe": []
+    },
+    {
+      "name": "Items",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "describe": []
+    },
+    {
+      "name": "IncludingObsoleteItems",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "describe": []
+    },
+    {
+      "name": "parent",
+      "scope": "public",
+      "type": "zombie.iso.IsoObject",
+      "describe": []
+    },
+    {
+      "name": "SourceGrid",
+      "scope": "public",
+      "type": "zombie.iso.IsoGridSquare",
+      "describe": []
+    },
+    {
+      "name": "vehiclePart",
+      "scope": "public",
+      "type": "zombie.vehicles.VehiclePart",
+      "describe": []
+    },
+    {
+      "name": "inventoryContainer",
+      "scope": "public",
+      "type": "zombie.inventory.types.InventoryContainer",
+      "describe": []
+    },
+    {
+      "name": "bExplored",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "type",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "ID",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "floatingPointCorrection",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getCapacity",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "FindAndReturnWaterItem",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getItemFromTypeRecurse",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getEffectiveCapacity",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "hasRoomFor",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "hasRoomFor",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isItemAllowed",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isRemoveItemAllowed",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isExplored",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setExplored",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isInCharacterInventory",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isInside",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getContainingItem",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "DoAddItem",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "DoAddItemBlind",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "AddItems",
+      "args": [
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "AddItems",
+      "args": [
+        "zombie.inventory.InventoryItem",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getNumberOfItem",
+      "args": [
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getNumberOfItem",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getNumberOfItem",
+      "args": [
+        "java.lang.String",
+        "boolean",
+        "java.util.ArrayList<zombie.inventory.ItemContainer>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getNumberOfItem",
+      "args": [
+        "java.lang.String",
+        "boolean",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "addItem",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "AddItem",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "AddItemBlind",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "AddItem",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "AddItem",
+      "args": [
+        "java.lang.String",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "contains",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "containsWithModule",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "containsWithModule",
+      "args": [
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeItemOnServer",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addItemOnServer",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "contains",
+      "args": [
+        "zombie.inventory.InventoryItem",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "contains",
+      "args": [
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "containsType",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "containsTypeRecurse",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "contains",
+      "args": [
+        "java.lang.String",
+        "boolean",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "contains",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getBest",
+      "args": [
+        "java.util.function.Predicate<zombie.inventory.InventoryItem>",
+        "java.util.Comparator<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getBestRecurse",
+      "args": [
+        "java.util.function.Predicate<zombie.inventory.InventoryItem>",
+        "java.util.Comparator<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getBestType",
+      "args": [
+        "java.lang.String",
+        "java.util.Comparator<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getBestTypeRecurse",
+      "args": [
+        "java.lang.String",
+        "java.util.Comparator<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getBestEval",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure",
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getBestEvalRecurse",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure",
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getBestEvalArg",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getBestEvalArgRecurse",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getBestTypeEval",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getBestTypeEvalRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getBestTypeEvalArg",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getBestTypeEvalArgRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getBestCondition",
+      "args": [
+        "java.util.function.Predicate<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getBestConditionRecurse",
+      "args": [
+        "java.util.function.Predicate<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getBestCondition",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getBestConditionRecurse",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getBestConditionEval",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getBestConditionEvalRecurse",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getBestConditionEvalArg",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getBestConditionEvalArgRecurse",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getFirstEval",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getFirstEvalArg",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "containsEval",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "containsEvalArg",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "containsEvalRecurse",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "containsEvalArgRecurse",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "containsTag",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "containsTagEval",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "containsTagRecurse",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "containsTagEvalRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "containsTagEvalArgRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "containsTypeEvalRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "containsTypeEvalArgRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getFirst",
+      "args": [
+        "java.util.function.Predicate<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getFirstRecurse",
+      "args": [
+        "java.util.function.Predicate<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSome",
+      "args": [
+        "java.util.function.Predicate<zombie.inventory.InventoryItem>",
+        "int",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeRecurse",
+      "args": [
+        "java.util.function.Predicate<zombie.inventory.InventoryItem>",
+        "int",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAll",
+      "args": [
+        "java.util.function.Predicate<zombie.inventory.InventoryItem>",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllRecurse",
+      "args": [
+        "java.util.function.Predicate<zombie.inventory.InventoryItem>",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getCount",
+      "args": [
+        "java.util.function.Predicate<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getCountRecurse",
+      "args": [
+        "java.util.function.Predicate<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getCountTag",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getCountTagEval",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getCountTagEvalArg",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getCountTagRecurse",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getCountTagEvalRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getCountTagEvalArgRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getCountType",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getCountTypeEval",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getCountTypeEvalArg",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getCountTypeRecurse",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getCountTypeEvalRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getCountTypeEvalArgRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getCountEval",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getCountEvalArg",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getCountEvalRecurse",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getCountEvalArgRecurse",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getFirstCategory",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getFirstCategoryRecurse",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getFirstEvalRecurse",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getFirstEvalArgRecurse",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getFirstTag",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getFirstTagRecurse",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getFirstTagEval",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getFirstTagEvalRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getFirstTagEvalArgRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getFirstType",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getFirstTypeRecurse",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getFirstTypeEval",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getFirstTypeEvalRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getFirstTypeEvalArgRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeCategory",
+      "args": [
+        "java.lang.String",
+        "int",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeCategoryRecurse",
+      "args": [
+        "java.lang.String",
+        "int",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeTag",
+      "args": [
+        "java.lang.String",
+        "int",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeTagEval",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "int",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeTagEvalArg",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object",
+        "int",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeTagRecurse",
+      "args": [
+        "java.lang.String",
+        "int",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeTagEvalRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "int",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeTagEvalArgRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object",
+        "int",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeType",
+      "args": [
+        "java.lang.String",
+        "int",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeTypeEval",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "int",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeTypeEvalArg",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object",
+        "int",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeTypeRecurse",
+      "args": [
+        "java.lang.String",
+        "int",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeTypeEvalRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "int",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeTypeEvalArgRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object",
+        "int",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeEval",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure",
+        "int",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeEvalArg",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object",
+        "int",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeEvalRecurse",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure",
+        "int",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeEvalArgRecurse",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object",
+        "int",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllCategory",
+      "args": [
+        "java.lang.String",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllCategoryRecurse",
+      "args": [
+        "java.lang.String",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllTag",
+      "args": [
+        "java.lang.String",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllTagEval",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllTagEvalArg",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllTagRecurse",
+      "args": [
+        "java.lang.String",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllTagEvalRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllTagEvalArgRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllType",
+      "args": [
+        "java.lang.String",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllTypeEval",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllTypeEvalArg",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllTypeRecurse",
+      "args": [
+        "java.lang.String",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllTypeEvalRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllTypeEvalArgRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllEval",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllEvalArg",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllEvalRecurse",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllEvalArgRecurse",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeCategory",
+      "args": [
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeEval",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeEvalArg",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeTypeEval",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeTypeEvalArg",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeEvalRecurse",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeEvalArgRecurse",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeTag",
+      "args": [
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeTagRecurse",
+      "args": [
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeTagEvalRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeTagEvalArgRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeType",
+      "args": [
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeTypeRecurse",
+      "args": [
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeTypeEvalRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getSomeTypeEvalArgRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAll",
+      "args": [
+        "java.util.function.Predicate<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllCategory",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllEval",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllEvalArg",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllTagEval",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllTagEvalArg",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllTypeEval",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllTypeEvalArg",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllEvalRecurse",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllEvalArgRecurse",
+      "args": [
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllType",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllTypeRecurse",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllTypeEvalRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllTypeEvalArgRecurse",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.LuaClosure",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "FindAndReturnCategory",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "FindAndReturn",
+      "args": [
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "FindAndReturn",
+      "args": [
+        "java.lang.String",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "FindAndReturn",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "FindAll",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "FindAndReturnStack",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "FindAndReturnStack",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "HasType",
+      "args": [
+        "zombie.inventory.ItemType"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Remove",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "DoRemoveItem",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Remove",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "Remove",
+      "args": [
+        "zombie.inventory.ItemType"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "Find",
+      "args": [
+        "zombie.inventory.ItemType"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "RemoveAll",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "RemoveOneOf",
+      "args": [
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "RemoveOneOf",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getWeight",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getContentsWeight",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getMaxWeight",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getCapacityWeight",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isEmpty",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isMicrowave",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isPowered",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getTemprature",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isTemperatureChanging",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "save",
+      "args": [
+        "java.nio.ByteBuffer",
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "save",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "load",
+      "args": [
+        "java.nio.ByteBuffer",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isDrawDirty",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setDrawDirty",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getBestWeapon",
+      "args": [
+        "zombie.characters.SurvivorDesc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getBestWeapon",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getTotalFoodScore",
+      "args": [
+        "zombie.characters.SurvivorDesc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getTotalWeaponScore",
+      "args": [
+        "zombie.characters.SurvivorDesc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getBestFood",
+      "args": [
+        "zombie.characters.SurvivorDesc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getBestBandage",
+      "args": [
+        "zombie.characters.SurvivorDesc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getNumItems",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isActive",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setActive",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isDirty",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setDirty",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isIsDevice",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setIsDevice",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getAgeFactor",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setAgeFactor",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getCookingFactor",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setCookingFactor",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getItems",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setItems",
+      "args": [
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoObject",
+      "name": "getParent",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setParent",
+      "args": [
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getSourceGrid",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setSourceGrid",
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getType",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setType",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clear",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getWaterContainerCount",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "FindWaterSource",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getAllWaterFillables",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getItemCount",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getItemCountRecurse",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getItemCount",
+      "args": [
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getUsesRecurse",
+      "args": [
+        "java.util.function.Predicate<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getUsesType",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getUsesTypeRecurse",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getWeightReduction",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setWeightReduction",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeAllItems",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "containsRecursive",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getItemCountFromTypeRecurse",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getCustomTemperature",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setCustomTemperature",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getItemFromType",
+      "args": [
+        "java.lang.String",
+        "zombie.characters.IsoGameCharacter",
+        "boolean",
+        "boolean",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getItemFromType",
+      "args": [
+        "java.lang.String",
+        "boolean",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getItemFromType",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getItemsFromType",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getItemsFromFullType",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getItemsFromFullType",
+      "args": [
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getItemsFromType",
+      "args": [
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getItemsFromCategory",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendContentsToRemoteContainer",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "requestSync",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "requestServerItemsForContainer",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendContentsToRemoteContainer",
+      "args": [
+        "zombie.core.raknet.UdpConnection"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getItemWithIDRecursiv",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getItemWithID",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "removeItemWithID",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "containsID",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "removeItemWithIDRecurse",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isHasBeenLooted",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setHasBeenLooted",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getOpenSound",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setOpenSound",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getCloseSound",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setCloseSound",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getPutSound",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setPutSound",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "haveThisKeyId",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getOnlyAcceptCategory",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setOnlyAcceptCategory",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getAcceptItemFunction",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setAcceptItemFunction",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.characters.IsoGameCharacter",
+      "name": "getCharacter",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "emptyIt",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.LinkedHashMap<java.lang.String,zombie.inventory.InventoryItem>",
+      "name": "getAllItems",
+      "args": [
+        "java.util.LinkedHashMap<java.lang.String",
+        "zombie.inventory.InventoryItem>",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getItemById",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addItemsToProcessItems",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeItemsFromProcessItems",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isExistYet",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getContainerPosition",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setContainerPosition",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getFreezerPosition",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setFreezerPosition",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.VehiclePart",
+      "name": "getVehiclePart",
+      "args": []
+    }
+  ]
+}

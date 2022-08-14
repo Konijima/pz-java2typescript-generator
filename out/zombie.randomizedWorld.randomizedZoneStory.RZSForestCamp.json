@@ -1,0 +1,58 @@
+{
+  "name": "RZSForestCamp",
+  "package": "zombie.randomizedWorld.randomizedZoneStory",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.randomizedWorld.randomizedZoneStory.RandomizedZoneStoryBase"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "RZSForestCamp",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.util.ArrayList<java.lang.String>",
+      "name": "getForestClutter",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.util.ArrayList<java.lang.String>",
+      "name": "getCoolerClutter",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.util.ArrayList<java.lang.String>",
+      "name": "getFireClutter",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "randomizeZoneStory",
+      "args": [
+        "zombie.iso.IsoMetaGrid$Zone"
+      ]
+    }
+  ]
+}

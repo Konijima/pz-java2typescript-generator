@@ -1,0 +1,72 @@
+{
+  "name": "ParameterFootstepMaterial2$FootstepMaterial2",
+  "package": "zombie.audio.parameters",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.audio.parameters.ParameterFootstepMaterial2$FootstepMaterial2>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "None",
+      "scope": "public",
+      "type": "zombie.audio.parameters.ParameterFootstepMaterial2$FootstepMaterial2",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BrokenGlass",
+      "scope": "public",
+      "type": "zombie.audio.parameters.ParameterFootstepMaterial2$FootstepMaterial2",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PuddleShallow",
+      "scope": "public",
+      "type": "zombie.audio.parameters.ParameterFootstepMaterial2$FootstepMaterial2",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PuddleDeep",
+      "scope": "public",
+      "type": "zombie.audio.parameters.ParameterFootstepMaterial2$FootstepMaterial2",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.audio.parameters.ParameterFootstepMaterial2$FootstepMaterial2",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

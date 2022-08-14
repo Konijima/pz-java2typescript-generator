@@ -1,0 +1,52 @@
+{
+  "name": "NonBlockingHashMap$SnapshotE",
+  "package": "zombie.core.Collections",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "java.util.Iterator<java.util.Map$Entry<TypeK, TypeV>>"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "SnapshotE",
+      "describe": [],
+      "args": [
+        "zombie.core.Collections.NonBlockingHashMap"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "remove",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.Map$Entry<TypeK,TypeV>",
+      "name": "next",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "hasNext",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "next",
+      "args": []
+    }
+  ]
+}

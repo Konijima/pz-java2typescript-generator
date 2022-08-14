@@ -1,0 +1,74 @@
+{
+  "name": "BestCandidateSampling$Quad",
+  "package": "org.joml.sampling",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Quad",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.sampling.BestCandidateSampling$Quad",
+      "name": "seed",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.sampling.BestCandidateSampling$Quad",
+      "name": "numSamples",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.sampling.BestCandidateSampling$Quad",
+      "name": "numCandidates",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.sampling.BestCandidateSampling$Quad",
+      "name": "generate",
+      "args": [
+        "float[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.sampling.BestCandidateSampling$Quad",
+      "name": "generate",
+      "args": [
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.sampling.BestCandidateSampling$Quad",
+      "name": "generate",
+      "args": [
+        "org.joml.sampling.Callback2d"
+      ]
+    }
+  ]
+}

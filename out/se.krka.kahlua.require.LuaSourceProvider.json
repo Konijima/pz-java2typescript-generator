@@ -1,0 +1,24 @@
+{
+  "name": "LuaSourceProvider",
+  "package": "se.krka.kahlua.require",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.io.Reader",
+      "name": "getLuaSource",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

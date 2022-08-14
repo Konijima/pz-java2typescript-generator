@@ -1,0 +1,56 @@
+{
+  "name": "PZXmlParserException",
+  "package": "zombie.util",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Exception"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "PZXmlParserException",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "PZXmlParserException",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "PZXmlParserException",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "java.lang.Throwable"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "PZXmlParserException",
+      "describe": [],
+      "args": [
+        "java.lang.Throwable"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "LuaManager$Exposer",
+  "package": "zombie.Lua",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "se.krka.kahlua.integration.expose.LuaJavaClassExposer"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Exposer",
+      "describe": [],
+      "args": [
+        "se.krka.kahlua.converter.KahluaConverterManager",
+        "se.krka.kahlua.vm.Platform",
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "exposeAll",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setExposed",
+      "args": [
+        "java.lang.Class<?>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "shouldExpose",
+      "args": [
+        "java.lang.Class<?>"
+      ]
+    }
+  ]
+}

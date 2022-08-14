@@ -1,0 +1,25 @@
+{
+  "name": "IJoinRequestCallback",
+  "package": "zombie.core.znet",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "onJoinRequest",
+      "args": [
+        "long",
+        "java.lang.String"
+      ]
+    }
+  ]
+}

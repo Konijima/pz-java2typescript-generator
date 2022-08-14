@@ -1,0 +1,21 @@
+{
+  "name": "DictionaryDataClient",
+  "package": "zombie.world",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.world.DictionaryData"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "DictionaryDataClient",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

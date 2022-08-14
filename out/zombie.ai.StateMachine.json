@@ -1,0 +1,135 @@
+{
+  "name": "StateMachine",
+  "package": "zombie.ai",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "StateMachine",
+      "describe": [],
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "activeStateChanged",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "changeState",
+      "args": [
+        "zombie.ai.State",
+        "java.lang.Iterable<zombie.ai.State>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "changeState",
+      "args": [
+        "zombie.ai.State",
+        "java.lang.Iterable<zombie.ai.State>",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isSubstate",
+      "args": [
+        "zombie.ai.State"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.ai.State",
+      "name": "getCurrent",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.ai.State",
+      "name": "getPrevious",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getSubStateCount",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.ai.State",
+      "name": "getSubStateAt",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "revertToPreviousState",
+      "args": [
+        "zombie.ai.State"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "stateAnimEvent",
+      "args": [
+        "int",
+        "zombie.core.skinnedmodel.advancedanimation.AnimEvent"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isLocked",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setLocked",
+      "args": [
+        "boolean"
+      ]
+    }
+  ]
+}

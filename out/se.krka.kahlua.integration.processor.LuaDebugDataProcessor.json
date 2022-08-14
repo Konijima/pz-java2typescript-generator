@@ -1,0 +1,233 @@
+{
+  "name": "LuaDebugDataProcessor",
+  "package": "se.krka.kahlua.integration.processor",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "javax.annotation.processing.Processor",
+    "javax.lang.model.element.ElementVisitor<java.lang.Void, java.lang.Void>"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "LuaDebugDataProcessor",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Iterable<? extends javax.annotation.processing.Completion>",
+      "name": "getCompletions",
+      "args": [
+        "javax.lang.model.element.Element",
+        "javax.lang.model.element.AnnotationMirror",
+        "javax.lang.model.element.ExecutableElement",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.Set<java.lang.String>",
+      "name": "getSupportedAnnotationTypes",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.Set<java.lang.String>",
+      "name": "getSupportedOptions",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "javax.lang.model.SourceVersion",
+      "name": "getSupportedSourceVersion",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "init",
+      "args": [
+        "javax.annotation.processing.ProcessingEnvironment"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "process",
+      "args": [
+        "java.util.Set<? extends javax.lang.model.element.TypeElement>",
+        "javax.annotation.processing.RoundEnvironment"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Void",
+      "name": "visit",
+      "args": [
+        "javax.lang.model.element.Element"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Void",
+      "name": "visit",
+      "args": [
+        "javax.lang.model.element.Element",
+        "java.lang.Void"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Void",
+      "name": "visitExecutable",
+      "args": [
+        "javax.lang.model.element.ExecutableElement",
+        "java.lang.Void"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Void",
+      "name": "visitPackage",
+      "args": [
+        "javax.lang.model.element.PackageElement",
+        "java.lang.Void"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Void",
+      "name": "visitType",
+      "args": [
+        "javax.lang.model.element.TypeElement",
+        "java.lang.Void"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Void",
+      "name": "visitVariable",
+      "args": [
+        "javax.lang.model.element.VariableElement",
+        "java.lang.Void"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Void",
+      "name": "visitTypeParameter",
+      "args": [
+        "javax.lang.model.element.TypeParameterElement",
+        "java.lang.Void"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Void",
+      "name": "visitUnknown",
+      "args": [
+        "javax.lang.model.element.Element",
+        "java.lang.Void"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "visitUnknown",
+      "args": [
+        "javax.lang.model.element.Element",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "visitTypeParameter",
+      "args": [
+        "javax.lang.model.element.TypeParameterElement",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "visitExecutable",
+      "args": [
+        "javax.lang.model.element.ExecutableElement",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "visitVariable",
+      "args": [
+        "javax.lang.model.element.VariableElement",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "visitType",
+      "args": [
+        "javax.lang.model.element.TypeElement",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "visitPackage",
+      "args": [
+        "javax.lang.model.element.PackageElement",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "visit",
+      "args": [
+        "javax.lang.model.element.Element"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "visit",
+      "args": [
+        "javax.lang.model.element.Element",
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

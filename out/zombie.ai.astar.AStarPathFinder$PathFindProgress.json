@@ -1,0 +1,72 @@
+{
+  "name": "AStarPathFinder$PathFindProgress",
+  "package": "zombie.ai.astar",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.ai.astar.AStarPathFinder$PathFindProgress>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "notrunning",
+      "scope": "public",
+      "type": "zombie.ai.astar.AStarPathFinder$PathFindProgress",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "failed",
+      "scope": "public",
+      "type": "zombie.ai.astar.AStarPathFinder$PathFindProgress",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "found",
+      "scope": "public",
+      "type": "zombie.ai.astar.AStarPathFinder$PathFindProgress",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "notyetfound",
+      "scope": "public",
+      "type": "zombie.ai.astar.AStarPathFinder$PathFindProgress",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.ai.astar.AStarPathFinder$PathFindProgress",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

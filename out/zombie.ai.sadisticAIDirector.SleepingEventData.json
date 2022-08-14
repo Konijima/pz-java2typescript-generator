@@ -1,0 +1,36 @@
+{
+  "name": "SleepingEventData",
+  "package": "zombie.ai.sadisticAIDirector",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "SleepingEventData",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "reset",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "getHoursSinceRainStarted",
+      "args": []
+    }
+  ]
+}

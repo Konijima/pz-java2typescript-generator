@@ -1,0 +1,120 @@
+{
+  "name": "Comment",
+  "package": "com.jcraft.jorbis",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Comment",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "tag",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "out",
+      "describe": [],
+      "args": [
+        "com.jcraft.jogg.Packet"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "int",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "comments",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "byte",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "byte",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "add",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getComment",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getVendor",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "init",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "query",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "query",
+      "args": [
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    }
+  ]
+}

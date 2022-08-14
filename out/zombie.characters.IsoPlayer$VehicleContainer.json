@@ -1,0 +1,32 @@
+{
+  "name": "IsoPlayer$VehicleContainer",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.characters.IsoPlayer$VehicleContainer",
+      "name": "set",
+      "args": [
+        "zombie.vehicles.BaseVehicle",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

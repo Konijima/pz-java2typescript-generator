@@ -1,0 +1,36 @@
+{
+  "name": "MeshAssetManager",
+  "package": "zombie.core.skinnedmodel.model",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.asset.AssetManager"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.MeshAssetManager",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addWatchedFile",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

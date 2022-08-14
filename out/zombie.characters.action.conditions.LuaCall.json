@@ -1,0 +1,55 @@
+{
+  "name": "LuaCall",
+  "package": "zombie.characters.action.conditions",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [
+    "zombie.characters.action.IActionCondition"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "LuaCall",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getDescription",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "passes",
+      "args": [
+        "zombie.characters.action.ActionContext",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.characters.action.IActionCondition",
+      "name": "clone",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "clone",
+      "args": []
+    }
+  ]
+}

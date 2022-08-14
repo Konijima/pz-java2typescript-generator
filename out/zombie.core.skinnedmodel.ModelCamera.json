@@ -1,0 +1,74 @@
+{
+  "name": "ModelCamera",
+  "package": "zombie.core.skinnedmodel",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "abstract"
+  ],
+  "extends": [],
+  "implements": [
+    "zombie.core.opengl.IModelCamera"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ModelCamera",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.ModelCamera",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "m_useAngle",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m_bUseWorldIso",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "m_x",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m_y",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m_z",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m_bInVehicle",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "bDepthMask",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

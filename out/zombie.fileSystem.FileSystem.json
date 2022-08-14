@@ -1,0 +1,223 @@
+{
+  "name": "FileSystem",
+  "package": "zombie.fileSystem",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "abstract"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "FileSystem",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "INVALID_ASYNC",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "mount",
+      "args": [
+        "zombie.fileSystem.IFileDevice"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "unMount",
+      "args": [
+        "zombie.fileSystem.IFileDevice"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "zombie.fileSystem.IFile",
+      "name": "open",
+      "args": [
+        "zombie.fileSystem.DeviceList",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "close",
+      "args": [
+        "zombie.fileSystem.IFile"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "int",
+      "name": "openAsync",
+      "args": [
+        "zombie.fileSystem.DeviceList",
+        "java.lang.String",
+        "int",
+        "zombie.fileSystem.IFileTask2Callback"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "closeAsync",
+      "args": [
+        "zombie.fileSystem.IFile",
+        "zombie.fileSystem.IFileTask2Callback"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "cancelAsync",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.io.InputStream",
+      "name": "openStream",
+      "args": [
+        "zombie.fileSystem.DeviceList",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "closeStream",
+      "args": [
+        "java.io.InputStream"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "int",
+      "name": "runAsync",
+      "args": [
+        "zombie.fileSystem.FileTask"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "updateAsyncTransactions",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "hasWork",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "zombie.fileSystem.DeviceList",
+      "name": "getDefaultDevice",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "mountTexturePack",
+      "args": [
+        "java.lang.String",
+        "zombie.fileSystem.FileSystem$TexturePackTextures",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "zombie.fileSystem.DeviceList",
+      "name": "getTexturePackDevice",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "int",
+      "name": "getTexturePackFlags",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "getTexturePackAlpha",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    }
+  ]
+}

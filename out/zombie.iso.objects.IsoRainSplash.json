@@ -1,0 +1,89 @@
+{
+  "name": "IsoRainSplash",
+  "package": "zombie.iso.objects",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.iso.IsoObject"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IsoRainSplash",
+      "describe": [],
+      "args": [
+        "zombie.iso.IsoCell",
+        "zombie.iso.IsoGridSquare"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "Age",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "Serialize",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getObjectName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "HasTooltip",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "TestCollide",
+      "args": [
+        "zombie.iso.IsoMovingObject",
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoObject$VisionResult",
+      "name": "TestVision",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "ChangeTintMod",
+      "args": [
+        "zombie.core.textures.ColorInfo"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    }
+  ]
+}

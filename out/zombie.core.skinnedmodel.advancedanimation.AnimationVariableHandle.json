@@ -1,0 +1,38 @@
+{
+  "name": "AnimationVariableHandle",
+  "package": "zombie.core.skinnedmodel.advancedanimation",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.skinnedmodel.advancedanimation.AnimationVariableHandle",
+      "name": "alloc",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getVariableName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getVariableIndex",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "name": "ClimateColorInfo",
+  "package": "zombie.iso.weather",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ClimateColorInfo",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "ClimateColorInfo",
+      "describe": [],
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ClimateColorInfo",
+      "describe": [],
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setInterior",
+      "args": [
+        "zombie.core.Color"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setInterior",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.Color",
+      "name": "getInterior",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setExterior",
+      "args": [
+        "zombie.core.Color"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setExterior",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.Color",
+      "name": "getExterior",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setTo",
+      "args": [
+        "zombie.iso.weather.ClimateColorInfo"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.weather.ClimateColorInfo",
+      "name": "interp",
+      "args": [
+        "zombie.iso.weather.ClimateColorInfo",
+        "float",
+        "zombie.iso.weather.ClimateColorInfo"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "scale",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.weather.ClimateColorInfo",
+      "name": "interp",
+      "args": [
+        "zombie.iso.weather.ClimateColorInfo",
+        "zombie.iso.weather.ClimateColorInfo",
+        "float",
+        "zombie.iso.weather.ClimateColorInfo"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "write",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "read",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": [
+        "java.io.DataOutputStream"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": [
+        "java.io.DataInputStream",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "writeColorInfoConfig",
+      "args": []
+    }
+  ]
+}

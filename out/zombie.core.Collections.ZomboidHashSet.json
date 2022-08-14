@@ -1,0 +1,113 @@
+{
+  "name": "ZomboidHashSet<E>",
+  "package": "zombie.core.Collections",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "java.util.AbstractSet<E>"
+  ],
+  "implements": [
+    "java.util.Set<E>",
+    "java.lang.Cloneable",
+    "java.io.Serializable"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ZomboidHashSet",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "ZomboidHashSet",
+      "describe": [],
+      "args": [
+        "java.util.Collection<? extends E>"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ZomboidHashSet",
+      "describe": [],
+      "args": [
+        "int",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ZomboidHashSet",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.Iterator<E>",
+      "name": "iterator",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "size",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isEmpty",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "contains",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "add",
+      "args": [
+        "E"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "remove",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clear",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "clone",
+      "args": []
+    }
+  ]
+}

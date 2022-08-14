@@ -1,0 +1,89 @@
+{
+  "name": "RBTableStoryBase",
+  "package": "zombie.randomizedWorld.randomizedBuilding.TableStories",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.randomizedWorld.randomizedBuilding.RandomizedBuildingBase"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "RBTableStoryBase",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "allStories",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.randomizedWorld.randomizedBuilding.TableStories.RBTableStoryBase>",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "totalChance",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "fullTableMap",
+      "scope": "public",
+      "type": "java.util.ArrayList<java.util.HashMap<java.lang.String,java.lang.Integer>>",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "initStories",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.randomizedWorld.randomizedBuilding.TableStories.RBTableStoryBase",
+      "name": "getRandomStory",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isValid",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "zombie.iso.IsoObject",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoObject",
+      "name": "getSecondTable",
+      "args": [
+        "zombie.iso.IsoObject"
+      ]
+    }
+  ]
+}

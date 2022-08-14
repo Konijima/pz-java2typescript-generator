@@ -1,0 +1,35 @@
+{
+  "name": "ClosedSetHash$MinNodeProc",
+  "package": "astar.datastructures",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [
+    "gnu.trove.procedure.TObjectProcedure<astar.ISearchNode>"
+  ],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "execute",
+      "args": [
+        "astar.ISearchNode"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "execute",
+      "args": [
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

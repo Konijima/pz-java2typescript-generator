@@ -1,0 +1,41 @@
+{
+  "name": "UI3DScene$CharacterDrawer",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.core.textures.TextureDraw$GenericDrawer"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "init",
+      "args": [
+        "zombie.vehicles.UI3DScene$SceneCharacter",
+        "zombie.vehicles.UI3DScene$CharacterRenderData"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "postRender",
+      "args": []
+    }
+  ]
+}

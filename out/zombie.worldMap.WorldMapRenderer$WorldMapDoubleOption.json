@@ -1,0 +1,29 @@
+{
+  "name": "WorldMapRenderer$WorldMapDoubleOption",
+  "package": "zombie.worldMap",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.config.DoubleConfigOption"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "WorldMapDoubleOption",
+      "describe": [],
+      "args": [
+        "zombie.worldMap.WorldMapRenderer",
+        "java.lang.String",
+        "double",
+        "double",
+        "double"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

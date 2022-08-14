@@ -1,0 +1,205 @@
+{
+  "name": "IsoAnim",
+  "package": "zombie.iso.sprite",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IsoAnim",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "GlobalAnimMap",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.String,zombie.iso.sprite.IsoAnim>",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FinishUnloopedOnFrame",
+      "scope": "public",
+      "type": "short",
+      "describe": []
+    },
+    {
+      "name": "FrameDelay",
+      "scope": "public",
+      "type": "short",
+      "describe": []
+    },
+    {
+      "name": "LastFrame",
+      "scope": "public",
+      "type": "short",
+      "describe": []
+    },
+    {
+      "name": "Frames",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.iso.sprite.IsoDirectionFrame>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "name",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "ID",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "DisposeAll",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "LoadFramesReverseAltName",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "LoadFrames",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "LoadFramesUseOtherFrame",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "int",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "LoadFramesBits",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "LoadFramesBits",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "LoadFramesBitRepeatFrame",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "LoadFramesBitRepeatFrame",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "int",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "LoadFramesBits",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "int",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "LoadFramesPcx",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "LoadFramesPageSimple",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    }
+  ]
+}

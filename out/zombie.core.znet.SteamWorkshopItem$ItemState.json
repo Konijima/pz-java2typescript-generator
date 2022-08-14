@@ -1,0 +1,144 @@
+{
+  "name": "SteamWorkshopItem$ItemState",
+  "package": "zombie.core.znet",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.core.znet.SteamWorkshopItem$ItemState>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "None",
+      "scope": "public",
+      "type": "zombie.core.znet.SteamWorkshopItem$ItemState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Subscribed",
+      "scope": "public",
+      "type": "zombie.core.znet.SteamWorkshopItem$ItemState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "LegacyItem",
+      "scope": "public",
+      "type": "zombie.core.znet.SteamWorkshopItem$ItemState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Installed",
+      "scope": "public",
+      "type": "zombie.core.znet.SteamWorkshopItem$ItemState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "NeedsUpdate",
+      "scope": "public",
+      "type": "zombie.core.znet.SteamWorkshopItem$ItemState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Downloading",
+      "scope": "public",
+      "type": "zombie.core.znet.SteamWorkshopItem$ItemState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DownloadPending",
+      "scope": "public",
+      "type": "zombie.core.znet.SteamWorkshopItem$ItemState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.znet.SteamWorkshopItem$ItemState",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getValue",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "and",
+      "args": [
+        "zombie.core.znet.SteamWorkshopItem$ItemState"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "and",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "not",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": [
+        "long"
+      ]
+    }
+  ]
+}

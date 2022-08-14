@@ -1,0 +1,162 @@
+{
+  "name": "RandomizedZoneStoryBase",
+  "package": "zombie.randomizedWorld.randomizedZoneStory",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.randomizedWorld.RandomizedWorldBase"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "RandomizedZoneStoryBase",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "alwaysDo",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "baseChance",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "totalChance",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "zoneStory",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "chance",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "zoneType",
+      "scope": "public",
+      "type": "java.util.ArrayList<java.lang.String>",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "isValidForStory",
+      "args": [
+        "zombie.iso.IsoMetaGrid$Zone",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "initAllRZSMapChance",
+      "args": [
+        "zombie.iso.IsoMetaGrid$Zone"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isValid",
+      "args": [
+        "zombie.iso.IsoMetaGrid$Zone",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getRandomFreeSquare",
+      "args": [
+        "zombie.randomizedWorld.randomizedZoneStory.RandomizedZoneStoryBase",
+        "zombie.iso.IsoMetaGrid$Zone"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getRandomFreeSquareFullZone",
+      "args": [
+        "zombie.randomizedWorld.randomizedZoneStory.RandomizedZoneStoryBase",
+        "zombie.iso.IsoMetaGrid$Zone"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "randomizeZoneStory",
+      "args": [
+        "zombie.iso.IsoMetaGrid$Zone"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isValid",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "cleanAreaForStory",
+      "args": [
+        "zombie.randomizedWorld.randomizedZoneStory.RandomizedZoneStoryBase",
+        "zombie.iso.IsoMetaGrid$Zone"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getMinimumWidth",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getMinimumHeight",
+      "args": []
+    }
+  ]
+}

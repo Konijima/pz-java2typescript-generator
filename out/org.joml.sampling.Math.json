@@ -1,0 +1,14 @@
+{
+  "name": "Math",
+  "package": "org.joml.sampling",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [
+    "org.joml.Math"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

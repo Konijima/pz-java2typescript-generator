@@ -1,0 +1,25 @@
+{
+  "name": "Consumers$Params1$ICallback<E,",
+  "package": "zombie.util.lambda",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "accept",
+      "args": [
+        "E",
+        "T1"
+      ]
+    }
+  ]
+}

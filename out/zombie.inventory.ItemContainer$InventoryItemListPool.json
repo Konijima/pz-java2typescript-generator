@@ -1,0 +1,42 @@
+{
+  "name": "ItemContainer$InventoryItemListPool",
+  "package": "zombie.inventory",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.popman.ObjectPool<zombie.inventory.ItemContainer$InventoryItemList>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "InventoryItemListPool",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "release",
+      "args": [
+        "zombie.inventory.ItemContainer$InventoryItemList"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "release",
+      "args": [
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

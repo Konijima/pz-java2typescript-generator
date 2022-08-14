@@ -1,0 +1,57 @@
+{
+  "name": "MapCollisionData$MCDThread",
+  "package": "zombie",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Thread"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "notifier",
+      "scope": "public",
+      "type": "java.lang.Object",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "bStop",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "bSave",
+      "scope": "public",
+      "type": "volatile boolean",
+      "describe": []
+    },
+    {
+      "name": "bWaiting",
+      "scope": "public",
+      "type": "volatile boolean",
+      "describe": []
+    },
+    {
+      "name": "pathTasks",
+      "scope": "public",
+      "type": "java.util.Queue<zombie.MapCollisionData$PathTask>",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "run",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "name": "ZNetStatistics",
+  "package": "zombie.core.znet",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ZNetStatistics",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "lastUserMessageBytesPushed",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "lastUserMessageBytesSent",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "lastUserMessageBytesResent",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "lastUserMessageBytesReceivedProcessed",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "lastUserMessageBytesReceivedIgnored",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "lastActualBytesSent",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "lastActualBytesReceived",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "totalUserMessageBytesPushed",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "totalUserMessageBytesSent",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "totalUserMessageBytesResent",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "totalUserMessageBytesReceivedProcessed",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "totalUserMessageBytesReceivedIgnored",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "totalActualBytesSent",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "totalActualBytesReceived",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "connectionStartTime",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "isLimitedByCongestionControl",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "BPSLimitByCongestionControl",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "isLimitedByOutgoingBandwidthLimit",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "BPSLimitByOutgoingBandwidthLimit",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "messageInSendBufferImmediate",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "messageInSendBufferHigh",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "messageInSendBufferMedium",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "messageInSendBufferLow",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "bytesInSendBufferImmediate",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "bytesInSendBufferHigh",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "bytesInSendBufferMedium",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "bytesInSendBufferLow",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "messagesInResendBuffer",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "bytesInResendBuffer",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "packetlossLastSecond",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "packetlossTotal",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

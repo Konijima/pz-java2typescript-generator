@@ -1,0 +1,40 @@
+{
+  "name": "UncachedUrlStream$LoaderThread",
+  "package": "de.jarnbjo.ogg",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "java.lang.Runnable"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "LoaderThread",
+      "describe": [],
+      "args": [
+        "de.jarnbjo.ogg.UncachedUrlStream",
+        "java.io.InputStream",
+        "java.util.LinkedList"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "run",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isBosDone",
+      "args": []
+    }
+  ]
+}

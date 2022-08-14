@@ -1,0 +1,125 @@
+{
+  "name": "BaseVehicle$engineStateTypes",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.vehicles.BaseVehicle$engineStateTypes>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Idle",
+      "scope": "public",
+      "type": "zombie.vehicles.BaseVehicle$engineStateTypes",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Starting",
+      "scope": "public",
+      "type": "zombie.vehicles.BaseVehicle$engineStateTypes",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "RetryingStarting",
+      "scope": "public",
+      "type": "zombie.vehicles.BaseVehicle$engineStateTypes",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "StartingSuccess",
+      "scope": "public",
+      "type": "zombie.vehicles.BaseVehicle$engineStateTypes",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "StartingFailed",
+      "scope": "public",
+      "type": "zombie.vehicles.BaseVehicle$engineStateTypes",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Running",
+      "scope": "public",
+      "type": "zombie.vehicles.BaseVehicle$engineStateTypes",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Stalling",
+      "scope": "public",
+      "type": "zombie.vehicles.BaseVehicle$engineStateTypes",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ShutingDown",
+      "scope": "public",
+      "type": "zombie.vehicles.BaseVehicle$engineStateTypes",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "StartingFailedNoPower",
+      "scope": "public",
+      "type": "zombie.vehicles.BaseVehicle$engineStateTypes",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "zombie",
+      "scope": "public",
+      "type": "final",
+      "describe": [
+        "static"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.vehicles.BaseVehicle$engineStateTypes",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "name": "FileTask",
+  "package": "zombie.fileSystem",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "abstract"
+  ],
+  "extends": [],
+  "implements": [
+    "java.util.concurrent.Callable<java.lang.Object>"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "FileTask",
+      "describe": [],
+      "args": [
+        "zombie.fileSystem.FileSystem"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "FileTask",
+      "describe": [],
+      "args": [
+        "zombie.fileSystem.FileSystem",
+        "zombie.fileSystem.IFileTaskCallback"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "handleResult",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setPriority",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "done",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getErrorMessage",
+      "args": []
+    }
+  ]
+}

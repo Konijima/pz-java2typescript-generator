@@ -1,0 +1,37 @@
+{
+  "name": "TraitFactory$1",
+  "package": "zombie.characters.traits",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "java.util.Comparator<java.util.Map$Entry<java.lang.String, zombie.characters.traits.TraitFactory$Trait>>"
+  ],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "compare",
+      "args": [
+        "java.util.Map$Entry<java.lang.String",
+        "zombie.characters.traits.TraitFactory$Trait>",
+        "java.util.Map$Entry<java.lang.String",
+        "zombie.characters.traits.TraitFactory$Trait>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "compare",
+      "args": [
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "name": "WeatherShader",
+  "package": "zombie.iso.weather",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.core.opengl.Shader"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "WeatherShader",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "timeOfDay",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "startMainThread",
+      "args": [
+        "zombie.core.textures.TextureDraw",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "startRenderThread",
+      "args": [
+        "zombie.core.textures.TextureDraw"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onCompileSuccess",
+      "args": [
+        "zombie.core.opengl.ShaderProgram"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "postRender",
+      "args": [
+        "zombie.core.textures.TextureDraw"
+      ]
+    }
+  ]
+}

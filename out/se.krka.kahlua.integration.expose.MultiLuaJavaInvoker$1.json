@@ -1,0 +1,35 @@
+{
+  "name": "MultiLuaJavaInvoker$1",
+  "package": "se.krka.kahlua.integration.expose",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "java.util.Comparator<se.krka.kahlua.integration.expose.LuaJavaInvoker>"
+  ],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "compare",
+      "args": [
+        "se.krka.kahlua.integration.expose.LuaJavaInvoker",
+        "se.krka.kahlua.integration.expose.LuaJavaInvoker"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "compare",
+      "args": [
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

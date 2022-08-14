@@ -1,0 +1,141 @@
+{
+  "name": "GLBufferObject15",
+  "package": "zombie.core.VBO",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [
+    "zombie.core.VBO.IGLBufferObject"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "BUFFER",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "BUFFER",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "DRAW",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "DRAW",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "SIZE",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "ONLY",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "glGenBuffers",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "glBindBuffer",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "glDeleteBuffers",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "glBufferData",
+      "args": [
+        "int",
+        "java.nio.ByteBuffer",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "glBufferData",
+      "args": [
+        "int",
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.ByteBuffer",
+      "name": "glMapBuffer",
+      "args": [
+        "int",
+        "int",
+        "long",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "glUnmapBuffer",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "glGetBufferParameter",
+      "args": [
+        "int",
+        "int",
+        "java.nio.IntBuffer"
+      ]
+    }
+  ]
+}

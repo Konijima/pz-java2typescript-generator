@@ -1,0 +1,68 @@
+{
+  "name": "ChooseGameInfo",
+  "package": "zombie.gameStates",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "Reset",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.gameStates.ChooseGameInfo$Map",
+      "name": "getMapDetails",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.gameStates.ChooseGameInfo$Mod",
+      "name": "getModDetails",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.gameStates.ChooseGameInfo$Mod",
+      "name": "getAvailableModDetails",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.gameStates.ChooseGameInfo$Mod",
+      "name": "readModInfo",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

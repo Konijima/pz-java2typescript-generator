@@ -1,0 +1,670 @@
+{
+  "name": "Stats",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Stats",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Anger",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "boredom",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "endurance",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "enduranceRecharging",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "endurancelast",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "endurancedanger",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "endurancewarn",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "fatigue",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "fitness",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "hunger",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "idleboredom",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "morale",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "stress",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "Fear",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "Panic",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "Sanity",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "Sickness",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "Boredom",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "Pain",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "Drunkenness",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "NumVisibleZombies",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "LastNumVisibleZombies",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "Tripping",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "TrippingRotAngle",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "thirst",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "NumChasingZombies",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "LastVeryCloseZombies",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "NumCloseZombies",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "LastNumChasingZombies",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "stressFromCigarettes",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "ChasingZombiesDanger",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "MusicZombiesVisible",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "MusicZombiesTargeting",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getNumVisibleZombies",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getNumChasingZombies",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getNumVeryCloseZombies",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": [
+        "java.io.DataInputStream"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": [
+        "java.nio.ByteBuffer",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": [
+        "java.io.DataOutputStream"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getAnger",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setAnger",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getBoredom",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setBoredom",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getEndurance",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setEndurance",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getEndurancelast",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setEndurancelast",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getEndurancedanger",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setEndurancedanger",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getEndurancewarn",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setEndurancewarn",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "getEnduranceRecharging",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getFatigue",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setFatigue",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getFitness",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setFitness",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getHunger",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setHunger",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getIdleboredom",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setIdleboredom",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getMorale",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setMorale",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getStress",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setStress",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getStressFromCigarettes",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setStressFromCigarettes",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getMaxStressFromCigarettes",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getFear",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setFear",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getPanic",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setPanic",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getSanity",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setSanity",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getSickness",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setSickness",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getPain",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setPain",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getDrunkenness",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setDrunkenness",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getVisibleZombies",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setNumVisibleZombies",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isTripping",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setTripping",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getTrippingRotAngle",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setTrippingRotAngle",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getThirst",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setThirst",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "resetStats",
+      "args": []
+    }
+  ]
+}

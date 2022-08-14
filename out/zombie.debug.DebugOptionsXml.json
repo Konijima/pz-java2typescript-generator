@@ -1,0 +1,35 @@
+{
+  "name": "DebugOptionsXml",
+  "package": "zombie.debug",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "setDebugMode",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "debugMode",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "options",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.debug.DebugOptionsXml$OptionNode>",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": []
+}

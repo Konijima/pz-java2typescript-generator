@@ -1,0 +1,295 @@
+{
+  "name": "AngelCodeFont",
+  "package": "zombie.core.fonts",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [
+    "zombie.core.fonts.Font",
+    "zombie.asset.AssetStateObserver"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "AngelCodeFont",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "zombie.core.textures.Texture"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "AngelCodeFont",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "xoff",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "yoff",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "curCol",
+      "scope": "public",
+      "type": "zombie.core.Color",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "curR",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "curG",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "curB",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "curA",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "drawString",
+      "args": [
+        "float",
+        "float",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "drawString",
+      "args": [
+        "float",
+        "float",
+        "java.lang.String",
+        "zombie.core.Color"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "drawString",
+      "args": [
+        "float",
+        "float",
+        "java.lang.String",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "drawString",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "java.lang.String",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "drawString",
+      "args": [
+        "float",
+        "float",
+        "java.lang.String",
+        "zombie.core.Color",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "drawString",
+      "args": [
+        "float",
+        "float",
+        "java.lang.String",
+        "float",
+        "float",
+        "float",
+        "float",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "drawString",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "java.lang.String",
+        "float",
+        "float",
+        "float",
+        "float",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getHeight",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getLineHeight",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getWidth",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getWidth",
+      "args": [
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getWidth",
+      "args": [
+        "java.lang.String",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getWidth",
+      "args": [
+        "java.lang.String",
+        "int",
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getYOffset",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onStateChanged",
+      "args": [
+        "zombie.asset.Asset$State",
+        "zombie.asset.Asset$State",
+        "zombie.asset.Asset"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isEmpty",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "destroy",
+      "args": []
+    }
+  ]
+}

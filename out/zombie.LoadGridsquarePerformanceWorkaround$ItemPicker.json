@@ -1,0 +1,57 @@
+{
+  "name": "LoadGridsquarePerformanceWorkaround$ItemPicker",
+  "package": "zombie",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.LoadGridsquarePerformanceWorkaround$ItemPicker",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "init",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "begin",
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "checkObject",
+      "args": [
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "end",
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    }
+  ]
+}

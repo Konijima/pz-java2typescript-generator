@@ -1,0 +1,608 @@
+{
+  "name": "IsoGameCharacter$CharacterTraits",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.characters.traits.TraitCollection"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "CharacterTraits",
+      "describe": [],
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "Obese",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Athletic",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Overweight",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Unfit",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Emaciated",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Graceful",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Clumsy",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Strong",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Weak",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "VeryUnderweight",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Underweight",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "FastHealer",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "SlowHealer",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ShortSighted",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "EagleEyed",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Agoraphobic",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Claustophobic",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "AdrenalineJunkie",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "OutOfShape",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "HighThirst",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "LowThirst",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "HeartyAppitite",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "LightEater",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Cowardly",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Brave",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Brooding",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Insomniac",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "NeedsLessSleep",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "NeedsMoreSleep",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Asthmatic",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "PlaysFootball",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Jogger",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "NightVision",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "FastLearner",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "SlowLearner",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Pacifist",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Feeble",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Stout",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ShortTemper",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Patient",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Injured",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Inconspicuous",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Conspicuous",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Desensitized",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "NightOwl",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Hemophobic",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Burglar",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "KeenHearing",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Deaf",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "HardOfHearing",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ThinSkinned",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ThickSkinned",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Marksman",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Outdoorsman",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Lucky",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Unlucky",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Nutritionist",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Nutritionist2",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Organized",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Disorganized",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Axeman",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "IronGut",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "WeakStomach",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "HeavyDrinker",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "LightDrinker",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Resilient",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ProneToIllness",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "SpeedDemon",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "SundayDriver",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Smoker",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Hypercondriac",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Illiterate",
+      "scope": "public",
+      "type": "zombie.characters.traits.TraitCollection$TraitSlot",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isIlliterate",
+      "args": []
+    }
+  ]
+}

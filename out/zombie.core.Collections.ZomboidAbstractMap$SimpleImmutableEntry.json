@@ -1,0 +1,81 @@
+{
+  "name": "ZomboidAbstractMap$SimpleImmutableEntry<K,",
+  "package": "zombie.core.Collections",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "java.util.Map$Entry<K, V>",
+    "java.io.Serializable"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "SimpleImmutableEntry",
+      "describe": [],
+      "args": [
+        "K",
+        "V"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SimpleImmutableEntry",
+      "describe": [],
+      "args": [
+        "java.util.Map$Entry<? extends K",
+        "? extends V>"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "K",
+      "name": "getKey",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "V",
+      "name": "getValue",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "V",
+      "name": "setValue",
+      "args": [
+        "V"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "hashCode",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    }
+  ]
+}

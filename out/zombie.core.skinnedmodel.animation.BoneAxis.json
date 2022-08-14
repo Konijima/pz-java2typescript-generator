@@ -1,0 +1,54 @@
+{
+  "name": "BoneAxis",
+  "package": "zombie.core.skinnedmodel.animation",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.core.skinnedmodel.animation.BoneAxis>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Y",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.animation.BoneAxis",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Z",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.animation.BoneAxis",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.skinnedmodel.animation.BoneAxis",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

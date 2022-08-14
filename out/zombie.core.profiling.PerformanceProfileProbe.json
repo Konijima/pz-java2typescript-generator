@@ -1,0 +1,32 @@
+{
+  "name": "PerformanceProfileProbe",
+  "package": "zombie.core.profiling",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.core.profiling.AbstractPerformanceProfileProbe"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "PerformanceProfileProbe",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "PerformanceProfileProbe",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "boolean"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

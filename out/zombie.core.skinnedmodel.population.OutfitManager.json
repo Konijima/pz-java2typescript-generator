@@ -1,0 +1,171 @@
+{
+  "name": "OutfitManager",
+  "package": "zombie.core.skinnedmodel.population",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "OutfitManager",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_MaleOutfits",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.core.skinnedmodel.population.Outfit>",
+      "describe": []
+    },
+    {
+      "name": "m_FemaleOutfits",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.core.skinnedmodel.population.Outfit>",
+      "describe": []
+    },
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.population.OutfitManager",
+      "describe": [
+        "static"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "init",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "Reset",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "Reload",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addClothingItemListener",
+      "args": [
+        "zombie.core.skinnedmodel.population.IClothingItemListener"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeClothingItemListener",
+      "args": [
+        "zombie.core.skinnedmodel.population.IClothingItemListener"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.population.Outfit",
+      "name": "GetRandomOutfit",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.population.Outfit",
+      "name": "GetRandomNonProfessionalOutfit",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.population.Outfit",
+      "name": "GetSpecificOutfit",
+      "args": [
+        "boolean",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.population.Outfit",
+      "name": "FindMaleOutfit",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.population.Outfit",
+      "name": "FindFemaleOutfit",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.population.ClothingItem",
+      "name": "getClothingItem",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onClothingItemStateChanged",
+      "args": [
+        "zombie.core.skinnedmodel.population.ClothingItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "loadAllClothingItems",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isLoadingClothingItems",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "debugOutfits",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "SwipeStatePlayer$CustomComparator",
+  "package": "zombie.ai.states",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "java.util.Comparator<zombie.network.packets.hit.HitInfo>"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "CustomComparator",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "compare",
+      "args": [
+        "zombie.network.packets.hit.HitInfo",
+        "zombie.network.packets.hit.HitInfo"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "compare",
+      "args": [
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

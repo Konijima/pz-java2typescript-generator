@@ -1,0 +1,22 @@
+{
+  "name": "IsoCell$SnowGridTiles",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "SnowGridTiles",
+      "describe": [],
+      "args": [
+        "zombie.iso.IsoCell",
+        "byte"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

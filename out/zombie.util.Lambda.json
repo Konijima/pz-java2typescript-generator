@@ -1,0 +1,527 @@
+{
+  "name": "Lambda",
+  "package": "zombie.util",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Lambda",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E,T1> java.util.function.Predicate<E>",
+      "name": "predicate",
+      "args": [
+        "T1",
+        "zombie.util.lambda.Predicates$Params1$ICallback<E",
+        "T1>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E,T1,T2> java.util.function.Predicate<E>",
+      "name": "predicate",
+      "args": [
+        "T1",
+        "T2",
+        "zombie.util.lambda.Predicates$Params2$ICallback<E",
+        "T1",
+        "T2>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E,T1,T2,T3> java.util.function.Predicate<E>",
+      "name": "predicate",
+      "args": [
+        "T1",
+        "T2",
+        "T3",
+        "zombie.util.lambda.Predicates$Params3$ICallback<E",
+        "T1",
+        "T2",
+        "T3>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E,T1> java.util.Comparator<E>",
+      "name": "comparator",
+      "args": [
+        "T1",
+        "zombie.util.lambda.Comparators$Params1$ICallback<E",
+        "T1>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E,T1,T2> java.util.Comparator<E>",
+      "name": "comparator",
+      "args": [
+        "T1",
+        "T2",
+        "zombie.util.lambda.Comparators$Params2$ICallback<E",
+        "T1",
+        "T2>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E,T1> java.util.function.Consumer<E>",
+      "name": "consumer",
+      "args": [
+        "T1",
+        "zombie.util.lambda.Consumers$Params1$ICallback<E",
+        "T1>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E,T1,T2> java.util.function.Consumer<E>",
+      "name": "consumer",
+      "args": [
+        "T1",
+        "T2",
+        "zombie.util.lambda.Consumers$Params2$ICallback<E",
+        "T1",
+        "T2>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E,T1,T2,T3> java.util.function.Consumer<E>",
+      "name": "consumer",
+      "args": [
+        "T1",
+        "T2",
+        "T3",
+        "zombie.util.lambda.Consumers$Params3$ICallback<E",
+        "T1",
+        "T2",
+        "T3>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E,T1,T2,T3,T4> java.util.function.Consumer<E>",
+      "name": "consumer",
+      "args": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "zombie.util.lambda.Consumers$Params4$ICallback<E",
+        "T1",
+        "T2",
+        "T3",
+        "T4>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E,T1,T2,T3,T4,T5> java.util.function.Consumer<E>",
+      "name": "consumer",
+      "args": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "zombie.util.lambda.Consumers$Params5$ICallback<E",
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<T1> java.lang.Runnable",
+      "name": "invoker",
+      "args": [
+        "T1",
+        "zombie.util.lambda.Invokers$Params1$ICallback<T1>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<T1,T2> java.lang.Runnable",
+      "name": "invoker",
+      "args": [
+        "T1",
+        "T2",
+        "zombie.util.lambda.Invokers$Params2$ICallback<T1",
+        "T2>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<T1,T2,T3> java.lang.Runnable",
+      "name": "invoker",
+      "args": [
+        "T1",
+        "T2",
+        "T3",
+        "zombie.util.lambda.Invokers$Params3$ICallback<T1",
+        "T2",
+        "T3>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<T1,T2,T3,T4> java.lang.Runnable",
+      "name": "invoker",
+      "args": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "zombie.util.lambda.Invokers$Params4$ICallback<T1",
+        "T2",
+        "T3",
+        "T4>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<T1> void",
+      "name": "capture",
+      "args": [
+        "T1",
+        "zombie.util.lambda.Stacks$Params1$ICallback<T1>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<T1,T2> void",
+      "name": "capture",
+      "args": [
+        "T1",
+        "T2",
+        "zombie.util.lambda.Stacks$Params2$ICallback<T1",
+        "T2>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<T1,T2,T3> void",
+      "name": "capture",
+      "args": [
+        "T1",
+        "T2",
+        "T3",
+        "zombie.util.lambda.Stacks$Params3$ICallback<T1",
+        "T2",
+        "T3>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<T1,T2,T3,T4> void",
+      "name": "capture",
+      "args": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "zombie.util.lambda.Stacks$Params4$ICallback<T1",
+        "T2",
+        "T3",
+        "T4>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<T1,T2,T3,T4,T5> void",
+      "name": "capture",
+      "args": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "zombie.util.lambda.Stacks$Params5$ICallback<T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<T1,T2,T3,T4,T5,T6> void",
+      "name": "capture",
+      "args": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "T6",
+        "zombie.util.lambda.Stacks$Params6$ICallback<T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "T6>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E,T1> void",
+      "name": "forEach",
+      "args": [
+        "java.util.function.Consumer<java.util.function.Consumer<E>>",
+        "T1",
+        "zombie.util.lambda.Consumers$Params1$ICallback<E",
+        "T1>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E,T1,T2> void",
+      "name": "forEach",
+      "args": [
+        "java.util.function.Consumer<java.util.function.Consumer<E>>",
+        "T1",
+        "T2",
+        "zombie.util.lambda.Consumers$Params2$ICallback<E",
+        "T1",
+        "T2>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E,T1> void",
+      "name": "forEachFrom",
+      "args": [
+        "java.util.function.BiConsumer<java.util.List<E>",
+        "java.util.function.Consumer<E>>",
+        "java.util.List<E>",
+        "T1",
+        "zombie.util.lambda.Consumers$Params1$ICallback<E",
+        "T1>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E,T1,T2> void",
+      "name": "forEachFrom",
+      "args": [
+        "java.util.function.BiConsumer<java.util.List<E>",
+        "java.util.function.Consumer<E>>",
+        "java.util.List<E>",
+        "T1",
+        "T2",
+        "zombie.util.lambda.Consumers$Params2$ICallback<E",
+        "T1",
+        "T2>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E,F,T1> void",
+      "name": "forEachFrom",
+      "args": [
+        "java.util.function.BiConsumer<F",
+        "java.util.function.Consumer<E>>",
+        "F",
+        "T1",
+        "zombie.util.lambda.Consumers$Params1$ICallback<E",
+        "T1>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E,F,T1,T2> void",
+      "name": "forEachFrom",
+      "args": [
+        "java.util.function.BiConsumer<F",
+        "java.util.function.Consumer<E>>",
+        "F",
+        "T1",
+        "T2",
+        "zombie.util.lambda.Consumers$Params2$ICallback<E",
+        "T1",
+        "T2>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E,T1,R> R",
+      "name": "find",
+      "args": [
+        "java.util.function.Function<java.util.function.Predicate<E>",
+        "R>",
+        "T1",
+        "zombie.util.lambda.Predicates$Params1$ICallback<E",
+        "T1>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E,T1> int",
+      "name": "indexOf",
+      "args": [
+        "zombie.util.lambda.IntSupplierFunction<java.util.function.Predicate<E>>",
+        "T1",
+        "zombie.util.lambda.Predicates$Params1$ICallback<E",
+        "T1>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E,T1> boolean",
+      "name": "contains",
+      "args": [
+        "java.util.function.Predicate<java.util.function.Predicate<E>>",
+        "T1",
+        "zombie.util.lambda.Predicates$Params1$ICallback<E",
+        "T1>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E,F extends java.lang.Iterable<E>,T1> boolean",
+      "name": "containsFrom",
+      "args": [
+        "java.util.function.BiPredicate<F",
+        "java.util.function.Predicate<E>>",
+        "F",
+        "T1",
+        "zombie.util.lambda.Predicates$Params1$ICallback<E",
+        "T1>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<T1> void",
+      "name": "invoke",
+      "args": [
+        "java.util.function.Consumer<java.lang.Runnable>",
+        "T1",
+        "zombie.util.lambda.Invokers$Params1$ICallback<T1>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<T1,T2> void",
+      "name": "invoke",
+      "args": [
+        "java.util.function.Consumer<java.lang.Runnable>",
+        "T1",
+        "T2",
+        "zombie.util.lambda.Invokers$Params2$ICallback<T1",
+        "T2>"
+      ]
+    }
+  ]
+}

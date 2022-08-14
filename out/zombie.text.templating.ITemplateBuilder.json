@@ -1,0 +1,81 @@
+{
+  "name": "ITemplateBuilder",
+  "package": "zombie.text.templating",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.lang.String",
+      "name": "Build",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.lang.String",
+      "name": "Build",
+      "args": [
+        "java.lang.String",
+        "zombie.text.templating.IReplaceProvider"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.lang.String",
+      "name": "Build",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.j2se.KahluaTableImpl"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "RegisterKey",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.j2se.KahluaTableImpl"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "RegisterKey",
+      "args": [
+        "java.lang.String",
+        "zombie.text.templating.IReplace"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "Reset",
+      "args": []
+    }
+  ]
+}

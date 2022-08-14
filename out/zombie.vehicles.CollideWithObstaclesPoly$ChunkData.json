@@ -1,0 +1,40 @@
+{
+  "name": "CollideWithObstaclesPoly$ChunkData",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ChunkData",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.CollideWithObstaclesPoly$ChunkDataZ",
+      "name": "init",
+      "args": [
+        "zombie.iso.IsoChunk",
+        "int",
+        "zombie.vehicles.CollideWithObstaclesPoly"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clear",
+      "args": []
+    }
+  ]
+}

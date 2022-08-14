@@ -1,0 +1,75 @@
+{
+  "name": "Physics",
+  "package": "zombie.network.packets.vehicle",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.vehicles.VehicleInterpolationData"
+  ],
+  "implements": [
+    "zombie.network.packets.INetworkPacket"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Physics",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "parse",
+      "args": [
+        "java.nio.ByteBuffer",
+        "zombie.core.raknet.UdpConnection"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "write",
+      "args": [
+        "zombie.core.network.ByteBufferWriter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "set",
+      "args": [
+        "zombie.vehicles.BaseVehicle"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isConsistent",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "process",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isRelevant",
+      "args": [
+        "zombie.core.raknet.UdpConnection"
+      ]
+    }
+  ]
+}

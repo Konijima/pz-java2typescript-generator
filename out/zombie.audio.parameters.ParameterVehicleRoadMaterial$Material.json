@@ -1,0 +1,117 @@
+{
+  "name": "ParameterVehicleRoadMaterial$Material",
+  "package": "zombie.audio.parameters",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.audio.parameters.ParameterVehicleRoadMaterial$Material>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Concrete",
+      "scope": "public",
+      "type": "zombie.audio.parameters.ParameterVehicleRoadMaterial$Material",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Grass",
+      "scope": "public",
+      "type": "zombie.audio.parameters.ParameterVehicleRoadMaterial$Material",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Gravel",
+      "scope": "public",
+      "type": "zombie.audio.parameters.ParameterVehicleRoadMaterial$Material",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Puddle",
+      "scope": "public",
+      "type": "zombie.audio.parameters.ParameterVehicleRoadMaterial$Material",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Snow",
+      "scope": "public",
+      "type": "zombie.audio.parameters.ParameterVehicleRoadMaterial$Material",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Wood",
+      "scope": "public",
+      "type": "zombie.audio.parameters.ParameterVehicleRoadMaterial$Material",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Carpet",
+      "scope": "public",
+      "type": "zombie.audio.parameters.ParameterVehicleRoadMaterial$Material",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Dirt",
+      "scope": "public",
+      "type": "zombie.audio.parameters.ParameterVehicleRoadMaterial$Material",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Sand",
+      "scope": "public",
+      "type": "zombie.audio.parameters.ParameterVehicleRoadMaterial$Material",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.audio.parameters.ParameterVehicleRoadMaterial$Material",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

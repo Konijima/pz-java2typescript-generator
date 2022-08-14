@@ -1,0 +1,23 @@
+{
+  "name": "GLState$BaseBoolean",
+  "package": "zombie.core.opengl",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "abstract"
+  ],
+  "extends": [
+    "zombie.core.opengl.IOpenGLState<zombie.core.opengl.GLState$CBooleanValue>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "BaseBoolean",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

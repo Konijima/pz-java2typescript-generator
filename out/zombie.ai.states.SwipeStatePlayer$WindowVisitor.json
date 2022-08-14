@@ -1,0 +1,34 @@
+{
+  "name": "SwipeStatePlayer$WindowVisitor",
+  "package": "zombie.ai.states",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [
+    "zombie.ai.states.SwipeStatePlayer$LOSVisitor"
+  ],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "visit",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.LosUtil$TestResults",
+      "name": "getResult",
+      "args": []
+    }
+  ]
+}

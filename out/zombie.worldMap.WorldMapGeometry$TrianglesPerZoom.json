@@ -1,0 +1,28 @@
+{
+  "name": "WorldMapGeometry$TrianglesPerZoom",
+  "package": "zombie.worldMap",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "TrianglesPerZoom",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "float",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

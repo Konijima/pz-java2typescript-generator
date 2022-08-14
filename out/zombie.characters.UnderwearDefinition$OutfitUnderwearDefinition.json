@@ -1,0 +1,57 @@
+{
+  "name": "UnderwearDefinition$OutfitUnderwearDefinition",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "OutfitUnderwearDefinition",
+      "describe": [],
+      "args": [
+        "java.util.ArrayList<zombie.characters.UnderwearDefinition$StringChance>",
+        "java.lang.String",
+        "int",
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "top",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.characters.UnderwearDefinition$StringChance>",
+      "describe": []
+    },
+    {
+      "name": "topTotalChance",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "bottom",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "chanceToSpawn",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "female",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

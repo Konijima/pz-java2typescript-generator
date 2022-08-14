@@ -1,0 +1,55 @@
+{
+  "name": "Predicates$Params1$CallbackStackItem<E,",
+  "package": "zombie.util.lambda",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.util.lambda.Predicates$Params1$StackItem<T1>"
+  ],
+  "implements": [
+    "java.util.function.Predicate<E>"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "CallbackStackItem",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "test",
+      "args": [
+        "E"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E,T1> zombie.util.lambda.Predicates$Params1$CallbackStackItem<E,T1>",
+      "name": "alloc",
+      "args": [
+        "T1",
+        "zombie.util.lambda.Predicates$Params1$ICallback<E",
+        "T1>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onReleased",
+      "args": []
+    }
+  ]
+}

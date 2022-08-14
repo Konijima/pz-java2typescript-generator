@@ -1,0 +1,66 @@
+{
+  "name": "DDSLoader",
+  "package": "com.evildevil.engines.bubble.texture",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [
+    "com.evildevil.engines.bubble.texture.DDSurface"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "DDSLoader",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "lastWid",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "lastHei",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "loadDDSFile",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "loadDDSFile",
+      "args": [
+        "java.io.BufferedInputStream"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "debugInfo",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "VehiclesDB2$IImportPlayerFromOldDB",
+  "package": "zombie.vehicles",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "accept",
+      "args": [
+        "int",
+        "java.lang.String",
+        "int",
+        "int",
+        "float",
+        "float",
+        "float",
+        "int",
+        "byte[]",
+        "boolean"
+      ]
+    }
+  ]
+}

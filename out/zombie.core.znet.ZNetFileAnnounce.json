@@ -1,0 +1,44 @@
+{
+  "name": "ZNetFileAnnounce",
+  "package": "zombie.core.znet",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ZNetFileAnnounce",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "fileSize",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "numChunks",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "fileId",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "fileName",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

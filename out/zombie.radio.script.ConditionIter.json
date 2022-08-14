@@ -1,0 +1,42 @@
+{
+  "name": "ConditionIter",
+  "package": "zombie.radio.script",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "zombie.radio.globals.CompareResult",
+      "name": "Evaluate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "zombie.radio.script.OperatorType",
+      "name": "getNextOperator",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "setNextOperator",
+      "args": [
+        "zombie.radio.script.OperatorType"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "RBTableStory$StorySpawnItem",
+  "package": "zombie.randomizedWorld.randomizedBuilding",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "StorySpawnItem",
+      "describe": [],
+      "args": [
+        "java.util.LinkedHashMap<java.lang.String",
+        "java.lang.Integer>",
+        "java.lang.String",
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "StorySpawnItem",
+      "describe": [],
+      "args": [
+        "java.util.LinkedHashMap<java.lang.String",
+        "java.lang.Integer>",
+        "java.lang.String",
+        "java.lang.Integer",
+        "float"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

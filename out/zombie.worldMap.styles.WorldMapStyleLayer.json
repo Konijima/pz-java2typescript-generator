@@ -1,0 +1,95 @@
+{
+  "name": "WorldMapStyleLayer",
+  "package": "zombie.worldMap.styles",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "abstract"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "WorldMapStyleLayer",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_id",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "m_minZoom",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m_filter",
+      "scope": "public",
+      "type": "zombie.worldMap.styles.WorldMapStyleLayer$IWorldMapStyleFilter",
+      "describe": []
+    },
+    {
+      "name": "m_filterKey",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "m_filterValue",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.lang.String",
+      "name": "getTypeString",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "filter",
+      "args": [
+        "zombie.worldMap.WorldMapFeature",
+        "zombie.worldMap.styles.WorldMapStyleLayer$FilterArgs"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "render",
+      "args": [
+        "zombie.worldMap.WorldMapFeature",
+        "zombie.worldMap.styles.WorldMapStyleLayer$RenderArgs"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "renderCell",
+      "args": [
+        "zombie.worldMap.styles.WorldMapStyleLayer$RenderArgs"
+      ]
+    }
+  ]
+}

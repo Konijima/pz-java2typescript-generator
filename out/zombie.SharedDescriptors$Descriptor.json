@@ -1,0 +1,141 @@
+{
+  "name": "SharedDescriptors$Descriptor",
+  "package": "zombie",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [
+    "zombie.core.skinnedmodel.visual.IHumanVisual"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Descriptor",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "ID",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "persistentOutfitID",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "outfitName",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "humanVisual",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.visual.HumanVisual",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "itemVisuals",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.visual.ItemVisuals",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "bFemale",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "bZombie",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getID",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getPersistentOutfitID",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.visual.HumanVisual",
+      "name": "getHumanVisual",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getItemVisuals",
+      "args": [
+        "zombie.core.skinnedmodel.visual.ItemVisuals"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isFemale",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isZombie",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isSkeleton",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": [
+        "java.nio.ByteBuffer",
+        "int"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Drainable",
+  "package": "zombie.inventory.types",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "getUsedDelta",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "setUsedDelta",
+      "args": [
+        "float"
+      ]
+    }
+  ]
+}

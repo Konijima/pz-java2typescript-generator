@@ -1,0 +1,16 @@
+{
+  "name": "BaseVehicle$Matrix4fObjectPool",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.popman.ObjectPool<org.joml.Matrix4f>"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

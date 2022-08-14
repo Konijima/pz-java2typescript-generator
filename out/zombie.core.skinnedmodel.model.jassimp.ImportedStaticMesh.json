@@ -1,0 +1,23 @@
+{
+  "name": "ImportedStaticMesh",
+  "package": "zombie.core.skinnedmodel.model.jassimp",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ImportedStaticMesh",
+      "describe": [],
+      "args": [
+        "jassimp.AiMesh"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

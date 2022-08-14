@@ -1,0 +1,48 @@
+{
+  "name": "WorldMapStyleV1$WorldMapLineStyleLayerV1",
+  "package": "zombie.worldMap.styles",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.worldMap.styles.WorldMapStyleV1$WorldMapStyleLayerV1"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setFilter",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addFill",
+      "args": [
+        "float",
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addLineWidth",
+      "args": [
+        "float",
+        "float"
+      ]
+    }
+  ]
+}

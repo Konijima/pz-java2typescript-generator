@@ -1,0 +1,67 @@
+{
+  "name": "VehicleScript$Passenger$SwitchSeat",
+  "package": "zombie.scripting.objects",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "SwitchSeat",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "id",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "seat",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "anim",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "rate",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "sound",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getId",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.VehicleScript$Passenger$SwitchSeat",
+      "name": "makeCopy",
+      "args": []
+    }
+  ]
+}

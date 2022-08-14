@@ -1,0 +1,14 @@
+{
+  "name": "Translator$News",
+  "package": "zombie.core",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

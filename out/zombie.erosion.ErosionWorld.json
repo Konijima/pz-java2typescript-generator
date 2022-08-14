@@ -1,0 +1,52 @@
+{
+  "name": "ErosionWorld",
+  "package": "zombie.erosion",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ErosionWorld",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "init",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "validateSpawn",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "zombie.erosion.ErosionData$Square",
+        "zombie.erosion.ErosionData$Chunk"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "zombie.erosion.ErosionData$Square",
+        "zombie.erosion.ErosionData$Chunk",
+        "int"
+      ]
+    }
+  ]
+}

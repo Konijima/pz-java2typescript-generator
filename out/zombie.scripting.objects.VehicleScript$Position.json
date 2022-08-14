@@ -1,0 +1,79 @@
+{
+  "name": "VehicleScript$Position",
+  "package": "zombie.scripting.objects",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Position",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "id",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "offset",
+      "scope": "public",
+      "type": "org.joml.Vector3f",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "rotate",
+      "scope": "public",
+      "type": "org.joml.Vector3f",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "area",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getId",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3f",
+      "name": "getOffset",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector3f",
+      "name": "getRotate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getArea",
+      "args": []
+    }
+  ]
+}

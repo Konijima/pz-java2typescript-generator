@@ -1,0 +1,38 @@
+{
+  "name": "PriorityQ",
+  "package": "org.lwjglx.util.glu.tessellation",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "abstract"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "INIT_SIZE",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "LEQ",
+      "args": [
+        "org.lwjglx.util.glu.tessellation.PriorityQ$Leq",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

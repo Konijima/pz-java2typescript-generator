@@ -1,0 +1,14 @@
+{
+  "name": "IsoMannequin$PerPlayer",
+  "package": "zombie.iso.objects",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

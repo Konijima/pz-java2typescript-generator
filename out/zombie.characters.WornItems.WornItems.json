@@ -1,0 +1,169 @@
+{
+  "name": "WornItems",
+  "package": "zombie.characters.WornItems",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "WornItems",
+      "describe": [],
+      "args": [
+        "zombie.characters.WornItems.BodyLocationGroup"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "WornItems",
+      "describe": [],
+      "args": [
+        "zombie.characters.WornItems.WornItems"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "copyFrom",
+      "args": [
+        "zombie.characters.WornItems.WornItems"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.characters.WornItems.BodyLocationGroup",
+      "name": "getBodyLocationGroup",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.characters.WornItems.WornItem",
+      "name": "get",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setItem",
+      "args": [
+        "java.lang.String",
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getItem",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getItemByIndex",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "remove",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clear",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getLocation",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "contains",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "size",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isEmpty",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "forEach",
+      "args": [
+        "java.util.function.Consumer<zombie.characters.WornItems.WornItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setFromItemVisuals",
+      "args": [
+        "zombie.core.skinnedmodel.visual.ItemVisuals"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getItemVisuals",
+      "args": [
+        "zombie.core.skinnedmodel.visual.ItemVisuals"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addItemsToItemContainer",
+      "args": [
+        "zombie.inventory.ItemContainer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "StringLib$MatchState$Capture",
+  "package": "se.krka.kahlua.stdlib",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Capture",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "init",
+      "scope": "public",
+      "type": "se.krka.kahlua.stdlib.StringLib$StringPointer",
+      "describe": []
+    },
+    {
+      "name": "len",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

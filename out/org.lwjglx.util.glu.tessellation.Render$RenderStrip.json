@@ -1,0 +1,26 @@
+{
+  "name": "Render$RenderStrip",
+  "package": "org.lwjglx.util.glu.tessellation",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "org.lwjglx.util.glu.tessellation.Render$renderCallBack"
+  ],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": [
+        "org.lwjglx.util.glu.tessellation.GLUtessellatorImpl",
+        "org.lwjglx.util.glu.tessellation.GLUhalfEdge",
+        "long"
+      ]
+    }
+  ]
+}

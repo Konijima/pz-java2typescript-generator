@@ -1,0 +1,25 @@
+{
+  "name": "IsoRegionWorker$1",
+  "package": "zombie.iso.areas.isoregion",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "java.io.FilenameFilter"
+  ],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "accept",
+      "args": [
+        "java.io.File",
+        "java.lang.String"
+      ]
+    }
+  ]
+}

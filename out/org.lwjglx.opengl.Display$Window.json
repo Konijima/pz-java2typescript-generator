@@ -1,0 +1,14 @@
+{
+  "name": "Display$Window",
+  "package": "org.lwjglx.opengl",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

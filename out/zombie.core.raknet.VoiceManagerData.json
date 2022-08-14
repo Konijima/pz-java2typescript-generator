@@ -1,0 +1,80 @@
+{
+  "name": "VoiceManagerData",
+  "package": "zombie.core.raknet",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "VoiceManagerData",
+      "describe": [],
+      "args": [
+        "short"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "data",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.core.raknet.VoiceManagerData>",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "userplaychannel",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "userplaysound",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "userplaymute",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "voicetimeout",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "radioData",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.core.raknet.VoiceManagerData$RadioData>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "isCanHearAll",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.raknet.VoiceManagerData",
+      "name": "get",
+      "args": [
+        "short"
+      ]
+    }
+  ]
+}

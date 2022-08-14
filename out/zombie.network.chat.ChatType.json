@@ -1,0 +1,151 @@
+{
+  "name": "ChatType",
+  "package": "zombie.network.chat",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.network.chat.ChatType>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "notDefined",
+      "scope": "public",
+      "type": "zombie.network.chat.ChatType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "general",
+      "scope": "public",
+      "type": "zombie.network.chat.ChatType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "whisper",
+      "scope": "public",
+      "type": "zombie.network.chat.ChatType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "say",
+      "scope": "public",
+      "type": "zombie.network.chat.ChatType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "shout",
+      "scope": "public",
+      "type": "zombie.network.chat.ChatType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "faction",
+      "scope": "public",
+      "type": "zombie.network.chat.ChatType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "safehouse",
+      "scope": "public",
+      "type": "zombie.network.chat.ChatType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "radio",
+      "scope": "public",
+      "type": "zombie.network.chat.ChatType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "admin",
+      "scope": "public",
+      "type": "zombie.network.chat.ChatType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "server",
+      "scope": "public",
+      "type": "zombie.network.chat.ChatType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.network.chat.ChatType",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.network.chat.ChatType",
+      "name": "valueOf",
+      "args": [
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getValue",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getTitleID",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "AttachedWeaponCustomOutfit",
+  "package": "zombie.characters.AttachedItems",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "AttachedWeaponCustomOutfit",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "outfit",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "chance",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "maxitem",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "weapons",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.characters.AttachedItems.AttachedWeaponDefinition>",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": []
+}

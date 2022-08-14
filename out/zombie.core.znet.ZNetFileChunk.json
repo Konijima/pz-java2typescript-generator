@@ -1,0 +1,38 @@
+{
+  "name": "ZNetFileChunk",
+  "package": "zombie.core.znet",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ZNetFileChunk",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "fileId",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "offset",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "byte",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

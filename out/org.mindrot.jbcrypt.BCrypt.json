@@ -1,0 +1,87 @@
+{
+  "name": "BCrypt",
+  "package": "org.mindrot.jbcrypt",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "BCrypt",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "raw",
+      "describe": [],
+      "args": [
+        "byte[]",
+        "byte[]",
+        "int",
+        "int[]"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "hashpw",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "gensalt",
+      "args": [
+        "int",
+        "java.security.SecureRandom"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "gensalt",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "gensalt",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "checkpw",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    }
+  ]
+}

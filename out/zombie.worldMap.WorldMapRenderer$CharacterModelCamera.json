@@ -1,0 +1,31 @@
+{
+  "name": "WorldMapRenderer$CharacterModelCamera",
+  "package": "zombie.worldMap",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.core.skinnedmodel.ModelCamera"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Begin",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "End",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "UdpConnection$CheckState",
+  "package": "zombie.core.raknet",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.core.raknet.UdpConnection$CheckState>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "None",
+      "scope": "public",
+      "type": "zombie.core.raknet.UdpConnection$CheckState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Sent",
+      "scope": "public",
+      "type": "zombie.core.raknet.UdpConnection$CheckState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Success",
+      "scope": "public",
+      "type": "zombie.core.raknet.UdpConnection$CheckState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.raknet.UdpConnection$CheckState",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

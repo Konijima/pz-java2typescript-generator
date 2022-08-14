@@ -1,0 +1,21 @@
+{
+  "name": "ParticlesFire$Particle",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Particle",
+      "describe": [],
+      "args": [
+        "zombie.iso.ParticlesFire"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

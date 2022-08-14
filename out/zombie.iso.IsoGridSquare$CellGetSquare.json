@@ -1,0 +1,33 @@
+{
+  "name": "IsoGridSquare$CellGetSquare",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "zombie.iso.IsoGridSquare$GetSquare"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "CellGetSquare",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getGridSquare",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    }
+  ]
+}

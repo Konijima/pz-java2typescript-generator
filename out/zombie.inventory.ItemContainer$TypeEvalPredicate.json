@@ -1,0 +1,35 @@
+{
+  "name": "ItemContainer$TypeEvalPredicate",
+  "package": "zombie.inventory",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [
+    "java.util.function.Predicate<zombie.inventory.InventoryItem>"
+  ],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "test",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "test",
+      "args": [
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

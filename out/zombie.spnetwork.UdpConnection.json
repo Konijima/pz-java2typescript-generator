@@ -1,0 +1,62 @@
+{
+  "name": "UdpConnection",
+  "package": "zombie.spnetwork",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "UdpConnection",
+      "describe": [],
+      "args": [
+        "zombie.spnetwork.UdpEngine"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "zombie",
+      "scope": "public",
+      "type": "final",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "ReleventTo",
+      "args": [
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.network.ByteBufferWriter",
+      "name": "startPacket",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "endPacketImmediate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "cancelPacket",
+      "args": []
+    }
+  ]
+}

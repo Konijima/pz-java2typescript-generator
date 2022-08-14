@@ -1,0 +1,35 @@
+{
+  "name": "DDSCaps2",
+  "package": "com.evildevil.engines.bubble.texture",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [
+    "com.evildevil.engines.bubble.texture.DDSurface"
+  ],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "com",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "setCaps1",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "setCaps2",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

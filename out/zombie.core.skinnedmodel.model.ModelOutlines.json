@@ -1,0 +1,124 @@
+{
+  "name": "ModelOutlines",
+  "package": "zombie.core.skinnedmodel.model",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ModelOutlines",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.ModelOutlines",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "m_fboA",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureFBO",
+      "describe": []
+    },
+    {
+      "name": "m_fboB",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureFBO",
+      "describe": []
+    },
+    {
+      "name": "m_fboC",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureFBO",
+      "describe": []
+    },
+    {
+      "name": "m_dirty",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "startFrameMain",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "endFrameMain",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "startFrame",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "checkFBOs",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setPlayerRenderData",
+      "args": [
+        "zombie.core.skinnedmodel.model.ModelSlotRenderData"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "beginRenderOutline",
+      "args": [
+        "zombie.core.textures.ColorInfo"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "endFrame",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "renderDebug",
+      "args": []
+    }
+  ]
+}

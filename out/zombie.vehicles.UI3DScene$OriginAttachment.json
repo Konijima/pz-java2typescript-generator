@@ -1,0 +1,16 @@
+{
+  "name": "UI3DScene$OriginAttachment",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.vehicles.UI3DScene$SceneObject"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

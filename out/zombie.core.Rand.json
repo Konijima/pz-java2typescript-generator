@@ -1,0 +1,187 @@
+{
+  "name": "Rand",
+  "package": "zombie.core",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Rand",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "rand",
+      "scope": "public",
+      "type": "org.uncommons.maths.random.CellularAutomatonRNG",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "randlua",
+      "scope": "public",
+      "type": "org.uncommons.maths.random.CellularAutomatonRNG",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "id",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "init",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "Next",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "long",
+      "name": "Next",
+      "args": [
+        "long",
+        "org.uncommons.maths.random.CellularAutomatonRNG"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "long",
+      "name": "Next",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "Next",
+      "args": [
+        "int",
+        "int",
+        "org.uncommons.maths.random.CellularAutomatonRNG"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "Next",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "long",
+      "name": "Next",
+      "args": [
+        "long",
+        "long",
+        "org.uncommons.maths.random.CellularAutomatonRNG"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "long",
+      "name": "Next",
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "Next",
+      "args": [
+        "float",
+        "float",
+        "org.uncommons.maths.random.CellularAutomatonRNG"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "Next",
+      "args": [
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "NextBool",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "AdjustForFramerate",
+      "args": [
+        "int"
+      ]
+    }
+  ]
+}

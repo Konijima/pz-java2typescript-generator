@@ -1,0 +1,24 @@
+{
+  "name": "ReadableVector3f",
+  "package": "org.lwjglx.util.vector",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "org.lwjglx.util.vector.ReadableVector2f"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "getZ",
+      "args": []
+    }
+  ]
+}

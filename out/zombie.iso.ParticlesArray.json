@@ -1,0 +1,63 @@
+{
+  "name": "ParticlesArray<E>",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.util.ArrayList<E>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ParticlesArray",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "synchronized int",
+      "name": "addParticle",
+      "args": [
+        "E"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "synchronized boolean",
+      "name": "deleteParticle",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "synchronized void",
+      "name": "defragmentParticle",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "synchronized int",
+      "name": "getCount",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "synchronized boolean",
+      "name": "getNeedToUpdate",
+      "args": []
+    }
+  ]
+}

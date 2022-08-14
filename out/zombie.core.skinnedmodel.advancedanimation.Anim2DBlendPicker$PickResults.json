@@ -1,0 +1,62 @@
+{
+  "name": "Anim2DBlendPicker$PickResults",
+  "package": "zombie.core.skinnedmodel.advancedanimation",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "PickResults",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "numNodes",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "node1",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.advancedanimation.Anim2DBlend",
+      "describe": []
+    },
+    {
+      "name": "node2",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.advancedanimation.Anim2DBlend",
+      "describe": []
+    },
+    {
+      "name": "node3",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.advancedanimation.Anim2DBlend",
+      "describe": []
+    },
+    {
+      "name": "scale1",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "scale2",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "scale3",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

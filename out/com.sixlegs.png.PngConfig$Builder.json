@@ -1,0 +1,128 @@
+{
+  "name": "PngConfig$Builder",
+  "package": "com.sixlegs.png",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Builder",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "Builder",
+      "describe": [],
+      "args": [
+        "com.sixlegs.png.PngConfig"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "reduce16",
+      "scope": "public",
+      "type": "com.sixlegs.png.PngConfig$Builder",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "com.sixlegs.png.PngConfig",
+      "name": "build",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "com.sixlegs.png.PngConfig$Builder",
+      "name": "defaultGamma",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "com.sixlegs.png.PngConfig$Builder",
+      "name": "displayExponent",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "com.sixlegs.png.PngConfig$Builder",
+      "name": "gammaCorrect",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "com.sixlegs.png.PngConfig$Builder",
+      "name": "progressive",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "com.sixlegs.png.PngConfig$Builder",
+      "name": "readLimit",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "com.sixlegs.png.PngConfig$Builder",
+      "name": "warningsFatal",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "com.sixlegs.png.PngConfig$Builder",
+      "name": "sourceRegion",
+      "args": [
+        "java.awt.Rectangle"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "com.sixlegs.png.PngConfig$Builder",
+      "name": "sourceSubsampling",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "com.sixlegs.png.PngConfig$Builder",
+      "name": "convertIndexed",
+      "args": [
+        "boolean"
+      ]
+    }
+  ]
+}

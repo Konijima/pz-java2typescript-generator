@@ -1,0 +1,14 @@
+{
+  "name": "BestCandidateSampling$Sphere$Node",
+  "package": "org.joml.sampling",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

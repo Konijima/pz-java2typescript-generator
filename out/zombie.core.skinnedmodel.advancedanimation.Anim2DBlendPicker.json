@@ -1,0 +1,41 @@
+{
+  "name": "Anim2DBlendPicker",
+  "package": "zombie.core.skinnedmodel.advancedanimation",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "DBlendPicker",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "SetPickTriangles",
+      "args": [
+        "java.util.List<zombie.core.skinnedmodel.advancedanimation.Anim2DBlendTriangle>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.advancedanimation.Anim2DBlendPicker$PickResults",
+      "name": "Pick",
+      "args": [
+        "float",
+        "float"
+      ]
+    }
+  ]
+}

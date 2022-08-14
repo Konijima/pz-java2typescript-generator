@@ -1,0 +1,27 @@
+{
+  "name": "DatastructuresTest",
+  "package": "astar.tests",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "DatastructuresTest",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "hashPriorityQueueTest",
+      "args": []
+    }
+  ]
+}

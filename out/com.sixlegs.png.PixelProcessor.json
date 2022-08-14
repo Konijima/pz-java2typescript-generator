@@ -1,0 +1,31 @@
+{
+  "name": "PixelProcessor",
+  "package": "com.sixlegs.png",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "abstract"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "process",
+      "args": [
+        "int[]",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    }
+  ]
+}

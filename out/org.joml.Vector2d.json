@@ -1,0 +1,1176 @@
+{
+  "name": "Vector2d",
+  "package": "org.joml",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "java.io.Externalizable",
+    "org.joml.Vector2dc"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "org.joml.Vector2dc"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "org.joml.Vector2fc"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "org.joml.Vector2ic"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "double[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "float[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "d",
+      "describe": [],
+      "args": [
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "x",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    },
+    {
+      "name": "y",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "x",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "y",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "set",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "set",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "set",
+      "args": [
+        "org.joml.Vector2dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "set",
+      "args": [
+        "org.joml.Vector2fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "set",
+      "args": [
+        "org.joml.Vector2ic"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "set",
+      "args": [
+        "double[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "set",
+      "args": [
+        "float[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "set",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "set",
+      "args": [
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "set",
+      "args": [
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "set",
+      "args": [
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "setFromAddress",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "get",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2i",
+      "name": "get",
+      "args": [
+        "int",
+        "org.joml.Vector2i"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2f",
+      "name": "get",
+      "args": [
+        "org.joml.Vector2f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "get",
+      "args": [
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "setComponent",
+      "args": [
+        "int",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.ByteBuffer",
+      "name": "get",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.ByteBuffer",
+      "name": "get",
+      "args": [
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.DoubleBuffer",
+      "name": "get",
+      "args": [
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.DoubleBuffer",
+      "name": "get",
+      "args": [
+        "int",
+        "java.nio.DoubleBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2dc",
+      "name": "getToAddress",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "perpendicular",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "sub",
+      "args": [
+        "org.joml.Vector2dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "sub",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "sub",
+      "args": [
+        "double",
+        "double",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "sub",
+      "args": [
+        "org.joml.Vector2fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "sub",
+      "args": [
+        "org.joml.Vector2dc",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "sub",
+      "args": [
+        "org.joml.Vector2fc",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "mul",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "mul",
+      "args": [
+        "double",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "mul",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "mul",
+      "args": [
+        "double",
+        "double",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "mul",
+      "args": [
+        "org.joml.Vector2dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "mul",
+      "args": [
+        "org.joml.Vector2dc",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "div",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "div",
+      "args": [
+        "double",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "div",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "div",
+      "args": [
+        "double",
+        "double",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "div",
+      "args": [
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "div",
+      "args": [
+        "org.joml.Vector2fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "div",
+      "args": [
+        "org.joml.Vector2fc",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "div",
+      "args": [
+        "org.joml.Vector2dc",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "mul",
+      "args": [
+        "org.joml.Matrix2fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "mul",
+      "args": [
+        "org.joml.Matrix2dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "mul",
+      "args": [
+        "org.joml.Matrix2dc",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "mul",
+      "args": [
+        "org.joml.Matrix2fc",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "mulTranspose",
+      "args": [
+        "org.joml.Matrix2dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "mulTranspose",
+      "args": [
+        "org.joml.Matrix2dc",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "mulTranspose",
+      "args": [
+        "org.joml.Matrix2fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "mulTranspose",
+      "args": [
+        "org.joml.Matrix2fc",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "mulPosition",
+      "args": [
+        "org.joml.Matrix3x2dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "mulPosition",
+      "args": [
+        "org.joml.Matrix3x2dc",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "mulDirection",
+      "args": [
+        "org.joml.Matrix3x2dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "mulDirection",
+      "args": [
+        "org.joml.Matrix3x2dc",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "dot",
+      "args": [
+        "org.joml.Vector2dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "angle",
+      "args": [
+        "org.joml.Vector2dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "lengthSquared",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "double",
+      "name": "lengthSquared",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "length",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "double",
+      "name": "length",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "distance",
+      "args": [
+        "org.joml.Vector2dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "distanceSquared",
+      "args": [
+        "org.joml.Vector2dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "distance",
+      "args": [
+        "org.joml.Vector2fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "distanceSquared",
+      "args": [
+        "org.joml.Vector2fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "distance",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "double",
+      "name": "distanceSquared",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "double",
+      "name": "distance",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "double",
+      "name": "distanceSquared",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "normalize",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "normalize",
+      "args": [
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "normalize",
+      "args": [
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "normalize",
+      "args": [
+        "double",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "add",
+      "args": [
+        "org.joml.Vector2dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "add",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "add",
+      "args": [
+        "double",
+        "double",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "add",
+      "args": [
+        "org.joml.Vector2fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "add",
+      "args": [
+        "org.joml.Vector2dc",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "add",
+      "args": [
+        "org.joml.Vector2fc",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "zero",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "writeExternal",
+      "args": [
+        "java.io.ObjectOutput"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "readExternal",
+      "args": [
+        "java.io.ObjectInput"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "negate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "negate",
+      "args": [
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "lerp",
+      "args": [
+        "org.joml.Vector2dc",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "lerp",
+      "args": [
+        "org.joml.Vector2dc",
+        "double",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "hashCode",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "org.joml.Vector2dc",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": [
+        "java.text.NumberFormat"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "fma",
+      "args": [
+        "org.joml.Vector2dc",
+        "org.joml.Vector2dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "fma",
+      "args": [
+        "double",
+        "org.joml.Vector2dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "fma",
+      "args": [
+        "org.joml.Vector2dc",
+        "org.joml.Vector2dc",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "fma",
+      "args": [
+        "double",
+        "org.joml.Vector2dc",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "min",
+      "args": [
+        "org.joml.Vector2dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "min",
+      "args": [
+        "org.joml.Vector2dc",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "max",
+      "args": [
+        "org.joml.Vector2dc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "max",
+      "args": [
+        "org.joml.Vector2dc",
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "maxComponent",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "minComponent",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "floor",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "floor",
+      "args": [
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "ceil",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "ceil",
+      "args": [
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "round",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "round",
+      "args": [
+        "org.joml.Vector2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isFinite",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "absolute",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2d",
+      "name": "absolute",
+      "args": [
+        "org.joml.Vector2d"
+      ]
+    }
+  ]
+}

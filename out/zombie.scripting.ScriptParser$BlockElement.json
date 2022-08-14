@@ -1,0 +1,44 @@
+{
+  "name": "ScriptParser$BlockElement",
+  "package": "zombie.scripting",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "zombie.scripting.ScriptParser$Block",
+      "name": "asBlock",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "zombie.scripting.ScriptParser$Value",
+      "name": "asValue",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "prettyPrint",
+      "args": [
+        "int",
+        "java.lang.StringBuilder",
+        "java.lang.String"
+      ]
+    }
+  ]
+}

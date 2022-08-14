@@ -1,0 +1,89 @@
+{
+  "name": "IsoCell$PerPlayerRender",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "PerPlayerRender",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "GridStacks",
+      "scope": "public",
+      "type": "zombie.iso.IsoGridStack",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "boolean",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "boolean",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "short",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "boolean",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "minX",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "minY",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "maxX",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "maxY",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setSize",
+      "args": [
+        "int",
+        "int"
+      ]
+    }
+  ]
+}

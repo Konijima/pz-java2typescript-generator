@@ -1,0 +1,139 @@
+{
+  "name": "PlayerType",
+  "package": "zombie.commands",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "deprecated",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "fromServerOnly",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "player",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "observer",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "gm",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "overseer",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "moderator",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "admin",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "all",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "allExceptPlayer",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": [
+        "byte"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "byte",
+      "name": "fromString",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "isPrivileged",
+      "args": [
+        "byte"
+      ]
+    }
+  ]
+}

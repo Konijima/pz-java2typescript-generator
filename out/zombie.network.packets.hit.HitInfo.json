@@ -1,0 +1,136 @@
+{
+  "name": "HitInfo",
+  "package": "zombie.network.packets.hit",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "zombie.network.packets.INetworkPacket"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "HitInfo",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "object",
+      "scope": "public",
+      "type": "zombie.network.packets.hit.MovingObject",
+      "describe": []
+    },
+    {
+      "name": "window",
+      "scope": "public",
+      "type": "zombie.network.packets.hit.NetObject",
+      "describe": []
+    },
+    {
+      "name": "x",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "y",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "z",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "dot",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "distSq",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "chance",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.network.packets.hit.HitInfo",
+      "name": "init",
+      "args": [
+        "zombie.iso.IsoMovingObject",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.network.packets.hit.HitInfo",
+      "name": "init",
+      "args": [
+        "zombie.iso.objects.IsoWindow",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoMovingObject",
+      "name": "getObject",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "parse",
+      "args": [
+        "java.nio.ByteBuffer",
+        "zombie.core.raknet.UdpConnection"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "write",
+      "args": [
+        "zombie.core.network.ByteBufferWriter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getPacketSizeBytes",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getDescription",
+      "args": []
+    }
+  ]
+}

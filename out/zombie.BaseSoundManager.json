@@ -1,0 +1,820 @@
+{
+  "name": "BaseSoundManager",
+  "package": "zombie",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "abstract"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "BaseSoundManager",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "D",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "AllowMusic",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "update1",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "abstract"
+      ]
+    },
+    {
+      "name": "update3",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "abstract"
+      ]
+    },
+    {
+      "name": "update2",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "abstract"
+      ]
+    },
+    {
+      "name": "update4",
+      "scope": "public",
+      "type": "void",
+      "describe": [
+        "abstract"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "isRemastered",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "CacheSound",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "StopSound",
+      "args": [
+        "fmod.fmod.Audio"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "StopMusic",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "Purge",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "stop",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "Update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "fmod.fmod.Audio",
+      "name": "Start",
+      "args": [
+        "fmod.fmod.Audio",
+        "float",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "fmod.fmod.Audio",
+      "name": "PrepareMusic",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "PlayWorldSoundWav",
+      "args": [
+        "java.lang.String",
+        "zombie.iso.IsoGridSquare",
+        "float",
+        "float",
+        "float",
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "fmod.fmod.Audio",
+      "name": "PlayWorldSoundWav",
+      "args": [
+        "java.lang.String",
+        "boolean",
+        "zombie.iso.IsoGridSquare",
+        "float",
+        "float",
+        "float",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "fmod.fmod.Audio",
+      "name": "PlayWorldSoundWav",
+      "args": [
+        "java.lang.String",
+        "zombie.iso.IsoGridSquare",
+        "float",
+        "float",
+        "float",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "fmod.fmod.Audio",
+      "name": "PlayWorldSound",
+      "args": [
+        "java.lang.String",
+        "zombie.iso.IsoGridSquare",
+        "float",
+        "float",
+        "float",
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "fmod.fmod.Audio",
+      "name": "PlayWorldSound",
+      "args": [
+        "java.lang.String",
+        "boolean",
+        "zombie.iso.IsoGridSquare",
+        "float",
+        "float",
+        "float",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "fmod.fmod.Audio",
+      "name": "PlayWorldSoundImpl",
+      "args": [
+        "java.lang.String",
+        "boolean",
+        "int",
+        "int",
+        "int",
+        "float",
+        "float",
+        "float",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "fmod.fmod.Audio",
+      "name": "PlayWorldSound",
+      "args": [
+        "java.lang.String",
+        "zombie.iso.IsoGridSquare",
+        "float",
+        "float",
+        "float",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "fmod.fmod.Audio",
+      "name": "PlaySoundWav",
+      "args": [
+        "java.lang.String",
+        "int",
+        "boolean",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "fmod.fmod.Audio",
+      "name": "PlaySoundWav",
+      "args": [
+        "java.lang.String",
+        "boolean",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "fmod.fmod.Audio",
+      "name": "PlaySoundWav",
+      "args": [
+        "java.lang.String",
+        "boolean",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "fmod.fmod.Audio",
+      "name": "PlayWorldSoundWavImpl",
+      "args": [
+        "java.lang.String",
+        "boolean",
+        "zombie.iso.IsoGridSquare",
+        "float",
+        "float",
+        "float",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "fmod.fmod.Audio",
+      "name": "PlayJukeboxSound",
+      "args": [
+        "java.lang.String",
+        "boolean",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "fmod.fmod.Audio",
+      "name": "PlaySoundEvenSilent",
+      "args": [
+        "java.lang.String",
+        "boolean",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "fmod.fmod.Audio",
+      "name": "PlaySound",
+      "args": [
+        "java.lang.String",
+        "boolean",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "fmod.fmod.Audio",
+      "name": "PlaySound",
+      "args": [
+        "java.lang.String",
+        "boolean",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "fmod.fmod.Audio",
+      "name": "PlayMusic",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "boolean",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "PlayAsMusic",
+      "args": [
+        "java.lang.String",
+        "fmod.fmod.Audio",
+        "boolean",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "setMusicState",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "setMusicWakeState",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "DoMusic",
+      "args": [
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "getMusicPosition",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "CheckDoMusic",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "stopMusic",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "playMusicNonTriggered",
+      "args": [
+        "java.lang.String",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "playAmbient",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "playMusic",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "isPlayingMusic",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "IsMusicPlaying",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.lang.String",
+      "name": "getCurrentMusicName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.lang.String",
+      "name": "getCurrentMusicLibrary",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "PlayAsMusic",
+      "args": [
+        "java.lang.String",
+        "fmod.fmod.Audio",
+        "float",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "long",
+      "name": "playUISound",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "isPlayingUISound",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "isPlayingUISound",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "stopUISound",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "FadeOutMusic",
+      "args": [
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "fmod.fmod.Audio",
+      "name": "BlendThenStart",
+      "args": [
+        "fmod.fmod.Audio",
+        "float",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "BlendVolume",
+      "args": [
+        "fmod.fmod.Audio",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "BlendVolume",
+      "args": [
+        "fmod.fmod.Audio",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "setSoundVolume",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "getSoundVolume",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "setAmbientVolume",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "getAmbientVolume",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "setMusicVolume",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "getMusicVolume",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "setVehicleEngineVolume",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "getVehicleEngineVolume",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "playNightAmbient",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.util.ArrayList<fmod.fmod.Audio>",
+      "name": "getAmbientPieces",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "pauseSoundAndMusic",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "resumeSoundAndMusic",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "debugScriptSounds",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "registerEmitter",
+      "args": [
+        "zombie.audio.BaseSoundEmitter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "unregisterEmitter",
+      "args": [
+        "zombie.audio.BaseSoundEmitter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "isListenerInRange",
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    }
+  ]
+}

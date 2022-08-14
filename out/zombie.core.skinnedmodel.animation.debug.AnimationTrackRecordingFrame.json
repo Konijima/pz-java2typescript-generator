@@ -1,0 +1,61 @@
+{
+  "name": "AnimationTrackRecordingFrame",
+  "package": "zombie.core.skinnedmodel.animation.debug",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.core.skinnedmodel.animation.debug.GenericNameWeightRecordingFrame"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "AnimationTrackRecordingFrame",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "reset",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "logAnimWeights",
+      "args": [
+        "java.util.List<zombie.core.skinnedmodel.animation.AnimationTrack>",
+        "int[]",
+        "float[]",
+        "zombie.iso.Vector2"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.Vector2",
+      "name": "getDeferredMovement",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "writeHeader",
+      "args": [
+        "java.lang.StringBuilder"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "name": "GlobalObjectSystem",
+  "package": "zombie.globalObjects",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "abstract"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "se.krka.kahlua.vm.KahluaTable",
+      "name": "getModData",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "zombie.globalObjects.GlobalObject",
+      "name": "newObject",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "removeObject",
+      "args": [
+        "zombie.globalObjects.GlobalObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "zombie.globalObjects.GlobalObject",
+      "name": "getObjectAt",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "boolean",
+      "name": "hasObjectsInChunk",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "java.util.ArrayList<zombie.globalObjects.GlobalObject>",
+      "name": "getObjectsInChunk",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "java.util.ArrayList<zombie.globalObjects.GlobalObject>",
+      "name": "getObjectsAdjacentTo",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "int",
+      "name": "getObjectCount",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "zombie.globalObjects.GlobalObject",
+      "name": "getObjectByIndex",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "java.util.ArrayList<zombie.globalObjects.GlobalObject>",
+      "name": "allocList",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "finishedWithList",
+      "args": [
+        "java.util.ArrayList<zombie.globalObjects.GlobalObject>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Reset",
+      "args": []
+    }
+  ]
+}

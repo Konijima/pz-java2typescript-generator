@@ -1,0 +1,127 @@
+{
+  "name": "ZombiesZoneDefinition",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ZombiesZoneDefinition",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "bDirty",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "dressInRandomOutfit",
+      "args": [
+        "zombie.characters.IsoZombie"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.IsoMetaGrid$Zone",
+      "name": "getDefinitionZoneAt",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characters.ZombiesZoneDefinition$PickDefinition",
+      "name": "pickDefinition",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "applyDefinition",
+      "args": [
+        "zombie.characters.IsoZombie",
+        "zombie.iso.IsoMetaGrid$Zone",
+        "zombie.characters.ZombiesZoneDefinition$ZZDOutfit",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.skinnedmodel.population.Outfit",
+      "name": "getRandomDefaultOutfit",
+      "args": [
+        "boolean",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characters.ZombiesZoneDefinition$ZZDOutfit",
+      "name": "getRandomOutfitInSetList",
+      "args": [
+        "java.util.ArrayList<zombie.characters.ZombiesZoneDefinition$ZZDOutfit>",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "registerCustomOutfits",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "pickPersistentOutfit",
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    }
+  ]
+}

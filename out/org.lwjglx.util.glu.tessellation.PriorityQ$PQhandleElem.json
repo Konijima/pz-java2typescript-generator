@@ -1,0 +1,19 @@
+{
+  "name": "PriorityQ$PQhandleElem",
+  "package": "org.lwjglx.util.glu.tessellation",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "PQhandleElem",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

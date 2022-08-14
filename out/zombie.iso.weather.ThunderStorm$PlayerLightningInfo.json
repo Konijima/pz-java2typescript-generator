@@ -1,0 +1,67 @@
+{
+  "name": "ThunderStorm$PlayerLightningInfo",
+  "package": "zombie.iso.weather",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "lightningState",
+      "scope": "public",
+      "type": "zombie.iso.weather.ThunderStorm$LightningState",
+      "describe": []
+    },
+    {
+      "name": "timer",
+      "scope": "public",
+      "type": "zombie.GameTime$AnimTimer",
+      "describe": []
+    },
+    {
+      "name": "lightningStrength",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "lightningMod",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "lightningColor",
+      "scope": "public",
+      "type": "zombie.iso.weather.ClimateColorInfo",
+      "describe": []
+    },
+    {
+      "name": "outColor",
+      "scope": "public",
+      "type": "zombie.iso.weather.ClimateColorInfo",
+      "describe": []
+    },
+    {
+      "name": "x",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "y",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "distance",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

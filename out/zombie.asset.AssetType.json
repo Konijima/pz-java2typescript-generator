@@ -1,0 +1,39 @@
+{
+  "name": "AssetType",
+  "package": "zombie.asset",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "AssetType",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "INVALID_ASSET_TYPE",
+      "scope": "public",
+      "type": "zombie.asset.AssetType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "type",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

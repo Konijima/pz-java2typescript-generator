@@ -1,0 +1,14 @@
+{
+  "name": "IsoRegionWorker",
+  "package": "zombie.iso.areas.isoregion",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

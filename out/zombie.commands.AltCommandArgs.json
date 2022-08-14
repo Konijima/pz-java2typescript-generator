@@ -1,0 +1,21 @@
+{
+  "name": "AltCommandArgs",
+  "package": "zombie.commands",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "java.lang.annotation.Annotation"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "value",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

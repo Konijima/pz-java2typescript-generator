@@ -1,0 +1,33 @@
+{
+  "name": "CustomSandboxOption",
+  "package": "zombie.sandbox",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "m_id",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "m_page",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "m_translation",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

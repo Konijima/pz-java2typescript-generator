@@ -1,0 +1,38 @@
+{
+  "name": "ImageFactory",
+  "package": "com.sixlegs.png",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.awt.image.BufferedImage",
+      "name": "createImage",
+      "args": [
+        "com.sixlegs.png.PngImage",
+        "java.io.InputStream"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.awt.image.BufferedImage",
+      "name": "createImage",
+      "args": [
+        "com.sixlegs.png.PngImage",
+        "java.io.InputStream",
+        "java.awt.Dimension"
+      ]
+    }
+  ]
+}

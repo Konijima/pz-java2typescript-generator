@@ -1,0 +1,121 @@
+{
+  "name": "DeviceDataNetTypes",
+  "package": "zombie.radio.devices",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "DeviceDataNetTypes",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "TurnedOnStateChange",
+      "scope": "public",
+      "type": "short",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ChannelChange",
+      "scope": "public",
+      "type": "short",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BatteryChange",
+      "scope": "public",
+      "type": "short",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PowerChange",
+      "scope": "public",
+      "type": "short",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "VolumeChange",
+      "scope": "public",
+      "type": "short",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PresetsChange",
+      "scope": "public",
+      "type": "short",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "HeadPhoneChange",
+      "scope": "public",
+      "type": "short",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MediaChange",
+      "scope": "public",
+      "type": "short",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "StartPlayMedia",
+      "scope": "public",
+      "type": "short",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "StopPlayMedia",
+      "scope": "public",
+      "type": "short",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TransmitMediaLine",
+      "scope": "public",
+      "type": "short",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": []
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Floor",
+  "package": "de.jarnbjo.vorbis",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "abstract"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Floor",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "float",
+      "scope": "public",
+      "type": "final",
+      "describe": [
+        "static"
+      ]
+    }
+  ],
+  "methods": []
+}

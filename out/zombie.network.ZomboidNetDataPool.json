@@ -1,0 +1,55 @@
+{
+  "name": "ZomboidNetDataPool",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ZomboidNetDataPool",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.network.ZomboidNetDataPool",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.network.ZomboidNetData",
+      "name": "get",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "discard",
+      "args": [
+        "zombie.network.ZomboidNetData"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.network.ZomboidNetData",
+      "name": "getLong",
+      "args": [
+        "int"
+      ]
+    }
+  ]
+}

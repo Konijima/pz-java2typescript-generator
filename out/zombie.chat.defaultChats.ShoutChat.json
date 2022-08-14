@@ -1,0 +1,50 @@
+{
+  "name": "ShoutChat",
+  "package": "zombie.chat.defaultChats",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.chat.defaultChats.RangeBasedChat"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ShoutChat",
+      "describe": [],
+      "args": [
+        "java.nio.ByteBuffer",
+        "zombie.chat.ChatTab",
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ShoutChat",
+      "describe": [],
+      "args": [
+        "int",
+        "zombie.chat.ChatTab"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ShoutChat",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.chat.ChatSettings",
+      "name": "getDefaultSettings",
+      "args": []
+    }
+  ]
+}

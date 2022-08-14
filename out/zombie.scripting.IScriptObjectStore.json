@@ -1,0 +1,35 @@
+{
+  "name": "IScriptObjectStore",
+  "package": "zombie.scripting",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "zombie.scripting.objects.Item",
+      "name": "getItem",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "zombie.scripting.objects.Recipe",
+      "name": "getRecipe",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

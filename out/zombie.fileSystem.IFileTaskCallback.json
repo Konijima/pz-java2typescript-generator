@@ -1,0 +1,24 @@
+{
+  "name": "IFileTaskCallback",
+  "package": "zombie.fileSystem",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "onFileTaskFinished",
+      "args": [
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

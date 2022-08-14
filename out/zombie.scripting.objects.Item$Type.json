@@ -1,0 +1,171 @@
+{
+  "name": "Item$Type",
+  "package": "zombie.scripting.objects",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.scripting.objects.Item$Type>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Normal",
+      "scope": "public",
+      "type": "zombie.scripting.objects.Item$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Weapon",
+      "scope": "public",
+      "type": "zombie.scripting.objects.Item$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Food",
+      "scope": "public",
+      "type": "zombie.scripting.objects.Item$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Literature",
+      "scope": "public",
+      "type": "zombie.scripting.objects.Item$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Drainable",
+      "scope": "public",
+      "type": "zombie.scripting.objects.Item$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Clothing",
+      "scope": "public",
+      "type": "zombie.scripting.objects.Item$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Container",
+      "scope": "public",
+      "type": "zombie.scripting.objects.Item$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WeaponPart",
+      "scope": "public",
+      "type": "zombie.scripting.objects.Item$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Key",
+      "scope": "public",
+      "type": "zombie.scripting.objects.Item$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "KeyRing",
+      "scope": "public",
+      "type": "zombie.scripting.objects.Item$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Moveable",
+      "scope": "public",
+      "type": "zombie.scripting.objects.Item$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Radio",
+      "scope": "public",
+      "type": "zombie.scripting.objects.Item$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AlarmClock",
+      "scope": "public",
+      "type": "zombie.scripting.objects.Item$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AlarmClockClothing",
+      "scope": "public",
+      "type": "zombie.scripting.objects.Item$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Map",
+      "scope": "public",
+      "type": "zombie.scripting.objects.Item$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.scripting.objects.Item$Type",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

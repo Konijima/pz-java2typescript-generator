@@ -1,0 +1,54 @@
+{
+  "name": "CoopMaster$TerminationReason",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.network.CoopMaster$TerminationReason>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "NormalTermination",
+      "scope": "public",
+      "type": "zombie.network.CoopMaster$TerminationReason",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Timeout",
+      "scope": "public",
+      "type": "zombie.network.CoopMaster$TerminationReason",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.network.CoopMaster$TerminationReason",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

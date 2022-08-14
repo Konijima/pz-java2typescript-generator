@@ -1,0 +1,330 @@
+{
+  "name": "CircleLineIntersect$VectorMath",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "zombie.vehicles.CircleLineIntersect$Vector",
+      "name": "add",
+      "args": [
+        "zombie.vehicles.CircleLineIntersect$Vector",
+        "zombie.vehicles.CircleLineIntersect$Vector"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "zombie.vehicles.CircleLineIntersect$Vector",
+      "name": "subtract",
+      "args": [
+        "zombie.vehicles.CircleLineIntersect$Vector",
+        "zombie.vehicles.CircleLineIntersect$Vector"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "double",
+      "name": "length",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "double",
+      "name": "dotproduct",
+      "args": [
+        "zombie.vehicles.CircleLineIntersect$Vector",
+        "zombie.vehicles.CircleLineIntersect$Vector"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "double",
+      "name": "dotproduct",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "double",
+      "name": "cosproj",
+      "args": [
+        "zombie.vehicles.CircleLineIntersect$Vector",
+        "zombie.vehicles.CircleLineIntersect$Vector"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "double",
+      "name": "cosproj",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "double",
+      "name": "anglebetween",
+      "args": [
+        "zombie.vehicles.CircleLineIntersect$Vector",
+        "zombie.vehicles.CircleLineIntersect$Vector"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "double",
+      "name": "anglebetween",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "double",
+      "name": "crossproduct",
+      "args": [
+        "zombie.vehicles.CircleLineIntersect$Vector",
+        "zombie.vehicles.CircleLineIntersect$Vector"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "double",
+      "name": "crossproduct",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "double",
+      "name": "sinproj",
+      "args": [
+        "zombie.vehicles.CircleLineIntersect$Vector",
+        "zombie.vehicles.CircleLineIntersect$Vector"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "double",
+      "name": "sinproj",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "boolean",
+      "name": "equaldirection",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "boolean",
+      "name": "equaldirection",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "boolean",
+      "name": "equaldirection",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "boolean",
+      "name": "equaldirection",
+      "args": [
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "double",
+      "name": "linepointdistance",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "double",
+      "name": "linepointdistancesq",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "zombie.vehicles.CircleLineIntersect$Point",
+      "name": "closestpointonline",
+      "args": [
+        "zombie.vehicles.CircleLineIntersect$StaticLine",
+        "zombie.vehicles.CircleLineIntersect$Point"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "zombie.vehicles.CircleLineIntersect$Point",
+      "name": "closestpointonline",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "zombie.vehicles.CircleLineIntersect$Vector",
+      "name": "getVector",
+      "args": [
+        "zombie.vehicles.CircleLineIntersect$Point",
+        "zombie.vehicles.CircleLineIntersect$Point"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "zombie.vehicles.CircleLineIntersect$Vector",
+      "name": "rotate",
+      "args": [
+        "zombie.vehicles.CircleLineIntersect$Vector",
+        "double"
+      ]
+    }
+  ]
+}

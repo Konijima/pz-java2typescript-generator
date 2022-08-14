@@ -1,0 +1,38 @@
+{
+  "name": "AnimLayer$StartAnimTrackParameters",
+  "package": "zombie.core.skinnedmodel.advancedanimation",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [
+    "zombie.util.PooledObject"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "priority",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onReleased",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.skinnedmodel.advancedanimation.AnimLayer$StartAnimTrackParameters",
+      "name": "alloc",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "ThreadGroups",
+  "package": "zombie.core",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ThreadGroups",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Root",
+      "scope": "public",
+      "type": "java.lang.ThreadGroup",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Main",
+      "scope": "public",
+      "type": "java.lang.ThreadGroup",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Workers",
+      "scope": "public",
+      "type": "java.lang.ThreadGroup",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Network",
+      "scope": "public",
+      "type": "java.lang.ThreadGroup",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": []
+}

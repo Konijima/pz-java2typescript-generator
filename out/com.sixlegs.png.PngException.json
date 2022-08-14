@@ -1,0 +1,22 @@
+{
+  "name": "PngException",
+  "package": "com.sixlegs.png",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "java.io.IOException"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isFatal",
+      "args": []
+    }
+  ]
+}

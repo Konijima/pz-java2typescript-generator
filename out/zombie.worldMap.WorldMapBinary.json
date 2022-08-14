@@ -1,0 +1,32 @@
+{
+  "name": "WorldMapBinary",
+  "package": "zombie.worldMap",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "WorldMapBinary",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "read",
+      "args": [
+        "java.lang.String",
+        "zombie.worldMap.WorldMapData"
+      ]
+    }
+  ]
+}

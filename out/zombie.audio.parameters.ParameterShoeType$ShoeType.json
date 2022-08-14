@@ -1,0 +1,90 @@
+{
+  "name": "ParameterShoeType$ShoeType",
+  "package": "zombie.audio.parameters",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.audio.parameters.ParameterShoeType$ShoeType>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Barefoot",
+      "scope": "public",
+      "type": "zombie.audio.parameters.ParameterShoeType$ShoeType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Boots",
+      "scope": "public",
+      "type": "zombie.audio.parameters.ParameterShoeType$ShoeType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FlipFlops",
+      "scope": "public",
+      "type": "zombie.audio.parameters.ParameterShoeType$ShoeType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Shoes",
+      "scope": "public",
+      "type": "zombie.audio.parameters.ParameterShoeType$ShoeType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Slippers",
+      "scope": "public",
+      "type": "zombie.audio.parameters.ParameterShoeType$ShoeType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Sneakers",
+      "scope": "public",
+      "type": "zombie.audio.parameters.ParameterShoeType$ShoeType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.audio.parameters.ParameterShoeType$ShoeType",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

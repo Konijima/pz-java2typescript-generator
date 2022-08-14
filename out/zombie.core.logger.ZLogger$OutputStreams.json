@@ -1,0 +1,35 @@
+{
+  "name": "ZLogger$OutputStreams",
+  "package": "zombie.core.logger",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "file",
+      "scope": "public",
+      "type": "java.io.PrintStream",
+      "describe": []
+    },
+    {
+      "name": "console",
+      "scope": "public",
+      "type": "java.io.PrintStream",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "println",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

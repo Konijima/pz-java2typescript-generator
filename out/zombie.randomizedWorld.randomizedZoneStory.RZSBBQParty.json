@@ -1,0 +1,40 @@
+{
+  "name": "RZSBBQParty",
+  "package": "zombie.randomizedWorld.randomizedZoneStory",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.randomizedWorld.randomizedZoneStory.RandomizedZoneStoryBase"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "RZSBBQParty",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.util.ArrayList<java.lang.String>",
+      "name": "getBeachClutter",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "randomizeZoneStory",
+      "args": [
+        "zombie.iso.IsoMetaGrid$Zone"
+      ]
+    }
+  ]
+}

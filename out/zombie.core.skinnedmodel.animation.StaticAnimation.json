@@ -1,0 +1,103 @@
+{
+  "name": "StaticAnimation",
+  "package": "zombie.core.skinnedmodel.animation",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "StaticAnimation",
+      "describe": [],
+      "args": [
+        "zombie.core.skinnedmodel.animation.AnimationClip"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "name",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "org",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "Clip",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.animation.AnimationClip",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjgl.util.vector.Quaternion",
+      "name": "getRotation",
+      "args": [
+        "org.lwjgl.util.vector.Quaternion",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjgl.util.vector.Vector3f",
+      "name": "getPosition",
+      "args": [
+        "org.lwjgl.util.vector.Vector3f",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getPose",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Create",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.animation.Keyframe",
+      "name": "interpolate",
+      "args": [
+        "java.util.List<zombie.core.skinnedmodel.animation.Keyframe>",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "interpolate",
+      "args": [
+        "java.util.List<zombie.core.skinnedmodel.animation.Keyframe>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "doRootMotion",
+      "args": [
+        "java.util.List<zombie.core.skinnedmodel.animation.Keyframe>"
+      ]
+    }
+  ]
+}

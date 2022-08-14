@@ -1,0 +1,101 @@
+{
+  "name": "RoomDef$RoomRect",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "RoomRect",
+      "describe": [],
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "x",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "y",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "w",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "h",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "getX2",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "getY2",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getX",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getY",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getW",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getH",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getClosestPoint",
+      "args": [
+        "float",
+        "float",
+        "org.joml.Vector2f"
+      ]
+    }
+  ]
+}

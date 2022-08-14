@@ -1,0 +1,32 @@
+{
+  "name": "KahluaThread$Entry",
+  "package": "se.krka.kahlua.vm",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Entry",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "file",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "time",
+      "scope": "public",
+      "type": "double",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

@@ -1,0 +1,50 @@
+{
+  "name": "NaturePlants$PlantInit",
+  "package": "zombie.erosion.categories",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "PlantInit",
+      "describe": [],
+      "args": [
+        "zombie.erosion.categories.NaturePlants",
+        "java.lang.String",
+        "boolean",
+        "float",
+        "float"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "name",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "hasFlower",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "bloomstart",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "bloomend",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

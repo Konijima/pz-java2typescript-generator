@@ -1,0 +1,51 @@
+{
+  "name": "HairOutfitDefinitions$HaircutOutfitDefinition",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "HaircutOutfitDefinition",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "java.util.ArrayList<zombie.characters.HairOutfitDefinitions$StringChance>",
+        "java.util.ArrayList<zombie.characters.HairOutfitDefinitions$StringChance>",
+        "java.util.ArrayList<zombie.characters.HairOutfitDefinitions$StringChance>"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "outfit",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "haircutChance",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.characters.HairOutfitDefinitions$StringChance>",
+      "describe": []
+    },
+    {
+      "name": "beardChance",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.characters.HairOutfitDefinitions$StringChance>",
+      "describe": []
+    },
+    {
+      "name": "haircutColor",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.characters.HairOutfitDefinitions$StringChance>",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

@@ -1,0 +1,180 @@
+{
+  "name": "ItemSmartTexture",
+  "package": "zombie.characterTextures",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.core.textures.SmartTexture"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ItemSmartTexture",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ItemSmartTexture",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "float"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "DecalOverlayCategory",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setDenimPatches",
+      "args": [
+        "zombie.characterTextures.BloodBodyPartType"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setLeatherPatches",
+      "args": [
+        "zombie.characterTextures.BloodBodyPartType"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setBasicPatches",
+      "args": [
+        "zombie.characterTextures.BloodBodyPartType"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setBlood",
+      "args": [
+        "java.lang.String",
+        "zombie.characterTextures.BloodBodyPartType",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setBlood",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "float",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "addBlood",
+      "args": [
+        "java.lang.String",
+        "zombie.characterTextures.BloodBodyPartType",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "addDirt",
+      "args": [
+        "java.lang.String",
+        "zombie.characterTextures.BloodBodyPartType",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "addBlood",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "float",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "addDirt",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "float",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeBlood",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeDirt",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeBlood",
+      "args": [
+        "zombie.characterTextures.BloodBodyPartType"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeDirt",
+      "args": [
+        "zombie.characterTextures.BloodBodyPartType"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getTexName",
+      "args": []
+    }
+  ]
+}

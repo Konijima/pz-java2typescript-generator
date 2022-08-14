@@ -1,0 +1,614 @@
+{
+  "name": "RandomizedWorldBase",
+  "package": "zombie.randomizedWorld",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "RandomizedWorldBase",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "AreaClear",
+      "describe": [],
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "AreaClear",
+      "describe": [],
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "AreaClear",
+      "describe": [],
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "AreaClear",
+      "describe": [],
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.BaseVehicle",
+      "name": "addVehicle",
+      "args": [
+        "zombie.iso.IsoMetaGrid$Zone",
+        "zombie.iso.IsoGridSquare",
+        "zombie.iso.IsoChunk",
+        "java.lang.String",
+        "java.lang.String",
+        "zombie.iso.IsoDirections"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.BaseVehicle",
+      "name": "addVehicleFlipped",
+      "args": [
+        "zombie.iso.IsoMetaGrid$Zone",
+        "zombie.iso.IsoGridSquare",
+        "zombie.iso.IsoChunk",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.Integer",
+        "zombie.iso.IsoDirections",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.BaseVehicle",
+      "name": "addVehicleFlipped",
+      "args": [
+        "zombie.iso.IsoMetaGrid$Zone",
+        "float",
+        "float",
+        "float",
+        "float",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.Integer",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.BaseVehicle",
+      "name": "addVehicle",
+      "args": [
+        "zombie.iso.IsoMetaGrid$Zone",
+        "zombie.iso.IsoGridSquare",
+        "zombie.iso.IsoChunk",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.Integer",
+        "zombie.iso.IsoDirections",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.BaseVehicle",
+      "name": "addVehicle",
+      "args": [
+        "zombie.iso.IsoMetaGrid$Zone",
+        "float",
+        "float",
+        "float",
+        "float",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.Integer",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "removeAllVehiclesOnZone",
+      "args": [
+        "zombie.iso.IsoMetaGrid$Zone"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.characters.IsoZombie>",
+      "name": "addZombiesOnVehicle",
+      "args": [
+        "int",
+        "java.lang.String",
+        "java.lang.Integer",
+        "zombie.vehicles.BaseVehicle"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.objects.IsoDeadBody",
+      "name": "createRandomDeadBody",
+      "args": [
+        "zombie.iso.RoomDef",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.characters.IsoZombie>",
+      "name": "addZombiesOnSquare",
+      "args": [
+        "int",
+        "java.lang.String",
+        "java.lang.Integer",
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.objects.IsoDeadBody",
+      "name": "createRandomDeadBody",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "zombie.iso.IsoDirections",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.objects.IsoDeadBody",
+      "name": "createRandomDeadBody",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "zombie.iso.IsoDirections",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.objects.IsoDeadBody",
+      "name": "createRandomDeadBody",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "zombie.iso.IsoDirections",
+        "int",
+        "int",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.objects.IsoDeadBody",
+      "name": "createRandomDeadBody",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float",
+        "boolean",
+        "int",
+        "int",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addTraitOfBlood",
+      "args": [
+        "zombie.iso.IsoDirections",
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addTrailOfBlood",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addBloodSplat",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setAttachedItem",
+      "args": [
+        "zombie.characters.IsoZombie",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characters.IsoGameCharacter",
+      "name": "createRandomZombie",
+      "args": [
+        "zombie.iso.RoomDef"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characters.IsoGameCharacter",
+      "name": "createRandomZombieForCorpse",
+      "args": [
+        "zombie.iso.RoomDef"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.objects.IsoDeadBody",
+      "name": "createBodyFromZombie",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characters.IsoGameCharacter",
+      "name": "createRandomZombie",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "alignCorpseToSquare",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.RoomDef",
+      "name": "getRandomRoom",
+      "args": [
+        "zombie.iso.BuildingDef",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.RoomDef",
+      "name": "getRoom",
+      "args": [
+        "zombie.iso.BuildingDef",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.RoomDef",
+      "name": "getLivingRoomOrKitchen",
+      "args": [
+        "zombie.iso.BuildingDef"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getRandomSpawnSquare",
+      "args": [
+        "zombie.iso.RoomDef"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getRandomSquareForCorpse",
+      "args": [
+        "zombie.iso.RoomDef"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.BaseVehicle",
+      "name": "spawnCarOnNearestNav",
+      "args": [
+        "java.lang.String",
+        "zombie.iso.BuildingDef"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "addItemOnGround",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "addItemOnGround",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addRandomItemsOnGround",
+      "args": [
+        "zombie.iso.RoomDef",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addRandomItemsOnGround",
+      "args": [
+        "zombie.iso.RoomDef",
+        "java.util.ArrayList<java.lang.String>",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "addRandomItemOnGround",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "java.util.ArrayList<java.lang.String>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.types.HandWeapon",
+      "name": "addWeapon",
+      "args": [
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.objects.IsoDeadBody",
+      "name": "createSkeletonCorpse",
+      "args": [
+        "zombie.iso.RoomDef"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isTimeValid",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getDebugLine",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setDebugLine",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getMaximumDays",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setMaximumDays",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isUnique",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setUnique",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getSq",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoObject",
+      "name": "addTileObject",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoObject",
+      "name": "addTileObject",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoObject",
+      "name": "addTentNorthSouth",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoObject",
+      "name": "addTentWestEast",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.BaseVehicle",
+      "name": "addTrailer",
+      "args": [
+        "zombie.vehicles.BaseVehicle",
+        "zombie.iso.IsoMetaGrid$Zone",
+        "zombie.iso.IsoChunk",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    }
+  ]
+}

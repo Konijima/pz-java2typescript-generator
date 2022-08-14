@@ -1,0 +1,89 @@
+{
+  "name": "FloorShaper",
+  "package": "zombie.iso.sprite.shapers",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "java.util.function.Consumer<zombie.core.textures.TextureDraw>"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "FloorShaper",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "setAlpha4",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setVertColors",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setShore",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setWaterDepth",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setTintColor",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "accept",
+      "args": [
+        "zombie.core.textures.TextureDraw"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "accept",
+      "args": [
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

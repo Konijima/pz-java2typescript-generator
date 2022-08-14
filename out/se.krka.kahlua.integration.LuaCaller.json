@@ -1,0 +1,230 @@
+{
+  "name": "LuaCaller",
+  "package": "se.krka.kahlua.integration",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "LuaCaller",
+      "describe": [],
+      "args": [
+        "se.krka.kahlua.converter.KahluaConverterManager"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "pcall",
+      "describe": [],
+      "args": [
+        "se.krka.kahlua.vm.KahluaThread",
+        "java.lang.Object",
+        "java.lang.Object..."
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "pcall",
+      "describe": [],
+      "args": [
+        "se.krka.kahlua.vm.KahluaThread",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "pcallvoid",
+      "args": [
+        "se.krka.kahlua.vm.KahluaThread",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "pcallvoid",
+      "args": [
+        "se.krka.kahlua.vm.KahluaThread",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "pcallvoid",
+      "args": [
+        "se.krka.kahlua.vm.KahluaThread",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Boolean",
+      "name": "pcallBoolean",
+      "args": [
+        "se.krka.kahlua.vm.KahluaThread",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Boolean",
+      "name": "pcallBoolean",
+      "args": [
+        "se.krka.kahlua.vm.KahluaThread",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "pcallvoid",
+      "args": [
+        "se.krka.kahlua.vm.KahluaThread",
+        "java.lang.Object",
+        "java.lang.Object[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Boolean",
+      "name": "protectedCallBoolean",
+      "args": [
+        "se.krka.kahlua.vm.KahluaThread",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Boolean",
+      "name": "protectedCallBoolean",
+      "args": [
+        "se.krka.kahlua.vm.KahluaThread",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Boolean",
+      "name": "protectedCallBoolean",
+      "args": [
+        "se.krka.kahlua.vm.KahluaThread",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Boolean",
+      "name": "pcallBoolean",
+      "args": [
+        "se.krka.kahlua.vm.KahluaThread",
+        "java.lang.Object",
+        "java.lang.Object[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "se.krka.kahlua.integration.LuaReturn",
+      "name": "protectedCall",
+      "args": [
+        "se.krka.kahlua.vm.KahluaThread",
+        "java.lang.Object",
+        "java.lang.Object..."
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "protectedCallVoid",
+      "args": [
+        "se.krka.kahlua.vm.KahluaThread",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "protectedCallVoid",
+      "args": [
+        "se.krka.kahlua.vm.KahluaThread",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "protectedCallVoid",
+      "args": [
+        "se.krka.kahlua.vm.KahluaThread",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "protectedCallVoid",
+      "args": [
+        "se.krka.kahlua.vm.KahluaThread",
+        "java.lang.Object",
+        "java.lang.Object[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Boolean",
+      "name": "protectedCallBoolean",
+      "args": [
+        "se.krka.kahlua.vm.KahluaThread",
+        "java.lang.Object",
+        "java.lang.Object[]"
+      ]
+    }
+  ]
+}

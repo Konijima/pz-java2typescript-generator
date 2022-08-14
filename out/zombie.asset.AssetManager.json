@@ -1,0 +1,156 @@
+{
+  "name": "AssetManager",
+  "package": "zombie.asset",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "abstract"
+  ],
+  "extends": [],
+  "implements": [
+    "zombie.asset.AssetStateObserver"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "AssetManager",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "create",
+      "args": [
+        "zombie.asset.AssetType",
+        "zombie.asset.AssetManagers"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "destroy",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeUnreferenced",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.asset.Asset",
+      "name": "load",
+      "args": [
+        "zombie.asset.AssetPath"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.asset.Asset",
+      "name": "load",
+      "args": [
+        "zombie.asset.AssetPath",
+        "zombie.asset.AssetManager$AssetParams"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": [
+        "zombie.asset.Asset"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "unload",
+      "args": [
+        "zombie.asset.AssetPath"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "unload",
+      "args": [
+        "zombie.asset.Asset"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "reload",
+      "args": [
+        "zombie.asset.AssetPath"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "reload",
+      "args": [
+        "zombie.asset.Asset"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "reload",
+      "args": [
+        "zombie.asset.Asset",
+        "zombie.asset.AssetManager$AssetParams"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "enableUnload",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onStateChanged",
+      "args": [
+        "zombie.asset.Asset$State",
+        "zombie.asset.Asset$State",
+        "zombie.asset.Asset"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.asset.AssetManager$AssetTable",
+      "name": "getAssetTable",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.asset.AssetManagers",
+      "name": "getOwner",
+      "args": []
+    }
+  ]
+}

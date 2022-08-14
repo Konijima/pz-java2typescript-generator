@@ -1,0 +1,293 @@
+{
+  "name": "ImageData",
+  "package": "zombie.core.textures",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [
+    "java.io.Serializable"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ImageData",
+      "describe": [],
+      "args": [
+        "zombie.core.textures.TextureID",
+        "zombie.core.utils.WrappedBuffer"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ImageData",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ImageData",
+      "describe": [],
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ImageData",
+      "describe": [],
+      "args": [
+        "int",
+        "int",
+        "zombie.core.utils.WrappedBuffer"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ImageData",
+      "describe": [],
+      "args": [
+        "java.io.BufferedInputStream",
+        "boolean",
+        "zombie.core.textures.Texture$PZFileformat"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ImageData",
+      "describe": [],
+      "args": [
+        "java.io.InputStream",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "getPixelClamped",
+      "describe": [],
+      "args": [
+        "java.nio.ByteBuffer",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int[]"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "data",
+      "scope": "public",
+      "type": "zombie.core.textures.MipMapLevel",
+      "describe": []
+    },
+    {
+      "name": "mask",
+      "scope": "public",
+      "type": "zombie.core.utils.BooleanGrid",
+      "describe": []
+    },
+    {
+      "name": "id",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "MIP_LEVEL_IDX_OFFSET",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.textures.ImageData",
+      "name": "createSteamAvatar",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.textures.MipMapLevel",
+      "name": "getData",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "makeTransp",
+      "args": [
+        "byte",
+        "byte",
+        "byte"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "makeTransp",
+      "args": [
+        "byte",
+        "byte",
+        "byte",
+        "byte"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setData",
+      "args": [
+        "java.awt.image.BufferedImage"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setData",
+      "args": [
+        "java.awt.image.Raster"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getHeight",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getHeightHW",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isSolid",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getWidth",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getWidthHW",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getMipMapCount",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.textures.MipMapLevel",
+      "name": "getMipMapData",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "initMipMaps",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "dispose",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "calculateNumMips",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "getPixelDiscard",
+      "args": [
+        "java.nio.ByteBuffer",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setPixel",
+      "args": [
+        "java.nio.ByteBuffer",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "getNextMipDimension",
+      "args": [
+        "int"
+      ]
+    }
+  ]
+}

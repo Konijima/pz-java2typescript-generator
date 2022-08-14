@@ -1,0 +1,151 @@
+{
+  "name": "ErosionObj",
+  "package": "zombie.erosion.obj",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ErosionObj",
+      "describe": [],
+      "args": [
+        "zombie.erosion.obj.ErosionObjSprites",
+        "int",
+        "float",
+        "float",
+        "boolean"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "name",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "stages",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "hasSnow",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "hasFlower",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "hasChildSprite",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "bloomStart",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "bloomEnd",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "noSeasonBase",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "cycleTime",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoObject",
+      "name": "getObject",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoObject",
+      "name": "createObject",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "int",
+        "boolean",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "placeObject",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "int",
+        "boolean",
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "setStageObject",
+      "args": [
+        "int",
+        "zombie.iso.IsoObject",
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "setStage",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "int",
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoObject",
+      "name": "removeObject",
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    }
+  ]
+}

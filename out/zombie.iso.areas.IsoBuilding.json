@@ -1,0 +1,391 @@
+{
+  "name": "IsoBuilding",
+  "package": "zombie.iso.areas",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.iso.areas.IsoArea"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IsoBuilding",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "IsoBuilding",
+      "describe": [],
+      "args": [
+        "zombie.iso.IsoCell"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "bounds",
+      "scope": "public",
+      "type": "java.awt.Rectangle",
+      "describe": []
+    },
+    {
+      "name": "Exits",
+      "scope": "public",
+      "type": "java.util.Vector<zombie.iso.areas.IsoRoomExit>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "IsResidence",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "container",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.inventory.ItemContainer>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Rooms",
+      "scope": "public",
+      "type": "java.util.Vector<zombie.iso.areas.IsoRoom>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Windows",
+      "scope": "public",
+      "type": "java.util.Vector<zombie.iso.objects.IsoWindow>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ID",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "IDMax",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "safety",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "transparentWalls",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "PoorBuildingScore",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "GoodBuildingScore",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "scoreUpdate",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "def",
+      "scope": "public",
+      "type": "zombie.iso.BuildingDef",
+      "describe": []
+    },
+    {
+      "name": "bSeenInside",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "lights",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.iso.IsoLightSource>",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getRoomsNumber",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getID",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "TriggerAlarm",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "ContainsAllItems",
+      "args": [
+        "java.util.Stack<java.lang.String>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "ScoreBuildingPersonSpecific",
+      "args": [
+        "zombie.characters.SurvivorDesc",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.BuildingDef",
+      "name": "getDef",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "AddRoom",
+      "args": [
+        "zombie.iso.areas.IsoRoom"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "CalculateExits",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "CalculateWindows",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "FillContainers",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.ItemContainer",
+      "name": "getContainerWith",
+      "args": [
+        "zombie.inventory.ItemType"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.areas.IsoRoom",
+      "name": "getRandomRoom",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getFreeTile",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "hasWater",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "CreateFrom",
+      "args": [
+        "zombie.iso.BuildingDef",
+        "zombie.iso.LotHeader"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setAllExplored",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isAllExplored",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addWindow",
+      "args": [
+        "zombie.iso.objects.IsoWindow",
+        "boolean",
+        "zombie.iso.IsoGridSquare",
+        "zombie.iso.areas.IsoBuilding"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addWindow",
+      "args": [
+        "zombie.iso.objects.IsoWindow",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addDoor",
+      "args": [
+        "zombie.iso.objects.IsoDoor",
+        "boolean",
+        "zombie.iso.IsoGridSquare",
+        "zombie.iso.areas.IsoBuilding"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addDoor",
+      "args": [
+        "zombie.iso.objects.IsoDoor",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isResidential",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "containsRoom",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.areas.IsoRoom",
+      "name": "getRandomRoom",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.ItemContainer",
+      "name": "getRandomContainer",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.objects.IsoWindow",
+      "name": "getRandomFirstFloorWindow",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isToxic",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setToxic",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "forceAwake",
+      "args": []
+    }
+  ]
+}

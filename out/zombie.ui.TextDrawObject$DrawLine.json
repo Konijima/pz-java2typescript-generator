@@ -1,0 +1,14 @@
+{
+  "name": "TextDrawObject$DrawLine",
+  "package": "zombie.ui",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

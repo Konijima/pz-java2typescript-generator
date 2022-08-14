@@ -1,0 +1,52 @@
+{
+  "name": "RBBar",
+  "package": "zombie.randomizedWorld.randomizedBuilding",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.randomizedWorld.randomizedBuilding.RandomizedBuildingBase"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "RBBar",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "randomizeBuilding",
+      "args": [
+        "zombie.iso.BuildingDef"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "roomValid",
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isValid",
+      "args": [
+        "zombie.iso.BuildingDef",
+        "boolean"
+      ]
+    }
+  ]
+}

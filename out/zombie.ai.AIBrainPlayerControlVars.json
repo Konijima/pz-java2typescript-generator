@@ -1,0 +1,70 @@
+{
+  "name": "AIBrainPlayerControlVars",
+  "package": "zombie.ai",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "AIBrainPlayerControlVars",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "bAiming",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "bMelee",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "bBannedAttacking",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "initiateAttack",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "bRunning",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "strafeX",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "strafeY",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "JustMoved",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

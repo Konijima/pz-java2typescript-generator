@@ -1,0 +1,22 @@
+{
+  "name": "VoiceTest$1",
+  "package": "zombie.core.raknet",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [
+    "java.lang.Thread"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "run",
+      "args": []
+    }
+  ]
+}

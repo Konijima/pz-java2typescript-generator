@@ -1,0 +1,22 @@
+{
+  "name": "AnimationVariableSlotCallback$CallbackGet<VariableType>",
+  "package": "zombie.core.skinnedmodel.advancedanimation",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "VariableType",
+      "name": "call",
+      "args": []
+    }
+  ]
+}

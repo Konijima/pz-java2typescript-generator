@@ -1,0 +1,29 @@
+{
+  "name": "MapDefaults",
+  "package": "zombie.util.map",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "MapDefaults",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "defaultInt",
+      "args": []
+    }
+  ]
+}

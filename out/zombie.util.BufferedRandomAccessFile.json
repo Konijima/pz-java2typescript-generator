@@ -1,0 +1,83 @@
+{
+  "name": "BufferedRandomAccessFile",
+  "package": "zombie.util",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.io.RandomAccessFile"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "BufferedRandomAccessFile",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "BufferedRandomAccessFile",
+      "describe": [],
+      "args": [
+        "java.io.File",
+        "java.lang.String",
+        "int"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "int",
+      "name": "read",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "read",
+      "args": [
+        "byte[]",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "long",
+      "name": "getFilePointer",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "seek",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "java.lang.String",
+      "name": "getNextLine",
+      "args": []
+    }
+  ]
+}

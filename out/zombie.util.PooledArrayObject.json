@@ -1,0 +1,61 @@
+{
+  "name": "PooledArrayObject<T>",
+  "package": "zombie.util",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.util.PooledObject"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "PooledArrayObject",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "array",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "length",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "T",
+      "name": "get",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "int",
+        "T"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isEmpty",
+      "args": []
+    }
+  ]
+}

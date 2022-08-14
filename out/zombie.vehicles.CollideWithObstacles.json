@@ -1,0 +1,32 @@
+{
+  "name": "CollideWithObstacles",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "CollideWithObstacles",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.CollideWithObstacles$CCIntersection",
+      "name": "getIntersection",
+      "args": [
+        "zombie.vehicles.CollideWithObstacles$CCEdge",
+        "zombie.vehicles.CollideWithObstacles$CCEdge"
+      ]
+    }
+  ]
+}

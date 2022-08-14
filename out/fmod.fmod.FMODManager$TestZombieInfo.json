@@ -1,0 +1,60 @@
+{
+  "name": "FMODManager$TestZombieInfo",
+  "package": "fmod.fmod",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "TestZombieInfo",
+      "describe": [],
+      "args": [
+        "long",
+        "float",
+        "float"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "X",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "Y",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "event",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "inst",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "long",
+      "name": "createZombieInstance",
+      "args": [
+        "long",
+        "float",
+        "float"
+      ]
+    }
+  ]
+}

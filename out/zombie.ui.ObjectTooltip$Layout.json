@@ -1,0 +1,94 @@
+{
+  "name": "ObjectTooltip$Layout",
+  "package": "zombie.ui",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Layout",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "items",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.ui.ObjectTooltip$LayoutItem>",
+      "describe": []
+    },
+    {
+      "name": "minLabelWidth",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "minValueWidth",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "next",
+      "scope": "public",
+      "type": "zombie.ui.ObjectTooltip$Layout",
+      "describe": []
+    },
+    {
+      "name": "nextPadY",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.ui.ObjectTooltip$LayoutItem",
+      "name": "addItem",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setMinLabelWidth",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setMinValueWidth",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "render",
+      "args": [
+        "int",
+        "int",
+        "zombie.ui.ObjectTooltip"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "free",
+      "args": []
+    }
+  ]
+}

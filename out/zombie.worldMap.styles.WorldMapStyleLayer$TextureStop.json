@@ -1,0 +1,37 @@
+{
+  "name": "WorldMapStyleLayer$TextureStop",
+  "package": "zombie.worldMap.styles",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.worldMap.styles.WorldMapStyleLayer$Stop"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "TextureStop",
+      "describe": [],
+      "args": [
+        "float",
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "texturePath",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "texture",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

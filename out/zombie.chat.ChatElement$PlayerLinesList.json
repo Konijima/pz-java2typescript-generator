@@ -1,0 +1,14 @@
+{
+  "name": "ChatElement$PlayerLinesList",
+  "package": "zombie.chat",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [
+    "java.util.ArrayList<zombie.chat.ChatElement$PlayerLines>"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

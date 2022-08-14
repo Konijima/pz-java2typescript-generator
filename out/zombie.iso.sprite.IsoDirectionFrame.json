@@ -1,0 +1,142 @@
+{
+  "name": "IsoDirectionFrame",
+  "package": "zombie.iso.sprite",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IsoDirectionFrame",
+      "describe": [],
+      "args": [
+        "zombie.core.textures.Texture"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "IsoDirectionFrame",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "IsoDirectionFrame",
+      "describe": [],
+      "args": [
+        "zombie.core.textures.Texture",
+        "zombie.core.textures.Texture",
+        "zombie.core.textures.Texture",
+        "zombie.core.textures.Texture",
+        "zombie.core.textures.Texture"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "IsoDirectionFrame",
+      "describe": [],
+      "args": [
+        "zombie.core.textures.Texture",
+        "zombie.core.textures.Texture",
+        "zombie.core.textures.Texture",
+        "zombie.core.textures.Texture",
+        "zombie.core.textures.Texture",
+        "zombie.core.textures.Texture",
+        "zombie.core.textures.Texture",
+        "zombie.core.textures.Texture"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "IsoDirectionFrame",
+      "describe": [],
+      "args": [
+        "zombie.core.textures.Texture",
+        "zombie.core.textures.Texture",
+        "zombie.core.textures.Texture",
+        "zombie.core.textures.Texture"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "zombie",
+      "scope": "public",
+      "type": "final",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.textures.Texture",
+      "name": "getTexture",
+      "args": [
+        "zombie.iso.IsoDirections"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "SetAllDirections",
+      "args": [
+        "zombie.core.textures.Texture"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "SetDirection",
+      "args": [
+        "zombie.core.textures.Texture",
+        "zombie.iso.IsoDirections"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": [
+        "float",
+        "float",
+        "zombie.iso.IsoDirections",
+        "zombie.core.textures.ColorInfo",
+        "boolean",
+        "java.util.function.Consumer<zombie.core.textures.TextureDraw>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "renderexplicit",
+      "args": [
+        "int",
+        "int",
+        "zombie.iso.IsoDirections",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "renderexplicit",
+      "args": [
+        "int",
+        "int",
+        "zombie.iso.IsoDirections",
+        "float",
+        "zombie.core.textures.ColorInfo"
+      ]
+    }
+  ]
+}

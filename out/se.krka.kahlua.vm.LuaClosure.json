@@ -1,0 +1,63 @@
+{
+  "name": "LuaClosure",
+  "package": "se.krka.kahlua.vm",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "LuaClosure",
+      "describe": [],
+      "args": [
+        "se.krka.kahlua.vm.Prototype",
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "prototype",
+      "scope": "public",
+      "type": "se.krka.kahlua.vm.Prototype",
+      "describe": []
+    },
+    {
+      "name": "env",
+      "scope": "public",
+      "type": "se.krka.kahlua.vm.KahluaTable",
+      "describe": []
+    },
+    {
+      "name": "se",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "debugName",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "toString2",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    }
+  ]
+}

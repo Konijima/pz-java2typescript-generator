@@ -1,0 +1,12 @@
+{
+  "name": "PixelFormatLWJGL",
+  "package": "org.lwjglx.opengl",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

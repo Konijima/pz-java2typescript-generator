@@ -1,0 +1,22 @@
+{
+  "name": "PolygonalMap2$PathFindRequest",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "release",
+      "args": []
+    }
+  ]
+}

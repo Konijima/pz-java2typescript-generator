@@ -1,0 +1,45 @@
+{
+  "name": "RCONServer$ServerThread",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [
+    "java.lang.Thread"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ServerThread",
+      "describe": [],
+      "args": [
+        "zombie.network.RCONServer"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "bQuit",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "run",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "quit",
+      "args": []
+    }
+  ]
+}

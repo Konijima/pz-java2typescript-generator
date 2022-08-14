@@ -1,0 +1,14 @@
+{
+  "name": "Random$Xorshiro128",
+  "package": "org.joml",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

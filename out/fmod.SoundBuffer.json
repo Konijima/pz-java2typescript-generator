@@ -1,0 +1,77 @@
+{
+  "name": "SoundBuffer",
+  "package": "fmod",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "SoundBuffer",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "buf",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Buf_Size",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "Buf_Read",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "Buf_Write",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "long",
+        "short[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "push",
+      "args": [
+        "long",
+        "short[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "push",
+      "args": [
+        "long",
+        "byte[]"
+      ]
+    }
+  ]
+}

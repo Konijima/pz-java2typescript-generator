@@ -1,0 +1,29 @@
+{
+  "name": "IsoDeadBody$1",
+  "package": "zombie.iso.objects",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [
+    "java.lang.ThreadLocal<zombie.characters.IsoZombie>"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.characters.IsoZombie",
+      "name": "initialValue",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "initialValue",
+      "args": []
+    }
+  ]
+}

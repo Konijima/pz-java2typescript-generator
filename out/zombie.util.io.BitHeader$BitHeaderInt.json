@@ -1,0 +1,29 @@
+{
+  "name": "BitHeader$BitHeaderInt",
+  "package": "zombie.util.io",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.util.io.BitHeader$BitHeaderBase"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "release",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getLen",
+      "args": []
+    }
+  ]
+}

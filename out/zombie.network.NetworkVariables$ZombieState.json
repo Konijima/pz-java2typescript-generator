@@ -1,0 +1,362 @@
+{
+  "name": "NetworkVariables$ZombieState",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.network.NetworkVariables$ZombieState>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Attack",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AttackNetwork",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AttackVehicle",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AttackVehicleNetwork",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Bumped",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ClimbFence",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ClimbWindow",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "EatBody",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FaceTarget",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FakeDead",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FakeDeadAttack",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FakeDeadAttackNetwork",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FallDown",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Falling",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "GetDown",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Getup",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "HitReaction",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "HitReactionHit",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "HitWhileStaggered",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Idle",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Lunge",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "LungeNetwork",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "OnGround",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PathFind",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Sitting",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "StaggerBack",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Thump",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TurnAlerted",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WalkToward",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WalkTowardNetwork",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FakeZombieStay",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FakeZombieNormal",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FakeZombieAttack",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$ZombieState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.network.NetworkVariables$ZombieState",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.network.NetworkVariables$ZombieState",
+      "name": "fromString",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.network.NetworkVariables$ZombieState",
+      "name": "fromByte",
+      "args": [
+        "java.lang.Byte"
+      ]
+    }
+  ]
+}

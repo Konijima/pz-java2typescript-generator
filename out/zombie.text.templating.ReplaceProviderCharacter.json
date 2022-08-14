@@ -1,0 +1,23 @@
+{
+  "name": "ReplaceProviderCharacter",
+  "package": "zombie.text.templating",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.text.templating.ReplaceProvider"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ReplaceProviderCharacter",
+      "describe": [],
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

@@ -1,0 +1,35 @@
+{
+  "name": "DebugFileWatcher$1",
+  "package": "zombie",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [
+    "java.nio.file.SimpleFileVisitor<java.nio.file.Path>"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.file.FileVisitResult",
+      "name": "preVisitDirectory",
+      "args": [
+        "java.nio.file.Path",
+        "java.nio.file.attribute.BasicFileAttributes"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.nio.file.FileVisitResult",
+      "name": "preVisitDirectory",
+      "args": [
+        "java.lang.Object",
+        "java.nio.file.attribute.BasicFileAttributes"
+      ]
+    }
+  ]
+}

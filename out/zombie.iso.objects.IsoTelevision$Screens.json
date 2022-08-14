@@ -1,0 +1,72 @@
+{
+  "name": "IsoTelevision$Screens",
+  "package": "zombie.iso.objects",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.iso.objects.IsoTelevision$Screens>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "OFFSCREEN",
+      "scope": "public",
+      "type": "zombie.iso.objects.IsoTelevision$Screens",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TESTSCREEN",
+      "scope": "public",
+      "type": "zombie.iso.objects.IsoTelevision$Screens",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DEFAULTSCREEN",
+      "scope": "public",
+      "type": "zombie.iso.objects.IsoTelevision$Screens",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ALTERNATESCREEN",
+      "scope": "public",
+      "type": "zombie.iso.objects.IsoTelevision$Screens",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.objects.IsoTelevision$Screens",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

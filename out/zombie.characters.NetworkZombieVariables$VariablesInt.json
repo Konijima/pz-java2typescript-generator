@@ -1,0 +1,74 @@
+{
+  "name": "NetworkZombieVariables$VariablesInt",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "VariablesInt",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "health",
+      "scope": "public",
+      "type": "short",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "target",
+      "scope": "public",
+      "type": "short",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "speedMod",
+      "scope": "public",
+      "type": "short",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "timeSinceSeenFlesh",
+      "scope": "public",
+      "type": "short",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "smParamTargetAngle",
+      "scope": "public",
+      "type": "short",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MAX",
+      "scope": "public",
+      "type": "short",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": []
+}

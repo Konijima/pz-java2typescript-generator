@@ -1,0 +1,33 @@
+{
+  "name": "RDSBedroomZed",
+  "package": "zombie.randomizedWorld.randomizedDeadSurvivor",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.randomizedWorld.randomizedDeadSurvivor.RandomizedDeadSurvivorBase"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "RDSBedroomZed",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "randomizeDeadSurvivor",
+      "args": [
+        "zombie.iso.BuildingDef"
+      ]
+    }
+  ]
+}

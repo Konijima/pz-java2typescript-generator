@@ -1,0 +1,294 @@
+{
+  "name": "PixelFormat",
+  "package": "org.lwjglx.opengl",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [
+    "org.lwjglx.opengl.PixelFormatLWJGL"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "PixelFormat",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "PixelFormat",
+      "describe": [],
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "PixelFormat",
+      "describe": [],
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "PixelFormat",
+      "describe": [],
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "PixelFormat",
+      "describe": [],
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "PixelFormat",
+      "describe": [],
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "boolean",
+        "boolean"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getBitsPerPixel",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.opengl.PixelFormat",
+      "name": "withBitsPerPixel",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getAlphaBits",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.opengl.PixelFormat",
+      "name": "withAlphaBits",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getDepthBits",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.opengl.PixelFormat",
+      "name": "withDepthBits",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getStencilBits",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.opengl.PixelFormat",
+      "name": "withStencilBits",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getSamples",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.opengl.PixelFormat",
+      "name": "withSamples",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.opengl.PixelFormat",
+      "name": "withCoverageSamples",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.opengl.PixelFormat",
+      "name": "withCoverageSamples",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getAuxBuffers",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.opengl.PixelFormat",
+      "name": "withAuxBuffers",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getAccumulationBitsPerPixel",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.opengl.PixelFormat",
+      "name": "withAccumulationBitsPerPixel",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getAccumulationAlpha",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.opengl.PixelFormat",
+      "name": "withAccumulationAlpha",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isStereo",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.opengl.PixelFormat",
+      "name": "withStereo",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isFloatingPoint",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.opengl.PixelFormat",
+      "name": "withFloatingPoint",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.opengl.PixelFormat",
+      "name": "withFloatingPointPacked",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isSRGB",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.opengl.PixelFormat",
+      "name": "withSRGB",
+      "args": [
+        "boolean"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "name": "WorldItemAtlas$RenderJob",
+  "package": "zombie.core.skinnedmodel.model",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.core.textures.TextureDraw$GenericDrawer"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "itemParams",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.WorldItemAtlas$ItemParams",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "entry",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.WorldItemAtlas$AtlasEntry",
+      "describe": []
+    },
+    {
+      "name": "done",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "renderRefCount",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "bClearThisSlotOnly",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.skinnedmodel.model.WorldItemAtlas$RenderJob",
+      "name": "getNew",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.model.WorldItemAtlas$RenderJob",
+      "name": "init",
+      "args": [
+        "zombie.core.skinnedmodel.model.WorldItemAtlas$ItemParams",
+        "zombie.core.skinnedmodel.model.WorldItemAtlas$AtlasEntry"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "renderMain",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "postRender",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Reset",
+      "args": []
+    }
+  ]
+}

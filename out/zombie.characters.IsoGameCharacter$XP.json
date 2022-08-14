@@ -1,0 +1,237 @@
+{
+  "name": "IsoGameCharacter$XP",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "XP",
+      "describe": [],
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.characters.IsoGameCharacter"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "level",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "lastlevel",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "TotalXP",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "XPMap",
+      "scope": "public",
+      "type": "java.util.HashMap<zombie.characters.skills.PerkFactory$Perk,java.lang.Float>",
+      "describe": []
+    },
+    {
+      "name": "MaxXPGrowthRate",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "XPMapMultiplier",
+      "scope": "public",
+      "type": "java.util.HashMap<zombie.characters.skills.PerkFactory$Perk,zombie.characters.IsoGameCharacter$XPMultiplier>",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addXpMultiplier",
+      "args": [
+        "zombie.characters.skills.PerkFactory$Perk",
+        "float",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.HashMap<zombie.characters.skills.PerkFactory$Perk,zombie.characters.IsoGameCharacter$XPMultiplier>",
+      "name": "getMultiplierMap",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getMultiplier",
+      "args": [
+        "zombie.characters.skills.PerkFactory$Perk"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getPerkBoost",
+      "args": [
+        "zombie.characters.skills.PerkFactory$Perk"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setPerkBoost",
+      "args": [
+        "zombie.characters.skills.PerkFactory$Perk",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getLevel",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setLevel",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getTotalXp",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "AddXP",
+      "args": [
+        "zombie.characters.skills.PerkFactory$Perk",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "AddXPNoMultiplier",
+      "args": [
+        "zombie.characters.skills.PerkFactory$Perk",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "AddXP",
+      "args": [
+        "zombie.characters.skills.PerkFactory$Perk",
+        "float",
+        "boolean",
+        "boolean",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getXP",
+      "args": [
+        "zombie.characters.skills.PerkFactory$Perk"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "AddXP",
+      "args": [
+        "zombie.inventory.types.HandWeapon",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setTotalXP",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "recalcSumm",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": [
+        "java.nio.ByteBuffer",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setXPToLevel",
+      "args": [
+        "zombie.characters.skills.PerkFactory$Perk",
+        "int"
+      ]
+    }
+  ]
+}

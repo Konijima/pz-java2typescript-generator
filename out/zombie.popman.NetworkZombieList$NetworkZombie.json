@@ -1,0 +1,21 @@
+{
+  "name": "NetworkZombieList$NetworkZombie",
+  "package": "zombie.popman",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "NetworkZombie",
+      "describe": [],
+      "args": [
+        "zombie.core.raknet.UdpConnection"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

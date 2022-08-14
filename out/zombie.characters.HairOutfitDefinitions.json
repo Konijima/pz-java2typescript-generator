@@ -1,0 +1,123 @@
+{
+  "name": "HairOutfitDefinitions",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "HairOutfitDefinitions",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.characters.HairOutfitDefinitions",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "m_dirty",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "hairStyle",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "minWorldAge",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "m_haircutDefinition",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.characters.HairOutfitDefinitions$HaircutDefinition>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "m_outfitDefinition",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.characters.HairOutfitDefinitions$HaircutOutfitDefinition>",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "checkDirty",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isHaircutValid",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getValidHairStylesForOutfit",
+      "args": [
+        "java.lang.String",
+        "java.util.ArrayList<zombie.core.skinnedmodel.population.HairStyle>",
+        "java.util.ArrayList<zombie.core.skinnedmodel.population.HairStyle>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getRandomHaircut",
+      "args": [
+        "java.lang.String",
+        "java.util.ArrayList<zombie.core.skinnedmodel.population.HairStyle>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.ImmutableColor",
+      "name": "getRandomHaircutColor",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getRandomBeard",
+      "args": [
+        "java.lang.String",
+        "java.util.ArrayList<zombie.core.skinnedmodel.population.BeardStyle>"
+      ]
+    }
+  ]
+}

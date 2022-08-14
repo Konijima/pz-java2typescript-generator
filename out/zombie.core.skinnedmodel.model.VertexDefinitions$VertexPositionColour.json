@@ -1,0 +1,48 @@
+{
+  "name": "VertexDefinitions$VertexPositionColour",
+  "package": "zombie.core.skinnedmodel.model",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "VertexPositionColour",
+      "describe": [],
+      "args": [
+        "zombie.core.skinnedmodel.model.VertexDefinitions",
+        "zombie.core.skinnedmodel.Vector3",
+        "zombie.core.Color"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "VertexPositionColour",
+      "describe": [],
+      "args": [
+        "zombie.core.skinnedmodel.model.VertexDefinitions",
+        "float",
+        "float",
+        "float",
+        "zombie.core.Color"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "Position",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.Vector3",
+      "describe": []
+    },
+    {
+      "name": "Colour",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

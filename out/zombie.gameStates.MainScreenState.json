@@ -1,0 +1,261 @@
+{
+  "name": "MainScreenState",
+  "package": "zombie.gameStates",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.gameStates.GameState"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "MainScreenState",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Version",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "ambient",
+      "scope": "public",
+      "type": "fmod.fmod.Audio",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "totalScale",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "alpha",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "alphaStep",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "Elements",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.gameStates.MainScreenState$ScreenElement>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "targetAlpha",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.gameStates.MainScreenState",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "showLogo",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "lightningTimelineMarker",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "m_worldMap",
+      "scope": "public",
+      "type": "zombie.worldMap.UIWorldMap",
+      "describe": []
+    },
+    {
+      "name": "lightningDelta",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "lightningTargetDelta",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "lightningFullTimer",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "lightningCount",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "lightOffCount",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "main",
+      "args": [
+        "java.lang.String[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "DrawTexture",
+      "args": [
+        "zombie.core.textures.Texture",
+        "int",
+        "int",
+        "int",
+        "int",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "DrawTexture",
+      "args": [
+        "zombie.core.textures.Texture",
+        "int",
+        "int",
+        "int",
+        "int",
+        "zombie.core.Color"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "enter",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.gameStates.MainScreenState",
+      "name": "getInstance",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "ShouldShowLogo",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "exit",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "renderBackground",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.gameStates.GameStateMachine$StateAction",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setConnectToServerState",
+      "args": [
+        "zombie.gameStates.ConnectToServerState"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.gameStates.GameState",
+      "name": "redirectState",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjgl.glfw.GLFWImage$Buffer",
+      "name": "loadIcons",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.nio.ByteBuffer",
+      "name": "convertToByteBuffer",
+      "args": [
+        "java.awt.image.BufferedImage"
+      ]
+    }
+  ]
+}

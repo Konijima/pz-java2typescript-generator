@@ -1,0 +1,31 @@
+{
+  "name": "GameServerWorkshopItems",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "GameServerWorkshopItems",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "Install",
+      "args": [
+        "java.util.ArrayList<java.lang.Long>"
+      ]
+    }
+  ]
+}

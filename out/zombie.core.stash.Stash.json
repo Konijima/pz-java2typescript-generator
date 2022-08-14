@@ -1,0 +1,158 @@
+{
+  "name": "Stash",
+  "package": "zombie.core.stash",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Stash",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "name",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "type",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "item",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "customName",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "buildingX",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "buildingY",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "spawnTable",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "annotations",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.core.stash.StashAnnotation>",
+      "describe": []
+    },
+    {
+      "name": "spawnOnlyOnZed",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "minDayToSpawn",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "maxDayToSpawn",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "minTrapToSpawn",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "maxTrapToSpawn",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "zombies",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "containers",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.core.stash.StashContainer>",
+      "describe": []
+    },
+    {
+      "name": "barricades",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": [
+        "se.krka.kahlua.j2se.KahluaTableImpl"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getItem",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getBuildingX",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getBuildingY",
+      "args": []
+    }
+  ]
+}

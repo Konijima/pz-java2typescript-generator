@@ -1,0 +1,60 @@
+{
+  "name": "IHumanVisual",
+  "package": "zombie.core.skinnedmodel.visual",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "zombie.core.skinnedmodel.visual.HumanVisual",
+      "name": "getHumanVisual",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "getItemVisuals",
+      "args": [
+        "zombie.core.skinnedmodel.visual.ItemVisuals"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "isFemale",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "isZombie",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "isSkeleton",
+      "args": []
+    }
+  ]
+}

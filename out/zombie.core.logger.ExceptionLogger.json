@@ -1,0 +1,77 @@
+{
+  "name": "ExceptionLogger",
+  "package": "zombie.core.logger",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ExceptionLogger",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "synchronized void",
+      "name": "logException",
+      "args": [
+        "java.lang.Throwable"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "synchronized void",
+      "name": "logException",
+      "args": [
+        "java.lang.Throwable",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "synchronized void",
+      "name": "logException",
+      "args": [
+        "java.lang.Throwable",
+        "java.lang.String",
+        "zombie.debug.DebugLogStream",
+        "zombie.debug.LogSeverity"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "showPopup",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "render",
+      "args": []
+    }
+  ]
+}

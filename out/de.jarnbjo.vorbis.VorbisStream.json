@@ -1,0 +1,108 @@
+{
+  "name": "VorbisStream",
+  "package": "de.jarnbjo.vorbis",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "VorbisStream",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "VorbisStream",
+      "describe": [],
+      "args": [
+        "de.jarnbjo.ogg.LogicalOggStream"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "processPacket",
+      "describe": [],
+      "args": [
+        "byte[]"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "BIG_ENDIAN",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "LITTLE_ENDIAN",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "de.jarnbjo.vorbis.IdentificationHeader",
+      "name": "getIdentificationHeader",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "de.jarnbjo.vorbis.CommentHeader",
+      "name": "getCommentHeader",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isOpen",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "close",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "readPcm",
+      "args": [
+        "byte[]",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "long",
+      "name": "getCurrentGranulePosition",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getCurrentBitRate",
+      "args": []
+    }
+  ]
+}

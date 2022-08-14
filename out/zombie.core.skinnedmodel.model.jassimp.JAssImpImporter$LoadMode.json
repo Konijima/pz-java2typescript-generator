@@ -1,0 +1,63 @@
+{
+  "name": "JAssImpImporter$LoadMode",
+  "package": "zombie.core.skinnedmodel.model.jassimp",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.core.skinnedmodel.model.jassimp.JAssImpImporter$LoadMode>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Normal",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.jassimp.JAssImpImporter$LoadMode",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "StaticMesh",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.jassimp.JAssImpImporter$LoadMode",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AnimationOnly",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.jassimp.JAssImpImporter$LoadMode",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.skinnedmodel.model.jassimp.JAssImpImporter$LoadMode",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

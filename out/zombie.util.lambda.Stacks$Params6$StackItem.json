@@ -1,0 +1,16 @@
+{
+  "name": "Stacks$Params6$StackItem<T1,",
+  "package": "zombie.util.lambda",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "abstract"
+  ],
+  "extends": [
+    "zombie.util.lambda.Stacks$GenericStack"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

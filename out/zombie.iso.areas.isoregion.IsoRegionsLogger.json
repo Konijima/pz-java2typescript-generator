@@ -1,0 +1,43 @@
+{
+  "name": "IsoRegionsLogger",
+  "package": "zombie.iso.areas.isoregion",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IsoRegionsLogger",
+      "describe": [],
+      "args": [
+        "boolean"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.iso.areas.isoregion.IsoRegionsLogger$IsoRegionLog>",
+      "name": "getLogs",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isDirtyUI",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "unsetDirtyUI",
+      "args": []
+    }
+  ]
+}

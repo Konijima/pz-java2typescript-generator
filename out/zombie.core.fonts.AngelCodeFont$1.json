@@ -1,0 +1,14 @@
+{
+  "name": "AngelCodeFont$1",
+  "package": "zombie.core.fonts",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [
+    "java.util.LinkedHashMap"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

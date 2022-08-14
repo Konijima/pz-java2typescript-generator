@@ -1,0 +1,32 @@
+{
+  "name": "AStarPathFinderResult",
+  "package": "zombie.ai.astar",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "AStarPathFinderResult",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "progress",
+      "scope": "public",
+      "type": "zombie.ai.astar.AStarPathFinder$PathFindProgress",
+      "describe": []
+    },
+    {
+      "name": "maxSearchDistance",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

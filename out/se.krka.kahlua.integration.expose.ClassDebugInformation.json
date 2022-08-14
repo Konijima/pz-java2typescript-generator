@@ -1,0 +1,30 @@
+{
+  "name": "ClassDebugInformation",
+  "package": "se.krka.kahlua.integration.expose",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ClassDebugInformation",
+      "describe": [],
+      "args": [
+        "java.lang.Class<?>",
+        "se.krka.kahlua.integration.processor.ClassParameterInformation"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.Map<java.lang.String,se.krka.kahlua.integration.expose.MethodDebugInformation>",
+      "name": "getMethods",
+      "args": []
+    }
+  ]
+}

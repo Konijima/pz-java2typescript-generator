@@ -1,0 +1,1017 @@
+{
+  "name": "Vector3fc",
+  "package": "org.joml",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "x",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "y",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "z",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.nio.FloatBuffer",
+      "name": "get",
+      "args": [
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.nio.FloatBuffer",
+      "name": "get",
+      "args": [
+        "int",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.nio.ByteBuffer",
+      "name": "get",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.nio.ByteBuffer",
+      "name": "get",
+      "args": [
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3fc",
+      "name": "getToAddress",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "sub",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "sub",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "add",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "add",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "fma",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Vector3fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "fma",
+      "args": [
+        "float",
+        "org.joml.Vector3fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "mulAdd",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Vector3fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "mulAdd",
+      "args": [
+        "float",
+        "org.joml.Vector3fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "mul",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "div",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "mulProject",
+      "args": [
+        "org.joml.Matrix4fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "mulProject",
+      "args": [
+        "org.joml.Matrix4fc",
+        "float",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "mul",
+      "args": [
+        "org.joml.Matrix3fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "mul",
+      "args": [
+        "org.joml.Matrix3dc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "mul",
+      "args": [
+        "org.joml.Matrix3x2fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "mulTranspose",
+      "args": [
+        "org.joml.Matrix3fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "mulPosition",
+      "args": [
+        "org.joml.Matrix4fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "mulPosition",
+      "args": [
+        "org.joml.Matrix4x3fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "mulTransposePosition",
+      "args": [
+        "org.joml.Matrix4fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "mulPositionW",
+      "args": [
+        "org.joml.Matrix4fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "mulDirection",
+      "args": [
+        "org.joml.Matrix4dc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "mulDirection",
+      "args": [
+        "org.joml.Matrix4fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "mulDirection",
+      "args": [
+        "org.joml.Matrix4x3fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "mulTransposeDirection",
+      "args": [
+        "org.joml.Matrix4fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "mul",
+      "args": [
+        "float",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "mul",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "div",
+      "args": [
+        "float",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "div",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "rotate",
+      "args": [
+        "org.joml.Quaternionfc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaternionf",
+      "name": "rotationTo",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Quaternionf"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaternionf",
+      "name": "rotationTo",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "org.joml.Quaternionf"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "rotateAxis",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "rotateX",
+      "args": [
+        "float",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "rotateY",
+      "args": [
+        "float",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "rotateZ",
+      "args": [
+        "float",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "lengthSquared",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "length",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "normalize",
+      "args": [
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "normalize",
+      "args": [
+        "float",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "cross",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "cross",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "distance",
+      "args": [
+        "org.joml.Vector3fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "distance",
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "distanceSquared",
+      "args": [
+        "org.joml.Vector3fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "distanceSquared",
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "dot",
+      "args": [
+        "org.joml.Vector3fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "dot",
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "angleCos",
+      "args": [
+        "org.joml.Vector3fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "angle",
+      "args": [
+        "org.joml.Vector3fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "angleSigned",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Vector3fc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "angleSigned",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "min",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "max",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "negate",
+      "args": [
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "absolute",
+      "args": [
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "reflect",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "reflect",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "half",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "half",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "smoothStep",
+      "args": [
+        "org.joml.Vector3fc",
+        "float",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "hermite",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Vector3fc",
+        "org.joml.Vector3fc",
+        "float",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "lerp",
+      "args": [
+        "org.joml.Vector3fc",
+        "float",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "float",
+      "name": "get",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3i",
+      "name": "get",
+      "args": [
+        "int",
+        "org.joml.Vector3i"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "get",
+      "args": [
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3d",
+      "name": "get",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "int",
+      "name": "maxComponent",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "int",
+      "name": "minComponent",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "orthogonalize",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "orthogonalizeUnit",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "floor",
+      "args": [
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "ceil",
+      "args": [
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "round",
+      "args": [
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "isFinite",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "org.joml.Vector3fc",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    }
+  ]
+}

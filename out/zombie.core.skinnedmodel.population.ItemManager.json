@@ -1,0 +1,97 @@
+{
+  "name": "ItemManager",
+  "package": "zombie.core.skinnedmodel.population",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ItemManager",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_Items",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.core.skinnedmodel.population.CarriedItem>",
+      "describe": []
+    },
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.population.ItemManager",
+      "describe": [
+        "static"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "init",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.population.CarriedItem",
+      "name": "GetRandomItem",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.skinnedmodel.population.ItemManager",
+      "name": "Parse",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.skinnedmodel.population.ItemManager",
+      "name": "parse",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "Write",
+      "args": [
+        "zombie.core.skinnedmodel.population.ItemManager",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "write",
+      "args": [
+        "zombie.core.skinnedmodel.population.ItemManager",
+        "java.lang.String"
+      ]
+    }
+  ]
+}

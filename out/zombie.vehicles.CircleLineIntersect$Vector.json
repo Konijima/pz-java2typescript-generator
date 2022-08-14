@@ -1,0 +1,40 @@
+{
+  "name": "CircleLineIntersect$Vector",
+  "package": "zombie.vehicles",
+  "type": "interface",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "double",
+      "name": "getvx",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "double",
+      "name": "getvy",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "double",
+      "name": "getLength",
+      "args": []
+    }
+  ]
+}

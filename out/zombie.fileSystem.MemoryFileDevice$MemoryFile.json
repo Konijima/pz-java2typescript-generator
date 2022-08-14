@@ -1,0 +1,104 @@
+{
+  "name": "MemoryFileDevice$MemoryFile",
+  "package": "zombie.fileSystem",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "zombie.fileSystem.IFile"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "getBuffer",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "open",
+      "args": [
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "close",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "read",
+      "args": [
+        "byte[]",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "write",
+      "args": [
+        "byte[]",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "long",
+      "name": "size",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "seek",
+      "args": [
+        "zombie.fileSystem.FileSeekMode",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "long",
+      "name": "pos",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.io.InputStream",
+      "name": "getInputStream",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.fileSystem.IFileDevice",
+      "name": "getDevice",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "release",
+      "args": []
+    }
+  ]
+}

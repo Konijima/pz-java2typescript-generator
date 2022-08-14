@@ -1,0 +1,76 @@
+{
+  "name": "TestZombieInterpolate",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "org.junit.Assert"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "TestZombieInterpolate",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "stay",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "go",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "predictor",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "rotate",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "stay",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "go",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "go",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "all",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "test_case1",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

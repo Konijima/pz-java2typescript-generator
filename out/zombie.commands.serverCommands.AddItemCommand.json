@@ -1,0 +1,45 @@
+{
+  "name": "AddItemCommand",
+  "package": "zombie.commands.serverCommands",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.commands.CommandBase"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "AddItemCommand",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "zombie.core.raknet.UdpConnection"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "toMe",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "toPlayer",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": []
+}

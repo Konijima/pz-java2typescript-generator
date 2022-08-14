@@ -1,0 +1,86 @@
+{
+  "name": "AttachedWeaponDefinitions",
+  "package": "zombie.characters.AttachedItems",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "AttachedWeaponDefinitions",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.characters.AttachedItems.AttachedWeaponDefinitions",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "m_dirty",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "m_chanceOfAttachedWeapon",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "m_definitions",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.characters.AttachedItems.AttachedWeaponDefinition>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "m_outfitDefinitions",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.characters.AttachedItems.AttachedWeaponCustomOutfit>",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "checkDirty",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addRandomAttachedWeapon",
+      "args": [
+        "zombie.characters.IsoZombie"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "outfitHasItem",
+      "args": [
+        "zombie.characters.IsoZombie",
+        "java.lang.String"
+      ]
+    }
+  ]
+}

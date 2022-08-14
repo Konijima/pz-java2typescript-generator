@@ -1,0 +1,61 @@
+{
+  "name": "NatureGeneric$CategoryData",
+  "package": "zombie.erosion.categories",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.erosion.categories.ErosionCategory$Data"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "gameObj",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "maxStage",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "spawnTime",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "notGrass",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": [
+        "java.nio.ByteBuffer",
+        "int"
+      ]
+    }
+  ]
+}

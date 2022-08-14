@@ -1,0 +1,12 @@
+{
+  "name": "InstructionPtr",
+  "package": "org.luaj.kahluafork.compiler",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

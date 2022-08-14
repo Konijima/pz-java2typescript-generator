@@ -1,0 +1,31 @@
+{
+  "name": "DummySoundListener",
+  "package": "fmod.fmod",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "fmod.fmod.BaseSoundListener"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "DummySoundListener",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "tick",
+      "args": []
+    }
+  ]
+}

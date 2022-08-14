@@ -1,0 +1,30 @@
+{
+  "name": "AnimationAsset$AnimationAssetParams",
+  "package": "zombie.core.skinnedmodel.model",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.asset.AssetManager$AssetParams"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "AnimationAssetParams",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "animationsMesh",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.ModelMesh",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

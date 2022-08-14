@@ -1,0 +1,101 @@
+{
+  "name": "AttachedModelName",
+  "package": "zombie.characters.AttachedItems",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "AttachedModelName",
+      "describe": [],
+      "args": [
+        "zombie.characters.AttachedItems.AttachedModelName"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "AttachedModelName",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "AttachedModelName",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "float"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "attachmentNameSelf",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "attachmentNameParent",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "modelName",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "bloodLevel",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "children",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.characters.AttachedItems.AttachedModelName>",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addChild",
+      "args": [
+        "zombie.characters.AttachedItems.AttachedModelName"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getChildCount",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.characters.AttachedItems.AttachedModelName",
+      "name": "getChildByIndex",
+      "args": [
+        "int"
+      ]
+    }
+  ]
+}

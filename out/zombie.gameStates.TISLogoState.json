@@ -1,0 +1,89 @@
+{
+  "name": "TISLogoState",
+  "package": "zombie.gameStates",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.gameStates.GameState"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "TISLogoState",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "alpha",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "alphaStep",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "logoDisplayTime",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "screenNumber",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "stage",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "targetAlpha",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "enter",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "exit",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.gameStates.GameStateMachine$StateAction",
+      "name": "update",
+      "args": []
+    }
+  ]
+}

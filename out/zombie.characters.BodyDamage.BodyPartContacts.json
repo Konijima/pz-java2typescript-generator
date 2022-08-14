@@ -1,0 +1,60 @@
+{
+  "name": "BodyPartContacts",
+  "package": "zombie.characters.BodyDamage",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "BodyPartContacts",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "getAllContacts",
+      "describe": [],
+      "args": [
+        "zombie.characters.BodyDamage.BodyPartType"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "getChildren",
+      "describe": [],
+      "args": [
+        "zombie.characters.BodyDamage.BodyPartType"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characters.BodyDamage.BodyPartType",
+      "name": "getParent",
+      "args": [
+        "zombie.characters.BodyDamage.BodyPartType"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "getNodeDepth",
+      "args": [
+        "zombie.characters.BodyDamage.BodyPartType"
+      ]
+    }
+  ]
+}

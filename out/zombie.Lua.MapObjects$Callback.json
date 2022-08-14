@@ -1,0 +1,14 @@
+{
+  "name": "MapObjects$Callback",
+  "package": "zombie.Lua",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

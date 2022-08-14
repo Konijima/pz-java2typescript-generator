@@ -1,0 +1,25 @@
+{
+  "name": "AudioPacket",
+  "package": "de.jarnbjo.vorbis",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "getPcm",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "getFreqencyDomain",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

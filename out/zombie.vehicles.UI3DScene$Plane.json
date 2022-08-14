@@ -1,0 +1,58 @@
+{
+  "name": "UI3DScene$Plane",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Plane",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "Plane",
+      "describe": [],
+      "args": [
+        "org.joml.Vector3f",
+        "org.joml.Vector3f"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "point",
+      "scope": "public",
+      "type": "org.joml.Vector3f",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "normal",
+      "scope": "public",
+      "type": "org.joml.Vector3f",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.UI3DScene$Plane",
+      "name": "set",
+      "args": [
+        "org.joml.Vector3f",
+        "org.joml.Vector3f"
+      ]
+    }
+  ]
+}

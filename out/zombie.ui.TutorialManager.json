@@ -1,0 +1,220 @@
+{
+  "name": "TutorialManager",
+  "package": "zombie.ui",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "TutorialManager",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Debug",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "Active",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "ActiveControlZombies",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "TargetZombies",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "stage",
+      "scope": "public",
+      "type": "zombie.ui.TutorialManager$Stage",
+      "describe": []
+    },
+    {
+      "name": "wife",
+      "scope": "public",
+      "type": "zombie.characters.IsoSurvivor",
+      "describe": []
+    },
+    {
+      "name": "tutorialStove",
+      "scope": "public",
+      "type": "zombie.iso.objects.IsoStove",
+      "describe": []
+    },
+    {
+      "name": "tutBuilding",
+      "scope": "public",
+      "type": "zombie.iso.areas.IsoBuilding",
+      "describe": []
+    },
+    {
+      "name": "DoorsLocked",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "BarricadeCount",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "PrefMusic",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "gunnut",
+      "scope": "public",
+      "type": "zombie.characters.IsoSurvivor",
+      "describe": []
+    },
+    {
+      "name": "StealControl",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "AlarmTime",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "ProfanityFilter",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "Timer",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "AlarmTickTime",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "DoneFirstSleep",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "wifeKilledByEarl",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "warnedHammer",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "TriggerFire",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "CanDragWife",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "AllowSleep",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "skipped",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "millingTune",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.ui.TutorialManager",
+      "describe": [
+        "static"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "AllowUse",
+      "args": [
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "CheckWake",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "CreateQuests",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "init",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    }
+  ]
+}

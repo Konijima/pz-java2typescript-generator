@@ -1,0 +1,198 @@
+{
+  "name": "Keyframe",
+  "package": "zombie.core.skinnedmodel.animation",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Keyframe",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "Keyframe",
+      "describe": [],
+      "args": [
+        "org.lwjgl.util.vector.Vector3f",
+        "org.lwjgl.util.vector.Quaternion",
+        "org.lwjgl.util.vector.Vector3f"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "Rotation",
+      "scope": "public",
+      "type": "org.lwjgl.util.vector.Quaternion",
+      "describe": []
+    },
+    {
+      "name": "Position",
+      "scope": "public",
+      "type": "org.lwjgl.util.vector.Vector3f",
+      "describe": []
+    },
+    {
+      "name": "Scale",
+      "scope": "public",
+      "type": "org.lwjgl.util.vector.Vector3f",
+      "describe": []
+    },
+    {
+      "name": "Bone",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "BoneName",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "Time",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "zombie.core.skinnedmodel.animation.Keyframe"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "get",
+      "args": [
+        "org.lwjgl.util.vector.Vector3f",
+        "org.lwjgl.util.vector.Quaternion",
+        "org.lwjgl.util.vector.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clear",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setIdentity",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setIdentity",
+      "args": [
+        "org.lwjgl.util.vector.Vector3f",
+        "org.lwjgl.util.vector.Quaternion",
+        "org.lwjgl.util.vector.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.skinnedmodel.animation.Keyframe",
+      "name": "lerp",
+      "args": [
+        "zombie.core.skinnedmodel.animation.Keyframe",
+        "zombie.core.skinnedmodel.animation.Keyframe",
+        "float",
+        "zombie.core.skinnedmodel.animation.Keyframe"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setIfNotNull",
+      "args": [
+        "org.lwjgl.util.vector.Vector3f",
+        "org.lwjgl.util.vector.Vector3f",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setIfNotNull",
+      "args": [
+        "org.lwjgl.util.vector.Vector3f",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setIfNotNull",
+      "args": [
+        "org.lwjgl.util.vector.Quaternion",
+        "org.lwjgl.util.vector.Quaternion"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setIdentityIfNotNull",
+      "args": [
+        "org.lwjgl.util.vector.Quaternion"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "lerp",
+      "args": [
+        "zombie.core.skinnedmodel.animation.Keyframe",
+        "zombie.core.skinnedmodel.animation.Keyframe",
+        "float",
+        "org.lwjgl.util.vector.Vector3f",
+        "org.lwjgl.util.vector.Quaternion",
+        "org.lwjgl.util.vector.Vector3f"
+      ]
+    }
+  ]
+}

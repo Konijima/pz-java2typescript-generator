@@ -1,0 +1,108 @@
+{
+  "name": "ChannelCategory",
+  "package": "zombie.radio",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.radio.ChannelCategory>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Undefined",
+      "scope": "public",
+      "type": "zombie.radio.ChannelCategory",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Radio",
+      "scope": "public",
+      "type": "zombie.radio.ChannelCategory",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Television",
+      "scope": "public",
+      "type": "zombie.radio.ChannelCategory",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Military",
+      "scope": "public",
+      "type": "zombie.radio.ChannelCategory",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Amateur",
+      "scope": "public",
+      "type": "zombie.radio.ChannelCategory",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Bandit",
+      "scope": "public",
+      "type": "zombie.radio.ChannelCategory",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Emergency",
+      "scope": "public",
+      "type": "zombie.radio.ChannelCategory",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Other",
+      "scope": "public",
+      "type": "zombie.radio.ChannelCategory",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.radio.ChannelCategory",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

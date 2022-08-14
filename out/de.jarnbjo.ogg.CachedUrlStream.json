@@ -1,0 +1,86 @@
+{
+  "name": "CachedUrlStream",
+  "package": "de.jarnbjo.ogg",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "de.jarnbjo.ogg.PhysicalOggStream"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "CachedUrlStream",
+      "describe": [],
+      "args": [
+        "java.net.URL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "CachedUrlStream",
+      "describe": [],
+      "args": [
+        "java.net.URL",
+        "java.io.RandomAccessFile"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.Collection",
+      "name": "getLogicalStreams",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isOpen",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "close",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "long",
+      "name": "getCacheLength",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "de.jarnbjo.ogg.OggPage",
+      "name": "getOggPage",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setTime",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isSeekable",
+      "args": []
+    }
+  ]
+}

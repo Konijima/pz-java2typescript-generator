@@ -1,0 +1,50 @@
+{
+  "name": "SpawnRegions$Point",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Point",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "worldX",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "worldY",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "posX",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "posY",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "posZ",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

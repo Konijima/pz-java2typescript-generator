@@ -1,0 +1,42 @@
+{
+  "name": "VehicleType$VehicleTypeDefinition",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "VehicleTypeDefinition",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "int",
+        "float"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "vehicleType",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "index",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "spawnChance",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

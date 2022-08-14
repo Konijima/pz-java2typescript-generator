@@ -1,0 +1,543 @@
+{
+  "name": "IsoRegions",
+  "package": "zombie.iso.areas.isoregion",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IsoRegions",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "SINGLE_CHUNK_PACKET_SIZE",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "CHUNKS_DATA_PACKET_SIZE",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PRINT_D",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "CELL_DIM",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "CELL_CHUNK_DIM",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "CHUNK_DIM",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "CHUNK_MAX_Z",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_EMPTY",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_WALL_N",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_WALL_W",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_PATH_WALL_N",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_PATH_WALL_W",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_HAS_FLOOR",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_STAIRCASE",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_HAS_ROOF",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DIR_NONE",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DIR_N",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DIR_W",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DIR_2D_NW",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DIR_S",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DIR_E",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DIR_2D_MAX",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DIR_TOP",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DIR_BOT",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DIR_MAX",
+      "scope": "public",
+      "type": "byte",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FILE_PRE",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FILE_SEP",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FILE_EXT",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FILE_DIR",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.io.File",
+      "name": "getHeaderFile",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.io.File",
+      "name": "getDirectory",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.io.File",
+      "name": "getChunkFile",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "byte",
+      "name": "GetOppositeDir",
+      "args": [
+        "byte"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setDebugLoadAllChunks",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "isDebugLoadAllChunks",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "hash",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "init",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.areas.isoregion.IsoRegionsLogger",
+      "name": "getLogger",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "log",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "log",
+      "args": [
+        "java.lang.String",
+        "zombie.core.Color"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "warn",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "reset",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "receiveServerUpdatePacket",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "receiveClientRequestFullDataChunks",
+      "args": [
+        "java.nio.ByteBuffer",
+        "zombie.core.raknet.UdpConnection"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "byte",
+      "name": "getSquareFlags",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.areas.isoregion.regions.IWorldRegion",
+      "name": "getIsoWorldRegion",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.areas.isoregion.data.DataChunk",
+      "name": "getDataChunk",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.areas.isoregion.regions.IChunkRegion",
+      "name": "getChunkRegion",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "ResetAllDataDebug",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setPreviousFlags",
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "squareChanged",
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "squareChanged",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "boolean"
+      ]
+    }
+  ]
+}

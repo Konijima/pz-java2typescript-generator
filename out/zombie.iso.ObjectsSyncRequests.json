@@ -1,0 +1,217 @@
+{
+  "name": "ObjectsSyncRequests",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ObjectsSyncRequests",
+      "describe": [],
+      "args": [
+        "boolean"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "ClientSendChunkHashes",
+      "scope": "public",
+      "type": "short",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ServerSendGridSquareHashes",
+      "scope": "public",
+      "type": "short",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ClientSendGridSquareRequest",
+      "scope": "public",
+      "type": "short",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ServerSendGridSquareObjectsHashes",
+      "scope": "public",
+      "type": "short",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ClientSendObjectRequests",
+      "scope": "public",
+      "type": "short",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ServerSendObject",
+      "scope": "public",
+      "type": "short",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "requestsSyncIsoChunk",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.iso.ObjectsSyncRequests$SyncIsoChunk>",
+      "describe": []
+    },
+    {
+      "name": "requestsSyncIsoGridSquare",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.iso.ObjectsSyncRequests$SyncIsoGridSquare>",
+      "describe": []
+    },
+    {
+      "name": "requestsSyncIsoObject",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.iso.ObjectsSyncRequests$SyncIsoObject>",
+      "describe": []
+    },
+    {
+      "name": "timeout",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putRequestSyncIsoChunk",
+      "args": [
+        "zombie.iso.IsoChunk"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putRequestSyncItemContainer",
+      "args": [
+        "zombie.inventory.ItemContainer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putRequestSyncIsoGridSquare",
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendRequests",
+      "args": [
+        "zombie.core.raknet.UdpConnection"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "receiveSyncIsoChunk",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "receiveSyncIsoGridSquare",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "receiveSyncIsoObject",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "receiveGridSquareHashes",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "receiveGridSquareObjectHashes",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "receiveObject",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "serverSendRequests",
+      "args": [
+        "zombie.core.raknet.UdpEngine"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "serverSendRequests",
+      "args": [
+        "zombie.core.raknet.UdpConnection"
+      ]
+    }
+  ]
+}

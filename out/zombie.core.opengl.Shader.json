@@ -1,0 +1,145 @@
+{
+  "name": "Shader",
+  "package": "zombie.core.opengl",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "zombie.core.opengl.IShaderProgramListener"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Shader",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "ShaderMap",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.Integer,zombie.core.opengl.Shader>",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "name",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "tex",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": []
+    },
+    {
+      "name": "width",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "height",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setTexture",
+      "args": [
+        "zombie.core.textures.Texture"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getID",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Start",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "End",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "destroy",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "startMainThread",
+      "args": [
+        "zombie.core.textures.TextureDraw",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "startRenderThread",
+      "args": [
+        "zombie.core.textures.TextureDraw"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "postRender",
+      "args": [
+        "zombie.core.textures.TextureDraw"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isCompiled",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "callback",
+      "args": [
+        "zombie.core.opengl.ShaderProgram"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.opengl.ShaderProgram",
+      "name": "getProgram",
+      "args": []
+    }
+  ]
+}

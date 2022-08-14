@@ -1,0 +1,125 @@
+{
+  "name": "RadioChat",
+  "package": "zombie.chat.defaultChats",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.chat.defaultChats.RangeBasedChat"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "RadioChat",
+      "describe": [],
+      "args": [
+        "java.nio.ByteBuffer",
+        "zombie.chat.ChatTab",
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "RadioChat",
+      "describe": [],
+      "args": [
+        "int",
+        "zombie.chat.ChatTab"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "RadioChat",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.chat.ChatSettings",
+      "name": "getDefaultSettings",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.chat.ChatMessage",
+      "name": "createMessage",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.chat.ChatMessage",
+      "name": "createBroadcastingMessage",
+      "args": [
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.chat.ChatMessage",
+      "name": "createStaticSoundMessage",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "showMessage",
+      "args": [
+        "zombie.chat.ChatMessage"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendToServer",
+      "args": [
+        "zombie.chat.ChatMessage",
+        "zombie.radio.devices.DeviceData"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.chat.ChatMessage",
+      "name": "unpackMessage",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "packMessage",
+      "args": [
+        "zombie.core.network.ByteBufferWriter",
+        "zombie.chat.ChatMessage"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getMessagePrefix",
+      "args": [
+        "zombie.chat.ChatMessage"
+      ]
+    }
+  ]
+}

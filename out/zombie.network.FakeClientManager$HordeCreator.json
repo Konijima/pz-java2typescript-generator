@@ -1,0 +1,35 @@
+{
+  "name": "FakeClientManager$HordeCreator",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "HordeCreator",
+      "describe": [],
+      "args": [
+        "int",
+        "int",
+        "long"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getCommand",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    }
+  ]
+}

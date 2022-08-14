@@ -1,0 +1,169 @@
+{
+  "name": "Fixing",
+  "package": "zombie.scripting.objects",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.scripting.objects.BaseScriptObject"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Fixing",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Load",
+      "args": [
+        "java.lang.String",
+        "java.lang.String[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setName",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<java.lang.String>",
+      "name": "getRequiredItem",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addRequiredItem",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.LinkedList<zombie.scripting.objects.Fixing$Fixer>",
+      "name": "getFixers",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.Fixing$Fixer",
+      "name": "usedInFixer",
+      "args": [
+        "zombie.inventory.InventoryItem",
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "haveGlobalItem",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "haveThisFixer",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.scripting.objects.Fixing$Fixer",
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "countUses",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.scripting.objects.Fixing$Fixer",
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getRequiredFixerItems",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.scripting.objects.Fixing$Fixer",
+        "zombie.inventory.InventoryItem",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.inventory.InventoryItem>",
+      "name": "getRequiredItems",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.scripting.objects.Fixing$Fixer",
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.Fixing$Fixer",
+      "name": "getGlobalItem",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setGlobalItem",
+      "args": [
+        "zombie.scripting.objects.Fixing$Fixer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getConditionModifier",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setConditionModifier",
+      "args": [
+        "float"
+      ]
+    }
+  ]
+}

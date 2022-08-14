@@ -1,0 +1,63 @@
+{
+  "name": "Bits$CompareOption",
+  "package": "zombie.core.utils",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.core.utils.Bits$CompareOption>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "ContainsAll",
+      "scope": "public",
+      "type": "zombie.core.utils.Bits$CompareOption",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "HasEither",
+      "scope": "public",
+      "type": "zombie.core.utils.Bits$CompareOption",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "NotHas",
+      "scope": "public",
+      "type": "zombie.core.utils.Bits$CompareOption",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.utils.Bits$CompareOption",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "VehiclesDB2$QueueRemoveVehicle",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [
+    "zombie.vehicles.VehiclesDB2$QueueItem"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

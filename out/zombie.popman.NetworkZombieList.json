@@ -1,0 +1,36 @@
+{
+  "name": "NetworkZombieList",
+  "package": "zombie.popman",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "NetworkZombieList",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "lock",
+      "scope": "public",
+      "type": "java.lang.Object",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.popman.NetworkZombieList$NetworkZombie",
+      "name": "getNetworkZombie",
+      "args": [
+        "zombie.core.raknet.UdpConnection"
+      ]
+    }
+  ]
+}

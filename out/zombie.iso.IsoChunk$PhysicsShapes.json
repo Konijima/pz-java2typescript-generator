@@ -1,0 +1,99 @@
+{
+  "name": "IsoChunk$PhysicsShapes",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.iso.IsoChunk$PhysicsShapes>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Solid",
+      "scope": "public",
+      "type": "zombie.iso.IsoChunk$PhysicsShapes",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WallN",
+      "scope": "public",
+      "type": "zombie.iso.IsoChunk$PhysicsShapes",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WallW",
+      "scope": "public",
+      "type": "zombie.iso.IsoChunk$PhysicsShapes",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WallS",
+      "scope": "public",
+      "type": "zombie.iso.IsoChunk$PhysicsShapes",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WallE",
+      "scope": "public",
+      "type": "zombie.iso.IsoChunk$PhysicsShapes",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Tree",
+      "scope": "public",
+      "type": "zombie.iso.IsoChunk$PhysicsShapes",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Floor",
+      "scope": "public",
+      "type": "zombie.iso.IsoChunk$PhysicsShapes",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.IsoChunk$PhysicsShapes",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Pool<PO",
+  "package": "zombie.util",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.util.IPooledObject>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Pool",
+      "describe": [],
+      "args": [
+        "java.util.function.Supplier<PO>"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "tryRelease",
+      "describe": [],
+      "args": [
+        "E[]"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "PO",
+      "name": "alloc",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "release",
+      "args": [
+        "zombie.util.IPooledObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> E",
+      "name": "tryRelease",
+      "args": [
+        "E"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E extends zombie.util.IPooledObject> E",
+      "name": "tryRelease",
+      "args": [
+        "E"
+      ]
+    }
+  ]
+}

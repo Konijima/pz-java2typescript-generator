@@ -1,0 +1,32 @@
+{
+  "name": "QuaterniondInterpolator",
+  "package": "org.joml",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "QuaterniondInterpolator",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Quaterniond",
+      "name": "computeWeightedAverage",
+      "args": [
+        "org.joml.Quaterniond[]",
+        "double[]",
+        "int",
+        "org.joml.Quaterniond"
+      ]
+    }
+  ]
+}

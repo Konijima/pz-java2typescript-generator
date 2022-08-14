@@ -1,0 +1,51 @@
+{
+  "name": "VorbisAudioFileReader$VorbisInputStream",
+  "package": "de.jarnbjo.vorbis",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "java.io.InputStream"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "VorbisInputStream",
+      "describe": [],
+      "args": [
+        "de.jarnbjo.vorbis.VorbisStream"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "read",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "read",
+      "args": [
+        "byte[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "read",
+      "args": [
+        "byte[]",
+        "int",
+        "int"
+      ]
+    }
+  ]
+}

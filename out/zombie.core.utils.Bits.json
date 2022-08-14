@@ -1,0 +1,1164 @@
+{
+  "name": "Bits",
+  "package": "zombie.core.utils",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Bits",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "ENABLED",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_0",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_1",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_2",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_3",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_4",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_5",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_6",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_7",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_BYTE_MAX",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_8",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_9",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_10",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_11",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_12",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_13",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_14",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_15",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_SHORT_MAX",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_16",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_17",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_18",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_19",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_20",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_21",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_22",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_23",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_24",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_25",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_26",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_27",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_28",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_29",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_30",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_31",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_INT_MAX",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_32",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_33",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_34",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_35",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_36",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_37",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_38",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_39",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_40",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_41",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_42",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_43",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_44",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_45",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_46",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_47",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_48",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_49",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_50",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_51",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_52",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_53",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_54",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_55",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_56",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_57",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_58",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_59",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_60",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_61",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_62",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_63",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BIT_LONG_MAX",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "byte",
+      "name": "packFloatUnitToByte",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "unpackByteToFloatUnit",
+      "args": [
+        "byte"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "byte",
+      "name": "addFlags",
+      "args": [
+        "byte",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "byte",
+      "name": "addFlags",
+      "args": [
+        "byte",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "short",
+      "name": "addFlags",
+      "args": [
+        "short",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "short",
+      "name": "addFlags",
+      "args": [
+        "short",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "addFlags",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "addFlags",
+      "args": [
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "long",
+      "name": "addFlags",
+      "args": [
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "long",
+      "name": "addFlags",
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "hasFlags",
+      "args": [
+        "byte",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "hasFlags",
+      "args": [
+        "byte",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "hasEitherFlags",
+      "args": [
+        "byte",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "hasEitherFlags",
+      "args": [
+        "byte",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "notHasFlags",
+      "args": [
+        "byte",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "notHasFlags",
+      "args": [
+        "byte",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "hasFlags",
+      "args": [
+        "short",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "hasFlags",
+      "args": [
+        "short",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "hasEitherFlags",
+      "args": [
+        "short",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "hasEitherFlags",
+      "args": [
+        "short",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "notHasFlags",
+      "args": [
+        "short",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "notHasFlags",
+      "args": [
+        "short",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "hasFlags",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "hasFlags",
+      "args": [
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "hasEitherFlags",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "hasEitherFlags",
+      "args": [
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "notHasFlags",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "notHasFlags",
+      "args": [
+        "int",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "hasFlags",
+      "args": [
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "hasFlags",
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "hasEitherFlags",
+      "args": [
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "hasEitherFlags",
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "notHasFlags",
+      "args": [
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "notHasFlags",
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "checkFlags",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "zombie.core.utils.Bits$CompareOption"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "checkFlags",
+      "args": [
+        "long",
+        "long",
+        "long",
+        "zombie.core.utils.Bits$CompareOption"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "getLen",
+      "args": [
+        "byte"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "getLen",
+      "args": [
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "getLen",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "getLen",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "getBitsString",
+      "args": [
+        "byte"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "getBitsString",
+      "args": [
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "getBitsString",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "getBitsString",
+      "args": [
+        "long"
+      ]
+    }
+  ]
+}

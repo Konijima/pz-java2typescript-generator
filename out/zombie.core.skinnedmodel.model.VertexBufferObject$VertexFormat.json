@@ -1,0 +1,42 @@
+{
+  "name": "VertexBufferObject$VertexFormat",
+  "package": "zombie.core.skinnedmodel.model",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "VertexFormat",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setElement",
+      "args": [
+        "int",
+        "zombie.core.skinnedmodel.model.VertexBufferObject$VertexType",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "calculate",
+      "args": []
+    }
+  ]
+}

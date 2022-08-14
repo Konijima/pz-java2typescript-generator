@@ -1,0 +1,40 @@
+{
+  "name": "EnumConfigOption",
+  "package": "zombie.config",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.config.IntegerConfigOption"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "EnumConfigOption",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "int",
+        "int"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getType",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getNumValues",
+      "args": []
+    }
+  ]
+}

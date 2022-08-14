@@ -1,0 +1,70 @@
+{
+  "name": "PolygonalMap2$ChunkDataZ",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "chunk",
+      "scope": "public",
+      "type": "zombie.vehicles.PolygonalMap2$Chunk",
+      "describe": []
+    },
+    {
+      "name": "obstacles",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.vehicles.PolygonalMap2$Obstacle>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "nodes",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.vehicles.PolygonalMap2$Node>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "z",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "pool",
+      "scope": "public",
+      "type": "zombie.popman.ObjectPool<zombie.vehicles.PolygonalMap2$ChunkDataZ>",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "init",
+      "args": [
+        "zombie.vehicles.PolygonalMap2$Chunk",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clear",
+      "args": []
+    }
+  ]
+}

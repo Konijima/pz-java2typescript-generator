@@ -1,0 +1,42 @@
+{
+  "name": "ActiveModsFile",
+  "package": "zombie.modding",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ActiveModsFile",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "write",
+      "args": [
+        "java.lang.String",
+        "zombie.modding.ActiveMods"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "read",
+      "args": [
+        "java.lang.String",
+        "zombie.modding.ActiveMods"
+      ]
+    }
+  ]
+}

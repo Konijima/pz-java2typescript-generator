@@ -1,0 +1,25 @@
+{
+  "name": "PacketTypes$PacketAuthorization$UnauthorizedPacketPolicy",
+  "package": "zombie.network",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "call",
+      "args": [
+        "zombie.core.raknet.UdpConnection",
+        "java.lang.String"
+      ]
+    }
+  ]
+}

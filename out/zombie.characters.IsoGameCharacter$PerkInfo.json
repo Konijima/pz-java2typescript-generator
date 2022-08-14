@@ -1,0 +1,42 @@
+{
+  "name": "IsoGameCharacter$PerkInfo",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "PerkInfo",
+      "describe": [],
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "level",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "perk",
+      "scope": "public",
+      "type": "zombie.characters.skills.PerkFactory$Perk",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getLevel",
+      "args": []
+    }
+  ]
+}

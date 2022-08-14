@@ -1,0 +1,12 @@
+{
+  "name": "IFMODListener",
+  "package": "fmod.fmod",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

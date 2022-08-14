@@ -1,0 +1,26 @@
+{
+  "name": "PZXmlUtil$UnmarshallerAllocator",
+  "package": "zombie.util",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<T> javax.xml.bind.Unmarshaller",
+      "name": "get",
+      "args": [
+        "java.lang.Class<T>"
+      ]
+    }
+  ]
+}

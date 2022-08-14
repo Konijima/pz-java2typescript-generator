@@ -1,0 +1,180 @@
+{
+  "name": "ModelLoader$LoadMode",
+  "package": "zombie.core.skinnedmodel.model",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.core.skinnedmodel.model.ModelLoader$LoadMode>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Version",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.ModelLoader$LoadMode",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ModelName",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.ModelLoader$LoadMode",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "VertexStrideElementCount",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.ModelLoader$LoadMode",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "VertexStrideSize",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.ModelLoader$LoadMode",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "VertexStrideData",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.ModelLoader$LoadMode",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "VertexCount",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.ModelLoader$LoadMode",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "VertexBuffer",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.ModelLoader$LoadMode",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "NumberOfFaces",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.ModelLoader$LoadMode",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FaceData",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.ModelLoader$LoadMode",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "NumberOfBones",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.ModelLoader$LoadMode",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SkeletonHierarchy",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.ModelLoader$LoadMode",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BindPose",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.ModelLoader$LoadMode",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "InvBindPose",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.ModelLoader$LoadMode",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SkinOffsetMatrices",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.ModelLoader$LoadMode",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "NumberOfAnims",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.ModelLoader$LoadMode",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Anim",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.ModelLoader$LoadMode",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.skinnedmodel.model.ModelLoader$LoadMode",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

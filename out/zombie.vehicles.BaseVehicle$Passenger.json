@@ -1,0 +1,28 @@
+{
+  "name": "BaseVehicle$Passenger",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Passenger",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "character",
+      "scope": "public",
+      "type": "zombie.characters.IsoGameCharacter",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

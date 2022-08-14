@@ -1,0 +1,402 @@
+{
+  "name": "RoomDef",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "RoomDef",
+      "describe": [],
+      "args": [
+        "int",
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "bExplored",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "bDoneSpawn",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "IndoorZombies",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "spawnCount",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "bLightsActive",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "name",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "level",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "building",
+      "scope": "public",
+      "type": "zombie.iso.BuildingDef",
+      "describe": []
+    },
+    {
+      "name": "ID",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "rects",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.iso.RoomDef$RoomRect>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "objects",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.iso.MetaObject>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "x",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "y",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "x2",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "y2",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "area",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "metaID",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "getX2",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "getY2",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getID",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isExplored",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isInside",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "intersects",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getAreaOverlapping",
+      "args": [
+        "zombie.iso.IsoChunk"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getAreaOverlapping",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "forEachChunk",
+      "args": [
+        "java.util.function.BiConsumer<zombie.iso.RoomDef",
+        "zombie.iso.IsoChunk>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.areas.IsoRoom",
+      "name": "getIsoRoom",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.iso.MetaObject>",
+      "name": "getObjects",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.iso.MetaObject>",
+      "name": "getMetaObjects",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "refreshSquares",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.BuildingDef",
+      "name": "getBuilding",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setBuilding",
+      "args": [
+        "zombie.iso.BuildingDef"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.iso.RoomDef$RoomRect>",
+      "name": "getRects",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getY",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getX",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getW",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getH",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getZ",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "CalculateBounds",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "long",
+      "name": "calculateMetaID",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getArea",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setExplored",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getFreeSquare",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoGridSquare",
+      "name": "getRandomSquare",
+      "args": [
+        "java.util.function.Predicate<zombie.iso.IsoGridSquare>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isEmptyOutside",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.HashMap<java.lang.String,java.lang.Integer>",
+      "name": "getProceduralSpawnedContainer",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isRoofFixed",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setRoofFixed",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getClosestPoint",
+      "args": [
+        "float",
+        "float",
+        "org.joml.Vector2f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Dispose",
+      "args": []
+    }
+  ]
+}

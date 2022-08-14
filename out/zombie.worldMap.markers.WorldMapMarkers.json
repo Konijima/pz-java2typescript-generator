@@ -1,0 +1,62 @@
+{
+  "name": "WorldMapMarkers",
+  "package": "zombie.worldMap.markers",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "WorldMapMarkers",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.worldMap.markers.WorldMapGridSquareMarker",
+      "name": "addGridSquareMarker",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeMarker",
+      "args": [
+        "zombie.worldMap.markers.WorldMapMarker"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clear",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": [
+        "zombie.worldMap.UIWorldMap"
+      ]
+    }
+  ]
+}

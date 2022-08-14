@@ -1,0 +1,14 @@
+{
+  "name": "VBOLinesUV$Run",
+  "package": "zombie.worldMap",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

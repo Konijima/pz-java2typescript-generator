@@ -1,0 +1,14 @@
+{
+  "name": "TexturePackDevice$TexturePackInputStream",
+  "package": "zombie.fileSystem",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [
+    "java.io.FileInputStream"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

@@ -1,0 +1,273 @@
+{
+  "name": "HelperFunctions",
+  "package": "zombie.core.skinnedmodel",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "HelperFunctions",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "org.lwjgl.util.vector.Vector3f"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "getZero3",
+      "scope": "public",
+      "type": "org.lwjgl.util.vector.Vector3f",
+      "describe": [
+        "static"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "ToRgba",
+      "args": [
+        "zombie.core.Color"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "returnMatrix",
+      "args": [
+        "org.lwjgl.util.vector.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjgl.util.vector.Matrix4f",
+      "name": "getMatrix",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjgl.util.vector.Matrix4f",
+      "name": "getMatrix",
+      "args": [
+        "org.lwjgl.util.vector.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjgl.util.vector.Matrix4f",
+      "name": "CreateFromQuaternion",
+      "args": [
+        "org.lwjgl.util.vector.Quaternion"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjgl.util.vector.Matrix4f",
+      "name": "CreateFromQuaternion",
+      "args": [
+        "org.lwjgl.util.vector.Quaternion",
+        "org.lwjgl.util.vector.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjgl.util.vector.Matrix4f",
+      "name": "CreateFromQuaternionPositionScale",
+      "args": [
+        "org.lwjgl.util.vector.Vector3f",
+        "org.lwjgl.util.vector.Quaternion",
+        "org.lwjgl.util.vector.Vector3f",
+        "org.lwjgl.util.vector.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "CreateFromQuaternionPositionScale",
+      "args": [
+        "org.lwjgl.util.vector.Vector3f",
+        "org.lwjgl.util.vector.Quaternion",
+        "org.lwjgl.util.vector.Vector3f",
+        "zombie.core.skinnedmodel.HelperFunctions$TransformResult_QPS"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "TransformVertices",
+      "args": [
+        "zombie.core.skinnedmodel.model.VertexPositionNormalTangentTextureSkin[]",
+        "java.util.List<org.lwjgl.util.vector.Matrix4f>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "ApplyBlendBone",
+      "args": [
+        "float",
+        "org.lwjgl.util.vector.Matrix4f",
+        "zombie.core.skinnedmodel.Vector3",
+        "zombie.core.skinnedmodel.Vector3",
+        "org.lwjgl.util.vector.Vector4f",
+        "zombie.core.skinnedmodel.Vector3",
+        "zombie.core.skinnedmodel.Vector3"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjgl.util.vector.Vector3f",
+      "name": "getPosition",
+      "args": [
+        "org.lwjgl.util.vector.Matrix4f",
+        "org.lwjgl.util.vector.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setPosition",
+      "args": [
+        "org.lwjgl.util.vector.Matrix4f",
+        "org.lwjgl.util.vector.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjgl.util.vector.Quaternion",
+      "name": "getRotation",
+      "args": [
+        "org.lwjgl.util.vector.Matrix4f",
+        "org.lwjgl.util.vector.Quaternion"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "transform",
+      "args": [
+        "org.lwjgl.util.vector.Quaternion",
+        "org.lwjgl.util.vector.Vector3f",
+        "org.lwjgl.util.vector.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "getRotationY",
+      "args": [
+        "org.lwjgl.util.vector.Quaternion"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "getRotationZ",
+      "args": [
+        "org.lwjgl.util.vector.Quaternion"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjgl.util.vector.Vector3f",
+      "name": "ToEulerAngles",
+      "args": [
+        "org.lwjgl.util.vector.Quaternion",
+        "org.lwjgl.util.vector.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjgl.util.vector.Quaternion",
+      "name": "ToQuaternion",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.lwjgl.util.vector.Quaternion"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjgl.util.vector.Quaternion",
+      "name": "getIdentityQ",
+      "args": []
+    }
+  ]
+}

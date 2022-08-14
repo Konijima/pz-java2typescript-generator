@@ -1,0 +1,31 @@
+{
+  "name": "EngineTestbed",
+  "package": "N3D",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "EngineTestbed",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "main",
+      "args": [
+        "java.lang.String[]"
+      ]
+    }
+  ]
+}

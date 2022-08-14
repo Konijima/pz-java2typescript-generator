@@ -1,0 +1,25 @@
+{
+  "name": "Predicates$Params1$ICallback<E,",
+  "package": "zombie.util.lambda",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "test",
+      "args": [
+        "E",
+        "T1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Animation$AnimLayerOG",
+  "package": "zombie.debug.options",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.debug.options.OptionGroup"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "LogStateChanges",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "AllowAnimNodeOverride",
+      "scope": "public",
+      "type": "zombie.debug.BooleanDebugOption",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": []
+}

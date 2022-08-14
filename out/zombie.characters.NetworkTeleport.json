@@ -1,0 +1,109 @@
+{
+  "name": "NetworkTeleport",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "NetworkTeleport",
+      "describe": [],
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.characters.NetworkTeleport$Type",
+        "float",
+        "float",
+        "byte",
+        "float"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "enable",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "enableInstantTeleport",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "ndirection",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "process",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "stop",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "teleport",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.characters.NetworkTeleport$Type",
+        "float",
+        "float",
+        "byte",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "teleport",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.network.packets.PlayerPacket",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "update",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.network.packets.PlayerPacket"
+      ]
+    }
+  ]
+}

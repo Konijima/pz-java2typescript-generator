@@ -1,0 +1,33 @@
+{
+  "name": "AnimatedModel$AnimatedModelInstanceRenderData",
+  "package": "zombie.core.skinnedmodel.advancedanimation",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "xfrm",
+      "scope": "public",
+      "type": "org.joml.Matrix4f",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.advancedanimation.AnimatedModel$AnimatedModelInstanceRenderData",
+      "name": "transformToParent",
+      "args": [
+        "zombie.core.skinnedmodel.advancedanimation.AnimatedModel$AnimatedModelInstanceRenderData"
+      ]
+    }
+  ]
+}

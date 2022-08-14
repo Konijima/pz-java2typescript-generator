@@ -1,0 +1,377 @@
+{
+  "name": "CommentHeader",
+  "package": "de.jarnbjo.vorbis",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "CommentHeader",
+      "describe": [],
+      "args": [
+        "de.jarnbjo.util.io.BitInputStream"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "getComments",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "getTitles",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "getVersions",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "getAlbums",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "getTrackNumbers",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "getArtists",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "getPerformers",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "getCopyrights",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "getLicenses",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "getOrganizations",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "getDescriptions",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "getGenres",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "getDates",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "getLocations",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "getContacts",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "getIsrcs",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "TITLE",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ARTIST",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ALBUM",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TRACKNUMBER",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "VERSION",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "PERFORMER",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "COPYRIGHT",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "LICENSE",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ORGANIZATION",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DESCRIPTION",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "GENRE",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DATE",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "LOCATION",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "CONTACT",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ISRC",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getVendor",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getComment",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getTitle",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getVersion",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getAlbum",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getTrackNumber",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getArtist",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getPerformer",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getCopyright",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getLicense",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getOrganization",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getDescription",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getGenre",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getDate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getLocation",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getContact",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getIsrc",
+      "args": []
+    }
+  ]
+}

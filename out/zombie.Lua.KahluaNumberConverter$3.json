@@ -1,0 +1,49 @@
+{
+  "name": "KahluaNumberConverter$3",
+  "package": "zombie.Lua",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "se.krka.kahlua.converter.LuaToJavaConverter<java.lang.Double, java.lang.Float>"
+  ],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Float",
+      "name": "fromLuaToJava",
+      "args": [
+        "java.lang.Double",
+        "java.lang.Class<java.lang.Float>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Class<java.lang.Float>",
+      "name": "getJavaType",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Class<java.lang.Double>",
+      "name": "getLuaType",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Object",
+      "name": "fromLuaToJava",
+      "args": [
+        "java.lang.Object",
+        "java.lang.Class"
+      ]
+    }
+  ]
+}

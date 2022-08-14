@@ -1,0 +1,130 @@
+{
+  "name": "WorldMapGeometry",
+  "package": "zombie.worldMap",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "WorldMapGeometry",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_type",
+      "scope": "public",
+      "type": "zombie.worldMap.WorldMapGeometry$Type",
+      "describe": []
+    },
+    {
+      "name": "m_points",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.worldMap.WorldMapPoints>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "m_minX",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "m_minY",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "m_maxX",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "m_maxY",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "float",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "m_trianglesPerZoom",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.worldMap.WorldMapGeometry$TrianglesPerZoom>",
+      "describe": []
+    },
+    {
+      "name": "m_vboIndex1",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "m_vboIndex2",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "m_vboIndex3",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "m_vboIndex4",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "calculateBounds",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "containsPoint",
+      "args": [
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "triangulate",
+      "args": [
+        "double[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "dispose",
+      "args": []
+    }
+  ]
+}

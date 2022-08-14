@@ -1,0 +1,4058 @@
+{
+  "name": "javafmod",
+  "package": "fmod",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "javafmod",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "Initialize",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_void",
+        "int",
+        "fmod.SWIGTYPE_p_FMOD_MEMORY_ALLOC_CALLBACK",
+        "fmod.SWIGTYPE_p_FMOD_MEMORY_REALLOC_CALLBACK",
+        "fmod.SWIGTYPE_p_FMOD_MEMORY_FREE_CALLBACK",
+        "fmod.SWIGTYPE_p_FMOD_MEMORY_TYPE"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetStats",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_int",
+        "fmod.SWIGTYPE_p_int",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Initialize",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DEBUG_FLAGS",
+        "fmod.SWIGTYPE_p_FMOD_DEBUG_MODE",
+        "fmod.SWIGTYPE_p_FMOD_DEBUG_CALLBACK",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetDiskBusy",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDiskBusy",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Create",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "Release",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetOutput",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_FMOD_OUTPUTTYPE"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetOutput",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_FMOD_OUTPUTTYPE"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumDrivers",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDriverInfo",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "int",
+        "java.lang.String",
+        "int",
+        "fmod.SWIGTYPE_p_FMOD_GUID",
+        "fmod.SWIGTYPE_p_int",
+        "fmod.SWIGTYPE_p_FMOD_SPEAKERMODE",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetDriver",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDriver",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetSoftwareChannels",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSoftwareChannels",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetSoftwareFormat",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "int",
+        "fmod.SWIGTYPE_p_FMOD_SPEAKERMODE",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSoftwareFormat",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_int",
+        "fmod.SWIGTYPE_p_FMOD_SPEAKERMODE",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetDSPBufferSize",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDSPBufferSize",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_unsigned_int",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetFileSystem",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_FMOD_FILE_OPEN_CALLBACK",
+        "fmod.SWIGTYPE_p_FMOD_FILE_CLOSE_CALLBACK",
+        "fmod.SWIGTYPE_p_FMOD_FILE_READ_CALLBACK",
+        "fmod.SWIGTYPE_p_FMOD_FILE_SEEK_CALLBACK",
+        "fmod.SWIGTYPE_p_FMOD_FILE_ASYNCREAD_CALLBACK",
+        "fmod.SWIGTYPE_p_FMOD_FILE_ASYNCCANCEL_CALLBACK",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "AttachFileSystem",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_FMOD_FILE_OPEN_CALLBACK",
+        "fmod.SWIGTYPE_p_FMOD_FILE_CLOSE_CALLBACK",
+        "fmod.SWIGTYPE_p_FMOD_FILE_READ_CALLBACK",
+        "fmod.SWIGTYPE_p_FMOD_FILE_SEEK_CALLBACK"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetAdvancedSettings",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_FMOD_ADVANCEDSETTINGS"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetAdvancedSettings",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_FMOD_ADVANCEDSETTINGS"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetCallback",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM_CALLBACK",
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM_CALLBACK_TYPE"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPluginPath",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "LoadPlugin",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "java.lang.String",
+        "fmod.SWIGTYPE_p_unsigned_int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "UnloadPlugin",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumPlugins",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_FMOD_PLUGINTYPE",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPluginHandle",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_FMOD_PLUGINTYPE",
+        "int",
+        "fmod.SWIGTYPE_p_unsigned_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPluginInfo",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "long",
+        "fmod.SWIGTYPE_p_FMOD_PLUGINTYPE",
+        "java.lang.String",
+        "int",
+        "fmod.SWIGTYPE_p_unsigned_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetOutputByPlugin",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetOutputByPlugin",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_unsigned_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "CreateDSPByPlugin",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "long",
+        "fmod.SWIGTYPE_p_p_FMOD_DSP"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDSPInfoByPlugin",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "long",
+        "fmod.SWIGTYPE_p_p_FMOD_DSP_DESCRIPTION"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "RegisterCodec",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_FMOD_CODEC_DESCRIPTION",
+        "fmod.SWIGTYPE_p_unsigned_int",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "RegisterDSP",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_FMOD_DSP_DESCRIPTION",
+        "fmod.SWIGTYPE_p_unsigned_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Init",
+      "describe": [],
+      "args": [
+        "int",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Close",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Update",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "SetSpeakerPosition",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_FMOD_SPEAKER",
+        "float",
+        "float",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSpeakerPosition",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_FMOD_SPEAKER",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetStreamBufferSize",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "long",
+        "fmod.SWIGTYPE_p_FMOD_TIMEUNIT"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetStreamBufferSize",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_unsigned_int",
+        "fmod.SWIGTYPE_p_FMOD_TIMEUNIT"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DSettings",
+      "describe": [],
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DSettings",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DNumListeners",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DNumListeners",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DListenerAttributes",
+      "describe": [],
+      "args": [
+        "int",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DListenerAttributes",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "int",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DRolloffCallback",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_FMOD_3D_ROLLOFF_CALLBACK"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "MixerSuspend",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "MixerResume",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetVersion",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_unsigned_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetOutputHandle",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_p_void"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetChannelsPlaying",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetCPUUsage",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "CreateSound",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "CreateRecordSound",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetVADMode",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetRecordVolume",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "CreateRAWPlaySound",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetRawPlayBufferingPeriod",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "RAWPlayData",
+      "describe": [],
+      "args": [
+        "long",
+        "short[]",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "RAWPlayData",
+      "describe": [],
+      "args": [
+        "long",
+        "byte[]",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "LoadSampleData",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "LoadEventSampleData",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "CreateStream",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "java.lang.String",
+        "fmod.SWIGTYPE_p_FMOD_MODE",
+        "fmod.SWIGTYPE_p_FMOD_CREATESOUNDEXINFO",
+        "fmod.SWIGTYPE_p_p_FMOD_SOUND"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "CreateDSP",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_FMOD_DSP_DESCRIPTION",
+        "fmod.SWIGTYPE_p_p_FMOD_DSP"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "CreateDSPByType",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_FMOD_DSP_TYPE",
+        "fmod.SWIGTYPE_p_p_FMOD_DSP"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "CreateChannelGroup",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "CreateSoundGroup",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "java.lang.String",
+        "fmod.SWIGTYPE_p_p_FMOD_SOUNDGROUP"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "D",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_p_FMOD_REVERB3D"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "PlaySound",
+      "describe": [],
+      "args": [
+        "long",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "PlayDSP",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "GetChannel",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "int",
+        "fmod.SWIGTYPE_p_p_FMOD_CHANNEL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMasterChannelGroup",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "GetMasterSoundGroup",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_p_FMOD_SOUNDGROUP"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "AttachChannelGroupToPort",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_FMOD_PORT_TYPE",
+        "fmod.SWIGTYPE_p_FMOD_PORT_INDEX",
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DetachChannelGroupFromPort",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetReverbProperties",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "int",
+        "fmod.SWIGTYPE_p_FMOD_REVERB_PROPERTIES"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetReverbProperties",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "int",
+        "fmod.SWIGTYPE_p_FMOD_REVERB_PROPERTIES"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "LockDSP",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "UnlockDSP",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetRecordNumDrivers",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "GetRecordDriverInfo",
+      "describe": [],
+      "args": [
+        "int",
+        "fmod.FMOD_DriverInfo"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetRecordPosition",
+      "describe": [],
+      "args": [
+        "int",
+        "java.lang.Long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "RecordStart",
+      "describe": [],
+      "args": [
+        "int",
+        "long",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "RecordStop",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "IsRecording",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "int",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "CreateGeometry",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "int",
+        "int",
+        "fmod.SWIGTYPE_p_p_FMOD_GEOMETRY"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetGeometrySettings",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetGeometrySettings",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "LoadGeometry",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_void",
+        "int",
+        "fmod.SWIGTYPE_p_p_FMOD_GEOMETRY"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetGeometryOcclusion",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetNetworkProxy",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNetworkProxy",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetNetworkTimeout",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNetworkTimeout",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetUserData",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_void"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetUserData",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SYSTEM",
+        "fmod.SWIGTYPE_p_p_void"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Release",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Release",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Release",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSystemObject",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "fmod.SWIGTYPE_p_p_FMOD_SYSTEM"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Lock",
+      "describe": [],
+      "args": [
+        "long",
+        "long",
+        "long",
+        "byte[]",
+        "byte[]",
+        "java.lang.Long",
+        "java.lang.Long",
+        "long[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetData",
+      "describe": [],
+      "args": [
+        "long",
+        "byte[]",
+        "java.lang.Long",
+        "java.lang.Long",
+        "java.lang.Long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Unlock",
+      "describe": [],
+      "args": [
+        "long",
+        "long[]"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetDefaults",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "float",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDefaults",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DMinMaxDistance",
+      "describe": [],
+      "args": [
+        "long",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DMinMaxDistance",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Create",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "StartEvent",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetTimelinePosition",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetBus",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetEvent",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "CreateEventInstance",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "LoadBankFile",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetParameterByID",
+      "describe": [],
+      "args": [
+        "fmod.fmod.FMOD_STUDIO_PARAMETER_ID",
+        "float",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetParameterByName",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "float",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMute",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPaused",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetVolume",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMute",
+      "describe": [],
+      "args": [
+        "long",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPaused",
+      "describe": [],
+      "args": [
+        "long",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetVolume",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "StopAllEvents",
+      "describe": [],
+      "args": [
+        "long",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DConeSettings",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DConeSettings",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DCustomRolloff",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DCustomRolloff",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "fmod.SWIGTYPE_p_p_FMOD_VECTOR",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetSubSound",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "int",
+        "fmod.SWIGTYPE_p_FMOD_SOUND"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSubSound",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "int",
+        "fmod.SWIGTYPE_p_p_FMOD_SOUND"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSubSoundParent",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "fmod.SWIGTYPE_p_p_FMOD_SOUND"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetName",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetLength",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetFormat",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "fmod.SWIGTYPE_p_FMOD_SOUND_TYPE",
+        "fmod.SWIGTYPE_p_FMOD_SOUND_FORMAT",
+        "fmod.SWIGTYPE_p_int",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumSubSounds",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumTags",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "fmod.SWIGTYPE_p_int",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetTag",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "java.lang.String",
+        "int",
+        "fmod.SWIGTYPE_p_FMOD_TAG"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetOpenState",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "fmod.SWIGTYPE_p_FMOD_OPENSTATE",
+        "fmod.SWIGTYPE_p_unsigned_int",
+        "fmod.SWIGTYPE_p_FMOD_BOOL",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ReadData",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "fmod.SWIGTYPE_p_void",
+        "long",
+        "fmod.SWIGTYPE_p_unsigned_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SeekData",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetSoundGroup",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSoundGroup",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "fmod.SWIGTYPE_p_p_FMOD_SOUNDGROUP"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumSyncPoints",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSyncPoint",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "int",
+        "fmod.SWIGTYPE_p_p_FMOD_SYNCPOINT"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSyncPointInfo",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "fmod.SWIGTYPE_p_FMOD_SYNCPOINT",
+        "java.lang.String",
+        "int",
+        "fmod.SWIGTYPE_p_unsigned_int",
+        "fmod.SWIGTYPE_p_FMOD_TIMEUNIT"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "AddSyncPoint",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "long",
+        "fmod.SWIGTYPE_p_FMOD_TIMEUNIT",
+        "java.lang.String",
+        "fmod.SWIGTYPE_p_p_FMOD_SYNCPOINT"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DeleteSyncPoint",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "fmod.SWIGTYPE_p_FMOD_SYNCPOINT"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMode",
+      "describe": [],
+      "args": [
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMode",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "fmod.SWIGTYPE_p_FMOD_MODE"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetLoopCount",
+      "describe": [],
+      "args": [
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetLoopCount",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetLoopPoints",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "long",
+        "fmod.SWIGTYPE_p_FMOD_TIMEUNIT",
+        "long",
+        "fmod.SWIGTYPE_p_FMOD_TIMEUNIT"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetLoopPoints",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "fmod.SWIGTYPE_p_unsigned_int",
+        "fmod.SWIGTYPE_p_FMOD_TIMEUNIT",
+        "fmod.SWIGTYPE_p_unsigned_int",
+        "fmod.SWIGTYPE_p_FMOD_TIMEUNIT"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMusicNumChannels",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMusicChannelVolume",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "int",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMusicChannelVolume",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "int",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMusicSpeed",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMusicSpeed",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetUserData",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "fmod.SWIGTYPE_p_void"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetUserData",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUND",
+        "fmod.SWIGTYPE_p_p_void"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSystemObject",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_p_FMOD_SYSTEM"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Stop",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPaused",
+      "describe": [],
+      "args": [
+        "long",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPaused",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetVolume",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetVolume",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetVolumeRamp",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetVolumeRamp",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetAudibility",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPitch",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPitch",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPitch",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMute",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMute",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetReverbProperties",
+      "describe": [],
+      "args": [
+        "long",
+        "int",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetReverbProperties",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "int",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetLowPassGain",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetLowPassGain",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMode",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMode",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_FMOD_MODE"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetCallback",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_FMOD_CHANNELCONTROL_CALLBACK"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "IsPlaying",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPan",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMixLevelsOutput",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMixLevelsInput",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_float",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMixMatrix",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_float",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMixMatrix",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_int",
+        "fmod.SWIGTYPE_p_int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDSPClock",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_unsigned_long_long",
+        "fmod.SWIGTYPE_p_unsigned_long_long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetDelay",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "java.math.BigInteger",
+        "java.math.BigInteger",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDelay",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_unsigned_long_long",
+        "fmod.SWIGTYPE_p_unsigned_long_long",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "AddFadePoint",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "java.math.BigInteger",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "RemoveFadePoints",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "java.math.BigInteger",
+        "java.math.BigInteger"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetFadePoints",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_unsigned_int",
+        "fmod.SWIGTYPE_p_unsigned_long_long",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDSP",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "int",
+        "fmod.SWIGTYPE_p_p_FMOD_DSP"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "AddDSP",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "int",
+        "fmod.SWIGTYPE_p_FMOD_DSP"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "RemoveDSP",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_FMOD_DSP"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumDSPs",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetDSPIndex",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDSPIndex",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "OverridePanDSP",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_FMOD_DSP"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DAttributes",
+      "describe": [],
+      "args": [
+        "long",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DAttributes",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DMinMaxDistance",
+      "describe": [],
+      "args": [
+        "long",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DMinMaxDistance",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DConeSettings",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DConeSettings",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DConeOrientation",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DConeOrientation",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DCustomRolloff",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DCustomRolloff",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_p_FMOD_VECTOR",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DOcclusion",
+      "describe": [],
+      "args": [
+        "long",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DOcclusion",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DSpread",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DSpread",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DLevel",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DLevel",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DDopplerLevel",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DDopplerLevel",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DDistanceFilter",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_FMOD_BOOL",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DDistanceFilter",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_FMOD_BOOL",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetUserData",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_void"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetUserData",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_p_void"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetFrequency",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetFrequency",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPriority",
+      "describe": [],
+      "args": [
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPriority",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPosition",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPosition",
+      "describe": [],
+      "args": [
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetChannelGroup",
+      "describe": [],
+      "args": [
+        "long",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetChannelGroup",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_p_FMOD_CHANNELGROUP"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetLoopCount",
+      "describe": [],
+      "args": [
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetLoopCount",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetLoopPoints",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "long",
+        "fmod.SWIGTYPE_p_FMOD_TIMEUNIT",
+        "long",
+        "fmod.SWIGTYPE_p_FMOD_TIMEUNIT"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetLoopPoints",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_unsigned_int",
+        "fmod.SWIGTYPE_p_FMOD_TIMEUNIT",
+        "fmod.SWIGTYPE_p_unsigned_int",
+        "fmod.SWIGTYPE_p_FMOD_TIMEUNIT"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "IsVirtual",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetCurrentSound",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_p_FMOD_SOUND"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetIndex",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNEL",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSystemObject",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_p_FMOD_SYSTEM"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Stop",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPaused",
+      "describe": [],
+      "args": [
+        "long",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPaused",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetVolume",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetVolume",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetVolumeRamp",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetVolumeRamp",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetAudibility",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPitch",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPitch",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMute",
+      "describe": [],
+      "args": [
+        "long",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMute",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetReverbProperties",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "int",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetReverbProperties",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "int",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetLowPassGain",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetLowPassGain",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMode",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_FMOD_MODE"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMode",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_FMOD_MODE"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetCallback",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_FMOD_CHANNELCONTROL_CALLBACK"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "IsPlaying",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPan",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMixLevelsOutput",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMixLevelsInput",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_float",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMixMatrix",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_float",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMixMatrix",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_int",
+        "fmod.SWIGTYPE_p_int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDSPClock",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_unsigned_long_long",
+        "fmod.SWIGTYPE_p_unsigned_long_long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetDelay",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "java.math.BigInteger",
+        "java.math.BigInteger",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDelay",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_unsigned_long_long",
+        "fmod.SWIGTYPE_p_unsigned_long_long",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "AddFadePoint",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "java.math.BigInteger",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "RemoveFadePoints",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "java.math.BigInteger",
+        "java.math.BigInteger"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetFadePoints",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_unsigned_int",
+        "fmod.SWIGTYPE_p_unsigned_long_long",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDSP",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "int",
+        "fmod.SWIGTYPE_p_p_FMOD_DSP"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "AddDSP",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "int",
+        "fmod.SWIGTYPE_p_FMOD_DSP"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "RemoveDSP",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_FMOD_DSP"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumDSPs",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetDSPIndex",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDSPIndex",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "OverridePanDSP",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_FMOD_DSP"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DAttributes",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DAttributes",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DMinMaxDistance",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DMinMaxDistance",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DConeSettings",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DConeSettings",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DConeOrientation",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DConeOrientation",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DCustomRolloff",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DCustomRolloff",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_p_FMOD_VECTOR",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DOcclusion",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DOcclusion",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DSpread",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DSpread",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DLevel",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DLevel",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DDopplerLevel",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DDopplerLevel",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DDistanceFilter",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_FMOD_BOOL",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DDistanceFilter",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_FMOD_BOOL",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetUserData",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_void"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetUserData",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_p_void"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Release",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "AddGroup",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_FMOD_BOOL",
+        "fmod.SWIGTYPE_p_p_FMOD_DSPCONNECTION"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumGroups",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetGroup",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "int",
+        "fmod.SWIGTYPE_p_p_FMOD_CHANNELGROUP"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetParentGroup",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_p_FMOD_CHANNELGROUP"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetName",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumChannels",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetChannel",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_CHANNELGROUP",
+        "int",
+        "fmod.SWIGTYPE_p_p_FMOD_CHANNEL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Release",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUNDGROUP"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSystemObject",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUNDGROUP",
+        "fmod.SWIGTYPE_p_p_FMOD_SYSTEM"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMaxAudible",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUNDGROUP",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMaxAudible",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUNDGROUP",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMaxAudibleBehavior",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUNDGROUP",
+        "fmod.SWIGTYPE_p_FMOD_SOUNDGROUP_BEHAVIOR"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMaxAudibleBehavior",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUNDGROUP",
+        "fmod.SWIGTYPE_p_FMOD_SOUNDGROUP_BEHAVIOR"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMuteFadeSpeed",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUNDGROUP",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMuteFadeSpeed",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUNDGROUP",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetVolume",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUNDGROUP",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetVolume",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUNDGROUP",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Stop",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUNDGROUP"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetName",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUNDGROUP",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumSounds",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUNDGROUP",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSound",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUNDGROUP",
+        "int",
+        "fmod.SWIGTYPE_p_p_FMOD_SOUND"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumPlaying",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUNDGROUP",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetUserData",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUNDGROUP",
+        "fmod.SWIGTYPE_p_void"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetUserData",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_SOUNDGROUP",
+        "fmod.SWIGTYPE_p_p_void"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Release",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetSystemObject",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_p_FMOD_SYSTEM"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "AddInput",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_p_FMOD_DSPCONNECTION",
+        "fmod.SWIGTYPE_p_FMOD_DSPCONNECTION_TYPE"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DisconnectFrom",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_FMOD_DSPCONNECTION"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DisconnectAll",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_FMOD_BOOL",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumInputs",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumOutputs",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetInput",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "int",
+        "fmod.SWIGTYPE_p_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_p_FMOD_DSPCONNECTION"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetOutput",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "int",
+        "fmod.SWIGTYPE_p_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_p_FMOD_DSPCONNECTION"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetActive",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetActive",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetBypass",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetBypass",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetWetDryMix",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetWetDryMix",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetChannelFormat",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_FMOD_CHANNELMASK",
+        "int",
+        "fmod.SWIGTYPE_p_FMOD_SPEAKERMODE"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetChannelFormat",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_FMOD_CHANNELMASK",
+        "fmod.SWIGTYPE_p_int",
+        "fmod.SWIGTYPE_p_FMOD_SPEAKERMODE"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetOutputChannelFormat",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_FMOD_CHANNELMASK",
+        "int",
+        "fmod.SWIGTYPE_p_FMOD_SPEAKERMODE",
+        "fmod.SWIGTYPE_p_FMOD_CHANNELMASK",
+        "fmod.SWIGTYPE_p_int",
+        "fmod.SWIGTYPE_p_FMOD_SPEAKERMODE"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Reset",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetParameterFloat",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "int",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetParameterInt",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetParameterBool",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "int",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetParameterData",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "int",
+        "fmod.SWIGTYPE_p_void",
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetParameterFloat",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "int",
+        "fmod.SWIGTYPE_p_float",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetParameterInt",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "int",
+        "fmod.SWIGTYPE_p_int",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetParameterBool",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "int",
+        "fmod.SWIGTYPE_p_FMOD_BOOL",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetParameterData",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "int",
+        "fmod.SWIGTYPE_p_p_void",
+        "fmod.SWIGTYPE_p_unsigned_int",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumParameters",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetParameterInfo",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "int",
+        "fmod.SWIGTYPE_p_p_FMOD_DSP_PARAMETER_DESC"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetDataParameterIndex",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "int",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ShowConfigDialog",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_void",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetInfo",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "java.lang.String",
+        "fmod.SWIGTYPE_p_unsigned_int",
+        "fmod.SWIGTYPE_p_int",
+        "fmod.SWIGTYPE_p_int",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetType",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_FMOD_DSP_TYPE"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetIdle",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetUserData",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_void"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetUserData",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_p_void"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMeteringEnabled",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_FMOD_BOOL",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMeteringEnabled",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_FMOD_BOOL",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMeteringInfo",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSP",
+        "fmod.SWIGTYPE_p_FMOD_DSP_METERING_INFO",
+        "fmod.SWIGTYPE_p_FMOD_DSP_METERING_INFO"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetInput",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSPCONNECTION",
+        "fmod.SWIGTYPE_p_p_FMOD_DSP"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetOutput",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSPCONNECTION",
+        "fmod.SWIGTYPE_p_p_FMOD_DSP"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMix",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSPCONNECTION",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMix",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSPCONNECTION",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetMixMatrix",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSPCONNECTION",
+        "fmod.SWIGTYPE_p_float",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMixMatrix",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSPCONNECTION",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_int",
+        "fmod.SWIGTYPE_p_int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetType",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSPCONNECTION",
+        "fmod.SWIGTYPE_p_FMOD_DSPCONNECTION_TYPE"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetUserData",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSPCONNECTION",
+        "fmod.SWIGTYPE_p_void"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetUserData",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_DSPCONNECTION",
+        "fmod.SWIGTYPE_p_p_void"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Release",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_GEOMETRY"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "AddPolygon",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_GEOMETRY",
+        "float",
+        "float",
+        "fmod.SWIGTYPE_p_FMOD_BOOL",
+        "int",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetNumPolygons",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_GEOMETRY",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetMaxPolygons",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_GEOMETRY",
+        "fmod.SWIGTYPE_p_int",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPolygonNumVertices",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_GEOMETRY",
+        "int",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPolygonVertex",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_GEOMETRY",
+        "int",
+        "int",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPolygonVertex",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_GEOMETRY",
+        "int",
+        "int",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPolygonAttributes",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_GEOMETRY",
+        "int",
+        "float",
+        "float",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPolygonAttributes",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_GEOMETRY",
+        "int",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetActive",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_GEOMETRY",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetActive",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_GEOMETRY",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetRotation",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_GEOMETRY",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetRotation",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_GEOMETRY",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetPosition",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_GEOMETRY",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPosition",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_GEOMETRY",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetScale",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_GEOMETRY",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetScale",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_GEOMETRY",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Save",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_GEOMETRY",
+        "fmod.SWIGTYPE_p_void",
+        "fmod.SWIGTYPE_p_int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetUserData",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_GEOMETRY",
+        "fmod.SWIGTYPE_p_void"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetUserData",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_GEOMETRY",
+        "fmod.SWIGTYPE_p_p_void"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Release",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_REVERB3D"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DAttributes",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_REVERB3D",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "DAttributes",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_REVERB3D",
+        "fmod.SWIGTYPE_p_FMOD_VECTOR",
+        "fmod.SWIGTYPE_p_float",
+        "fmod.SWIGTYPE_p_float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetProperties",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_REVERB3D",
+        "fmod.SWIGTYPE_p_FMOD_REVERB_PROPERTIES"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetProperties",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_REVERB3D",
+        "fmod.SWIGTYPE_p_FMOD_REVERB_PROPERTIES"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetActive",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_REVERB3D",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetActive",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_REVERB3D",
+        "fmod.SWIGTYPE_p_FMOD_BOOL"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetUserData",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_REVERB3D",
+        "fmod.SWIGTYPE_p_void"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetUserData",
+      "describe": [],
+      "args": [
+        "fmod.SWIGTYPE_p_FMOD_REVERB3D",
+        "fmod.SWIGTYPE_p_p_void"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetReverbDefault",
+      "describe": [],
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "D",
+      "describe": [],
+      "args": [
+        "long",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetNumListeners",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "D",
+      "describe": [],
+      "args": [
+        "int",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetCallback",
+      "describe": [],
+      "args": [
+        "long",
+        "fmod.fmod.FMOD_STUDIO_EVENT_CALLBACK",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetParameterByID",
+      "describe": [],
+      "args": [
+        "long",
+        "fmod.fmod.FMOD_STUDIO_PARAMETER_ID",
+        "float",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetParameterByID",
+      "describe": [],
+      "args": [
+        "long",
+        "fmod.fmod.FMOD_STUDIO_PARAMETER_ID",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetParameterByName",
+      "describe": [],
+      "args": [
+        "long",
+        "java.lang.String",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetParameter",
+      "describe": [],
+      "args": [
+        "long",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "GetPlaybackState",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "SetVolume",
+      "describe": [],
+      "args": [
+        "long",
+        "float"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ReleaseEventInstance",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "Stop",
+      "describe": [],
+      "args": [
+        "long",
+        "boolean"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

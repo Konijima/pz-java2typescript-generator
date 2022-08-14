@@ -1,0 +1,14 @@
+{
+  "name": "IsoObject$33",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [
+    "zombie.iso.IsoObject$IsoObjectFactory"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

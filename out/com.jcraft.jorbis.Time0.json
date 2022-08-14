@@ -1,0 +1,14 @@
+{
+  "name": "Time0",
+  "package": "com.jcraft.jorbis",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [
+    "com.jcraft.jorbis.FuncTime"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

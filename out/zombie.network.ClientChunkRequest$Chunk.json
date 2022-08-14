@@ -1,0 +1,52 @@
+{
+  "name": "ClientChunkRequest$Chunk",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Chunk",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "requestNumber",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "wx",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "wy",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "crc",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "bb",
+      "scope": "public",
+      "type": "java.nio.ByteBuffer",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

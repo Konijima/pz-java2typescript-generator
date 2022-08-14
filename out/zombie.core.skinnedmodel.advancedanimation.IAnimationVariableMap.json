@@ -1,0 +1,93 @@
+{
+  "name": "IAnimationVariableMap",
+  "package": "zombie.core.skinnedmodel.advancedanimation",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.core.skinnedmodel.advancedanimation.IAnimationVariableSource"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "zombie.core.skinnedmodel.advancedanimation.IAnimationVariableSlot",
+      "name": "getOrCreateVariable",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "setVariable",
+      "args": [
+        "zombie.core.skinnedmodel.advancedanimation.IAnimationVariableSlot"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "setVariable",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "setVariable",
+      "args": [
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "setVariable",
+      "args": [
+        "java.lang.String",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "clearVariable",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "clearVariables",
+      "args": []
+    }
+  ]
+}

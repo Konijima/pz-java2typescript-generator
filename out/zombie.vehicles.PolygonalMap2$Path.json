@@ -1,0 +1,33 @@
+{
+  "name": "PolygonalMap2$Path",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Path",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "crossesSquare",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    }
+  ]
+}

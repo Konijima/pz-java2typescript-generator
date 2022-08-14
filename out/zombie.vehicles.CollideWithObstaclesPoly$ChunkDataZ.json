@@ -1,0 +1,80 @@
+{
+  "name": "CollideWithObstaclesPoly$ChunkDataZ",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ChunkDataZ",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "worldVehicleUnion",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.vehicles.CollideWithObstaclesPoly$CCObstacle>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "worldVehicleSeparate",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.vehicles.CollideWithObstaclesPoly$CCObstacle>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "nodes",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.vehicles.CollideWithObstaclesPoly$CCNode>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "z",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "pool",
+      "scope": "public",
+      "type": "zombie.popman.ObjectPool<zombie.vehicles.CollideWithObstaclesPoly$ChunkDataZ>",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "init",
+      "args": [
+        "zombie.iso.IsoChunk",
+        "int",
+        "zombie.vehicles.CollideWithObstaclesPoly"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clear",
+      "args": []
+    }
+  ]
+}

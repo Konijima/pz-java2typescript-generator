@@ -1,0 +1,14 @@
+{
+  "name": "PersistentOutfits$Data",
+  "package": "zombie",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

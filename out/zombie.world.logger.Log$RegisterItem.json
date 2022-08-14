@@ -1,0 +1,34 @@
+{
+  "name": "Log$RegisterItem",
+  "package": "zombie.world.logger",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.world.logger.Log$BaseItemLog"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "RegisterItem",
+      "describe": [],
+      "args": [
+        "zombie.world.ItemInfo"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "saveAsText",
+      "args": [
+        "java.io.FileWriter",
+        "java.lang.String"
+      ]
+    }
+  ]
+}

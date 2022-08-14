@@ -1,0 +1,78 @@
+{
+  "name": "RadioGlobalString",
+  "package": "zombie.radio.globals",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.radio.globals.RadioGlobal<java.lang.String>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "RadioGlobalString",
+      "describe": [],
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "RadioGlobalString",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getValue",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setValue",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getString",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.radio.globals.CompareResult",
+      "name": "compare",
+      "args": [
+        "zombie.radio.globals.RadioGlobal",
+        "zombie.radio.globals.CompareMethod"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "setValue",
+      "args": [
+        "zombie.radio.globals.RadioGlobal",
+        "zombie.radio.globals.EditGlobalOps"
+      ]
+    }
+  ]
+}

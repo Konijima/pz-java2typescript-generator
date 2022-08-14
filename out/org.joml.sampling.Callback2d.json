@@ -1,0 +1,25 @@
+{
+  "name": "Callback2d",
+  "package": "org.joml.sampling",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "onNewSample",
+      "args": [
+        "float",
+        "float"
+      ]
+    }
+  ]
+}

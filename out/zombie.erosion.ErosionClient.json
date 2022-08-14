@@ -1,0 +1,41 @@
+{
+  "name": "ErosionClient",
+  "package": "zombie.erosion",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ErosionClient",
+      "describe": [],
+      "args": [
+        "zombie.iso.sprite.IsoSpriteManager",
+        "boolean"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.erosion.ErosionClient",
+      "describe": [
+        "static"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "Reset",
+      "args": []
+    }
+  ]
+}

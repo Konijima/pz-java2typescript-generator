@@ -1,0 +1,1987 @@
+{
+  "name": "GameClient",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "GameClient",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.network.GameClient",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DEFAULT_PORT",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "bClient",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "connection",
+      "scope": "public",
+      "type": "zombie.core.raknet.UdpConnection",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "count",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "ip",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "localIP",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "password",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "allChatMuted",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "username",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "serverPassword",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "udpEngine",
+      "scope": "public",
+      "type": "zombie.core.raknet.UdpEngine",
+      "describe": []
+    },
+    {
+      "name": "ID",
+      "scope": "public",
+      "type": "byte",
+      "describe": []
+    },
+    {
+      "name": "timeSinceKeepAlive",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "port",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "bPlayerConnectSent",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "checksum",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "checksumValid",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "pingsList",
+      "scope": "public",
+      "type": "java.util.List<java.lang.Long>",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "GameMap",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "bFastForward",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "zombie",
+      "scope": "public",
+      "type": "final",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "DEBUG_PING",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "objectSyncReq",
+      "scope": "public",
+      "type": "zombie.iso.IsoObjectSyncRequests",
+      "describe": []
+    },
+    {
+      "name": "worldObjectsSyncReq",
+      "scope": "public",
+      "type": "zombie.iso.ObjectsSyncRequests",
+      "describe": []
+    },
+    {
+      "name": "bCoopInvite",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "idMapDirty",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "sendZombieTimer",
+      "scope": "public",
+      "type": "zombie.core.utils.UpdateLimit",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "sendZombieRequestsTimer",
+      "scope": "public",
+      "type": "zombie.core.utils.UpdateLimit",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "positions",
+      "scope": "public",
+      "type": "java.util.Map<java.lang.Short,zombie.iso.Vector2>",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ServerSpawnRegions",
+      "scope": "public",
+      "type": "se.krka.kahlua.vm.KahluaTable",
+      "describe": []
+    },
+    {
+      "name": "bConnected",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "TimeSinceLastUpdate",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "ping",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "ServerPredictedAhead",
+      "scope": "public",
+      "type": "float",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "IDToPlayerMap",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.Short,zombie.characters.IsoPlayer>",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "IDToZombieMap",
+      "scope": "public",
+      "type": "gnu.trove.map.hash.TShortObjectHashMap<zombie.characters.IsoZombie>",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "bIngame",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "askPing",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "ServerMods",
+      "scope": "public",
+      "type": "java.util.ArrayList<java.lang.String>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "erosionConfig",
+      "scope": "public",
+      "type": "zombie.erosion.ErosionConfig",
+      "describe": []
+    },
+    {
+      "name": "startAuth",
+      "scope": "public",
+      "type": "java.util.Calendar",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "poisonousBerry",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "poisonousMushroom",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "sendLoginQueueRequest2",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "sendLoginQueueDone2",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "sendPlayer2",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.characters.IsoPlayer",
+      "name": "getPlayerByOnlineID",
+      "args": [
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "init",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "startClient",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Shutdown",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "smashWindow",
+      "args": [
+        "zombie.iso.objects.IsoWindow",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "getCustomModData",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "requestPacketCounts",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "IsClientPaused",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "invMngRequestItem",
+      "args": [
+        "int",
+        "java.lang.String",
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "invMngRequestRemoveItem",
+      "args": [
+        "int",
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "checksumServer",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendAddXp",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "zombie.characters.skills.PerkFactory$Perk",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendSyncXp",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendTransactionID",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendChangeSafety",
+      "args": [
+        "zombie.characters.Safety"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addDisconnectPacket",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "connectionLost",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "SendCommandToServer",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendServerPing",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "GameLoadingRequestData",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "se.krka.kahlua.vm.KahluaTable",
+      "name": "getServerSpawnRegions",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "sendHitCharacter",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.iso.IsoMovingObject",
+        "zombie.inventory.types.HandWeapon",
+        "float",
+        "boolean",
+        "float",
+        "boolean",
+        "boolean",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendHitVehicle",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "zombie.characters.IsoGameCharacter",
+        "zombie.vehicles.BaseVehicle",
+        "float",
+        "boolean",
+        "int",
+        "float",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendZombieDeath",
+      "args": [
+        "zombie.characters.IsoZombie"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendPlayerDeath",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendPlayerDamage",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendPlayerInjuries",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendRemoveCorpseFromMap",
+      "args": [
+        "zombie.iso.objects.IsoDeadBody"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendEvent",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendAction",
+      "args": [
+        "zombie.characters.CharacterTimedActions.BaseAction",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendEatBody",
+      "args": [
+        "zombie.characters.IsoZombie",
+        "zombie.iso.IsoMovingObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "receiveEatBody",
+      "args": [
+        "java.nio.ByteBuffer",
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendThump",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.iso.objects.interfaces.Thumpable"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "receiveSyncRadioData",
+      "args": [
+        "java.nio.ByteBuffer",
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "receiveThump",
+      "args": [
+        "java.nio.ByteBuffer",
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendWorldSound",
+      "args": [
+        "zombie.WorldSoundManager$WorldSound"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "canSeePlayerStats",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "canModifyPlayerStats",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendPersonalColor",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendChangedPlayerStats",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "writePlayerConnectData",
+      "args": [
+        "zombie.core.network.ByteBufferWriter",
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendPlayerConnect",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendPlayerSave",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendPlayer",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendSteamProfileName",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "heartBeat",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characters.IsoZombie",
+      "name": "getZombie",
+      "args": [
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendPlayerExtraInfo",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setResetID",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "loadResetID",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "receivePlayerConnectWhileLoading",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.characters.IsoPlayer>",
+      "name": "getPlayers",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendWeaponHit",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "zombie.inventory.types.HandWeapon",
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "receiveSyncCustomLightSettings",
+      "args": [
+        "java.nio.ByteBuffer",
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "receivePlayerTimeout",
+      "args": [
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "disconnect",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "resetDisconnectTimer",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getReconnectCountdownTimer",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "canConnect",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addIncoming",
+      "args": [
+        "short",
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "doDisconnect",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeZombieFromCache",
+      "args": [
+        "zombie.characters.IsoZombie"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "equip",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendWorldMessage",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "doConnect",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "doConnectCoop",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "scoreboardUpdate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendWorldSound",
+      "args": [
+        "java.lang.Object",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "boolean",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendClientCommand",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "java.lang.String",
+        "java.lang.String",
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendClientCommandV",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.Object..."
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendClothing",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "java.lang.String",
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendAttachedItem",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "java.lang.String",
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendVisual",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendCustomColor",
+      "args": [
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendBandage",
+      "args": [
+        "int",
+        "int",
+        "boolean",
+        "float",
+        "boolean",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendStitch",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.characters.IsoGameCharacter",
+        "zombie.characters.BodyDamage.BodyPart",
+        "zombie.inventory.InventoryItem",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendWoundInfection",
+      "args": [
+        "int",
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendDisinfect",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.characters.IsoGameCharacter",
+        "zombie.characters.BodyDamage.BodyPart",
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendSplint",
+      "args": [
+        "int",
+        "int",
+        "boolean",
+        "float",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendAdditionalPain",
+      "args": [
+        "int",
+        "int",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendRemoveGlass",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.characters.IsoGameCharacter",
+        "zombie.characters.BodyDamage.BodyPart",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendRemoveBullet",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.characters.IsoGameCharacter",
+        "zombie.characters.BodyDamage.BodyPart"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendCleanBurn",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.characters.IsoGameCharacter",
+        "zombie.characters.BodyDamage.BodyPart",
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "eatFood",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "zombie.inventory.types.Food",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "drink",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addToItemSendBuffer",
+      "args": [
+        "zombie.iso.IsoObject",
+        "zombie.inventory.ItemContainer",
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addToItemRemoveSendBuffer",
+      "args": [
+        "zombie.iso.IsoObject",
+        "zombie.inventory.ItemContainer",
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendAddedRemovedItems",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "checkAddedRemovedItems",
+      "args": [
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendReplaceOnCooked",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendItemStats",
+      "args": [
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "PlayWorldSound",
+      "args": [
+        "java.lang.String",
+        "int",
+        "int",
+        "byte"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "PlaySound",
+      "args": [
+        "java.lang.String",
+        "boolean",
+        "zombie.iso.IsoMovingObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "StopSound",
+      "args": [
+        "zombie.iso.IsoMovingObject",
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "startLocalServer",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendPing",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "registerZone",
+      "args": [
+        "zombie.iso.IsoMetaGrid$Zone",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendSafehouse",
+      "args": [
+        "zombie.iso.areas.SafeHouse",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendKickOutOfSafehouse",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.characters.IsoPlayer",
+      "name": "getPlayerFromUsername",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "destroy",
+      "args": [
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendTeleport",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendStopFire",
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendStopFire",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendCataplasm",
+      "args": [
+        "int",
+        "int",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "receiveRadioDeviceDataState",
+      "args": [
+        "java.nio.ByteBuffer",
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendRadioServerDataRequest",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "receiveRadioServerData",
+      "args": [
+        "java.nio.ByteBuffer",
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "receiveRadioPostSilence",
+      "args": [
+        "java.nio.ByteBuffer",
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendIsoWaveSignal",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "float",
+        "float",
+        "float",
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "receiveWaveSignal",
+      "args": [
+        "java.nio.ByteBuffer",
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendPlayerListensChannel",
+      "args": [
+        "int",
+        "boolean",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendFurnaceChange",
+      "args": [
+        "zombie.iso.objects.BSFurnace"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendCompost",
+      "args": [
+        "zombie.iso.objects.IsoCompost"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "requestUserlog",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addUserlog",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeUserlog",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addWarningPoint",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "wakeUpPlayer",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getDBSchema",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getTableResult",
+      "args": [
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "executeQuery",
+      "args": [
+        "java.lang.String",
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.characters.IsoPlayer>",
+      "name": "getConnectedPlayers",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendNonPvpZone",
+      "args": [
+        "zombie.iso.areas.NonPvpZone",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendFaction",
+      "args": [
+        "zombie.characters.Faction",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendFactionInvite",
+      "args": [
+        "zombie.characters.Faction",
+        "zombie.characters.IsoPlayer",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "acceptFactionInvite",
+      "args": [
+        "zombie.characters.Faction",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "addTicket",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "getTickets",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "removeTicket",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "sendItemListNet",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "java.util.ArrayList<zombie.inventory.InventoryItem>",
+        "zombie.characters.IsoPlayer",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "requestTrading",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "acceptTrading",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "zombie.characters.IsoPlayer",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "tradingUISendAddItem",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "zombie.characters.IsoPlayer",
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "tradingUISendRemoveItem",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "zombie.characters.IsoPlayer",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "tradingUISendUpdateState",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "zombie.characters.IsoPlayer",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendBuildingStashToDo",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setServerStatisticEnable",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "getServerStatisticEnable",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendRequestInventory",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendGetItemInvMng",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendIsoRegionDataRequest",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendSandboxOptionsToServer",
+      "args": [
+        "zombie.SandboxOptions"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendZombieHelmetFall",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "zombie.characters.IsoGameCharacter",
+        "zombie.inventory.InventoryItem"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendPerks",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendWeight",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendSafehouseInvite",
+      "args": [
+        "zombie.iso.areas.SafeHouse",
+        "zombie.characters.IsoPlayer",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "acceptSafehouseInvite",
+      "args": [
+        "zombie.iso.areas.SafeHouse",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendEquippedRadioFreq",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendSneezingCoughing",
+      "args": [
+        "short",
+        "int",
+        "byte"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendBurnCorpse",
+      "args": [
+        "short",
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sendValidatePacket",
+      "args": [
+        "zombie.network.packets.ValidatePacket"
+      ]
+    }
+  ]
+}

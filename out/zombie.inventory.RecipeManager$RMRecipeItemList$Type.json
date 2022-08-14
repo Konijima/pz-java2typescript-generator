@@ -1,0 +1,90 @@
+{
+  "name": "RecipeManager$RMRecipeItemList$Type",
+  "package": "zombie.inventory",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.inventory.RecipeManager$RMRecipeItemList$Type>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "NONE",
+      "scope": "public",
+      "type": "zombie.inventory.RecipeManager$RMRecipeItemList$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WATER",
+      "scope": "public",
+      "type": "zombie.inventory.RecipeManager$RMRecipeItemList$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DRAINABLE",
+      "scope": "public",
+      "type": "zombie.inventory.RecipeManager$RMRecipeItemList$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FOOD",
+      "scope": "public",
+      "type": "zombie.inventory.RecipeManager$RMRecipeItemList$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "OTHER",
+      "scope": "public",
+      "type": "zombie.inventory.RecipeManager$RMRecipeItemList$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DESTROY",
+      "scope": "public",
+      "type": "zombie.inventory.RecipeManager$RMRecipeItemList$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.inventory.RecipeManager$RMRecipeItemList$Type",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

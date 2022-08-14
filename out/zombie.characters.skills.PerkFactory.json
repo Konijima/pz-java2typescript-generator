@@ -1,0 +1,184 @@
+{
+  "name": "PerkFactory",
+  "package": "zombie.characters.skills",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "PerkFactory",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "PerkList",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.characters.skills.PerkFactory$Perk>",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "getPerkName",
+      "args": [
+        "zombie.characters.skills.PerkFactory$Perk"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characters.skills.PerkFactory$Perk",
+      "name": "getPerkFromName",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characters.skills.PerkFactory$Perk",
+      "name": "getPerk",
+      "args": [
+        "zombie.characters.skills.PerkFactory$Perk"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characters.skills.PerkFactory$Perk",
+      "name": "AddPerk",
+      "args": [
+        "zombie.characters.skills.PerkFactory$Perk",
+        "java.lang.String",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characters.skills.PerkFactory$Perk",
+      "name": "AddPerk",
+      "args": [
+        "zombie.characters.skills.PerkFactory$Perk",
+        "java.lang.String",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characters.skills.PerkFactory$Perk",
+      "name": "AddPerk",
+      "args": [
+        "zombie.characters.skills.PerkFactory$Perk",
+        "java.lang.String",
+        "zombie.characters.skills.PerkFactory$Perk",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characters.skills.PerkFactory$Perk",
+      "name": "AddPerk",
+      "args": [
+        "zombie.characters.skills.PerkFactory$Perk",
+        "java.lang.String",
+        "zombie.characters.skills.PerkFactory$Perk",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "init",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "initTranslations",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "Reset",
+      "args": []
+    }
+  ]
+}

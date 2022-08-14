@@ -1,0 +1,63 @@
+{
+  "name": "PacketTypes$PacketAuthorization$Policy",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.network.PacketTypes$PacketAuthorization$Policy>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Log",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketAuthorization$Policy",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Kick",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketAuthorization$Policy",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Ban",
+      "scope": "public",
+      "type": "zombie.network.PacketTypes$PacketAuthorization$Policy",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.network.PacketTypes$PacketAuthorization$Policy",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

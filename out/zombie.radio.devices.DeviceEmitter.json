@@ -1,0 +1,19 @@
+{
+  "name": "DeviceEmitter",
+  "package": "zombie.radio.devices",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "DeviceEmitter",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

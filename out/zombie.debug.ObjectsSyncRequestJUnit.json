@@ -1,0 +1,19 @@
+{
+  "name": "ObjectsSyncRequestJUnit",
+  "package": "zombie.debug",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ObjectsSyncRequestJUnit",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

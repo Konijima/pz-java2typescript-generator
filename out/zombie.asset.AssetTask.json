@@ -1,0 +1,49 @@
+{
+  "name": "AssetTask",
+  "package": "zombie.asset",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "abstract"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "AssetTask",
+      "describe": [],
+      "args": [
+        "zombie.asset.Asset"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_asset",
+      "scope": "public",
+      "type": "zombie.asset.Asset",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "execute",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "cancel",
+      "args": []
+    }
+  ]
+}

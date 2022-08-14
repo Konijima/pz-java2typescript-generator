@@ -1,0 +1,63 @@
+{
+  "name": "WorldConverter",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "WorldConverter",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.iso.WorldConverter",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "converting",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "TilesetConversions",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.Integer,java.lang.Integer>",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "convert",
+      "args": [
+        "java.lang.String",
+        "zombie.iso.sprite.IsoSpriteManager"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "softreset",
+      "args": []
+    }
+  ]
+}

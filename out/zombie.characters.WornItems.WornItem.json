@@ -1,0 +1,39 @@
+{
+  "name": "WornItem",
+  "package": "zombie.characters.WornItems",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "WornItem",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "zombie.inventory.InventoryItem"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getLocation",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.inventory.InventoryItem",
+      "name": "getItem",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "IReplace",
+  "package": "zombie.text.templating",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.lang.String",
+      "name": "getString",
+      "args": []
+    }
+  ]
+}

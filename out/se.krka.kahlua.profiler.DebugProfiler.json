@@ -1,0 +1,33 @@
+{
+  "name": "DebugProfiler",
+  "package": "se.krka.kahlua.profiler",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "se.krka.kahlua.profiler.Profiler"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "DebugProfiler",
+      "describe": [],
+      "args": [
+        "java.io.Writer"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "synchronized void",
+      "name": "getSample",
+      "args": [
+        "se.krka.kahlua.profiler.Sample"
+      ]
+    }
+  ]
+}

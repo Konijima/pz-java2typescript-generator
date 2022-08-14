@@ -1,0 +1,60 @@
+{
+  "name": "Stacks$Params6$CallbackStackItem<T1,",
+  "package": "zombie.util.lambda",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.util.lambda.Stacks$Params6$StackItem<T1, T2, T3, T4, T5, T6>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "CallbackStackItem",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "invoke",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<T1,T2,T3,T4,T5,T6> zombie.util.lambda.Stacks$Params6$CallbackStackItem<T1,T2,T3,T4,T5,T6>",
+      "name": "alloc",
+      "args": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "T6",
+        "zombie.util.lambda.Stacks$Params6$ICallback<T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "T6>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onReleased",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "BufferUtils$BufferInfo",
+  "package": "zombie.core.utils",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [
+    "java.lang.ref.PhantomReference<java.nio.Buffer>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "BufferInfo",
+      "describe": [],
+      "args": [
+        "java.lang.Class",
+        "int",
+        "java.nio.Buffer",
+        "java.lang.ref.ReferenceQueue<? super java.nio.Buffer>"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

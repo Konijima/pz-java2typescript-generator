@@ -1,0 +1,27 @@
+{
+  "name": "Invokers$Params4$ICallback<T1,",
+  "package": "zombie.util.lambda",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "accept",
+      "args": [
+        "T1",
+        "T2",
+        "T3",
+        "T4"
+      ]
+    }
+  ]
+}

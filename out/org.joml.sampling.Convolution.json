@@ -1,0 +1,48 @@
+{
+  "name": "Convolution",
+  "package": "org.joml.sampling",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Convolution",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "gaussianKernel",
+      "args": [
+        "int",
+        "int",
+        "float",
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "gaussianKernel",
+      "args": [
+        "int",
+        "int",
+        "float",
+        "float[]"
+      ]
+    }
+  ]
+}

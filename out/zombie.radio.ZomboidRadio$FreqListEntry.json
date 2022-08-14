@@ -1,0 +1,51 @@
+{
+  "name": "ZomboidRadio$FreqListEntry",
+  "package": "zombie.radio",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "FreqListEntry",
+      "describe": [],
+      "args": [
+        "boolean",
+        "zombie.radio.devices.DeviceData",
+        "int",
+        "int"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "isInvItem",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "deviceData",
+      "scope": "public",
+      "type": "zombie.radio.devices.DeviceData",
+      "describe": []
+    },
+    {
+      "name": "sourceX",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "sourceY",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

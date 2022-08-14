@@ -1,0 +1,24 @@
+{
+  "name": "Sync",
+  "package": "org.lwjglx.opengl",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "sync",
+      "args": [
+        "int"
+      ]
+    }
+  ]
+}

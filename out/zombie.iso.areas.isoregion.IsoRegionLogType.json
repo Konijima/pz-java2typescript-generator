@@ -1,0 +1,54 @@
+{
+  "name": "IsoRegionLogType",
+  "package": "zombie.iso.areas.isoregion",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.iso.areas.isoregion.IsoRegionLogType>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Normal",
+      "scope": "public",
+      "type": "zombie.iso.areas.isoregion.IsoRegionLogType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Warn",
+      "scope": "public",
+      "type": "zombie.iso.areas.isoregion.IsoRegionLogType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.areas.isoregion.IsoRegionLogType",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

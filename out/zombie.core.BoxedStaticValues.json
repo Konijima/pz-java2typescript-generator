@@ -1,0 +1,31 @@
+{
+  "name": "BoxedStaticValues",
+  "package": "zombie.core",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "BoxedStaticValues",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.Double",
+      "name": "toDouble",
+      "args": [
+        "double"
+      ]
+    }
+  ]
+}

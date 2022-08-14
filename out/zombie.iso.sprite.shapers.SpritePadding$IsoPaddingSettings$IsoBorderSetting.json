@@ -1,0 +1,41 @@
+{
+  "name": "SpritePadding$IsoPaddingSettings$IsoBorderSetting",
+  "package": "zombie.iso.sprite.shapers",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IsoBorderSetting",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "IsoBorderSetting",
+      "describe": [],
+      "args": [
+        "float",
+        "float"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "borderThickness",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "uvFraction",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

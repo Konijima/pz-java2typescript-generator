@@ -1,0 +1,24 @@
+{
+  "name": "Desc",
+  "package": "se.krka.kahlua.integration.annotations",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "java.lang.annotation.Annotation"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.lang.String",
+      "name": "value",
+      "args": []
+    }
+  ]
+}

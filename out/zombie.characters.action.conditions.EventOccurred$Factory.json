@@ -1,0 +1,31 @@
+{
+  "name": "EventOccurred$Factory",
+  "package": "zombie.characters.action.conditions",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "zombie.characters.action.IActionCondition$IFactory"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Factory",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.characters.action.IActionCondition",
+      "name": "create",
+      "args": [
+        "org.w3c.dom.Element"
+      ]
+    }
+  ]
+}

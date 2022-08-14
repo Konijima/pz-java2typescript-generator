@@ -1,0 +1,196 @@
+{
+  "name": "PlayerPacket",
+  "package": "zombie.network.packets",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "zombie.network.packets.INetworkPacket"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "PlayerPacket",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "PACKET_SIZE_BYTES",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "id",
+      "scope": "public",
+      "type": "short",
+      "describe": []
+    },
+    {
+      "name": "x",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "y",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "z",
+      "scope": "public",
+      "type": "byte",
+      "describe": []
+    },
+    {
+      "name": "direction",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "usePathFinder",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "moveType",
+      "scope": "public",
+      "type": "zombie.network.NetworkVariables$PredictionTypes",
+      "describe": []
+    },
+    {
+      "name": "VehicleID",
+      "scope": "public",
+      "type": "short",
+      "describe": []
+    },
+    {
+      "name": "VehicleSeat",
+      "scope": "public",
+      "type": "short",
+      "describe": []
+    },
+    {
+      "name": "booleanVariables",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "footstepSoundRadius",
+      "scope": "public",
+      "type": "byte",
+      "describe": []
+    },
+    {
+      "name": "bleedingLevel",
+      "scope": "public",
+      "type": "byte",
+      "describe": []
+    },
+    {
+      "name": "realx",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "realy",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "realz",
+      "scope": "public",
+      "type": "byte",
+      "describe": []
+    },
+    {
+      "name": "realdir",
+      "scope": "public",
+      "type": "byte",
+      "describe": []
+    },
+    {
+      "name": "realt",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "collidePointX",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "collidePointY",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "variables",
+      "scope": "public",
+      "type": "zombie.network.packets.PlayerVariables",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "parse",
+      "args": [
+        "java.nio.ByteBuffer",
+        "zombie.core.raknet.UdpConnection"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "write",
+      "args": [
+        "zombie.core.network.ByteBufferWriter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getPacketSizeBytes",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "set",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "copy",
+      "args": [
+        "zombie.network.packets.PlayerPacket"
+      ]
+    }
+  ]
+}

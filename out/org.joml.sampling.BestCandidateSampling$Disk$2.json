@@ -1,0 +1,25 @@
+{
+  "name": "BestCandidateSampling$Disk$2",
+  "package": "org.joml.sampling",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "org.joml.sampling.Callback2d"
+  ],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onNewSample",
+      "args": [
+        "float",
+        "float"
+      ]
+    }
+  ]
+}

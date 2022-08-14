@@ -1,0 +1,202 @@
+{
+  "name": "VehicleModelInstance",
+  "package": "zombie.core.skinnedmodel.model",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.core.skinnedmodel.model.ModelInstance"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "VehicleModelInstance",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "getLights",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "textureRust",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": []
+    },
+    {
+      "name": "textureMask",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": []
+    },
+    {
+      "name": "textureLights",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": []
+    },
+    {
+      "name": "textureDamage1Overlay",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": []
+    },
+    {
+      "name": "textureDamage1Shell",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": []
+    },
+    {
+      "name": "textureDamage2Overlay",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": []
+    },
+    {
+      "name": "textureDamage2Shell",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": []
+    },
+    {
+      "name": "float",
+      "scope": "public",
+      "type": "final",
+      "describe": []
+    },
+    {
+      "name": "float",
+      "scope": "public",
+      "type": "final",
+      "describe": []
+    },
+    {
+      "name": "float",
+      "scope": "public",
+      "type": "final",
+      "describe": []
+    },
+    {
+      "name": "float",
+      "scope": "public",
+      "type": "final",
+      "describe": []
+    },
+    {
+      "name": "float",
+      "scope": "public",
+      "type": "final",
+      "describe": []
+    },
+    {
+      "name": "float",
+      "scope": "public",
+      "type": "final",
+      "describe": []
+    },
+    {
+      "name": "float",
+      "scope": "public",
+      "type": "final",
+      "describe": []
+    },
+    {
+      "name": "float",
+      "scope": "public",
+      "type": "final",
+      "describe": []
+    },
+    {
+      "name": "float",
+      "scope": "public",
+      "type": "final",
+      "describe": []
+    },
+    {
+      "name": "float",
+      "scope": "public",
+      "type": "final",
+      "describe": []
+    },
+    {
+      "name": "float",
+      "scope": "public",
+      "type": "final",
+      "describe": []
+    },
+    {
+      "name": "float",
+      "scope": "public",
+      "type": "final",
+      "describe": []
+    },
+    {
+      "name": "textureRustA",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "refWindows",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "refBody",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "painColor",
+      "scope": "public",
+      "type": "org.joml.Vector3f",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "m_lightsLock",
+      "scope": "public",
+      "type": "java.lang.Object",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "reset",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setLights",
+      "args": [
+        "zombie.iso.IsoLightSource[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "UpdateLights",
+      "args": []
+    }
+  ]
+}

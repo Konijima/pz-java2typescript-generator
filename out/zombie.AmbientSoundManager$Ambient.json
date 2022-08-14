@@ -1,0 +1,84 @@
+{
+  "name": "AmbientSoundManager$Ambient",
+  "package": "zombie",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Ambient",
+      "describe": [],
+      "args": [
+        "zombie.AmbientSoundManager",
+        "java.lang.String",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "x",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "y",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "name",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "radius",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "volume",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "duration",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "worldSoundDelay",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "finished",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    }
+  ]
+}

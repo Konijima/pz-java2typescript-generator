@@ -1,0 +1,40 @@
+{
+  "name": "NetChecksum",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "NetChecksum",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "checksummer",
+      "scope": "public",
+      "type": "zombie.network.NetChecksum$Checksummer",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "comparer",
+      "scope": "public",
+      "type": "zombie.network.NetChecksum$Comparer",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": []
+}

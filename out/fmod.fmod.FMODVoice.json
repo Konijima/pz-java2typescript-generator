@@ -1,0 +1,35 @@
+{
+  "name": "FMODVoice",
+  "package": "fmod.fmod",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "FMODVoice",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "float"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "sound",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "priority",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

@@ -1,0 +1,535 @@
+{
+  "name": "UdpConnection",
+  "package": "zombie.core.raknet",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "UdpConnection",
+      "describe": [],
+      "args": [
+        "zombie.core.raknet.UdpEngine",
+        "long",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "PSessionState",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "index",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "allChatMuted",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "username",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "java",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "ReleventRange",
+      "scope": "public",
+      "type": "byte",
+      "describe": []
+    },
+    {
+      "name": "accessLevel",
+      "scope": "public",
+      "type": "byte",
+      "describe": []
+    },
+    {
+      "name": "lastUnauthorizedPacket",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "ip",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "preferredInQueue",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "wasInLoadingQueue",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "password",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "ping",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "short",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "ChunkGridWidth",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "playerDownloadServer",
+      "scope": "public",
+      "type": "zombie.network.PlayerDownloadServer",
+      "describe": []
+    },
+    {
+      "name": "checksumState",
+      "scope": "public",
+      "type": "zombie.core.raknet.UdpConnection$ChecksumState",
+      "describe": []
+    },
+    {
+      "name": "checksumTime",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "awaitingCoopApprove",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "steamID",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "sessionSalt",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "checkState",
+      "scope": "public",
+      "type": "zombie.core.raknet.UdpConnection$CheckState",
+      "describe": []
+    },
+    {
+      "name": "checkLimit",
+      "scope": "public",
+      "type": "zombie.core.utils.UpdateLimit",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "timeSyncLimit",
+      "scope": "public",
+      "type": "zombie.core.utils.UpdateLimit",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "ownerID",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "idStr",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "isCoopHost",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "maxPlayers",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "chunkObjectState",
+      "scope": "public",
+      "type": "gnu.trove.list.array.TShortArrayList",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "statistic",
+      "scope": "public",
+      "type": "zombie.core.raknet.UdpConnection$MPClientStatistic",
+      "describe": []
+    },
+    {
+      "name": "netStatistics",
+      "scope": "public",
+      "type": "zombie.core.znet.ZNetStatistics",
+      "describe": []
+    },
+    {
+      "name": "netSessionState",
+      "scope": "public",
+      "type": "zombie.core.znet.ZNetSessionState",
+      "describe": []
+    },
+    {
+      "name": "pingHistory",
+      "scope": "public",
+      "type": "java.util.Deque<java.lang.Long>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "CONNECTION_GRACE_INTERVAL",
+      "scope": "public",
+      "type": "long",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "connectionTimestamp",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "incorrectTime",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "timerSendZombie",
+      "scope": "public",
+      "type": "zombie.core.utils.UpdateTimer",
+      "describe": []
+    },
+    {
+      "name": "isNeighborPlayer",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.raknet.RakNetPeerInterface",
+      "name": "getPeer",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "long",
+      "name": "getConnectedGUID",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getServerIP",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.network.ByteBufferWriter",
+      "name": "startPacket",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.network.ByteBufferWriter",
+      "name": "startPingPacket",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "RelevantTo",
+      "args": [
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getRelevantAndDistance",
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "RelevantToPlayerIndex",
+      "args": [
+        "int",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "RelevantTo",
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "cancelPacket",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "endPacket",
+      "args": [
+        "int",
+        "int",
+        "byte"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "endPacket",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "endPacketImmediate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "endPacketUnordered",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "endPacketUnreliable",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "endPacketSuperHighUnreliable",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "endPingPacket",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.net.InetSocketAddress",
+      "name": "getInetSocketAddress",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "forceDisconnect",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setFullyConnected",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isConnectionAttemptTimeout",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isConnectionGraceIntervalTimeout",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isFullyConnected",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "calcCountPlayersInRelevantPosition",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.znet.ZNetStatistics",
+      "name": "getStatistics",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getAveragePing",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getLastPing",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getLowestPing",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getMTUSize",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getDescription",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "havePlayer",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getPlayerDescription",
+      "args": []
+    }
+  ]
+}

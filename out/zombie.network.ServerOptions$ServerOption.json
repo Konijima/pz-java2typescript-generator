@@ -1,0 +1,31 @@
+{
+  "name": "ServerOptions$ServerOption",
+  "package": "zombie.network",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "zombie.config.ConfigOption",
+      "name": "asConfigOption",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "java.lang.String",
+      "name": "getTooltip",
+      "args": []
+    }
+  ]
+}

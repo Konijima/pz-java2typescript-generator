@@ -1,0 +1,35 @@
+{
+  "name": "BooleanRectangleCollection$1",
+  "package": "zombie.core.booleanrectangles",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "java.util.Comparator<zombie.core.booleanrectangles.BooleanRectangleCollection$Point>"
+  ],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "compare",
+      "args": [
+        "zombie.core.booleanrectangles.BooleanRectangleCollection$Point",
+        "zombie.core.booleanrectangles.BooleanRectangleCollection$Point"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "compare",
+      "args": [
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

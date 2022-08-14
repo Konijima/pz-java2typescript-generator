@@ -1,0 +1,173 @@
+{
+  "name": "IsoMetaCell",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IsoMetaCell",
+      "describe": [],
+      "args": [
+        "int",
+        "int"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "vehicleZones",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.iso.IsoMetaGrid$VehicleZone>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "zombie",
+      "scope": "public",
+      "type": "final",
+      "describe": []
+    },
+    {
+      "name": "info",
+      "scope": "public",
+      "type": "zombie.iso.LotHeader",
+      "describe": []
+    },
+    {
+      "name": "triggers",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.iso.IsoMetaGrid$Trigger>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "mannequinZones",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.iso.objects.IsoMannequin$MannequinZone>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "roomTones",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.iso.IsoMetaGrid$RoomTone>",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addTrigger",
+      "args": [
+        "zombie.iso.BuildingDef",
+        "int",
+        "int",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "checkTriggers",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoMetaChunk",
+      "name": "getChunk",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addZone",
+      "args": [
+        "zombie.iso.IsoMetaGrid$Zone",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeZone",
+      "args": [
+        "zombie.iso.IsoMetaGrid$Zone"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addRoom",
+      "args": [
+        "zombie.iso.RoomDef",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getZonesUnique",
+      "args": [
+        "java.util.Set<zombie.iso.IsoMetaGrid$Zone>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getZonesIntersecting",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "java.util.ArrayList<zombie.iso.IsoMetaGrid$Zone>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getRoomsIntersecting",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "java.util.ArrayList<zombie.iso.RoomDef>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Dispose",
+      "args": []
+    }
+  ]
+}

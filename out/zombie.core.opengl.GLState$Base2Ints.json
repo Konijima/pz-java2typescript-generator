@@ -1,0 +1,23 @@
+{
+  "name": "GLState$Base2Ints",
+  "package": "zombie.core.opengl",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "abstract"
+  ],
+  "extends": [
+    "zombie.core.opengl.IOpenGLState<zombie.core.opengl.GLState$C2IntsValue>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Ints",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

@@ -1,0 +1,248 @@
+{
+  "name": "TextureCombinerCommand",
+  "package": "zombie.core.textures",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "TextureCombinerCommand",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "DEFAULT_SRC_A",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DEFAULT_DST_A",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "x",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "y",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "w",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "h",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "mask",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": []
+    },
+    {
+      "name": "tex",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": []
+    },
+    {
+      "name": "blendSrc",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "blendDest",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "blendSrcA",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "blendDestA",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "shader",
+      "scope": "public",
+      "type": "zombie.core.opengl.SmartShader",
+      "describe": []
+    },
+    {
+      "name": "shaderParams",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.core.textures.TextureCombinerShaderParam>",
+      "describe": []
+    },
+    {
+      "name": "pool",
+      "scope": "public",
+      "type": "zombie.popman.ObjectPool<zombie.core.textures.TextureCombinerCommand>",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.textures.TextureCombinerCommand",
+      "name": "init",
+      "args": [
+        "zombie.core.textures.Texture"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.textures.TextureCombinerCommand",
+      "name": "initSeparate",
+      "args": [
+        "zombie.core.textures.Texture",
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.textures.TextureCombinerCommand",
+      "name": "init",
+      "args": [
+        "zombie.core.textures.Texture",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.textures.TextureCombinerCommand",
+      "name": "init",
+      "args": [
+        "zombie.core.textures.Texture",
+        "zombie.core.opengl.SmartShader"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.textures.TextureCombinerCommand",
+      "name": "init",
+      "args": [
+        "zombie.core.textures.Texture",
+        "zombie.core.opengl.SmartShader",
+        "zombie.core.textures.Texture",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.textures.TextureCombinerCommand",
+      "name": "init",
+      "args": [
+        "zombie.core.textures.Texture",
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.textures.TextureCombinerCommand",
+      "name": "initSeparate",
+      "args": [
+        "zombie.core.textures.Texture",
+        "zombie.core.opengl.SmartShader",
+        "java.util.ArrayList<zombie.core.textures.TextureCombinerShaderParam>",
+        "zombie.core.textures.Texture",
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.textures.TextureCombinerCommand",
+      "name": "init",
+      "args": [
+        "zombie.core.textures.Texture",
+        "zombie.core.opengl.SmartShader",
+        "java.util.ArrayList<zombie.core.textures.TextureCombinerShaderParam>",
+        "zombie.core.textures.Texture",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.textures.TextureCombinerCommand",
+      "name": "init",
+      "args": [
+        "zombie.core.textures.Texture",
+        "zombie.core.opengl.SmartShader",
+        "java.util.ArrayList<zombie.core.textures.TextureCombinerShaderParam>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.textures.TextureCombinerCommand",
+      "name": "get",
+      "args": []
+    }
+  ]
+}

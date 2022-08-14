@@ -1,0 +1,89 @@
+{
+  "name": "IsoObjectSyncRequests",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IsoObjectSyncRequests",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "requests",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.iso.IsoObjectSyncRequests$SyncData>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "timeout",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putRequest",
+      "args": [
+        "zombie.iso.IsoGridSquare",
+        "zombie.iso.IsoObject"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putRequestLoad",
+      "args": [
+        "zombie.iso.IsoGridSquare"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "putRequest",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "byte"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendRequests",
+      "args": [
+        "zombie.core.raknet.UdpConnection"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "receiveIsoSync",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "byte"
+      ]
+    }
+  ]
+}

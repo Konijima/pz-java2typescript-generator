@@ -1,0 +1,33 @@
+{
+  "name": "PZEmptyIterable<T>",
+  "package": "zombie.util.list",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [
+    "java.lang.Iterable<T>"
+  ],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<E> zombie.util.list.PZEmptyIterable<E>",
+      "name": "getInstance",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.Iterator<T>",
+      "name": "iterator",
+      "args": []
+    }
+  ]
+}

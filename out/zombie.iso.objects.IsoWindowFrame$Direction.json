@@ -1,0 +1,70 @@
+{
+  "name": "IsoWindowFrame$Direction",
+  "package": "zombie.iso.objects",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.iso.objects.IsoWindowFrame$Direction>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "INVALID",
+      "scope": "public",
+      "type": "zombie.iso.objects.IsoWindowFrame$Direction",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "NORTH",
+      "scope": "public",
+      "type": "zombie.iso.objects.IsoWindowFrame$Direction",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WEST",
+      "scope": "public",
+      "type": "zombie.iso.objects.IsoWindowFrame$Direction",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.objects.IsoWindowFrame$Direction",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isValid",
+      "args": []
+    }
+  ]
+}

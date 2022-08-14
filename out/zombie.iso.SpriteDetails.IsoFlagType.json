@@ -1,0 +1,956 @@
+{
+  "name": "IsoFlagType",
+  "package": "zombie.iso.SpriteDetails",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.iso.SpriteDetails.IsoFlagType>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "collideW",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "collideN",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "solidfloor",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "noStart",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "windowW",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "windowN",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "hidewalls",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "exterior",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "NoWallLighting",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "doorW",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "doorN",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "transparentW",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "transparentN",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WallOverlay",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FloorOverlay",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "vegitation",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "burning",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "burntOut",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "unflamable",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "cutW",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "cutN",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "tableN",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "tableNW",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "tableW",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "tableSW",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "tableS",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "tableSE",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "tableE",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "tableNE",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "halfheight",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "HasRainSplashes",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "HasRaindrop",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "solid",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "trans",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "pushable",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "solidtrans",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "invisible",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "floorS",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "floorE",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "shelfS",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "shelfE",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "alwaysDraw",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ontable",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "transparentFloor",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "climbSheetW",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "climbSheetN",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "climbSheetTopN",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "climbSheetTopW",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "attachtostairs",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "sheetCurtains",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "waterPiped",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "HoppableN",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "HoppableW",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "bed",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "blueprint",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "canPathW",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "canPathN",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "blocksight",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "climbSheetE",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "climbSheetS",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "climbSheetTopE",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "climbSheetTopS",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "makeWindowInvincible",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "water",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "canBeCut",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "canBeRemoved",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "taintedWater",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "smoke",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "attachedN",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "attachedS",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "attachedE",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "attachedW",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "attachedFloor",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "attachedSurface",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "attachedCeiling",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "attachedNW",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ForceAmbient",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WallSE",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WindowN",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WindowW",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FloorHeightOneThird",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FloorHeightTwoThirds",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "CantClimb",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "diamondFloor",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "attachedSE",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TallHoppableW",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WallWTrans",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TallHoppableN",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WallNTrans",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "container",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DoorWallW",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DoorWallN",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WallW",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WallN",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "WallNW",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SpearOnlyAttackThrough",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "forceRender",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "open",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MAX",
+      "scope": "public",
+      "type": "zombie.iso.SpriteDetails.IsoFlagType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.SpriteDetails.IsoFlagType",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "index",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.SpriteDetails.IsoFlagType",
+      "name": "fromIndex",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.SpriteDetails.IsoFlagType",
+      "name": "FromString",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "ModalDialog",
+  "package": "zombie.ui",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.ui.NewWindow"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ModalDialog",
+      "describe": [],
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "boolean"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "bYes",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "Name",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "Clicked",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "ButtonClicked",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Clicked",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "NonBlockingIdentityHashMap$CHM<TypeK,",
+  "package": "zombie.core.Collections",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "size",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "slots",
+      "args": []
+    }
+  ]
+}

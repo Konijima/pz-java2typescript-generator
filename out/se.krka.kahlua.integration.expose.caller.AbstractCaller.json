@@ -1,0 +1,51 @@
+{
+  "name": "AbstractCaller",
+  "package": "se.krka.kahlua.integration.expose.caller",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "abstract"
+  ],
+  "extends": [],
+  "implements": [
+    "se.krka.kahlua.integration.expose.caller.Caller"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "getParameterTypes",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "java.lang.Class<?>",
+      "name": "getVarargType",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "boolean",
+      "name": "hasVararg",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "boolean",
+      "name": "needsMultipleReturnValues",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "OperatorType",
+  "package": "zombie.radio.script",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.radio.script.OperatorType>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "NONE",
+      "scope": "public",
+      "type": "zombie.radio.script.OperatorType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "AND",
+      "scope": "public",
+      "type": "zombie.radio.script.OperatorType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "OR",
+      "scope": "public",
+      "type": "zombie.radio.script.OperatorType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.radio.script.OperatorType",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

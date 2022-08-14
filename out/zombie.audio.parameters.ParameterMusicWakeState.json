@@ -1,0 +1,41 @@
+{
+  "name": "ParameterMusicWakeState",
+  "package": "zombie.audio.parameters",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.audio.FMODGlobalParameter"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ParameterMusicWakeState",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "calculateCurrentValue",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setState",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "zombie.audio.parameters.ParameterMusicWakeState$State"
+      ]
+    }
+  ]
+}

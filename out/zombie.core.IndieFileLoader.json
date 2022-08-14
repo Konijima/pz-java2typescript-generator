@@ -1,0 +1,43 @@
+{
+  "name": "IndieFileLoader",
+  "package": "zombie.core",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IndieFileLoader",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.io.InputStreamReader",
+      "name": "getStreamReader",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.io.InputStreamReader",
+      "name": "getStreamReader",
+      "args": [
+        "java.lang.String",
+        "boolean"
+      ]
+    }
+  ]
+}

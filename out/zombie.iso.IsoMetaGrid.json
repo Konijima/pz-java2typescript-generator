@@ -1,0 +1,699 @@
+{
+  "name": "IsoMetaGrid",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IsoMetaGrid",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "minX",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "minY",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "maxX",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "maxY",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "Zones",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.iso.IsoMetaGrid$Zone>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Buildings",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.iso.BuildingDef>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "VehiclesZones",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.iso.IsoMetaGrid$VehicleZone>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "MetaCharacters",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.characters.IsoGameCharacter>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "CreateStep1",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    },
+    {
+      "name": "CreateStep2",
+      "scope": "public",
+      "type": "void",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "AddToMeta",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "RemoveFromMeta",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getMinX",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getMinY",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getMaxX",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getMaxY",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoMetaGrid$Zone",
+      "name": "getZoneAt",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.iso.IsoMetaGrid$Zone>",
+      "name": "getZonesAt",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.iso.IsoMetaGrid$Zone>",
+      "name": "getZonesAt",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "java.util.ArrayList<zombie.iso.IsoMetaGrid$Zone>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.iso.IsoMetaGrid$Zone>",
+      "name": "getZonesIntersecting",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.iso.IsoMetaGrid$Zone>",
+      "name": "getZonesIntersecting",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "java.util.ArrayList<zombie.iso.IsoMetaGrid$Zone>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoMetaGrid$Zone",
+      "name": "getZoneWithBoundsAndType",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoMetaGrid$VehicleZone",
+      "name": "getVehicleZoneAt",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.BuildingDef",
+      "name": "getBuildingAt",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.BuildingDef",
+      "name": "getBuildingAtRelax",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.RoomDef",
+      "name": "getRoomAt",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.RoomDef",
+      "name": "getEmptyOutsideAt",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getRoomsIntersecting",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "java.util.ArrayList<zombie.iso.RoomDef>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "countRoomsIntersecting",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "countNearbyBuildingsRooms",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoMetaGrid$Zone",
+      "name": "registerZone",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoMetaGrid$Zone",
+      "name": "registerZone",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "zombie.iso.IsoMetaGrid$ZoneGeometryType",
+        "gnu.trove.list.array.TIntArrayList",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoMetaGrid$Zone",
+      "name": "registerGeometryZone",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "int",
+        "java.lang.String",
+        "se.krka.kahlua.vm.KahluaTable",
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoMetaGrid$Zone",
+      "name": "registerZoneNoOverlap",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeZone",
+      "args": [
+        "zombie.iso.IsoMetaGrid$Zone"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeZonesForCell",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeZonesForLotDirectory",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "processZones",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoMetaGrid$Zone",
+      "name": "registerVehiclesZone",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "checkVehiclesZones",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoMetaGrid$Zone",
+      "name": "registerMannequinZone",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "registerRoomTone",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isZoneAbove",
+      "args": [
+        "zombie.iso.IsoMetaGrid$Zone",
+        "zombie.iso.IsoMetaGrid$Zone",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "savePart",
+      "args": [
+        "java.nio.ByteBuffer",
+        "int",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getWidth",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getHeight",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoMetaCell",
+      "name": "getCellData",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoMetaCell",
+      "name": "getCellDataAbs",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoMetaCell",
+      "name": "getCurrentCellData",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoMetaCell",
+      "name": "getMetaGridFromTile",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoMetaChunk",
+      "name": "getCurrentChunkData",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoMetaChunk",
+      "name": "getChunkData",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.IsoMetaChunk",
+      "name": "getChunkDataFromTile",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isValidSquare",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isValidChunk",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Create",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Dispose",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.Vector2",
+      "name": "getRandomIndoorCoord",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.RoomDef",
+      "name": "getRandomRoomBetweenRange",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.RoomDef",
+      "name": "getRandomRoomNotInRange",
+      "args": [
+        "float",
+        "float",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "loadZones",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "loadZone",
+      "args": [
+        "java.nio.ByteBuffer",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "saveZone",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<java.lang.String>",
+      "name": "getLotDirectories",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "isPreferredZoneForSquare",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

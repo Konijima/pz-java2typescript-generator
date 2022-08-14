@@ -1,0 +1,67 @@
+{
+  "name": "RCONServer$ClientThread",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [
+    "java.lang.Thread"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ClientThread",
+      "describe": [],
+      "args": [
+        "java.net.Socket",
+        "java.lang.String"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "socket",
+      "scope": "public",
+      "type": "java.net.Socket",
+      "describe": []
+    },
+    {
+      "name": "bAuth",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "bQuit",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "run",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "handleResponse",
+      "args": [
+        "zombie.network.RCONServer$ExecCommand"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "quit",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "name": "LuaJavaClassExposer",
+  "package": "se.krka.kahlua.integration.expose",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "LuaJavaClassExposer",
+      "describe": [],
+      "args": [
+        "se.krka.kahlua.converter.KahluaConverterManager",
+        "se.krka.kahlua.vm.Platform",
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "LuaJavaClassExposer",
+      "describe": [],
+      "args": [
+        "se.krka.kahlua.converter.KahluaConverterManager",
+        "se.krka.kahlua.vm.Platform",
+        "se.krka.kahlua.vm.KahluaTable",
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "TypeMap",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.String,java.lang.Class<?>>",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.Map<java.lang.Class<?>,se.krka.kahlua.integration.expose.ClassDebugInformation>",
+      "name": "getClassDebugInformation",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "exposeGlobalObjectFunction",
+      "args": [
+        "se.krka.kahlua.vm.KahluaTable",
+        "java.lang.Object",
+        "java.lang.reflect.Method"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "exposeGlobalObjectFunction",
+      "args": [
+        "se.krka.kahlua.vm.KahluaTable",
+        "java.lang.Object",
+        "java.lang.reflect.Method",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "exposeGlobalClassFunction",
+      "args": [
+        "se.krka.kahlua.vm.KahluaTable",
+        "java.lang.Class<?>",
+        "java.lang.reflect.Constructor<?>",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "exposeGlobalClassFunction",
+      "args": [
+        "se.krka.kahlua.vm.KahluaTable",
+        "java.lang.Class<?>",
+        "java.lang.reflect.Method",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "exposeMethod",
+      "args": [
+        "java.lang.Class<?>",
+        "java.lang.reflect.Method",
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "exposeMethod",
+      "args": [
+        "java.lang.Class<?>",
+        "java.lang.reflect.Method",
+        "java.lang.String",
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "shouldExpose",
+      "args": [
+        "java.lang.Class<?>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "exposeGlobalFunctions",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "exposeLikeJava",
+      "args": [
+        "java.lang.Class"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "exposeLikeJava",
+      "args": [
+        "java.lang.Class",
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isExposed",
+      "args": [
+        "java.lang.Class<?>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getDefinition",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "exposeLikeJavaRecursively",
+      "args": [
+        "java.lang.reflect.Type"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "exposeLikeJavaRecursively",
+      "args": [
+        "java.lang.reflect.Type",
+        "se.krka.kahlua.vm.KahluaTable"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "destroy",
+      "args": []
+    }
+  ]
+}

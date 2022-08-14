@@ -1,0 +1,114 @@
+{
+  "name": "PZXmlUtil",
+  "package": "zombie.util",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "PZXmlUtil",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.w3c.dom.Element",
+      "name": "parseXml",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.w3c.dom.Document",
+      "name": "createNewDocument",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "forEachElement",
+      "args": [
+        "org.w3c.dom.Element",
+        "java.util.function.Consumer<org.w3c.dom.Element>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<T> T",
+      "name": "parse",
+      "args": [
+        "java.lang.Class<T>",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<T> void",
+      "name": "write",
+      "args": [
+        "T",
+        "java.io.File"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "write",
+      "args": [
+        "org.w3c.dom.Document",
+        "java.io.File"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<T> boolean",
+      "name": "tryWrite",
+      "args": [
+        "T",
+        "java.io.File"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "tryWrite",
+      "args": [
+        "org.w3c.dom.Document",
+        "java.io.File"
+      ]
+    }
+  ]
+}

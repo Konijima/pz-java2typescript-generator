@@ -1,0 +1,70 @@
+{
+  "name": "ItemPickerJava$ProceduralItem",
+  "package": "zombie.inventory",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ProceduralItem",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "name",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "min",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "max",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "forceForItems",
+      "scope": "public",
+      "type": "java.util.List<java.lang.String>",
+      "describe": []
+    },
+    {
+      "name": "forceForZones",
+      "scope": "public",
+      "type": "java.util.List<java.lang.String>",
+      "describe": []
+    },
+    {
+      "name": "forceForTiles",
+      "scope": "public",
+      "type": "java.util.List<java.lang.String>",
+      "describe": []
+    },
+    {
+      "name": "forceForRooms",
+      "scope": "public",
+      "type": "java.util.List<java.lang.String>",
+      "describe": []
+    },
+    {
+      "name": "weightChance",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

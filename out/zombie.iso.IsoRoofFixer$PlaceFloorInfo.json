@@ -1,0 +1,14 @@
+{
+  "name": "IsoRoofFixer$PlaceFloorInfo",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

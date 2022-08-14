@@ -1,0 +1,55 @@
+{
+  "name": "MipMap",
+  "package": "org.lwjglx.util.glu",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "org.lwjglx.util.glu.Util"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "MipMap",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "DMipmaps",
+      "describe": [],
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "int",
+      "name": "gluScaleImage",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int",
+        "java.nio.ByteBuffer",
+        "int",
+        "int",
+        "int",
+        "java.nio.ByteBuffer"
+      ]
+    }
+  ]
+}

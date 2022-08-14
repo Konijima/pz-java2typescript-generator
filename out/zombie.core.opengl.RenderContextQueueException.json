@@ -1,0 +1,25 @@
+{
+  "name": "RenderContextQueueException",
+  "package": "zombie.core.opengl",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.RuntimeException"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "RenderContextQueueException",
+      "describe": [],
+      "args": [
+        "java.lang.Throwable"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

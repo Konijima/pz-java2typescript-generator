@@ -1,0 +1,45 @@
+{
+  "name": "PolygonsIntersection",
+  "package": "org.joml",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "PolygonsIntersection",
+      "describe": [],
+      "args": [
+        "float[]",
+        "int[]",
+        "int"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "testPoint",
+      "args": [
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "testPoint",
+      "args": [
+        "float",
+        "float",
+        "java.util.BitSet"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "RenderEffectType",
+  "package": "zombie.iso.objects",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.iso.objects.RenderEffectType>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Hit_Tree_Shudder",
+      "scope": "public",
+      "type": "zombie.iso.objects.RenderEffectType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Vegetation_Rustle",
+      "scope": "public",
+      "type": "zombie.iso.objects.RenderEffectType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Hit_Door",
+      "scope": "public",
+      "type": "zombie.iso.objects.RenderEffectType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.objects.RenderEffectType",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

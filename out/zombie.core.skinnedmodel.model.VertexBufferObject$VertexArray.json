@@ -1,0 +1,89 @@
+{
+  "name": "VertexBufferObject$VertexArray",
+  "package": "zombie.core.skinnedmodel.model",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "VertexArray",
+      "describe": [],
+      "args": [
+        "zombie.core.skinnedmodel.model.VertexBufferObject$VertexFormat",
+        "int"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_format",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.model.VertexBufferObject$VertexFormat",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "m_numVertices",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "m_buffer",
+      "scope": "public",
+      "type": "java.nio.ByteBuffer",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setElement",
+      "args": [
+        "int",
+        "int",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setElement",
+      "args": [
+        "int",
+        "int",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setElement",
+      "args": [
+        "int",
+        "int",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    }
+  ]
+}

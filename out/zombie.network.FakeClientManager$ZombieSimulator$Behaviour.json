@@ -1,0 +1,63 @@
+{
+  "name": "FakeClientManager$ZombieSimulator$Behaviour",
+  "package": "zombie.network",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.network.FakeClientManager$ZombieSimulator$Behaviour>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Stay",
+      "scope": "public",
+      "type": "zombie.network.FakeClientManager$ZombieSimulator$Behaviour",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Normal",
+      "scope": "public",
+      "type": "zombie.network.FakeClientManager$ZombieSimulator$Behaviour",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Attack",
+      "scope": "public",
+      "type": "zombie.network.FakeClientManager$ZombieSimulator$Behaviour",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.network.FakeClientManager$ZombieSimulator$Behaviour",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

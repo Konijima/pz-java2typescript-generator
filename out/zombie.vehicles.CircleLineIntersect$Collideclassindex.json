@@ -1,0 +1,103 @@
+{
+  "name": "CircleLineIntersect$Collideclassindex",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Collideclassindex",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "Collideclassindex",
+      "describe": [],
+      "args": [
+        "java.lang.Object",
+        "int",
+        "zombie.vehicles.CircleLineIntersect$Vector"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "collided",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "reset",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setCollided",
+      "args": [
+        "java.lang.Object",
+        "int",
+        "zombie.vehicles.CircleLineIntersect$Vector"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addCollided",
+      "args": [
+        "java.lang.Object",
+        "int",
+        "zombie.vehicles.CircleLineIntersect$Vector"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.vehicles.CircleLineIntersect$Collider>",
+      "name": "getColliders",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getNumforcecircles",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.vehicles.CircleLineIntersect$Collider",
+      "name": "contains",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "size",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    }
+  ]
+}

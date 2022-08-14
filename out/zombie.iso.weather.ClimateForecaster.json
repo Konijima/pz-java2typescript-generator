@@ -1,0 +1,50 @@
+{
+  "name": "ClimateForecaster",
+  "package": "zombie.iso.weather",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ClimateForecaster",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.iso.weather.ClimateForecaster$DayForecast>",
+      "name": "getForecasts",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.weather.ClimateForecaster$DayForecast",
+      "name": "getForecast",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.weather.ClimateForecaster$DayForecast",
+      "name": "getForecast",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getDaysTillFirstWeather",
+      "args": []
+    }
+  ]
+}

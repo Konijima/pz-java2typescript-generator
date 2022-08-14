@@ -1,0 +1,43 @@
+{
+  "name": "IdleState",
+  "package": "zombie.ai.states",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.ai.State"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IdleState",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.ai.states.IdleState",
+      "name": "instance",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "animEvent",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "zombie.core.skinnedmodel.advancedanimation.AnimEvent"
+      ]
+    }
+  ]
+}

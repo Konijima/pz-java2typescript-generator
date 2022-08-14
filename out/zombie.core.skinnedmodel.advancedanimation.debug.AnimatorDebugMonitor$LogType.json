@@ -1,0 +1,97 @@
+{
+  "name": "AnimatorDebugMonitor$LogType",
+  "package": "zombie.core.skinnedmodel.advancedanimation.debug",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.core.skinnedmodel.advancedanimation.debug.AnimatorDebugMonitor$LogType>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "DEFAULT",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.advancedanimation.debug.AnimatorDebugMonitor$LogType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "LAYER",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.advancedanimation.debug.AnimatorDebugMonitor$LogType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "NODE",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.advancedanimation.debug.AnimatorDebugMonitor$LogType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "TRACK",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.advancedanimation.debug.AnimatorDebugMonitor$LogType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "VAR",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.advancedanimation.debug.AnimatorDebugMonitor$LogType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "MAX",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.advancedanimation.debug.AnimatorDebugMonitor$LogType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.skinnedmodel.advancedanimation.debug.AnimatorDebugMonitor$LogType",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "value",
+      "args": []
+    }
+  ]
+}

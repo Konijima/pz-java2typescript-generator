@@ -1,0 +1,24 @@
+{
+  "name": "ZomboidHashMap$KeyIterator",
+  "package": "zombie.core.Collections",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.core.Collections.ZomboidHashMap<K, V>.HashIterator<K>"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "K",
+      "name": "next",
+      "args": []
+    }
+  ]
+}

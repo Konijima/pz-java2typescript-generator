@@ -1,0 +1,127 @@
+{
+  "name": "ServerChat",
+  "package": "zombie.chat.defaultChats",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.chat.ChatBase"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ServerChat",
+      "describe": [],
+      "args": [
+        "java.nio.ByteBuffer",
+        "zombie.chat.ChatTab",
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "ServerChat",
+      "describe": [],
+      "args": [
+        "int",
+        "zombie.chat.ChatTab"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.chat.ChatSettings",
+      "name": "getDefaultSettings",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.chat.ChatMessage",
+      "name": "createMessage",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.chat.ServerChatMessage",
+      "name": "createServerMessage",
+      "args": [
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "short",
+      "name": "getTabID",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.chat.ChatMessage",
+      "name": "unpackMessage",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "packMessage",
+      "args": [
+        "zombie.core.network.ByteBufferWriter",
+        "zombie.chat.ChatMessage"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getMessagePrefix",
+      "args": [
+        "zombie.chat.ChatMessage"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getMessageTextWithPrefix",
+      "args": [
+        "zombie.chat.ChatMessage"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "showMessage",
+      "args": [
+        "zombie.chat.ChatMessage"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "sendMessageToChatMembers",
+      "args": [
+        "zombie.chat.ChatMessage"
+      ]
+    }
+  ]
+}

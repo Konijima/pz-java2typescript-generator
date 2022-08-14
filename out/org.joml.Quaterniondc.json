@@ -1,0 +1,1553 @@
+{
+  "name": "Quaterniondc",
+  "package": "org.joml",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "double",
+      "name": "x",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "double",
+      "name": "y",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "double",
+      "name": "z",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "double",
+      "name": "w",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "normalize",
+      "args": [
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "add",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "add",
+      "args": [
+        "org.joml.Quaterniondc",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "double",
+      "name": "dot",
+      "args": [
+        "org.joml.Quaterniondc"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "double",
+      "name": "angle",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Matrix3d",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Matrix3f",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Matrix4d",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Matrix4f",
+      "name": "get",
+      "args": [
+        "org.joml.Matrix4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.AxisAngle4f",
+      "name": "get",
+      "args": [
+        "org.joml.AxisAngle4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.AxisAngle4d",
+      "name": "get",
+      "args": [
+        "org.joml.AxisAngle4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "get",
+      "args": [
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaternionf",
+      "name": "get",
+      "args": [
+        "org.joml.Quaternionf"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "mul",
+      "args": [
+        "org.joml.Quaterniondc",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "mul",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "premul",
+      "args": [
+        "org.joml.Quaterniondc",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "premul",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3d",
+      "name": "transform",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3d",
+      "name": "transformInverse",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3d",
+      "name": "transformUnit",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3d",
+      "name": "transformInverseUnit",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3d",
+      "name": "transformPositiveX",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4d",
+      "name": "transformPositiveX",
+      "args": [
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3d",
+      "name": "transformUnitPositiveX",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4d",
+      "name": "transformUnitPositiveX",
+      "args": [
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3d",
+      "name": "transformPositiveY",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4d",
+      "name": "transformPositiveY",
+      "args": [
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3d",
+      "name": "transformUnitPositiveY",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4d",
+      "name": "transformUnitPositiveY",
+      "args": [
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3d",
+      "name": "transformPositiveZ",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4d",
+      "name": "transformPositiveZ",
+      "args": [
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3d",
+      "name": "transformUnitPositiveZ",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4d",
+      "name": "transformUnitPositiveZ",
+      "args": [
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4d",
+      "name": "transform",
+      "args": [
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4d",
+      "name": "transformInverse",
+      "args": [
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3d",
+      "name": "transform",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3d",
+      "name": "transformInverse",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3d",
+      "name": "transform",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3d",
+      "name": "transformInverse",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4d",
+      "name": "transform",
+      "args": [
+        "org.joml.Vector4dc",
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4d",
+      "name": "transformInverse",
+      "args": [
+        "org.joml.Vector4dc",
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4d",
+      "name": "transform",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4d",
+      "name": "transformInverse",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "transform",
+      "args": [
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "transformInverse",
+      "args": [
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4d",
+      "name": "transformUnit",
+      "args": [
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4d",
+      "name": "transformInverseUnit",
+      "args": [
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3d",
+      "name": "transformUnit",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3d",
+      "name": "transformInverseUnit",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3d",
+      "name": "transformUnit",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3d",
+      "name": "transformInverseUnit",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4d",
+      "name": "transformUnit",
+      "args": [
+        "org.joml.Vector4dc",
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4d",
+      "name": "transformInverseUnit",
+      "args": [
+        "org.joml.Vector4dc",
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4d",
+      "name": "transformUnit",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4d",
+      "name": "transformInverseUnit",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Vector4d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "transformUnit",
+      "args": [
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "transformInverseUnit",
+      "args": [
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "transformPositiveX",
+      "args": [
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4f",
+      "name": "transformPositiveX",
+      "args": [
+        "org.joml.Vector4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "transformUnitPositiveX",
+      "args": [
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4f",
+      "name": "transformUnitPositiveX",
+      "args": [
+        "org.joml.Vector4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "transformPositiveY",
+      "args": [
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4f",
+      "name": "transformPositiveY",
+      "args": [
+        "org.joml.Vector4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "transformUnitPositiveY",
+      "args": [
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4f",
+      "name": "transformUnitPositiveY",
+      "args": [
+        "org.joml.Vector4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "transformPositiveZ",
+      "args": [
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4f",
+      "name": "transformPositiveZ",
+      "args": [
+        "org.joml.Vector4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "transformUnitPositiveZ",
+      "args": [
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4f",
+      "name": "transformUnitPositiveZ",
+      "args": [
+        "org.joml.Vector4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4f",
+      "name": "transform",
+      "args": [
+        "org.joml.Vector4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4f",
+      "name": "transformInverse",
+      "args": [
+        "org.joml.Vector4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "transform",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "transformInverse",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "transform",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "transformInverse",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4f",
+      "name": "transform",
+      "args": [
+        "org.joml.Vector4fc",
+        "org.joml.Vector4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4f",
+      "name": "transformInverse",
+      "args": [
+        "org.joml.Vector4fc",
+        "org.joml.Vector4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4f",
+      "name": "transform",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Vector4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4f",
+      "name": "transformInverse",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Vector4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4f",
+      "name": "transformUnit",
+      "args": [
+        "org.joml.Vector4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4f",
+      "name": "transformInverseUnit",
+      "args": [
+        "org.joml.Vector4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "transformUnit",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "transformInverseUnit",
+      "args": [
+        "org.joml.Vector3fc",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "transformUnit",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3f",
+      "name": "transformInverseUnit",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4f",
+      "name": "transformUnit",
+      "args": [
+        "org.joml.Vector4fc",
+        "org.joml.Vector4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4f",
+      "name": "transformInverseUnit",
+      "args": [
+        "org.joml.Vector4fc",
+        "org.joml.Vector4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4f",
+      "name": "transformUnit",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Vector4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector4f",
+      "name": "transformInverseUnit",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Vector4f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "invert",
+      "args": [
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "div",
+      "args": [
+        "org.joml.Quaterniondc",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "conjugate",
+      "args": [
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "double",
+      "name": "lengthSquared",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "slerp",
+      "args": [
+        "org.joml.Quaterniondc",
+        "double",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "scale",
+      "args": [
+        "double",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "integrate",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "nlerp",
+      "args": [
+        "org.joml.Quaterniondc",
+        "double",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "nlerpIterative",
+      "args": [
+        "org.joml.Quaterniondc",
+        "double",
+        "double",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "lookAlong",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "lookAlong",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "difference",
+      "args": [
+        "org.joml.Quaterniondc",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "rotateTo",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "rotateTo",
+      "args": [
+        "org.joml.Vector3dc",
+        "org.joml.Vector3dc",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "rotateX",
+      "args": [
+        "double",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "rotateY",
+      "args": [
+        "double",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "rotateZ",
+      "args": [
+        "double",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "rotateLocalX",
+      "args": [
+        "double",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "rotateLocalY",
+      "args": [
+        "double",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "rotateLocalZ",
+      "args": [
+        "double",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "rotateXYZ",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "rotateZYX",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "rotateYXZ",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3d",
+      "name": "getEulerAnglesXYZ",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "rotateAxis",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "rotateAxis",
+      "args": [
+        "double",
+        "org.joml.Vector3dc",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3d",
+      "name": "positiveX",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3d",
+      "name": "normalizedPositiveX",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3d",
+      "name": "positiveY",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3d",
+      "name": "normalizedPositiveY",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3d",
+      "name": "positiveZ",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Vector3d",
+      "name": "normalizedPositiveZ",
+      "args": [
+        "org.joml.Vector3d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "org.joml.Quaterniond",
+      "name": "conjugateBy",
+      "args": [
+        "org.joml.Quaterniondc",
+        "org.joml.Quaterniond"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "isFinite",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "org.joml.Quaterniondc",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "double",
+        "double",
+        "double",
+        "double"
+      ]
+    }
+  ]
+}

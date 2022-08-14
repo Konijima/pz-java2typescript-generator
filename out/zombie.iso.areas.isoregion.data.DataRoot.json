@@ -1,0 +1,144 @@
+{
+  "name": "DataRoot",
+  "package": "zombie.iso.areas.isoregion.data",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "DataRoot",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "select",
+      "scope": "public",
+      "type": "zombie.iso.areas.isoregion.data.DataRoot$SelectInfo",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "regionManager",
+      "scope": "public",
+      "type": "zombie.iso.areas.isoregion.regions.IsoRegionManager",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "getAllChunks",
+      "args": [
+        "java.util.List<zombie.iso.areas.isoregion.data.DataChunk>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.areas.isoregion.data.DataChunk",
+      "name": "getDataChunk",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.areas.isoregion.regions.IsoWorldRegion",
+      "name": "getIsoWorldRegion",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "byte",
+      "name": "getSquareFlags",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.areas.isoregion.regions.IsoChunkRegion",
+      "name": "getIsoChunkRegion",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "resetAllData",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "EnqueueDirtyDataChunk",
+      "args": [
+        "zombie.iso.areas.isoregion.data.DataChunk"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "EnqueueDirtyIsoWorldRegion",
+      "args": [
+        "zombie.iso.areas.isoregion.regions.IsoWorldRegion"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "DequeueDirtyIsoWorldRegion",
+      "args": [
+        "zombie.iso.areas.isoregion.regions.IsoWorldRegion"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "updateExistingSquare",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "byte"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "processDirtyChunks",
+      "args": []
+    }
+  ]
+}

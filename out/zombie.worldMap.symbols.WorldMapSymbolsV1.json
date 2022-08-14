@@ -1,0 +1,108 @@
+{
+  "name": "WorldMapSymbolsV1",
+  "package": "zombie.worldMap.symbols",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.worldMap.symbols.WorldMapSymbolsV1$WorldMapTextSymbolV1",
+      "name": "addTranslatedText",
+      "args": [
+        "java.lang.String",
+        "zombie.ui.UIFont",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.worldMap.symbols.WorldMapSymbolsV1$WorldMapTextSymbolV1",
+      "name": "addUntranslatedText",
+      "args": [
+        "java.lang.String",
+        "zombie.ui.UIFont",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.worldMap.symbols.WorldMapSymbolsV1$WorldMapTextureSymbolV1",
+      "name": "addTexture",
+      "args": [
+        "java.lang.String",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "hitTest",
+      "args": [
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getSymbolCount",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.worldMap.symbols.WorldMapSymbolsV1$WorldMapBaseSymbolV1",
+      "name": "getSymbolByIndex",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "removeSymbolByIndex",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clear",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "setExposed",
+      "args": [
+        "zombie.Lua.LuaManager$Exposer"
+      ]
+    }
+  ]
+}

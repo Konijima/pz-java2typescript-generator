@@ -1,0 +1,48 @@
+{
+  "name": "HaloTextHelper$ColorRGB",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ColorRGB",
+      "describe": [],
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "r",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "g",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "b",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "a",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

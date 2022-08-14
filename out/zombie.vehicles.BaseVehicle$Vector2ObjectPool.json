@@ -1,0 +1,16 @@
+{
+  "name": "BaseVehicle$Vector2ObjectPool",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.popman.ObjectPool<zombie.iso.Vector2>"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

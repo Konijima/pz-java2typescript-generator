@@ -1,0 +1,63 @@
+{
+  "name": "ISoundSystem$InstanceFailAction",
+  "package": "zombie",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.ISoundSystem$InstanceFailAction>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "FailToPlay",
+      "scope": "public",
+      "type": "zombie.ISoundSystem$InstanceFailAction",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "StopOldest",
+      "scope": "public",
+      "type": "zombie.ISoundSystem$InstanceFailAction",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "StopRandom",
+      "scope": "public",
+      "type": "zombie.ISoundSystem$InstanceFailAction",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.ISoundSystem$InstanceFailAction",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

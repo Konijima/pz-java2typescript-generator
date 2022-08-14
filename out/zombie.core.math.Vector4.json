@@ -1,0 +1,50 @@
+{
+  "name": "Vector4",
+  "package": "zombie.core.math",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "org.joml.Vector4f"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    },
+    {
+      "name": "zombie",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjgl.util.vector.Vector4f",
+      "name": "Get",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Set",
+      "args": [
+        "org.lwjgl.util.vector.Vector4f"
+      ]
+    }
+  ]
+}

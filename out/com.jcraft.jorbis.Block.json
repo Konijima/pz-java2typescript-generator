@@ -1,0 +1,60 @@
+{
+  "name": "Block",
+  "package": "com.jcraft.jorbis",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Block",
+      "describe": [],
+      "args": [
+        "com.jcraft.jorbis.DspState"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "asdsadsa",
+      "args": [
+        "java.lang.String",
+        "byte[]",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "clear",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "init",
+      "args": [
+        "com.jcraft.jorbis.DspState"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "synthesis",
+      "args": [
+        "com.jcraft.jogg.Packet"
+      ]
+    }
+  ]
+}

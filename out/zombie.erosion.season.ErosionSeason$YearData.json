@@ -1,0 +1,175 @@
+{
+  "name": "ErosionSeason$YearData",
+  "package": "zombie.erosion.season",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "year",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "winSols",
+      "scope": "public",
+      "type": "java.util.GregorianCalendar",
+      "describe": []
+    },
+    {
+      "name": "sumSols",
+      "scope": "public",
+      "type": "java.util.GregorianCalendar",
+      "describe": []
+    },
+    {
+      "name": "winSolsUnx",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "sumSolsUnx",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "hottestDay",
+      "scope": "public",
+      "type": "java.util.GregorianCalendar",
+      "describe": []
+    },
+    {
+      "name": "coldestDay",
+      "scope": "public",
+      "type": "java.util.GregorianCalendar",
+      "describe": []
+    },
+    {
+      "name": "hottestDayUnx",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "coldestDayUnx",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "winterS",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "winterE",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "winterStartDay",
+      "scope": "public",
+      "type": "java.util.GregorianCalendar",
+      "describe": []
+    },
+    {
+      "name": "winterEndDay",
+      "scope": "public",
+      "type": "java.util.GregorianCalendar",
+      "describe": []
+    },
+    {
+      "name": "winterStartDayUnx",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "winterEndDayUnx",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "summerS",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "summerE",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "summerStartDay",
+      "scope": "public",
+      "type": "java.util.GregorianCalendar",
+      "describe": []
+    },
+    {
+      "name": "summerEndDay",
+      "scope": "public",
+      "type": "java.util.GregorianCalendar",
+      "describe": []
+    },
+    {
+      "name": "summerStartDayUnx",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "summerEndDayUnx",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "lastSummerStr",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "lastWinterStr",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "summerStr",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "winterStr",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "nextSummerStr",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "nextWinterStr",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

@@ -1,0 +1,76 @@
+{
+  "name": "ConditionContainer",
+  "package": "zombie.radio.script",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [
+    "zombie.radio.script.ConditionIter"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ConditionContainer",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "ConditionContainer",
+      "describe": [],
+      "args": [
+        "zombie.radio.script.OperatorType"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.radio.globals.CompareResult",
+      "name": "Evaluate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.radio.script.OperatorType",
+      "name": "getNextOperator",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setNextOperator",
+      "args": [
+        "zombie.radio.script.OperatorType"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Add",
+      "args": [
+        "zombie.radio.script.ConditionContainer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Add",
+      "args": [
+        "zombie.radio.globals.RadioGlobal",
+        "zombie.radio.globals.RadioGlobal",
+        "zombie.radio.globals.CompareMethod",
+        "zombie.radio.script.OperatorType"
+      ]
+    }
+  ]
+}

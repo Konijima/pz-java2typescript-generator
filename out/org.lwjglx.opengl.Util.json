@@ -1,0 +1,35 @@
+{
+  "name": "Util",
+  "package": "org.lwjglx.opengl",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "checkGLError",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "translateGLErrorString",
+      "args": [
+        "int"
+      ]
+    }
+  ]
+}

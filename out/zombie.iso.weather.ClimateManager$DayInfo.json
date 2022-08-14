@@ -1,0 +1,129 @@
+{
+  "name": "ClimateManager$DayInfo",
+  "package": "zombie.iso.weather",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "DayInfo",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "day",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "month",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "year",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "hour",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "minutes",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "dateValue",
+      "scope": "public",
+      "type": "long",
+      "describe": []
+    },
+    {
+      "name": "calendar",
+      "scope": "public",
+      "type": "java.util.GregorianCalendar",
+      "describe": []
+    },
+    {
+      "name": "season",
+      "scope": "public",
+      "type": "zombie.erosion.season.ErosionSeason",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getDay",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getMonth",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getYear",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getHour",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getMinutes",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "long",
+      "name": "getDateValue",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.erosion.season.ErosionSeason",
+      "name": "getSeason",
+      "args": []
+    }
+  ]
+}

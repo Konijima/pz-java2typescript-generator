@@ -1,0 +1,83 @@
+{
+  "name": "ChunkMapFilenames",
+  "package": "zombie",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ChunkMapFilenames",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.ChunkMapFilenames",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "Map",
+      "scope": "public",
+      "type": "java.util.concurrent.ConcurrentHashMap<java.lang.Long,java.lang.Object>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "HeaderMap",
+      "scope": "public",
+      "type": "java.util.concurrent.ConcurrentHashMap<java.lang.Long,java.lang.Object>",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clear",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.io.File",
+      "name": "getFilename",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.io.File",
+      "name": "getDir",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getHeader",
+      "args": [
+        "int",
+        "int"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "name": "ScriptParser$Block",
+  "package": "zombie.scripting",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "zombie.scripting.ScriptParser$BlockElement"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Block",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "type",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "id",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "elements",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.scripting.ScriptParser$BlockElement>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "values",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.scripting.ScriptParser$Value>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "children",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.scripting.ScriptParser$Block>",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.ScriptParser$Block",
+      "name": "asBlock",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.ScriptParser$Value",
+      "name": "asValue",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isEmpty",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "prettyPrint",
+      "args": [
+        "int",
+        "java.lang.StringBuilder",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "prettyPrintElements",
+      "args": [
+        "int",
+        "java.lang.StringBuilder",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.ScriptParser$Block",
+      "name": "addBlock",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.ScriptParser$Block",
+      "name": "getBlock",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.ScriptParser$Value",
+      "name": "getValue",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setValue",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.ScriptParser$Value",
+      "name": "addValue",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "moveValueAfter",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    }
+  ]
+}

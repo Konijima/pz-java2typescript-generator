@@ -1,0 +1,89 @@
+{
+  "name": "AnimState",
+  "package": "zombie.core.skinnedmodel.advancedanimation",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "AnimState",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "m_Name",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "m_Nodes",
+      "scope": "public",
+      "type": "java.util.List<zombie.core.skinnedmodel.advancedanimation.AnimNode>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "m_DefaultIndex",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "m_Set",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.advancedanimation.AnimationSet",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.List<zombie.core.skinnedmodel.advancedanimation.AnimNode>",
+      "name": "getAnimNodes",
+      "args": [
+        "zombie.core.skinnedmodel.advancedanimation.IAnimationVariableSource",
+        "java.util.List<zombie.core.skinnedmodel.advancedanimation.AnimNode>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.skinnedmodel.advancedanimation.AnimState",
+      "name": "Parse",
+      "args": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "getStateName",
+      "args": [
+        "zombie.core.skinnedmodel.advancedanimation.AnimState"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "HelperFunctions$UnitTests",
+  "package": "zombie.core.skinnedmodel",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

@@ -1,0 +1,202 @@
+{
+  "name": "ChatUtility",
+  "package": "zombie.chat",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "getScrambleValue",
+      "args": [
+        "zombie.iso.IsoObject",
+        "zombie.characters.IsoPlayer",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "getScrambleValue",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "zombie.iso.IsoGridSquare",
+        "zombie.characters.IsoPlayer",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "playerWithinBounds",
+      "args": [
+        "zombie.iso.IsoObject",
+        "zombie.iso.IsoObject",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "playerWithinBounds",
+      "args": [
+        "float",
+        "float",
+        "zombie.iso.IsoObject",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "getDistance",
+      "args": [
+        "zombie.iso.IsoObject",
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "getDistance",
+      "args": [
+        "float",
+        "float",
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.raknet.UdpConnection",
+      "name": "findConnection",
+      "args": [
+        "short"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.raknet.UdpConnection",
+      "name": "findConnection",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characters.IsoPlayer",
+      "name": "findPlayer",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "findPlayerName",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.characters.IsoPlayer",
+      "name": "findPlayer",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.util.ArrayList<zombie.network.chat.ChatType>",
+      "name": "getAllowedChatStreams",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "chatStreamEnabled",
+      "args": [
+        "zombie.network.chat.ChatType"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "InitAllowedChatIcons",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "parseStringForChatBubble",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "java.lang.String",
+      "name": "parseStringForChatLog",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

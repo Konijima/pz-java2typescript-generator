@@ -1,0 +1,64 @@
+{
+  "name": "DummySoundBank",
+  "package": "zombie.audio",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.audio.BaseSoundBank"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "DummySoundBank",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addVoice",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addFootstep",
+      "args": [
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "fmod.fmod.FMODVoice",
+      "name": "getVoice",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "fmod.fmod.FMODFootstep",
+      "name": "getFootstep",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

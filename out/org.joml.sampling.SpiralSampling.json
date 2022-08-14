@@ -1,0 +1,47 @@
+{
+  "name": "SpiralSampling",
+  "package": "org.joml.sampling",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "SpiralSampling",
+      "describe": [],
+      "args": [
+        "long"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "createEquiAngle",
+      "args": [
+        "float",
+        "int",
+        "int",
+        "org.joml.sampling.Callback2d"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "createEquiAngle",
+      "args": [
+        "float",
+        "int",
+        "int",
+        "float",
+        "org.joml.sampling.Callback2d"
+      ]
+    }
+  ]
+}

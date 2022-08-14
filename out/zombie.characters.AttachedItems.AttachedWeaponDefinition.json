@@ -1,0 +1,84 @@
+{
+  "name": "AttachedWeaponDefinition",
+  "package": "zombie.characters.AttachedItems",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "AttachedWeaponDefinition",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "id",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "chance",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "outfit",
+      "scope": "public",
+      "type": "java.util.ArrayList<java.lang.String>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "weaponLocation",
+      "scope": "public",
+      "type": "java.util.ArrayList<java.lang.String>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "bloodLocations",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.characterTextures.BloodBodyPartType>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "addHoles",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "daySurvived",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "ensureItem",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "weapons",
+      "scope": "public",
+      "type": "java.util.ArrayList<java.lang.String>",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": []
+}

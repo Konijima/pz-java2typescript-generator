@@ -1,0 +1,289 @@
+{
+  "name": "Vector3f",
+  "package": "org.lwjglx.util.vector",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "org.lwjglx.util.vector.Vector"
+  ],
+  "implements": [
+    "java.io.Serializable",
+    "org.lwjglx.util.vector.ReadableVector3f",
+    "org.lwjglx.util.vector.WritableVector3f"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "org.lwjglx.util.vector.ReadableVector3f"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "x",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "y",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "z",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Vector3f",
+      "name": "set",
+      "args": [
+        "org.lwjglx.util.vector.ReadableVector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "lengthSquared",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Vector3f",
+      "name": "translate",
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjglx.util.vector.Vector3f",
+      "name": "add",
+      "args": [
+        "org.lwjglx.util.vector.Vector3f",
+        "org.lwjglx.util.vector.Vector3f",
+        "org.lwjglx.util.vector.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjglx.util.vector.Vector3f",
+      "name": "sub",
+      "args": [
+        "org.lwjglx.util.vector.Vector3f",
+        "org.lwjglx.util.vector.Vector3f",
+        "org.lwjglx.util.vector.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjglx.util.vector.Vector3f",
+      "name": "cross",
+      "args": [
+        "org.lwjglx.util.vector.Vector3f",
+        "org.lwjglx.util.vector.Vector3f",
+        "org.lwjglx.util.vector.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Vector",
+      "name": "negate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Vector3f",
+      "name": "negate",
+      "args": [
+        "org.lwjglx.util.vector.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Vector3f",
+      "name": "normalise",
+      "args": [
+        "org.lwjglx.util.vector.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "dot",
+      "args": [
+        "org.lwjglx.util.vector.Vector3f",
+        "org.lwjglx.util.vector.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "float",
+      "name": "angle",
+      "args": [
+        "org.lwjglx.util.vector.Vector3f",
+        "org.lwjglx.util.vector.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Vector",
+      "name": "load",
+      "args": [
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Vector",
+      "name": "scale",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Vector",
+      "name": "store",
+      "args": [
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "float",
+      "name": "getX",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "float",
+      "name": "getY",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setX",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setY",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setZ",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getZ",
+      "args": []
+    }
+  ]
+}

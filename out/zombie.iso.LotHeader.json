@@ -1,0 +1,169 @@
+{
+  "name": "LotHeader",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "LotHeader",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "cellX",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "cellY",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "width",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "height",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "levels",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "version",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "Rooms",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.Integer,zombie.iso.RoomDef>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "RoomByMetaID",
+      "scope": "public",
+      "type": "gnu.trove.map.hash.TLongObjectHashMap<zombie.iso.RoomDef>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "RoomList",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.iso.RoomDef>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "Buildings",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.iso.BuildingDef>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "BuildingByMetaID",
+      "scope": "public",
+      "type": "gnu.trove.map.hash.TLongObjectHashMap<zombie.iso.BuildingDef>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "isoRooms",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.Integer,zombie.iso.areas.IsoRoom>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "isoBuildings",
+      "scope": "public",
+      "type": "java.util.HashMap<java.lang.Integer,zombie.iso.areas.IsoBuilding>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "bFixed2x",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getHeight",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getWidth",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getLevels",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.areas.IsoRoom",
+      "name": "getRoom",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getRoomAt",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Dispose",
+      "args": []
+    }
+  ]
+}

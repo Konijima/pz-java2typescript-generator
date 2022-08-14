@@ -1,0 +1,95 @@
+{
+  "name": "DeadBodyAtlas$AtlasEntry",
+  "package": "zombie.core.skinnedmodel",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "atlas",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.DeadBodyAtlas$Atlas",
+      "describe": []
+    },
+    {
+      "name": "key",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "lightKey",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "updateCounter",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "x",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "y",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "w",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "h",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "offsetX",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "offsetY",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "tex",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": []
+    },
+    {
+      "name": "ready",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Reset",
+      "args": []
+    }
+  ]
+}

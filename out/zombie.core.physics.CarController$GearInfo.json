@@ -1,0 +1,14 @@
+{
+  "name": "CarController$GearInfo",
+  "package": "zombie.core.physics",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

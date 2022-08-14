@@ -1,0 +1,313 @@
+{
+  "name": "Matrix3f",
+  "package": "org.lwjglx.util.vector",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "org.lwjglx.util.vector.Matrix"
+  ],
+  "implements": [
+    "java.io.Serializable"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "f",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "m00",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m01",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m02",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m10",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m11",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m12",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m20",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m21",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "m22",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Matrix3f",
+      "name": "load",
+      "args": [
+        "org.lwjglx.util.vector.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjglx.util.vector.Matrix3f",
+      "name": "load",
+      "args": [
+        "org.lwjglx.util.vector.Matrix3f",
+        "org.lwjglx.util.vector.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Matrix",
+      "name": "load",
+      "args": [
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Matrix",
+      "name": "loadTranspose",
+      "args": [
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Matrix",
+      "name": "store",
+      "args": [
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Matrix",
+      "name": "storeTranspose",
+      "args": [
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjglx.util.vector.Matrix3f",
+      "name": "add",
+      "args": [
+        "org.lwjglx.util.vector.Matrix3f",
+        "org.lwjglx.util.vector.Matrix3f",
+        "org.lwjglx.util.vector.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjglx.util.vector.Matrix3f",
+      "name": "sub",
+      "args": [
+        "org.lwjglx.util.vector.Matrix3f",
+        "org.lwjglx.util.vector.Matrix3f",
+        "org.lwjglx.util.vector.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjglx.util.vector.Matrix3f",
+      "name": "mul",
+      "args": [
+        "org.lwjglx.util.vector.Matrix3f",
+        "org.lwjglx.util.vector.Matrix3f",
+        "org.lwjglx.util.vector.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjglx.util.vector.Vector3f",
+      "name": "transform",
+      "args": [
+        "org.lwjglx.util.vector.Matrix3f",
+        "org.lwjglx.util.vector.Vector3f",
+        "org.lwjglx.util.vector.Vector3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Matrix",
+      "name": "transpose",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Matrix3f",
+      "name": "transpose",
+      "args": [
+        "org.lwjglx.util.vector.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjglx.util.vector.Matrix3f",
+      "name": "transpose",
+      "args": [
+        "org.lwjglx.util.vector.Matrix3f",
+        "org.lwjglx.util.vector.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "determinant",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Matrix",
+      "name": "invert",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjglx.util.vector.Matrix3f",
+      "name": "invert",
+      "args": [
+        "org.lwjglx.util.vector.Matrix3f",
+        "org.lwjglx.util.vector.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Matrix",
+      "name": "negate",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Matrix3f",
+      "name": "negate",
+      "args": [
+        "org.lwjglx.util.vector.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjglx.util.vector.Matrix3f",
+      "name": "negate",
+      "args": [
+        "org.lwjglx.util.vector.Matrix3f",
+        "org.lwjglx.util.vector.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Matrix",
+      "name": "setIdentity",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjglx.util.vector.Matrix3f",
+      "name": "setIdentity",
+      "args": [
+        "org.lwjglx.util.vector.Matrix3f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.lwjglx.util.vector.Matrix",
+      "name": "setZero",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "org.lwjglx.util.vector.Matrix3f",
+      "name": "setZero",
+      "args": [
+        "org.lwjglx.util.vector.Matrix3f"
+      ]
+    }
+  ]
+}

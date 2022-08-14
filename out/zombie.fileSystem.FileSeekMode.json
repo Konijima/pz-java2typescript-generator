@@ -1,0 +1,63 @@
+{
+  "name": "FileSeekMode",
+  "package": "zombie.fileSystem",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.fileSystem.FileSeekMode>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "BEGIN",
+      "scope": "public",
+      "type": "zombie.fileSystem.FileSeekMode",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "END",
+      "scope": "public",
+      "type": "zombie.fileSystem.FileSeekMode",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "CURRENT",
+      "scope": "public",
+      "type": "zombie.fileSystem.FileSeekMode",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.fileSystem.FileSeekMode",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

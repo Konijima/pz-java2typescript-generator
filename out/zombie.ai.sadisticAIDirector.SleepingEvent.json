@@ -1,0 +1,78 @@
+{
+  "name": "SleepingEvent",
+  "package": "zombie.ai.sadisticAIDirector",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "SleepingEvent",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.ai.sadisticAIDirector.SleepingEvent",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "zombiesInvasion",
+      "scope": "public",
+      "type": "boolean",
+      "describe": [
+        "static"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setPlayerFallAsleep",
+      "args": [
+        "zombie.characters.IsoPlayer",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": [
+        "zombie.characters.IsoPlayer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "wakeUp",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "wakeUp",
+      "args": [
+        "zombie.characters.IsoGameCharacter",
+        "boolean"
+      ]
+    }
+  ]
+}

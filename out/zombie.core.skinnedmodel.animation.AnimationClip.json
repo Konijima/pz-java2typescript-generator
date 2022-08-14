@@ -1,0 +1,87 @@
+{
+  "name": "AnimationClip",
+  "package": "zombie.core.skinnedmodel.animation",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "AnimationClip",
+      "describe": [],
+      "args": [
+        "float",
+        "java.util.List<zombie.core.skinnedmodel.animation.Keyframe>",
+        "java.lang.String",
+        "boolean"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "getBoneFramesAt",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "getKeyframes",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Name",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "staticClip",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.animation.StaticAnimation",
+      "describe": []
+    },
+    {
+      "name": "Duration",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getRootMotionFrameCount",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.core.skinnedmodel.animation.Keyframe",
+      "name": "getRootMotionFrameAt",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getTranslationLength",
+      "args": [
+        "zombie.core.skinnedmodel.animation.BoneAxis"
+      ]
+    }
+  ]
+}

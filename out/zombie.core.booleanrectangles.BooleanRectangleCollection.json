@@ -1,0 +1,89 @@
+{
+  "name": "BooleanRectangleCollection",
+  "package": "zombie.core.booleanrectangles",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "java.util.ArrayList<org.lwjgl.util.Rectangle>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "BooleanRectangleCollection",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "doIt",
+      "args": [
+        "java.util.ArrayList<org.lwjgl.util.Rectangle>",
+        "org.lwjgl.util.Rectangle"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "cutRectangle",
+      "args": [
+        "org.lwjgl.util.Rectangle"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<org.lwjgl.util.Rectangle>",
+      "name": "doIt",
+      "args": [
+        "org.lwjgl.util.Rectangle",
+        "org.lwjgl.util.Rectangle"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "optimize",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "IsPointInRect",
+      "args": [
+        "int",
+        "int",
+        "org.lwjgl.util.Rectangle"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "IntesectsLine",
+      "args": [
+        "zombie.core.booleanrectangles.BooleanRectangleCollection$Line",
+        "zombie.core.booleanrectangles.BooleanRectangleCollection$Line"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "Intersects",
+      "args": [
+        "org.lwjgl.util.Rectangle",
+        "org.lwjgl.util.Rectangle"
+      ]
+    }
+  ]
+}

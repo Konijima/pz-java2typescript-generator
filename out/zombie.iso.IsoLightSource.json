@@ -1,0 +1,400 @@
+{
+  "name": "IsoLightSource",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IsoLightSource",
+      "describe": [],
+      "args": [
+        "int",
+        "int",
+        "int",
+        "float",
+        "float",
+        "float",
+        "int"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "IsoLightSource",
+      "describe": [],
+      "args": [
+        "int",
+        "int",
+        "int",
+        "float",
+        "float",
+        "float",
+        "int",
+        "zombie.iso.areas.IsoBuilding"
+      ]
+    },
+    {
+      "scope": "package",
+      "name": "IsoLightSource",
+      "describe": [],
+      "args": [
+        "int",
+        "int",
+        "int",
+        "float",
+        "float",
+        "float",
+        "int",
+        "int"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "NextID",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "ID",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "x",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "y",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "z",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "r",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "g",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "b",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "rJNI",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "gJNI",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "bJNI",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "radius",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "bActive",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "bWasActive",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "bActiveJNI",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "life",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "startlife",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "localToBuilding",
+      "scope": "public",
+      "type": "zombie.iso.areas.IsoBuilding",
+      "describe": []
+    },
+    {
+      "name": "bHydroPowered",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "switches",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.iso.objects.IsoLightSwitch>",
+      "describe": []
+    },
+    {
+      "name": "chunk",
+      "scope": "public",
+      "type": "zombie.iso.IsoChunk",
+      "describe": []
+    },
+    {
+      "name": "lightMap",
+      "scope": "public",
+      "type": "java.lang.Object",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getX",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setX",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getY",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setY",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getZ",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setZ",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getR",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setR",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getG",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setG",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getB",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setB",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getRadius",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setRadius",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isActive",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setActive",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "wasActive",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setWasActive",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.ArrayList<zombie.iso.objects.IsoLightSwitch>",
+      "name": "getSwitches",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setSwitches",
+      "args": [
+        "java.util.ArrayList<zombie.iso.objects.IsoLightSwitch>"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clearInfluence",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isInBounds",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isInBounds",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isHydroPowered",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.areas.IsoBuilding",
+      "name": "getLocalToBuilding",
+      "args": []
+    }
+  ]
+}

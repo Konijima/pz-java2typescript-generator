@@ -1,0 +1,360 @@
+{
+  "name": "TextureDraw$Type",
+  "package": "zombie.core.textures",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.core.textures.TextureDraw$Type>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "glDraw",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "glBuffer",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "glStencilFunc",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "glAlphaFunc",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "glStencilOp",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "glEnable",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "glDisable",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "glColorMask",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "glStencilMask",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "glClear",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "glBlendFunc",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "glDoStartFrame",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "glDoStartFrameText",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "glDoEndFrame",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "glTexParameteri",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "StartShader",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "glLoadIdentity",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "glGenerateMipMaps",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "glBind",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "glViewport",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DrawModel",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DrawSkyBox",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DrawWater",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DrawPuddles",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "DrawParticles",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "ShaderUpdate",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "BindActiveTexture",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "glBlendEquation",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "glDoStartFrameFx",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "glDoEndFrameFx",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "glIgnoreStyles",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "glClearColor",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "glBlendFuncSeparate",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "glDepthMask",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "doCoreIntParam",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "drawTerrain",
+      "scope": "public",
+      "type": "zombie.core.textures.TextureDraw$Type",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.core.textures.TextureDraw$Type",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

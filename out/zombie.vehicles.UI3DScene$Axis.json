@@ -1,0 +1,72 @@
+{
+  "name": "UI3DScene$Axis",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.vehicles.UI3DScene$Axis>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "None",
+      "scope": "public",
+      "type": "zombie.vehicles.UI3DScene$Axis",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "X",
+      "scope": "public",
+      "type": "zombie.vehicles.UI3DScene$Axis",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Y",
+      "scope": "public",
+      "type": "zombie.vehicles.UI3DScene$Axis",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Z",
+      "scope": "public",
+      "type": "zombie.vehicles.UI3DScene$Axis",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.vehicles.UI3DScene$Axis",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Asset$State",
+  "package": "zombie.asset",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.asset.Asset$State>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "EMPTY",
+      "scope": "public",
+      "type": "zombie.asset.Asset$State",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "READY",
+      "scope": "public",
+      "type": "zombie.asset.Asset$State",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "FAILURE",
+      "scope": "public",
+      "type": "zombie.asset.Asset$State",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.asset.Asset$State",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

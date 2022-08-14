@@ -1,0 +1,34 @@
+{
+  "name": "RaySphereIntersectCheck",
+  "package": "zombie.util",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "RaySphereIntersectCheck",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "boolean",
+      "name": "intersects",
+      "args": [
+        "zombie.iso.Vector3",
+        "zombie.iso.Vector3",
+        "zombie.iso.Vector3",
+        "float"
+      ]
+    }
+  ]
+}

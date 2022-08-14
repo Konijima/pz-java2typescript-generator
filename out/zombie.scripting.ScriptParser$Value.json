@@ -1,0 +1,68 @@
+{
+  "name": "ScriptParser$Value",
+  "package": "zombie.scripting",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "zombie.scripting.ScriptParser$BlockElement"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Value",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "string",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.ScriptParser$Block",
+      "name": "asBlock",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.ScriptParser$Value",
+      "name": "asValue",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "prettyPrint",
+      "args": [
+        "int",
+        "java.lang.StringBuilder",
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getKey",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getValue",
+      "args": []
+    }
+  ]
+}

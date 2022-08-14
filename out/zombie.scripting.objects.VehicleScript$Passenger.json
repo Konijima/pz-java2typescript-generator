@@ -1,0 +1,131 @@
+{
+  "name": "VehicleScript$Passenger",
+  "package": "zombie.scripting.objects",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Passenger",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "id",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "anims",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.scripting.objects.VehicleScript$Anim>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "switchSeats",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.scripting.objects.VehicleScript$Passenger$SwitchSeat>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "hasRoof",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "showPassenger",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "door",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "door2",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "area",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    },
+    {
+      "name": "positions",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.scripting.objects.VehicleScript$Position>",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getId",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.VehicleScript$Passenger",
+      "name": "makeCopy",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getPositionCount",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.VehicleScript$Position",
+      "name": "getPosition",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.VehicleScript$Position",
+      "name": "getPositionById",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.scripting.objects.VehicleScript$Passenger$SwitchSeat",
+      "name": "getSwitchSeatById",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

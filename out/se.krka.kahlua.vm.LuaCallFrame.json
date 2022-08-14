@@ -1,0 +1,320 @@
+{
+  "name": "LuaCallFrame",
+  "package": "se.krka.kahlua.vm",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "LuaCallFrame",
+      "describe": [],
+      "args": [
+        "se.krka.kahlua.vm.Coroutine"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "coroutine",
+      "scope": "public",
+      "type": "se.krka.kahlua.vm.Coroutine",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "closure",
+      "scope": "public",
+      "type": "se.krka.kahlua.vm.LuaClosure",
+      "describe": []
+    },
+    {
+      "name": "javaFunction",
+      "scope": "public",
+      "type": "se.krka.kahlua.vm.JavaFunction",
+      "describe": []
+    },
+    {
+      "name": "pc",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "localBase",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "nArguments",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "canYield",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "localsAssigned",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "LocalVarToStackMap",
+      "scope": "public",
+      "type": "zombie.core.utils.HashMap",
+      "describe": []
+    },
+    {
+      "name": "LocalStackToVarMap",
+      "scope": "public",
+      "type": "zombie.core.utils.HashMap",
+      "describe": []
+    },
+    {
+      "name": "LocalVarNames",
+      "scope": "public",
+      "type": "java.util.ArrayList<java.lang.String>",
+      "describe": []
+    },
+    {
+      "name": "toString2",
+      "scope": "public",
+      "type": "java.lang.String",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getFilename",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "int",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "java.lang.Object",
+      "name": "get",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "push",
+      "args": [
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "push",
+      "args": [
+        "java.lang.Object",
+        "java.lang.Object"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "pushNil",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "stackCopy",
+      "args": [
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "stackClear",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clearFromIndex",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "final"
+      ],
+      "return": "void",
+      "name": "setTop",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "closeUpvalues",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "se.krka.kahlua.vm.UpValue",
+      "name": "findUpvalue",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getTop",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "init",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setPrototypeStacksize",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "pushVarargs",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "se.krka.kahlua.vm.KahluaTable",
+      "name": "getEnvironment",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isJava",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isLua",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "toString",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "se.krka.kahlua.vm.Platform",
+      "name": "getPlatform",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "se.krka.kahlua.vm.KahluaThread",
+      "name": "getThread",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "se.krka.kahlua.vm.LuaClosure",
+      "name": "getClosure",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setLocalVarToStack",
+      "args": [
+        "java.lang.String",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getNameOfStack",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "printoutLocalVars",
+      "args": []
+    }
+  ]
+}

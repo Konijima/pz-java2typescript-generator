@@ -1,0 +1,24 @@
+{
+  "name": "HelperFunctions$UnitTests$getRotationY",
+  "package": "zombie.core.skinnedmodel",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "run",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "name": "BestCandidateSampling$Sphere",
+  "package": "org.joml.sampling",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Sphere",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.sampling.BestCandidateSampling$Sphere",
+      "name": "generate",
+      "args": [
+        "float[]"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.sampling.BestCandidateSampling$Sphere",
+      "name": "generate",
+      "args": [
+        "java.nio.FloatBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.sampling.BestCandidateSampling$Sphere",
+      "name": "seed",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.sampling.BestCandidateSampling$Sphere",
+      "name": "numSamples",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.sampling.BestCandidateSampling$Sphere",
+      "name": "numCandidates",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.sampling.BestCandidateSampling$Sphere",
+      "name": "onHemisphere",
+      "args": [
+        "boolean"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.sampling.BestCandidateSampling$Sphere",
+      "name": "generate",
+      "args": [
+        "org.joml.sampling.Callback3d"
+      ]
+    }
+  ]
+}

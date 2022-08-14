@@ -1,0 +1,14 @@
+{
+  "name": "WorldItemModelDrawer$WeaponPartParams",
+  "package": "zombie.core.skinnedmodel.model",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

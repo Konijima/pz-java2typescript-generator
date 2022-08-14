@@ -1,0 +1,43 @@
+{
+  "name": "MethodParameterInformation",
+  "package": "se.krka.kahlua.integration.processor",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "java.io.Serializable"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "MethodParameterInformation",
+      "describe": [],
+      "args": [
+        "java.util.List<java.lang.String>"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "EMPTY",
+      "scope": "public",
+      "type": "se.krka.kahlua.integration.processor.MethodParameterInformation",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getName",
+      "args": [
+        "int"
+      ]
+    }
+  ]
+}

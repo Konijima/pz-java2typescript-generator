@@ -1,0 +1,33 @@
+{
+  "name": "PathFindState",
+  "package": "zombie.ai.states",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.ai.State"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "PathFindState",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.vehicles.PathFindState2",
+      "name": "instance",
+      "args": []
+    }
+  ]
+}

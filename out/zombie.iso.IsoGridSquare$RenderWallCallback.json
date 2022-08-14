@@ -1,0 +1,26 @@
+{
+  "name": "IsoGridSquare$RenderWallCallback",
+  "package": "zombie.iso",
+  "type": "interface",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "invoke",
+      "args": [
+        "zombie.core.textures.Texture",
+        "float",
+        "float"
+      ]
+    }
+  ]
+}

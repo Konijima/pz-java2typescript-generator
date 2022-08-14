@@ -1,0 +1,37 @@
+{
+  "name": "PZXmlUtil$MarshallerAllocator",
+  "package": "zombie.util",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<T> javax.xml.bind.Marshaller",
+      "name": "get",
+      "args": [
+        "T"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "<T> javax.xml.bind.Marshaller",
+      "name": "get",
+      "args": [
+        "java.lang.Class<T>"
+      ]
+    }
+  ]
+}

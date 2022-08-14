@@ -1,0 +1,368 @@
+{
+  "name": "IsoSpriteInstance",
+  "package": "zombie.iso.sprite",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IsoSpriteInstance",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "IsoSpriteInstance",
+      "describe": [],
+      "args": [
+        "zombie.iso.sprite.IsoSprite"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "pool",
+      "scope": "public",
+      "type": "zombie.popman.ObjectPool<zombie.iso.sprite.IsoSpriteInstance>",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "parentSprite",
+      "scope": "public",
+      "type": "zombie.iso.sprite.IsoSprite",
+      "describe": []
+    },
+    {
+      "name": "tintb",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "tintg",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "tintr",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "Frame",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "alpha",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "targetAlpha",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "bCopyTargetAlpha",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "bMultiplyObjectAlpha",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "Flip",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "offZ",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "offX",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "offY",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "AnimFrameIncrease",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "Looped",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "Finished",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "NextFrame",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "scaleX",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "scaleY",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.sprite.IsoSpriteInstance",
+      "name": "get",
+      "args": [
+        "zombie.iso.sprite.IsoSprite"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setFrameSpeedPerFrame",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getID",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.String",
+      "name": "getName",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.iso.sprite.IsoSprite",
+      "name": "getParentSprite",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getTintR",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getTintG",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getTintB",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getAlpha",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getTargetAlpha",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isCopyTargetAlpha",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isMultiplyObjectAlpha",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": [
+        "zombie.iso.IsoObject",
+        "float",
+        "float",
+        "float",
+        "zombie.iso.IsoDirections",
+        "float",
+        "float",
+        "zombie.core.textures.ColorInfo"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "SetAlpha",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "SetTargetAlpha",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getFrame",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isFinished",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Dispose",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "RenderGhostTileColor",
+      "args": [
+        "int",
+        "int",
+        "int",
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setScale",
+      "args": [
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getScaleX",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "float",
+      "name": "getScaleY",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "scaleAspect",
+      "args": [
+        "float",
+        "float",
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "add",
+      "args": [
+        "zombie.iso.sprite.IsoSpriteInstance"
+      ]
+    }
+  ]
+}

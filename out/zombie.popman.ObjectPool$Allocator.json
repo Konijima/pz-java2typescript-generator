@@ -1,0 +1,22 @@
+{
+  "name": "ObjectPool$Allocator<T>",
+  "package": "zombie.popman",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "T",
+      "name": "allocate",
+      "args": []
+    }
+  ]
+}

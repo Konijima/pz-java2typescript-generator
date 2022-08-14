@@ -1,0 +1,54 @@
+{
+  "name": "ValidatePacket$ValidateState",
+  "package": "zombie.network.packets",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.network.packets.ValidatePacket$ValidateState>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Request",
+      "scope": "public",
+      "type": "zombie.network.packets.ValidatePacket$ValidateState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Success",
+      "scope": "public",
+      "type": "zombie.network.packets.ValidatePacket$ValidateState",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.network.packets.ValidatePacket$ValidateState",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

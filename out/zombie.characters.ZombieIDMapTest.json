@@ -1,0 +1,55 @@
+{
+  "name": "ZombieIDMapTest",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "org.junit.Assert"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ZombieIDMapTest",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "Allocations",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "Allocations",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "Adds",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "Process",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "void",
+      "name": "beforeAll",
+      "args": []
+    }
+  ]
+}

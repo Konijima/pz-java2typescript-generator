@@ -1,0 +1,63 @@
+{
+  "name": "IsoZombieHead$GibletType",
+  "package": "zombie.iso.objects",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.iso.objects.IsoZombieHead$GibletType>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "A",
+      "scope": "public",
+      "type": "zombie.iso.objects.IsoZombieHead$GibletType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "B",
+      "scope": "public",
+      "type": "zombie.iso.objects.IsoZombieHead$GibletType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Eye",
+      "scope": "public",
+      "type": "zombie.iso.objects.IsoZombieHead$GibletType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.objects.IsoZombieHead$GibletType",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

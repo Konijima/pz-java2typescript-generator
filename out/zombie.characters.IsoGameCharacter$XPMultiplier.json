@@ -1,0 +1,38 @@
+{
+  "name": "IsoGameCharacter$XPMultiplier",
+  "package": "zombie.characters",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "XPMultiplier",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "multiplier",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "minLevel",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "maxLevel",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    }
+  ],
+  "methods": []
+}

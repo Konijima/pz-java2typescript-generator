@@ -1,0 +1,32 @@
+{
+  "name": "ImprovedFog$RectangleIterator",
+  "package": "zombie.iso.weather.fog",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "reset",
+      "args": [
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "next",
+      "args": [
+        "org.joml.Vector2i"
+      ]
+    }
+  ]
+}

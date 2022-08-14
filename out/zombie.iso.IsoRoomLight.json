@@ -1,0 +1,137 @@
+{
+  "name": "IsoRoomLight",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "IsoRoomLight",
+      "describe": [],
+      "args": [
+        "zombie.iso.areas.IsoRoom",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "NextID",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "ID",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "room",
+      "scope": "public",
+      "type": "zombie.iso.areas.IsoRoom",
+      "describe": []
+    },
+    {
+      "name": "x",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "y",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "z",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "width",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "height",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "r",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "g",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "b",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "bActive",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "bActiveJNI",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "bHydroPowered",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "addInfluence",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "clearInfluence",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isInBounds",
+      "args": []
+    }
+  ]
+}

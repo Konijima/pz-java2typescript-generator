@@ -1,0 +1,82 @@
+{
+  "name": "ErosionCategory$Data",
+  "package": "zombie.erosion.categories",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Data",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "regionID",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "categoryID",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "doNothing",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "hasSpawned",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "stage",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "dispSeason",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "dispBloom",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "save",
+      "args": [
+        "java.nio.ByteBuffer"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "load",
+      "args": [
+        "java.nio.ByteBuffer",
+        "int"
+      ]
+    }
+  ]
+}

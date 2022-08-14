@@ -1,0 +1,47 @@
+{
+  "name": "DeviceList",
+  "package": "zombie.fileSystem",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "DeviceList",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "add",
+      "args": [
+        "zombie.fileSystem.IFileDevice"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.fileSystem.IFile",
+      "name": "createFile",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.io.InputStream",
+      "name": "createStream",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "GammaPixelProcessor",
+  "package": "com.sixlegs.png",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "com.sixlegs.png.BasicPixelProcessor"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "GammaPixelProcessor",
+      "describe": [],
+      "args": [
+        "com.sixlegs.png.Destination",
+        "short[]",
+        "int"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "process",
+      "args": [
+        "int[]",
+        "int",
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    }
+  ]
+}

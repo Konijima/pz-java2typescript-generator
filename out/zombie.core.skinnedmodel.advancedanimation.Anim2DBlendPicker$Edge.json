@@ -1,0 +1,52 @@
+{
+  "name": "Anim2DBlendPicker$Edge",
+  "package": "zombie.core.skinnedmodel.advancedanimation",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Edge",
+      "describe": [],
+      "args": [
+        "zombie.core.skinnedmodel.advancedanimation.Anim2DBlend",
+        "zombie.core.skinnedmodel.advancedanimation.Anim2DBlend"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "a",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.advancedanimation.Anim2DBlend",
+      "describe": []
+    },
+    {
+      "name": "b",
+      "scope": "public",
+      "type": "zombie.core.skinnedmodel.advancedanimation.Anim2DBlend",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "hashCode",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "equals",
+      "args": [
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

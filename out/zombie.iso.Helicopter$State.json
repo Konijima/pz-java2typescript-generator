@@ -1,0 +1,72 @@
+{
+  "name": "Helicopter$State",
+  "package": "zombie.iso",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.iso.Helicopter$State>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "Arriving",
+      "scope": "public",
+      "type": "zombie.iso.Helicopter$State",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Hovering",
+      "scope": "public",
+      "type": "zombie.iso.Helicopter$State",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Searching",
+      "scope": "public",
+      "type": "zombie.iso.Helicopter$State",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Leaving",
+      "scope": "public",
+      "type": "zombie.iso.Helicopter$State",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.iso.Helicopter$State",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

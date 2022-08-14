@@ -1,0 +1,14 @@
+{
+  "name": "ItemContainer$Predicates",
+  "package": "zombie.inventory",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

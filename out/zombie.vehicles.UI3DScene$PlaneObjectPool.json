@@ -1,0 +1,23 @@
+{
+  "name": "UI3DScene$PlaneObjectPool",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.popman.ObjectPool<zombie.vehicles.UI3DScene$Plane>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "PlaneObjectPool",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

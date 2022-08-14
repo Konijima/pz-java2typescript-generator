@@ -1,0 +1,157 @@
+{
+  "name": "SpeedControls",
+  "package": "zombie.ui",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.ui.UIElement"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "SpeedControls",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.ui.SpeedControls",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "CurrentSpeed",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "SpeedBeforePause",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "MultiBeforePause",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "Play",
+      "scope": "public",
+      "type": "zombie.ui.HUDButton",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "Pause",
+      "scope": "public",
+      "type": "zombie.ui.HUDButton",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "FastForward",
+      "scope": "public",
+      "type": "zombie.ui.HUDButton",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "FasterForward",
+      "scope": "public",
+      "type": "zombie.ui.HUDButton",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "Wait",
+      "scope": "public",
+      "type": "zombie.ui.HUDButton",
+      "describe": [
+        "static"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "ButtonClicked",
+      "args": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getCurrentGameSpeed",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "SetCorrectIconStates",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "SetCurrentGameSpeed",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Boolean",
+      "name": "onMouseMove",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onMouseMoveOutside",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    }
+  ]
+}

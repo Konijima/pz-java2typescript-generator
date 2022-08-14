@@ -1,0 +1,76 @@
+{
+  "name": "WorldMapFeature",
+  "package": "zombie.worldMap",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [
+    {
+      "name": "m_cell",
+      "scope": "public",
+      "type": "zombie.worldMap.WorldMapCell",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "m_geometries",
+      "scope": "public",
+      "type": "java.util.ArrayList<zombie.worldMap.WorldMapGeometry>",
+      "describe": [
+        "final"
+      ]
+    },
+    {
+      "name": "m_properties",
+      "scope": "public",
+      "type": "zombie.worldMap.WorldMapProperties",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "hasLineString",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "hasPoint",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "hasPolygon",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "containsPoint",
+      "args": [
+        "float",
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "dispose",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "name": "MoodlesUI",
+  "package": "zombie.ui",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "zombie.ui.UIElement"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "MoodlesUI",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "clientH",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "clientW",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "Movable",
+      "scope": "public",
+      "type": "boolean",
+      "describe": []
+    },
+    {
+      "name": "ncclientH",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "ncclientW",
+      "scope": "public",
+      "type": "int",
+      "describe": []
+    },
+    {
+      "name": "nestedItems",
+      "scope": "public",
+      "type": "java.util.Stack<org.lwjgl.util.Rectangle>",
+      "describe": []
+    },
+    {
+      "name": "plusRed",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "plusGreen",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "minusRed",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "minusGreen",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "chevronUp",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "chevronUpBorder",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "chevronDown",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "chevronDownBorder",
+      "scope": "public",
+      "type": "zombie.core.textures.Texture",
+      "describe": [
+        "static"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "CurrentlyAnimating",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "Nest",
+      "args": [
+        "zombie.ui.UIElement",
+        "int",
+        "int",
+        "int",
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.lang.Boolean",
+      "name": "onMouseMove",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "onMouseMoveOutside",
+      "args": [
+        "double",
+        "double"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "wiggle",
+      "args": [
+        "zombie.characters.Moodles.MoodleType"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setCharacter",
+      "args": [
+        "zombie.characters.IsoGameCharacter"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.ui.MoodlesUI",
+      "name": "getInstance",
+      "args": []
+    }
+  ]
+}

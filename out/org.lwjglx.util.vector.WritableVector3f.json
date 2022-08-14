@@ -1,0 +1,39 @@
+{
+  "name": "WritableVector3f",
+  "package": "org.lwjglx.util.vector",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "org.lwjglx.util.vector.WritableVector2f"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "setZ",
+      "args": [
+        "float"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "set",
+      "args": [
+        "float",
+        "float",
+        "float"
+      ]
+    }
+  ]
+}

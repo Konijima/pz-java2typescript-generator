@@ -1,0 +1,14 @@
+{
+  "name": "Residue2",
+  "package": "com.jcraft.jorbis",
+  "type": "class",
+  "scope": "package",
+  "describe": [],
+  "extends": [
+    "com.jcraft.jorbis.Residue0"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

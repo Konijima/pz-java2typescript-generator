@@ -1,0 +1,48 @@
+{
+  "name": "RadarPanel$ZombiePos",
+  "package": "zombie.ui",
+  "type": "class",
+  "scope": "package",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "ZombiePos",
+      "describe": [],
+      "args": [
+        "float",
+        "float"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "x",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "y",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "zombie.ui.RadarPanel$ZombiePos",
+      "name": "set",
+      "args": [
+        "float",
+        "float"
+      ]
+    }
+  ]
+}

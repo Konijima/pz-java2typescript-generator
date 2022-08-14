@@ -1,0 +1,33 @@
+{
+  "name": "Sphere",
+  "package": "org.lwjglx.util.glu",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "org.lwjglx.util.glu.Quadric"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "Sphere",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "draw",
+      "args": [
+        "float",
+        "int",
+        "int"
+      ]
+    }
+  ]
+}

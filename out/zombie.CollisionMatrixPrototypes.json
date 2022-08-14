@@ -1,0 +1,52 @@
+{
+  "name": "CollisionMatrixPrototypes",
+  "package": "zombie",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "CollisionMatrixPrototypes",
+      "describe": [],
+      "args": []
+    },
+    {
+      "scope": "package",
+      "name": "Add",
+      "describe": [],
+      "args": [
+        "int"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.CollisionMatrixPrototypes",
+      "describe": [
+        "static"
+      ]
+    },
+    {
+      "name": "java",
+      "scope": "package",
+      "type": "public",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "ToBitMatrix",
+      "args": [
+        "boolean[][][]"
+      ]
+    }
+  ]
+}

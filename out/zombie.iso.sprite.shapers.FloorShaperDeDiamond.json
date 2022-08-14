@@ -1,0 +1,50 @@
+{
+  "name": "FloorShaperDeDiamond",
+  "package": "zombie.iso.sprite.shapers",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.iso.sprite.shapers.FloorShaper"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "FloorShaperDeDiamond",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "instance",
+      "scope": "public",
+      "type": "zombie.iso.sprite.shapers.FloorShaperDeDiamond",
+      "describe": [
+        "static",
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "accept",
+      "args": [
+        "zombie.core.textures.TextureDraw"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "accept",
+      "args": [
+        "java.lang.Object"
+      ]
+    }
+  ]
+}

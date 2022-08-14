@@ -1,0 +1,104 @@
+{
+  "name": "SurroundVehicle",
+  "package": "zombie.vehicles",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "SurroundVehicle",
+      "describe": [],
+      "args": [
+        "zombie.vehicles.BaseVehicle"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "x1",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "y1",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "x2",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "y2",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "x3",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "y3",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "x4",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    },
+    {
+      "name": "y4",
+      "scope": "public",
+      "type": "float",
+      "describe": []
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "org.joml.Vector2f",
+      "name": "getPositionForZombie",
+      "args": [
+        "zombie.characters.IsoZombie",
+        "org.joml.Vector2f"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "update",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "render",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "reset",
+      "args": []
+    }
+  ]
+}

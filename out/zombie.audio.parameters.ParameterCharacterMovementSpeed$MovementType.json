@@ -1,0 +1,98 @@
+{
+  "name": "ParameterCharacterMovementSpeed$MovementType",
+  "package": "zombie.audio.parameters",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "final"
+  ],
+  "extends": [
+    "java.lang.Enum<zombie.audio.parameters.ParameterCharacterMovementSpeed$MovementType>"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "values",
+      "describe": [],
+      "args": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "SneakWalk",
+      "scope": "public",
+      "type": "zombie.audio.parameters.ParameterCharacterMovementSpeed$MovementType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "SneakRun",
+      "scope": "public",
+      "type": "zombie.audio.parameters.ParameterCharacterMovementSpeed$MovementType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Strafe",
+      "scope": "public",
+      "type": "zombie.audio.parameters.ParameterCharacterMovementSpeed$MovementType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Walk",
+      "scope": "public",
+      "type": "zombie.audio.parameters.ParameterCharacterMovementSpeed$MovementType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Run",
+      "scope": "public",
+      "type": "zombie.audio.parameters.ParameterCharacterMovementSpeed$MovementType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "Sprint",
+      "scope": "public",
+      "type": "zombie.audio.parameters.ParameterCharacterMovementSpeed$MovementType",
+      "describe": [
+        "static",
+        "final"
+      ]
+    },
+    {
+      "name": "label",
+      "scope": "public",
+      "type": "int",
+      "describe": [
+        "final"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "static"
+      ],
+      "return": "zombie.audio.parameters.ParameterCharacterMovementSpeed$MovementType",
+      "name": "valueOf",
+      "args": [
+        "java.lang.String"
+      ]
+    }
+  ]
+}

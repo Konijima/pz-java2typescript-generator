@@ -1,0 +1,25 @@
+{
+  "name": "Log$BaseItemLog",
+  "package": "zombie.world.logger",
+  "type": "class",
+  "scope": "public",
+  "describe": [
+    "abstract"
+  ],
+  "extends": [
+    "zombie.world.logger.Log$BaseLog"
+  ],
+  "implements": [],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "BaseItemLog",
+      "describe": [],
+      "args": [
+        "zombie.world.ItemInfo"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": []
+}

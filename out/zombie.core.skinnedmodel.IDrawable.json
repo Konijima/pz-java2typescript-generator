@@ -1,0 +1,22 @@
+{
+  "name": "IDrawable",
+  "package": "zombie.core.skinnedmodel",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [
+        "abstract"
+      ],
+      "return": "void",
+      "name": "Draw",
+      "args": []
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "AnimationVariableSlotCallbackInt$CallbackSetStrongTyped",
+  "package": "zombie.core.skinnedmodel.advancedanimation",
+  "type": "interface",
+  "scope": "public",
+  "describe": [],
+  "extends": [
+    "zombie.core.skinnedmodel.advancedanimation.AnimationVariableSlotCallback$CallbackSet<java.lang.Integer>"
+  ],
+  "implements": [],
+  "constructors": [],
+  "fields": [],
+  "methods": []
+}

@@ -1,0 +1,84 @@
+{
+  "name": "OnDemandUrlStream",
+  "package": "de.jarnbjo.ogg",
+  "type": "class",
+  "scope": "public",
+  "describe": [],
+  "extends": [],
+  "implements": [
+    "de.jarnbjo.ogg.PhysicalOggStream"
+  ],
+  "constructors": [
+    {
+      "scope": "package",
+      "name": "OnDemandUrlStream",
+      "describe": [],
+      "args": [
+        "java.net.URL"
+      ]
+    }
+  ],
+  "fields": [],
+  "methods": [
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "java.util.Collection",
+      "name": "getLogicalStreams",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isOpen",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "close",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getContentLength",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "int",
+      "name": "getPosition",
+      "args": []
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "de.jarnbjo.ogg.OggPage",
+      "name": "getOggPage",
+      "args": [
+        "int"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "void",
+      "name": "setTime",
+      "args": [
+        "long"
+      ]
+    },
+    {
+      "scope": "public",
+      "describe": [],
+      "return": "boolean",
+      "name": "isSeekable",
+      "args": []
+    }
+  ]
+}
