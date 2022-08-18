@@ -1,3 +1,5 @@
+[![Compile](https://github.com/Konijima/pz-java-analyser/actions/workflows/Compile.yml/badge.svg)](https://github.com/Konijima/pz-java-analyser/actions/workflows/Compile.yml)
+
 # Requirements
 
 - NodeJS
