@@ -1,6 +1,11 @@
-const fs = require("fs")
-const path = require("path")
-const spawn = require('child_process').spawn
+import { IClass } from "./types/IClass"
+import { IConstructor } from "./types/IConstructor"
+import { IMethod } from "./types/IMethod"
+import { Scope } from "./types/Scope"
+
+import fs from "fs"
+import path from "path"
+import { spawn } from "child_process"
 
 // Handle command-line args
 const args = process.argv.slice(2)
@@ -15,28 +20,28 @@ const srcPath = path.join(__dirname, "src")
 const jsonPath = path.join(__dirname, "json")
 const outPath = path.join(__dirname, "out")
 
-function getAllFilesWithExtention(dirPath, extention, arrayOfFiles) {
+function getAllFilesWithExtention(dirPath: string, extention?: string, arrayOfFiles?: string[]) {
     const files = fs.readdirSync(dirPath)
 
     arrayOfFiles = arrayOfFiles || []
 
-    files.forEach(function(file) {
+    files.forEach((file: string) => {
         const fullPath = path.join(dirPath, "/", file)
         if (fs.statSync(fullPath).isDirectory()) {
             arrayOfFiles = getAllFilesWithExtention(fullPath, extention, arrayOfFiles)
-        } else if (fullPath.endsWith(extention)) {
-            arrayOfFiles.push(fullPath)
+        } else if (fullPath.endsWith(extention || "")) {
+            arrayOfFiles?.push(fullPath)
         }
     })
 
     return arrayOfFiles
 }
 
-function trimStr(str) {
+function trimStr(str: string) {
     return str.trim();
 }
 
-function processClass(input) {
+function processClass(input: string) {
     const splitRegex = new RegExp(`\,(?![^<]*>)`, 'gm') // https://regex101.com/r/B2QdmR/1
     const typeRegex = `[a-zA-Z0-9\\.<>\\?\\$\\[, ]+`; // https://regex101.com/r/E2acae/1
     const classRegex = new RegExp(`(?:(public|private|protected) )?((?:(?:static|abstract|final) ?)*)(class|interface) (${typeRegex}) ?{([^}]+)}`, 'gm');
@@ -63,11 +68,11 @@ function processClass(input) {
     const impls = (out[4].includes('implements')) ? out[4].split("implements")[1] : null
     const classBody = out[5].split('\n').filter(Boolean).map(trimStr)
 
-    let clazz = {
+    let clazz: IClass = {
         name: className,
         package: packageName,
         type: type,
-        scope: scope,
+        scope: scope as Scope,
         describe: (describe) ? describe.trim().split(" ") : [],
         extends: exts ? exts.split(splitRegex).map(trimStr) : [],
         implements: impls ? impls.split(splitRegex).map(trimStr) : [],
@@ -84,14 +89,14 @@ function processClass(input) {
         if (!signature)  {
             signature = fieldRegex.exec(member);
             if (signature) {
-                const scope = signature[1] || 'package';
+                const scope = (signature[1] || 'package') as Scope;
                 const describe = (signature[2] || '').trim();
                 const type = signature[3];
                 const name = signature[4];
                 clazz.fields.push({
-                    name: name,
-                    scope: scope,
-                    type: type,
+                    name,
+                    scope,
+                    type,
                     describe: (describe) ? describe.trim().split(" ") : []
                 });
             }
@@ -99,52 +104,52 @@ function processClass(input) {
             return;
         }
 
-        const scope = signature[1] || 'package';
+        const scope = (signature[1] || 'package') as Scope;
         const describe = (signature[2] || '').trim();
         const retVal = signature[3];
         const name = signature[4];
         const args = signature[5];
         if (retVal == undefined) { // no ret, constructor
-            const cons = {
+            const constructor: IConstructor = {
                 scope: scope,
                 name: name,
                 describe: (describe) ? describe.trim().split(" ") : [],
                 args: args ? args.split(',').map(trimStr) : []
             };
 
-            clazz.constructors.push(cons);
+            clazz.constructors.push(constructor);
         } else {
-            const m = {
-                scope: scope,
+            const method: IMethod = {
+                name,
+                scope,
                 describe: (describe) ? describe.trim().split(" ") : [],
                 'return': retVal,
-                name: name,
                 args: args ? args.split(',').map(trimStr) : []
             };
 
-            clazz.methods.push(m);
+            clazz.methods.push(method);
         }
     })
 
     return clazz
 }
 
-function readFile(file) {
+function readFile(file: string) {
     return new Promise((resolve, reject) => {
         let output = ''
         let error = ''
 
         const child = spawn('javap', ['-public', file])
 
-        child.stdout.on('data', data => {
+        child.stdout.on('data', (data: Buffer) => {
             output += '' + data
         })
 
-        child.stderr.on('data', data => {
+        child.stderr.on('data', (data: Buffer) => {
             error += '' + data
         })
 
-        child.on('close', code => {
+        child.on('close', (code: number) => {
             if (code !== 0) {
                 return reject(Object.assign(new Error(error), {code}))
             }
@@ -154,13 +159,13 @@ function readFile(file) {
     })
 }
 
-function sleep(ms) {
-    return new Promise(resolve => {
+function sleep(ms: number) {
+    return new Promise((resolve: Function) => {
         setTimeout(() => resolve(), ms)
     })
 }
 
-function deleteAndCreateDir(path) {
+function deleteAndCreateDir(path: string) {
     if (fs.existsSync(path)) {
         console.log(`Deleting ${path} ...`)
         fs.rmSync(path, { force: true, recursive: true })
@@ -177,7 +182,6 @@ function deleteAndCreateDir(path) {
     let completed = 0
     let lastPrint = ""
 
-    
     // Generate JSON
     if (generateJson) {
         console.log("Generating JSON task...")
