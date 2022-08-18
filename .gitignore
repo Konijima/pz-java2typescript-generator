@@ -1,3 +1,4 @@
 node_modules
 run.bat
 **/*.class
+**/*.js
