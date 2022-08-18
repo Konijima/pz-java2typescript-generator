@@ -7,7 +7,7 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
-    "outDir": "app/"
+    "outDir": "dist/"
   },
   "include": [
     "node_modules/@types",

@@ -2,12 +2,12 @@
   "name": "java_analyzer",
   "version": "1.0.0",
   "description": "",
-  "main": "app/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "compile": "tsc",
-    "generate-json": "node app/index.js -json",
-    "generate-ts": "node app/index.js -ts",
-    "generate-all": "node app/index.js"
+    "generate-json": "node dist/index.js -json",
+    "generate-ts": "node dist/index.js -ts",
+    "generate-all": "node dist/index.js"
   },
   "author": "Konijima",
   "license": "MIT",

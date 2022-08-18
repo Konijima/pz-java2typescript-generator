@@ -1,4 +1,4 @@
-node_modules
-run.bat
+node_modules/
+dist/
+**/*.bat
 **/*.class
-**/*.js
