@@ -1,6 +1,7 @@
 import { spawn } from "child_process";
 import { IClass } from "../types/IClass";
 import { IConstructor } from "../types/IConstructor";
+import { IField } from "../types/IField";
 import { IMethod } from "../types/IMethod";
 import { Scope } from "../types/Scope";
 import { trimStr } from "./Utilities";
@@ -19,11 +20,11 @@ export function javap(file: string) {
 
         child.stdout.on("data", (data: Buffer) => {
             output += "" + data;
-        })
+        });
 
         child.stderr.on("data", (data: Buffer) => {
             error += "" + data;
-        })
+        });
 
         child.on("close", (code: number) => {
             if (code !== 0) {
@@ -31,8 +32,56 @@ export function javap(file: string) {
             }
 
             resolve(processClass(output));
-        })
+        });
     })
+}
+
+/**
+ * Spawn a javap process for multiple files
+ * @param files 
+ */
+export function javapGroup(files: string[]): Promise<{[fileName: string]: IClass | undefined}> {
+    return new Promise((resolve, reject) => {
+        let output = "";
+        let error = "";
+
+        const child = spawn("javap", ["-public"].concat(files));
+
+        child.stdout.on("data", (data: Buffer) => {
+            output += "" + data;
+        });
+
+        child.stderr.on("data", (data: Buffer) => {
+            error += "" + data;
+        });
+
+        child.on("close", (code: number) => {
+            if (code !== 0) {
+                return reject(Object.assign(new Error(error), {code}));
+            }
+
+            resolve(processClasses(files, output));
+        });
+    })
+}
+
+/**
+ * Process multiple java class
+ * @param input 
+ */
+export function processClasses(files: string[], input: string) {
+    const lines = input.split("\n");
+    const fileLines: string[][] = [];
+    lines.forEach(line => line.startsWith("Compiled from") ? fileLines.push([]) : fileLines[fileLines.length - 1].push(line));
+
+    const result: {[fileName: string]: IClass | undefined} = {};
+    for (const index in fileLines) {
+        const fileText = fileLines[index].join("\n");
+        const clazz = processClass(fileText);
+        result[files[index]] = clazz;
+    }
+
+    return result;
 }
 
 /**
@@ -66,10 +115,10 @@ export function processClass(input: string) {
     const classBody = out[5].split("\n").filter(Boolean).map(trimStr);
 
     let clazz: IClass = {
-        name: className,
         package: packageName,
-        type: type,
+        name: className,
         scope: scope as Scope,
+        type: type,
         describe: (describe) ? describe.trim().split(" ") : [],
         extends: exts ? exts.split(splitRegex).map(trimStr) : [],
         implements: impls ? impls.split(splitRegex).map(trimStr) : [],
@@ -90,12 +139,13 @@ export function processClass(input: string) {
                 const describe = (signature[2] || "").trim();
                 const type = signature[3];
                 const name = signature[4];
-                clazz.fields.push({
+                const field: IField = {
                     name,
                     scope,
                     type,
                     describe: (describe) ? describe.trim().split(" ") : []
-                });
+                };
+                clazz.fields.push(field);
             }
             return;
         }
@@ -107,12 +157,11 @@ export function processClass(input: string) {
         const args = signature[5];
         if (retVal == undefined) { // no ret, constructor
             const constructor: IConstructor = {
-                scope: scope,
                 name: name,
+                scope: scope,
                 describe: (describe) ? describe.trim().split(" ") : [],
                 args: args ? args.split(",").map(trimStr) : []
             };
-
             clazz.constructors.push(constructor);
         } else {
             const method: IMethod = {
@@ -122,7 +171,6 @@ export function processClass(input: string) {
                 "return": retVal,
                 args: args ? args.split(",").map(trimStr) : []
             };
-
             clazz.methods.push(method);
         }
     });

@@ -1,55 +1,36 @@
-import path from "path";
-import { mkdir, writeFile } from "fs";
-import { javap } from "./ClassProcessor";
-import { deleteAndCreateDir, getAllFiles, sleep } from "./Utilities";
+import { writeFile, writeFileSync } from "fs";
+import { join } from "path";
+import { JSONGeneratorOptions } from "../types/JSONGeneratorOptions";
+import { javapGroup } from "./ClassProcessor";
+import { deleteAndCreateDir, getAllFiles } from "./Utilities";
 
-export async function generateJSON(inputPath: string, outputPath: string) {
+export async function generateJSON(options: JSONGeneratorOptions) {
     console.log("Generating JSON task...");
 
-    let processCount = 0;
-    let completed = 0;
-    let lastPrint = "";
+    const files = getAllFiles(options.inputPath, ".class");
+    deleteAndCreateDir(options.outputPath);
 
-    const files = getAllFiles(inputPath, ".class");
-    deleteAndCreateDir(outputPath);
-
-    for (const file of files) {
-        const savePath = path.join(outputPath, file.replace(inputPath + "\\", "").replace(".class", ".json").replaceAll("\\", "."));
-        processCount++;
-        javap(file)
-            .then(data => {
-                if (data) {
-                    mkdir(path.dirname(savePath), {
-                        recursive: true
-                    }, 
-                    () => writeFile(savePath, JSON.stringify(data, null, 2), {
-                        encoding: "utf-8"
-                    }, 
-                    () => {
-
-                    }));
-                }
-                completed++;
-                processCount--;
-            })
-            .catch(error => {
-                completed++;
-                processCount--;
-                console.error(error);
-            })
-        
-        // Wait
-        let wait = processCount > 10;
-        while (wait) {
-            await sleep(100);
-            wait = processCount > 0;
+    const packs: string[][] = [];
+    files.forEach((file: string) => {
+        let lastPack = packs[packs.length - 1];
+        if (!lastPack || lastPack.length >= options.size) {
+            packs.push([]);
+            lastPack = packs[packs.length - 1];
         }
+        lastPack.push(file);
+    });
 
-        // Progress Print
-        const newPrint = `Progress: ${Math.round(completed / files.length * 100)}%`;
-        if (lastPrint !== newPrint) {
-            lastPrint = newPrint;
-            console.log(newPrint, `(${completed}/${files.length})`);
+    for (const pack of packs) {
+        const fileClasses = await javapGroup(pack);
+        for (const filePath of Object.keys(fileClasses)) {
+            const fileName = filePath.replaceAll('\\', '/').replace(options.inputPath + '/', "").replace(".class", ".json").replaceAll("/", ".");
+            const savePath = join(options.outputPath, fileName);
+            const data = fileClasses[filePath];
+            if (data) {
+                console.log(`File ${fileName} has been generated!`);
+                writeFileSync(savePath, JSON.stringify(data, null, 2), { encoding: 'utf-8' });
+            }
+            else console.warn(`File ${fileName} could not be generated!`);
         }
     }
 }
