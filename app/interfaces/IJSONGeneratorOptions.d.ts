@@ -1,4 +1,4 @@
-export declare interface JSONGeneratorOptions {
+export interface IJSONGeneratorOptions {
     inputPath: string
     outputPath: string
     size: number

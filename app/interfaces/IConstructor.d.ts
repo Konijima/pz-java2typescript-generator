@@ -1,6 +1,6 @@
-export declare interface IField {
+export interface IConstructor {
     name: string
     scope: Scope
-    type: Scope
     describe: string[]
+    args: string[]
 }

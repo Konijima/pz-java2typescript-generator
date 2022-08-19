@@ -1,9 +1,9 @@
 import { spawn } from "child_process";
-import { IClass } from "../types/IClass";
-import { IConstructor } from "../types/IConstructor";
-import { IField } from "../types/IField";
-import { IMethod } from "../types/IMethod";
-import { Scope } from "../types/Scope";
+import { IClass } from "../interfaces/IClass";
+import { IConstructor } from "../interfaces/IConstructor";
+import { IField } from "../interfaces/IField";
+import { IMethod } from "../interfaces/IMethod";
+import { IScope } from "../interfaces/IScope";
 import { trimStr } from "./Utilities";
 
 /**
@@ -117,7 +117,7 @@ export function processClass(input: string) {
     let clazz: IClass = {
         package: packageName,
         name: className,
-        scope: scope as Scope,
+        scope: scope as IScope,
         type: type,
         describe: (describe) ? describe.trim().split(" ") : [],
         extends: exts ? exts.split(splitRegex).map(trimStr) : [],
@@ -135,7 +135,7 @@ export function processClass(input: string) {
         if (!signature)  {
             signature = fieldRegex.exec(member);
             if (signature) {
-                const scope = (signature[1] || "package") as Scope;
+                const scope = (signature[1] || "package") as IScope;
                 const describe = (signature[2] || "").trim();
                 const type = signature[3];
                 const name = signature[4];
@@ -150,7 +150,7 @@ export function processClass(input: string) {
             return;
         }
 
-        const scope = (signature[1] || "package") as Scope;
+        const scope = (signature[1] || "package") as IScope;
         const describe = (signature[2] || "").trim();
         const retVal = signature[3];
         const name = signature[4];
