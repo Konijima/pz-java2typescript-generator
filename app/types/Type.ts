@@ -31,7 +31,16 @@ export const primitivesType: {[key: string]: string} = {
 const regexpComposed = /([^<]+)<([^>]+)>/;
 
 export function generateType(javaType: string) {
+    javaType = javaType.trim();
+
     if (primitivesType[javaType]) return primitivesType[javaType];
+
+    const match = regexpComposed.exec(javaType);
+    if (match) {
+        const first: string = generateType(match[1]);
+        const seconds: string[] = match[2].split(',').map(p => generateType(p));
+        return `${first}<${seconds.join(', ')}>`;
+    }
 
     return javaType;
 };
