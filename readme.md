@@ -8,40 +8,53 @@
 
 <br>
 
-# Sources
+# Command Arguments
 
-Drag n Drop the directories containing `.class` files into the `src` directory.
+## `-src` argument
+Set the path to the game root directory where the generator will get the `.class` files from.
+```
+node dist/index.js -json -src "C:/Program Files (x86)/Steam/steamapps/common/ProjectZomboid"
+```
 
-- astar
-- com
-- de
-- fmod
-- javax
-- N3D
-- org
-- se
-- zombie
+## `-size` argument
+Amount of source file to compile at simultaneously.  
+```
+node dist/index.js -json -size 200
+```
+> *Bigger number is faster but there is a limit due to NodeJS subprocess character limit of the command executed.*
+
+## `-out` argument
+Set the path where the generated typescript will be saved.
+```
+node dist/index.js -ts -out C:/GeneratedTS
+```
 
 <br>
 
 # Run
 
-## Generate JSON task
+## Compile Generator
+Compile the generator.
+```
+npm run compile
+```
+
+## Generate JSON
 Generate json files.
 ```
-npm run generate-json
+npm run json
 ```
 
-## Generate TS task
+## Generate TS
 Generate ts files.
 ```
-npm run generate-ts
+npm run ts
 ```
 
-## Generate ALL task
+## Generate ALL
 Generate both json and ts files.
 ```
-npm run generate-all
+npm run all
 ```
 
 <br>
