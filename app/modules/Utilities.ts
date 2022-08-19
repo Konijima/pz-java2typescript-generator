@@ -7,9 +7,22 @@ import { join } from "path";
  * @returns 
  */
 export function parseArgv() {
+    const args = (process.argv.join(" ")).replace(/\s(?=(?:[^'"`]*(['"`]).*?\1)*[^'"`]*$)/g, '\n').split('\n');
     return {
-        json: process.argv.includes("-json"),
-        ts: process.argv.includes("-ts"),
+        json: args.includes("-json"),
+        ts: args.includes("-ts"),
+        size: (() => {
+            const index = args.indexOf("-size");
+            return (index > -1) ? parseInt(args[index + 1]) : null;
+        })(),
+        src: (() => {
+            const index = args.indexOf("-src");
+            return (index > -1) ? args[index + 1].replaceAll(/[\"'`]/g, '').replaceAll('\\', '/') : null;
+        })(),
+        out: (() => {
+            const index = args.indexOf("-out");
+            return (index > -1) ? args[index + 1].replaceAll(/[\"'`]/g, '').replaceAll('\\', '/') : null;
+        })()
     }
 }
 
