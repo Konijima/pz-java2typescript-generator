@@ -1,4 +1,7 @@
 node_modules/
 dist/
+dist/
+out/
+json/
 **/*.bat
 **/*.class

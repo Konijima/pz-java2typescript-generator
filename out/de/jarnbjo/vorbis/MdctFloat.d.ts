@@ -1,8 +1,0 @@
-declare module Zomboid {
-	export namespace de.jarnbjo.vorbis {
-		/** @customConstructor MdctFloat.new */
-		export class MdctFloat {
-			
-		}
-	}
-}
