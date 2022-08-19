@@ -1,4 +1,5 @@
 import { IClass } from "../interfaces/IClass";
+import { generateContructor } from "./Constructor";
 import { generateMethod } from "./Method";
 import { generateType } from "./Type";
 
@@ -7,6 +8,7 @@ export function generateClass(clazz: IClass) {
     const _abstract = clazz.describe.includes("abstract");
     const _extends = clazz.extends.map(e => generateType(e)).filter(i => i != undefined);
     const _implements = clazz.implements.map(i => generateType(i)).filter(i => i != undefined);
+    const _constructors = clazz.constructors.map(c => generateContructor(c));
     const _methods = clazz.methods.map(m => generateMethod(m));
 
     let result: string[] = [];
@@ -25,6 +27,7 @@ export function generateClass(clazz: IClass) {
     classLine += ' {';
     result.push(classLine);
 
+    result = result.concat(_constructors);
     result = result.concat(_methods);
 
     result.push(`        }`);
