@@ -8,14 +8,14 @@ export function generateMethod(method: IMethod): string {
 
     if (_static) result.push(`            /** @noSelf */`);
 
-    let classLine = "            ";
-    classLine += (method.scope) ? `${method.scope} ` : '';
-    classLine += (_static) ? `static ` : '';
-    classLine += method.name;
-    classLine += `(${method.args.map((a, i) => `arg${i}: ${generateType(a)}`).join(", ")})`;
-    classLine += `: ${generateType(method.returnType)};\n`;
+    let methodLine = "            ";
+    methodLine += (method.scope) ? `${method.scope} ` : '';
+    methodLine += (_static) ? `static ` : '';
+    methodLine += method.name;
+    methodLine += `(${method.args.map((a, i) => `arg${i}: ${generateType(a)}`).join(", ")})`;
+    methodLine += `: ${generateType(method.returnType)};\n`;
 
-    result.push(classLine);
+    result.push(methodLine);
 
     return result.join('\n');
 };
