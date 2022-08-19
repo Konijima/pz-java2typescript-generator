@@ -7,7 +7,7 @@
     "compile": "tsc",
     "generate-json": "node dist/index.js -json",
     "generate-ts": "node dist/index.js -ts",
-    "generate-all": "node dist/index.js -json -ts"
+    "generate-all": "npm run generate-json && npm run generate-ts"
   },
   "author": "Konijima",
   "license": "MIT",
