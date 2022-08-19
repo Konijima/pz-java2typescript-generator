@@ -4,20 +4,21 @@
 
 - NodeJS
 
-- Java 17 SDK must be added to the path. (*Require `javap` command to be available*)
+- Java 17 SDK must be added to the path.  
+(*Require `javap` command to be available in your terminal*)
 
 <br>
 
 # Command Arguments
 
 ## `-src` argument
-Set the path to the game root directory where the generator will get the `.class` files from.
+Set the path to the game root directory where the generator will get the `.class` files.
 ```
 node dist/index.js -json -src "C:/Program Files (x86)/Steam/steamapps/common/ProjectZomboid"
 ```
 
 ## `-size` argument
-Amount of source file to compile at simultaneously.  
+Amount of source files to compile simultaneously.
 ```
 node dist/index.js -json -size 200
 ```
@@ -34,25 +35,24 @@ node dist/index.js -ts -out C:/GeneratedTS
 # Run
 
 ## Compile Generator
-Compile the generator.
 ```
 npm run compile
 ```
 
 ## Generate JSON
-Generate json files.
+Generate json files needed to generate the typescript files.
 ```
 npm run json
 ```
 
 ## Generate TS
-Generate ts files.
+Generate the typescript files.
 ```
 npm run ts
 ```
 
 ## Generate ALL
-Generate both json and ts files.
+Generate both json and ts files in one command.
 ```
 npm run all
 ```
