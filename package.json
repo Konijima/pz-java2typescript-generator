@@ -1,13 +1,13 @@
 {
-  "name": "java_analyzer",
+  "name": "pz-java-analyzer",
   "version": "1.0.0",
-  "description": "",
+  "description": "Analyze Project Zomboid java source and generate JSON & TS definitions.",
   "main": "dist/index.js",
   "scripts": {
     "compile": "tsc",
     "generate-json": "node dist/index.js -json",
     "generate-ts": "node dist/index.js -ts",
-    "generate-all": "node dist/index.js"
+    "generate-all": "node dist/index.js -json -ts"
   },
   "author": "Konijima",
   "license": "MIT",

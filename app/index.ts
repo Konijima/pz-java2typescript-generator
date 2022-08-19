@@ -1,12 +1,13 @@
-import { join } from "path";
+import { join, resolve } from "path";
 import { generateJSON } from "./modules/JSONGenerator";
 import { generateTS } from "./modules/TSGenerator";
 import { parseArgv } from "./modules/Utilities";
 
 const ARGS = parseArgv();
-const SRC_PATH = join(__dirname, "src");
-const JSON_PATH = join(__dirname, "json");
-const OUT_PATH = join(__dirname, "out");
+const ROOT = resolve(__dirname, "../")
+const SRC_PATH = join(ROOT, "src");
+const JSON_PATH = join(ROOT, "json");
+const OUT_PATH = join(ROOT, "out");
 
 (async function() {
 
