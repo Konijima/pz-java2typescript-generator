@@ -1,4 +1,4 @@
-[![Compile](https://github.com/Konijima/pz-java-analyser/actions/workflows/Compile.yml/badge.svg)](https://github.com/Konijima/pz-java-analyser/actions/workflows/Compile.yml)
+[![Compile](https://github.com/Konijima/pz-java2typescript-generator/actions/workflows/Compile.yml/badge.svg)](https://github.com/Konijima/pz-java2typescript-generator/actions/workflows/Compile.yml)
 
 # Requirements
 
