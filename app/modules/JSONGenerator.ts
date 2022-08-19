@@ -1,4 +1,4 @@
-import { writeFile, writeFileSync } from "fs";
+import { writeFile } from "fs";
 import { join } from "path";
 import { IJSONGeneratorOptions } from "../interfaces/IJSONGeneratorOptions";
 import { javapGroup } from "./ClassProcessor";
@@ -28,7 +28,7 @@ export async function generateJSON(options: IJSONGeneratorOptions) {
             const data = fileClasses[filePath];
             if (data) {
                 console.log(`File ${fileName} has been generated!`);
-                writeFileSync(savePath, JSON.stringify(data, null, 2), { encoding: 'utf-8' });
+                writeFile(savePath, JSON.stringify(data, null, 2), { encoding: 'utf-8' }, () => {});
             }
             else console.warn(`File ${fileName} could not be generated!`);
         }
