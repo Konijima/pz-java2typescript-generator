@@ -1,6 +1,8 @@
-import path from "path";
+import path, { basename, dirname, join } from "path";
 import { mkdirSync, readFileSync, writeFileSync } from "fs";
 import { deleteAndCreateDir, getAllFiles } from "./Utilities";
+import { IClass } from "../interfaces/IClass";
+import { generateClass } from "../types/Class";
 
 export async function generateTS(inputPath: string, outputPath: string) {
     console.log("Generating TS task...");
@@ -10,39 +12,46 @@ export async function generateTS(inputPath: string, outputPath: string) {
     deleteAndCreateDir(outputPath);
     const files = getAllFiles(inputPath, ".json");
 
+    const packages: string[] = [];
     for (const file of files) {
-        const content = readFileSync(file, "utf-8");
-        const json = JSON.parse(content);
-        const nameSplit = path.basename(file).replace(".json", "").split(".");
-        const name = nameSplit[nameSplit.length - 1];
-        const packagePath = json.package.replaceAll(".", "/");
+        const pack = dirname(basename(file.replaceAll('\\', '/')).replace('.json', '').replaceAll('.', '/')).replaceAll('/', '.');
+        if (!packages.includes(pack)) {
+            packages.push(pack);
 
-        let result = "";
+            let result: string[] = [];
+            result.push(`declare module Zomboid {`);
+            result.push(`    export namespace ${pack} {`);
+            result.push(`[CLASSES]`);
+            result.push(`    }`);
+            result.push(`}`);
+            
+            writeFileSync(join(outputPath, pack + '.d.ts'), result.join('\n'), { encoding: 'utf-8' });
+        }
+    }
 
-        // Prepare package directory
-        mkdirSync(path.join(outputPath, packagePath), {
-            recursive: true
-        });
+    for (const pack of packages) {
+        const packClasses: string[] = [];
 
-        let describe = json.describe.join(" ").replace("final", "");
+        for (const file of files) {
+            const _pack = dirname(basename(file.replaceAll('\\', '/')).replace('.json', '').replaceAll('.', '/')).replaceAll('/', '.');
+            if (pack != _pack) continue;
 
-        result += `declare module Zomboid {\n`;
-        result += `\texport namespace ${json.package} {\n`;
-        result += (json.type === "class" && !describe.includes("abstract")) ? `\t\t/** @customConstructor ${name}.new */\n` : "";
-        result += `\t\texport${(describe) ? " " + describe : ""} ${json.type} ${name}${(json.extends.length) ? " extends " + json.extends.join(", ") : ""}${(json.implements.length) ? " implements " + json.implements.join(", ") : ""} {\n`;
-        
-        result += `\t\t\t\n`; // temp
+            const content = readFileSync(file, "utf-8");
+            const clazz = JSON.parse(content) as IClass;
+    
+            let result: string[] = [];
+            result = result.concat(generateClass(clazz));
+            
+            packClasses.push(result.join("\n"));
+        }
 
-        result += `\t\t}\n`;
-        result += `\t}\n`;
-        result += `}\n`;
-
-        // Write type definition file
-        writeFileSync(path.join(outputPath, packagePath, name + ".d.ts"), result, { encoding: "utf-8" });
+        const content = readFileSync(join(outputPath, pack + '.d.ts'), "utf-8");
+        writeFileSync(join(outputPath, pack + '.d.ts'), content.replace('[CLASSES]', packClasses.join('\n\n')), { encoding: 'utf-8' });
+        packClasses.splice(0, packClasses.length);
         completed++;
 
         // Progress Print
-        const newPrint = `Progress: ${Math.round(completed / files.length * 100)}%`;
-        console.log(newPrint, `(${completed}/${files.length})`);
+        const newPrint = `Progress: ${Math.round(completed / packages.length * 100)}%`;
+        console.log(newPrint, `(${completed}/${packages.length})`);
     }
 }

@@ -1,10 +1,10 @@
-import { writeFile, writeFileSync } from "fs";
+import { writeFileSync } from "fs";
 import { join } from "path";
-import { JSONGeneratorOptions } from "../types/JSONGeneratorOptions";
+import { IJSONGeneratorOptions } from "../interfaces/IJSONGeneratorOptions";
 import { javapGroup } from "./ClassProcessor";
 import { deleteAndCreateDir, getAllFiles } from "./Utilities";
 
-export async function generateJSON(options: JSONGeneratorOptions) {
+export async function generateJSON(options: IJSONGeneratorOptions) {
     console.log("Generating JSON task...");
 
     const files = getAllFiles(options.inputPath, ".class");

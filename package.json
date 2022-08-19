@@ -5,9 +5,9 @@
   "main": "dist/index.js",
   "scripts": {
     "compile": "tsc",
-    "json": "node dist/index.js -json -src 'C:/Program Files (x86)/Steam/steamapps/common/ProjectZomboid'",
+    "json": "node dist/index.js -json -size 200 -src 'C:/Program Files (x86)/Steam/steamapps/common/ProjectZomboid'",
     "ts": "node dist/index.js -ts",
-    "all": "npm run json && npm run ts"
+    "all": "node dist/index.js -json -ts -size 200 -src 'C:/Program Files (x86)/Steam/steamapps/common/ProjectZomboid'"
   },
   "author": "Konijima",
   "license": "Apache License 2.0",

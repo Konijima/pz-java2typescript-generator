@@ -1,4 +1,4 @@
-export declare interface IClass{
+export interface IClass{
     name: string
     package: string
     type: string

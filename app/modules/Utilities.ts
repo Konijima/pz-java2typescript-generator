@@ -82,3 +82,13 @@ export function getAllFiles(dirPath: string, extention?: string, arrayOfFiles?: 
 export function trimStr(str: string) {
     return str.trim();
 }
+
+/**
+ * Get class name without package
+ * @param name 
+ * @returns 
+ */
+export function nameClassWithoutPackage(name: string) {
+    const nameWithoutPackage = name.split('.');
+    return nameWithoutPackage[nameWithoutPackage.length - 1];
+}
