@@ -1,6 +1,8 @@
 import path from "path";
 import { mkdirSync, readFileSync, writeFileSync } from "fs";
 import { deleteAndCreateDir, getAllFiles } from "./Utilities";
+import { IClass } from "../interfaces/IClass";
+import { generateClass } from "../types/Class";
 
 export async function generateTS(inputPath: string, outputPath: string) {
     console.log("Generating TS task...");
@@ -12,33 +14,26 @@ export async function generateTS(inputPath: string, outputPath: string) {
 
     for (const file of files) {
         const content = readFileSync(file, "utf-8");
-        const json = JSON.parse(content);
+        const clazz = JSON.parse(content) as IClass;
         const nameSplit = path.basename(file).replace(".json", "").split(".");
         const name = nameSplit[nameSplit.length - 1];
-        const packagePath = json.package.replaceAll(".", "/");
+        const packagePath = clazz.package.replaceAll(".", "/");
 
-        let result = "";
+        let result: string[] = [];
+
+        result.push(`declare module Zomboid {`);
+        result.push(`    export namespace ${clazz.package} {`);
+
+        result = result.concat(generateClass(clazz));
+
+        result.push(`    }`);
+        result.push(`}`);
 
         // Prepare package directory
-        mkdirSync(path.join(outputPath, packagePath), {
-            recursive: true
-        });
-
-        let describe = json.describe.join(" ").replace("final", "");
-
-        result += `declare module Zomboid {\n`;
-        result += `\texport namespace ${json.package} {\n`;
-        result += (json.type === "class" && !describe.includes("abstract")) ? `\t\t/** @customConstructor ${name}.new */\n` : "";
-        result += `\t\texport${(describe) ? " " + describe : ""} ${json.type} ${name}${(json.extends.length) ? " extends " + json.extends.join(", ") : ""}${(json.implements.length) ? " implements " + json.implements.join(", ") : ""} {\n`;
-        
-        result += `\t\t\t\n`; // temp
-
-        result += `\t\t}\n`;
-        result += `\t}\n`;
-        result += `}\n`;
+        mkdirSync(path.join(outputPath, packagePath), { recursive: true });
 
         // Write type definition file
-        writeFileSync(path.join(outputPath, packagePath, name + ".d.ts"), result, { encoding: "utf-8" });
+        writeFileSync(path.join(outputPath, packagePath, name + ".d.ts"), result.join("\n"), { encoding: "utf-8" });
         completed++;
 
         // Progress Print
