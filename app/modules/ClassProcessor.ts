@@ -168,7 +168,7 @@ export function processClass(input: string) {
                 name,
                 scope,
                 describe: (describe) ? describe.trim().split(" ") : [],
-                "return": retVal,
+                returnType: retVal,
                 args: args ? args.split(",").map(trimStr) : []
             };
             clazz.methods.push(method);

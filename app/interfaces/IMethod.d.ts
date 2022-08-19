@@ -4,6 +4,6 @@ export interface IMethod {
     name: string
     scope: Scope
     describe: string[]
-    "return": string
+    returnType: string
     args: string[]
 }
