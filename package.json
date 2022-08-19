@@ -1,7 +1,7 @@
 {
-  "name": "pz-java-analyzer",
+  "name": "pz-java2typescript-generator",
   "version": "1.0.0",
-  "description": "Analyze Project Zomboid java source and generate JSON & TS definitions.",
+  "description": "Generate Project Zomboid java source 2 typescript.",
   "main": "dist/index.js",
   "scripts": {
     "compile": "tsc",
@@ -10,7 +10,7 @@
     "all": "npm run json && npm run ts"
   },
   "author": "Konijima",
-  "license": "MIT",
+  "license": "Apache License 2.0",
   "dependencies": {
     "@types/node": "^18.7.6",
     "typescript": "^4.7.4"
