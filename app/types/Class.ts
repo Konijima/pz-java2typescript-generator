@@ -11,6 +11,10 @@ export function generateClass(clazz: IClass) {
 
     let result: string[] = [];
 
+    if (!_static && !_abstract) {
+        result.push(`        /** @customConstructor ${clazz.name}.new */`)
+    }
+
     let classLine = "        export ";
     classLine += (_static) ? `static ` : '';
     classLine += (_abstract) ? `abstract ` : '';
